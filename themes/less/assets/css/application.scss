@@ -1,0 +1,519 @@
+:root {
+  --serif-font: "{{ .Site.Params.bodyFont }}", serif;
+  --title-font: "{{ .Site.Params.titleFont }}", var(--serif-font);
+  --sans-serif-font: "{{ .Site.Params.sansSerifFont }}", sans-serif;
+  --onyx: #323232;
+  --accent: {{ .Site.Params.accentColor }};
+  --white-text: #FAFAFA;
+  --white-background: #F3F3F3;
+  --max-width: 74rem;
+  --light-gray: rgba(0,0,0,0.3)
+}
+
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.titleFont " " "+" }}');
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:400,400i,600');
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.sansSerifFont " " "+" }}');
+@import "helpers";
+@import "form";
+@import "main_header";
+@import "burger";
+@import "hero_header";
+@import "three";
+@import "photos";
+@import "journal";
+@import "navigation";
+@import "photogrid";
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  text-align: center;
+  &::after {
+    content: "•••";
+    font-size: 1rem;
+    text-align: center;
+    color: var(--onyx);
+    width: 100%;
+  }
+}
+
+svg {
+  fill: var(--onyx);
+}
+
+body {
+  height: 100%;
+  color: var(--onyx);
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-family:  var(--serif-font);
+  text-rendering: optimizeLegibility;
+  line-height: 1.62;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid #e4e4e4;
+}
+
+a:hover {
+  border-bottom-color: var(--accent);
+}
+
+h1.large {
+  font-size: 3.7rem;
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2, h1.medium {
+  font-size: 2.9rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+h3 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+h5 {
+  font-size: 1.6rem;
+}
+.post h2 {
+  font-size: 1.6rem;
+  text-transform: normal;
+  margin: 20px 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  font-family: var(--title-font);
+}
+.title {
+  font-family: var(--title-font);
+}
+
+.date, .main_menu, footer{
+  font-family:  var(--sans-serif-font);
+}
+
+header {
+  text-align: center;
+}
+
+.minimal_header {
+  img {
+    max-height: 120px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    }
+  a {
+    background-image: none;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  .social {
+    background-image: none;
+    text-decoration: none;
+    border-bottom: none;	  
+  }
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  background-image: url(waves.png);
+  background-color: var(--onyx);
+  color: var(--white-text);
+  line-height: 37px;
+  clear:both;
+  a, a:visited, a:hover {
+    color: var(--white-text);
+    padding-bottom: 2px;
+    text-shadow: -1px -1px 0 var(--onyx), 1px -1px 0 var(--onyx), -1px 1px 0 var(--onyx), 1px 1px 0 var(--onyx);
+    background-image: linear-gradient(to top, transparent, transparent 2px, #f8f8f8 2px, #f8f8f8 2.5px, transparent 2.5px);
+    border-bottom: none;  
+  }
+}
+
+blockquote {
+  font-family: var(--title-font);
+  font-style: italic;
+  font-size: 1.4rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 20px;
+  margin-left: -23px;
+}
+
+b {
+  font-weight: 400;
+}
+p.en {
+  text-align: center;
+  font-style: italic !important;
+  color: #666;
+}
+
+p {
+}
+img {
+  width: 100%;
+}
+
+/* Main wrapper */
+.wrapper {
+  min-height: 100%;
+  height: auto;
+}
+
+.main_menu {
+  font-weight: 100;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.site-title {
+  @media only screen and (max-width: 667px) {
+    display: none;
+  }
+  @media only screen and (min-width: 1000px) {
+    color: var(--white-text);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+.main {
+
+  width: 100%;
+  padding-bottom: 50px;
+
+  margin: 0;
+
+
+  @media only screen and (max-width: 812px) {
+    &:not(.post) {
+      padding-top: 6rem;
+    }
+    > * {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  @media only screen and (min-width: 812px) {
+    &:not(.post) {
+      padding-top: 2rem;
+    }
+
+    .fullwidth, .fullwidth img {
+      width: 100% !important;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    > :not(.fullwidth) {
+      max-width: var(--max-width);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    > .vertical {
+      max-width: 37rem;
+    }
+
+    p, blockquote, ul, ol, .micropost {
+      max-width: 60rem !important;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+  .micropost:first-child {
+    .date {
+      border-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  }
+
+  .micropost {
+     h1 {
+      padding-bottom: 1.9rem;
+      text-align: center;
+      font-size: 1.6rem;
+      text-transform: capitalize;
+      margin-left: 35px;
+      margin-right: 35px;
+      a {
+        color: var(--onyx);
+        text-decoration: none;
+        position: relative;
+        text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+        background-image: none;
+        transition: color 0.5s, background-image 0.5s linear;
+          &:hover {
+            color: var(--accent);
+            text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+            background-image: none;
+          }
+        }
+      }
+    }
+
+  .micropost {
+    .date {
+      text-align: center;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-top: 1px solid rgba(0,0,0,0.1);
+      display: block;
+      color: rgba(0,0,0,0.3);
+      padding-top: 3.5rem;
+      margin-bottom: -10px;
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+    margin: 30px auto;
+    p { margin: 10px 0 20px 0;
+      margin-left: 35px;
+      margin-right: 35px;
+    }
+    a {
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+}
+
+/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
+/* pswp = photoswipe */
+.pswp {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+  z-index: 1500;
+  -webkit-text-size-adjust: 100%;
+  /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
+  -webkit-backface-visibility: hidden;
+  outline: none; }
+  .pswp * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .pswp img {
+    max-width: none; }
+
+/* style is added when JS option showHideOpacity is set to true */
+.pswp--animate_opacity {
+  /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
+  opacity: 0.001;
+  will-change: opacity;
+  /* for open/close transition */
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+          transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp--open {
+  display: block; }
+
+.pswp--zoom-allowed .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.pswp--zoomed-in .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab; }
+
+.pswp--dragging .pswp__img {
+  /* autoprefixer: off */
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing; }
+
+/*
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
+.pswp__bg {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  will-change: opacity; }
+
+.pswp__scroll-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.pswp__container,
+.pswp__zoom-wrap {
+  -ms-touch-action: none;
+  touch-action: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+/* Prevent selection and tap highlights */
+.pswp__container,
+.pswp__img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; }
+
+.pswp__zoom-wrap {
+  position: absolute;
+  width: 100%;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  /* for open/close transition */
+  -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+          transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1); }
+
+.pswp__bg {
+  will-change: opacity;
+  /* for open/close transition */
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 0.5);
+          transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 0.5); }
+
+.pswp--animated-in .pswp__bg,
+.pswp--animated-in .pswp__zoom-wrap {
+  -webkit-transition: none;
+  transition: none; }
+
+.pswp__container,
+.pswp__zoom-wrap {
+  -webkit-backface-visibility: hidden; }
+
+.pswp__item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+.pswp__img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0; }
+
+/*
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
+.pswp__img--placeholder {
+  -webkit-backface-visibility: hidden; }
+
+/*
+	div element that matches size of large image
+	large image loads on top of it
+*/
+.pswp__img--placeholder--blank {
+  background: rgba(0,0,0,0.5);
+ }
+
+.pswp--ie .pswp__img {
+  width: 100% !important;
+  height: auto !important;
+  left: 0;
+  top: 0; }
+
+/*
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
+.pswp__error-msg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: -8px;
+  color: #CCC; }
+
+.pswp__error-msg a {
+  color: #CCC;
+  text-decoration: underline; }
+
+.pswp__ui {
+  @apply hidden;
+}
+
+/* LINKS */
+
+.links {
+    padding-top: 35px;
+    max-width: 45rem;
+    text-align: center;
+    margin: auto;
+}
+
+a.link-block {
+    display: block;
+    margin-bottom: 30px;
+    background-color: #F3F3F3;
+    padding: 40px;
+    text-decoration: none;
+    background-image: none;
+    color: var(--onyx);
+    border-bottom: none;	
+}
+
+span.link-title {
+    display: block;
+    font-family: var(--title-font);
+    font-size: 21px;
+}
+
+span.link-subtitle {
+    display: block;
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 15px;
+}

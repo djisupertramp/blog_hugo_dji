@@ -10,11 +10,6 @@ resources:
   name: "cover"
 ---
 
-{{< photoset max="2" >}}
-  {{< photo src="now_1.jpg" alt="Jeremy Janin" >}}
-  {{< photo src="now_2.jpg" alt="Jeremy Janin" >}}
-{{</ photoset >}}
-
 
 **hello.**
 
@@ -22,9 +17,17 @@ Moi c’est Jeremy, passionné d’outdoor, de voyages et de belles images. Je s
 
 **Un projet pro dont vous aimeriez me parler ? Vous pouvez me contacter à** [studio@captainyvon.fr](mailto:studio@captainyvon.fr)
 
+
+{{< photoset max="2" >}}
+  {{< photo src="now_1.jpg" alt="Jeremy Janin" >}}
+  {{< photo src="now_2.jpg" alt="Jeremy Janin" >}}
+{{</ photoset >}}
+
 Depuis tout petit, on m’a mis sur des skis, un vélo ou une planche de surf, et c’est ainsi que s’est initié cet amour pour la nature et les sports outdoor. J'adore la rando et depuis quelques années de bikepacking. Un mix de VTT et de bivouac. D'ailleurs pour mon premier trip bikepacking, je suis parti en Écosse avec mon père, comme une surprise pour son anniversaire et j'ai réalisé un [film de notre aventure](http://jeremyjanin.com/bikepacking-fatbike-en-ecosse-avec-mon-pere/). Depuis, je continue mes aventures en local, j'ai même fait un film de bikepacking pendant le confinement qui a fait marrer pas mal de gens ! En parlant de sport, j'adore le pratiquer mais aussi le suivre à la TV, notamment le biathlon l'hiver, je ne rate pas une course de la saison. Et là cette année, j'ai envie d'essayer de suivre la NBA aussi. En dehors du foot que je ne suis pas, je tâche de suivre tous les grands évènements sportifs.
 
 En dehors du VTT et du bikepacking, je suis amoureux de vidéo. J'adore geeker pendant des heures pour optimiser mon setup et depuis que j'ai quitté [Sony pour Panasonic](http://jeremyjanin.com/matos-photo-video-pourquoi-jai-quitte-sony-pour-le-panasonic-s1/), j'ai vraiment trouvé mon bonheur. J'utilise donc en ce moment un **Panasonic S1** avec un **Sigma 35mm f/1.4** et quelques objectifs vintage Canon FD. Plus récemment, j'ai aussi repris le chemin de l'argentique pour la photo et le format me plait vraiment. J'ai un petit compact _Olympus XA_ en 35mm que j'emmène partout avec moi, un superbe _Canon A1_ pour les projets plus artistiques et le _Fuji GW690iii_ pour m'essayer aux joies du moyen format. Je shoote essentiellement à la _Portra 400_ et _Portra 800_. Je viens aussi de m'offrir une caméra Super 8, la Beaulieu 4008 ZMII que je compte utiliser avec de la [Kodak Vision 3 50D](https://www.digit-photo.com/KODAK-Film-Vision3-50D-8mm-pour-Camera-Super-8-rKODAKKS850D.html?dpa_id=21) en priorité.
+
+{{< photo src="captainyvon.jpg" alt="Captain Yvon">}}
 
 Je suis tellement passionné de vidéo qu'en 2016, avec mon ami [Grégory Mignard](https://gregorymignard.com/), on a lancé [**CAPTAIN YVON STUDIO**,](https://captainyvon.fr/) un studio de production spécialisé dans la création de photos et de films d’aventure et sports outdoor. Il n'y-a pas qu'avec le matos vidéo que j'aime geeké, j'aime aussi chercher le matos outdoor le plus léger possible, trouver les meilleurs compromis.
 

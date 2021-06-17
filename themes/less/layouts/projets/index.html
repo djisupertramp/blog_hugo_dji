@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ with .Resources.ByType "image" }}
+      <div data-pswp class="grid">
+       {{ range . }}
+  {{ $lqipw := default "20x" }}
+
+  {{/* resize the src image to the given sizes */}}
+
+  {{ $lqip := .Resize $lqipw }}
+    <picture class="item">
+      <img class="lazyload"
+        data-action="zoom"
+        data-src="{{ .Permalink }}"
+        data-zoom-src="{{ .Permalink }}"
+        src="{{ $lqip.Permalink }}">
+    </picture>
+       {{ end }}
+     </div>
+   {{ end }}
+{{ end }}

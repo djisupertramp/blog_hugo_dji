@@ -1,5 +1,5 @@
 ---
-title: Quel adaptateur d’objectif pour monture L choisir ? Panasonic S1, S1H, S5, Sigma FP et Leica SL
+title: Quel adaptateur d’objectif pour monture L choisir ? Panasonic S1
 seotitle: Canon FD, EF, Nikon, M42... Bien choisir un adaptateur d'objectif pour monture L compatible avec Panasonic LUMIX S1, S1R, S1H, S5 et Sigma FP
 date: 2021-06-15 09:00:00 +0200
 slug: "quel-adaptateur-dobjectif-pour-monture-l-panasonic-s1"
@@ -7,7 +7,7 @@ categories: Materiel
 tags: ["video", "lumix", "Panasonic", "S1", "S1H", "S5", "filmmaking", "objectif", "adaptateur", "monture L", "Leica L", "Sigma FP", "Leica SL", "canon FD", "Canon EF", "Nikon F", "M42"]
 description: "Canon FD, EF, Nikon, M42... Bien choisir un adaptateur d'objectif pour monture L compatible avec Panasonic LUMIX S1, S1R, S1H, S5 et Sigma FP"
 resources:
-  - src: "images/cover.jpg"
+  - src: "cover.jpg"
     name: "cover"
   - src: "*.jpg"
 ---

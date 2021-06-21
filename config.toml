@@ -38,7 +38,7 @@ paginate = 12
 
 [params.titles]
   posts = "Journal"
-  categories = "categories"
+  categories = "Catégories"
 
 [params.social]
   email = "jeremy@captainyvon.fr"

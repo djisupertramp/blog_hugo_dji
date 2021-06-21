@@ -7,7 +7,7 @@ categories: Materiel
 Gérardtags: ["video", "lumix", "Panasonic", "S1", "S1H", "S5", "filmmaking", "objectif", "adaptateur", "monture L", "Leica L", "Sigma FP", "Leica SL", "canon FD", "Canon EF", "Nikon F", "M42"]
 description: "Canon FD, EF, Nikon, M42... Bien choisir un adaptateur d'objectif pour monture L compatible avec Panasonic LUMIX S1, S1R, S1H, S5 et Sigma FP"
 resources:
-  - src: "images/quel-adaptateur-d-objectif-pour-monture-L-panasonic-lumix-s1_03-scaled.jpg
+  - src: "images/cover.jpg
     name: "cover"
   - src: "*.jpg"
 ---
@@ -16,13 +16,13 @@ Trouver le bon adaptateur d'objectif pour monture L à monter sur les boitiers P
 
 À savoir : il y-a des bagues avec connexion électronique comme la [Sigma MC-21](https://amzn.to/30Nwns6), qui permettent d'utiliser l'ouverture et l'autofocus, toute fois elles ne permettent pas de garder l'autofocus continu. Le seul moyen d'avoir l'autofocus est d'investir dans des objectifs natifs Panasonic ou Leica en monture L.
 
-![adapteur d'objectif pour monture L panasonic lumix s1 s1h s5 sigma FP](images/quel-adaptateur-d-objectif-pour-monture-L-panasonic-lumix-s1_01-1024x768.jpg)
+![adapteur d'objectif pour monture L panasonic lumix s1 s1h s5 sigma FP](images/quel-adaptateur-d-objectif-pour-monture-L-panasonic-lumix-s1_01.jpg)
 
 ### Comment bien choisir un adaptateur pour objectif en monture L ?
 
 Attention aussi à ne pas confondre la monture Leica L pour les Panasonic S1 / S5, Leica SL et Sigma FP avec la monture Leica M qui elle est prévue pour les appareils photos argentiques Leica. Pour les différencier, quand vous commandez un adapteur d'objectifs pour monture L, assurez vous bien que c'est bien stipulé vers monture Leica L ou qu'il y-a écrit vers SL/T. Dans ce cas là, ça sera compatible. En revanche, n'achetez jamais un adaptateur d'objectifs où il y-aurait écrit "Leica M L/M" car ceux là ne sont pas compatibles avec la monture L, mais uniquement avec la monture M. Croyez moi, j'ai testé.
 
-![adapteur d'objectif pour monture L panasonic lumix s1 s1h s5 sigma FP](images/quel-adaptateur-d-objectif-pour-monture-L-panasonic-lumix-s1_02-1024x768.jpg)
+![adapteur d'objectif pour monture L panasonic lumix s1 s1h s5 sigma FP](images/quel-adaptateur-d-objectif-pour-monture-L-panasonic-lumix-s1_02.jpg)
 
 ### Quel adapteur d'objectif pour monture L j'utilise sur mon Panasonic S1 ?
 

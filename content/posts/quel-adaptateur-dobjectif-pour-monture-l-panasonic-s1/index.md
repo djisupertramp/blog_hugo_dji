@@ -34,16 +34,16 @@ Par chance, ils conçoivent cette bague pour énormément de monture et c'est po
 
 ### Adaptateur d'objectif pour monture L pour Panasonic S1, S1H, S5...
 
-- <a href="https://amzn.to/30Nwns6" target="_blank" rel="noopener">Canon EF vers Monture L — Sigma MC-21 sur Amazon</a></span> / <a href="https://www.digit-photo.com/SIGMA-Bague-d-Adaptation-MC-21-pour-Canon-EF-vers-Monture-L-rSIGMA89E969.html?dpa_id=21" target="_blank" rel="noopener">Digit Photo</a><
-- <a href="https://amzn.to/3iJat2I" target="_blank" rel="noopener">Canon FD vers Monture L — URTH</a><
-- <a href="https://amzn.to/2TYRp6k" target="_blank" rel="noopener">URTH</a> / <a href="https://amzn.to/3iIt9Qj" target="_blank" rel="noopener">Fotodiox</a><
+- <a href="https://amzn.to/30Nwns6" target="_blank" rel="noopener">Canon EF vers Monture L — Sigma MC-21 sur Amazon</a></span> / <a href="https://www.digit-photo.com/SIGMA-Bague-d-Adaptation-MC-21-pour-Canon-EF-vers-Monture-L-rSIGMA89E969.html?dpa_id=21" target="_blank" rel="noopener">Digit Photo</a>
+- <a href="https://amzn.to/3iJat2I" target="_blank" rel="noopener">Canon FD vers Monture L — URTH</a>
+- <a href="https://amzn.to/2TYRp6k" target="_blank" rel="noopener">URTH</a> / <a href="https://amzn.to/3iIt9Qj" target="_blank" rel="noopener">Fotodiox</a>
 - <a href="https://amzn.to/3pYPXNs" target="_blank" rel="noopener">Leica M vers Monture L — URTH&nbsp;</a>
 - <a href="https://amzn.to/35p7mVO" target="_blank" rel="noopener">Leica R vers Monture L — URTH</a>
 - <a href="https://amzn.to/3gqoTDz" target="_blank" rel="noopener">M39 vers Monture L — URTH</a>
 - <a href="https://amzn.to/35mqsMn" target="_blank" rel="noopener">M42 vers Monture L — URTH</a> / <a href="https://amzn.to/3gCBP7Z" target="_blank" rel="noopener">AMOPOFO</a>
 - <a href="https://amzn.to/3gzvv1b" target="_blank" rel="noopener">Minolta MD vers Monture L — URTH</a> / <a href="https://amzn.to/30M1HHE" target="_blank" rel="noopener">AMOPOFO</a>
 - <a href="https://amzn.to/3cIQcXp" target="_blank" rel="noopener">Nikon F vers Monture L — URTH&nbsp;</a>
-- <a href="https://amzn.to/3vvOwH7" target="_blank" rel="noopener">Pentax K vers Monture L — URTH</a></span><
+- <a href="https://amzn.to/3vvOwH7" target="_blank" rel="noopener">Pentax K vers Monture L — URTH</a></span>
 - <a href="https://www.ebay.com/itm/PL-mount-lens-to-L-mount-Sigma-FP-Panasonic-S1H-Leica-SL2-adapter-c7adapters/252322326925?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D225085%26meid%3D16e35b30e07a4913ab5af7af39a4be76%26pid%3D100667%26rk%3D1%26rkt%3D4%26mehot%3Dpp%26sd%3D252322326925%26itm%3D252322326925%26pmt%3D0%26noa%3D1%26pg%3D2334524&amp;_trksid=p2334524.c100667.m2042&amp;LH_ItemCondition=33" target="_blank" rel="noopener">Monture PL vers Monture L — C7 adapters sur eBay</a>
 
 Pour prolonger la lecture, je vous invite à lire mon article sur les [filtres Tiffen Black Pro Mist](http://jeremyjanin.com/filtre-tiffen-black-pro-mist-lequel-choisir/) que j'utilise énormément sur mes objectifs.

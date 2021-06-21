@@ -36,7 +36,7 @@ Par chance, ils conçoivent cette bague pour énormément de monture et c'est po
 
 - <a href="https://amzn.to/30Nwns6" target="_blank" rel="noopener">Canon EF vers Monture L — Sigma MC-21 sur Amazon</a></span> / <a href="https://www.digit-photo.com/SIGMA-Bague-d-Adaptation-MC-21-pour-Canon-EF-vers-Monture-L-rSIGMA89E969.html?dpa_id=21" target="_blank" rel="noopener">Digit Photo</a>
 - <a href="https://amzn.to/3iJat2I" target="_blank" rel="noopener">Canon FD vers Monture L — URTH</a>
-- <a href="https://amzn.to/2TYRp6k" target="_blank" rel="noopener">URTH</a> / <a href="https://amzn.to/3iIt9Qj" target="_blank" rel="noopener">Fotodiox</a>
+- <a href="https://amzn.to/2TYRp6k" target="_blank" rel="noopener">Contax CY vers Monture L — URTH</a> / <a href="https://amzn.to/3iIt9Qj" target="_blank" rel="noopener">Fotodiox</a>
 - <a href="https://amzn.to/3pYPXNs" target="_blank" rel="noopener">Leica M vers Monture L — URTH&nbsp;</a>
 - <a href="https://amzn.to/35p7mVO" target="_blank" rel="noopener">Leica R vers Monture L — URTH</a>
 - <a href="https://amzn.to/3gqoTDz" target="_blank" rel="noopener">M39 vers Monture L — URTH</a>

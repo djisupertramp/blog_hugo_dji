@@ -4,7 +4,7 @@ seotitle: "Canon FD, EF, Nikon, M42... Bien choisir un adaptateur d'objectif pou
 date: "2021-06-15"
 slug: "quel-adaptateur-dobjectif-pour-monture-l-choisir-panasonic-s1-s1h-s5-sigma-fp-et-leica-sl-2"
 categories: Materiel
-Gérardtags: ["video", "lumix", "Panasonic", "S1", "S1H", "S5", "filmmaking", "objectif", "adaptateur", "monture L", "Leica L", "Sigma FP", "Leica SL", "canon FD", "Canon EF", "Nikon F", "M42"]
+tags: ["video", "lumix", "Panasonic", "S1", "S1H", "S5", "filmmaking", "objectif", "adaptateur", "monture L", "Leica L", "Sigma FP", "Leica SL", "canon FD", "Canon EF", "Nikon F", "M42"]
 description: "Canon FD, EF, Nikon, M42... Bien choisir un adaptateur d'objectif pour monture L compatible avec Panasonic LUMIX S1, S1R, S1H, S5 et Sigma FP"
 resources:
   - src: "images/cover.jpg

@@ -1,10 +1,10 @@
 ---
-title: "Aller faire un tour au Cap Blanc Nez en VTT et gravel"
+title: Aller faire un tour au Cap Blanc Nez en VTT et gravel
 seotitle: "Vélo sur la côte d'Opale, le Cap Blanc Nez en VTT et gravel depuis Lille."
-date: "2020-09-13"
+date: 2020-09-13 13:30:00 +0200
 slug: "aller-faire-un-tour-au-cap-blanc-nez-en-vtt-et-gravel"
 categories:
-  - "outdoor"
+  - outdoor
 tags: ["vtt", "velo", "cote d'opale", "lille", "cap blanc nez", "nord", "falaises", "gravel",]
 description: "Aller faire un tour au Cap Blanc Nez en VTT et gravel, depuis Lille pour rouler à vélo sur la côte d'Opale."
 resources:

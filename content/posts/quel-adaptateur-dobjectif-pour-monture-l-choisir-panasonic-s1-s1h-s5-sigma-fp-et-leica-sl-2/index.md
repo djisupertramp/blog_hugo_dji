@@ -19,7 +19,7 @@ Trouver le bon adaptateur d'objectif pour monture L à monter sur les boitiers P
 
 ![adapteur d'objectif pour monture L panasonic lumix s1 s1h s5 sigma FP](images/quel-adaptateur-d-objectif-pour-monture-L-panasonic-lumix-s1_01-1024x768.jpg)
 
-### Bien choisir un adaptateur pour objectif en monture L
+### Comment bien choisir un adaptateur pour objectif en monture L ?
 
 Attention aussi à ne pas confondre la monture Leica L pour les Panasonic S1 / S5, Leica SL et Sigma FP avec la monture Leica M qui elle est prévue pour les appareils photos argentiques Leica. Pour les différencier, quand vous commandez un adapteur d'objectifs pour monture L, assurez vous bien que c'est bien stipulé vers monture Leica L ou qu'il y-a écrit vers SL/T. Dans ce cas là, ça sera compatible. En revanche, n'achetez jamais un adaptateur d'objectifs où il y-aurait écrit "Leica M L/M" car ceux là ne sont pas compatibles avec la monture L, mais uniquement avec la monture M. Croyez moi, j'ai testé.
 

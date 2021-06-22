@@ -1,6 +1,6 @@
 ---
 title: "Le jour où j'ai filmé une production GoPro en Ecosse"
-seotitle: "Travailler pour l'équipe de production GoPro"
+seotitle: Travailler pour l'équipe de production GoPro
 date: "2018-02-20"
 slug: "jour-jai-filme-production-gopro-ecosse"
 categories:

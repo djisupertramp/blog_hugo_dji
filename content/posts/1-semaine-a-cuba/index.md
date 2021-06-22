@@ -1,6 +1,6 @@
 ---
 title: "1 semaine à Cuba, de La Havane à Trinidad"
-seotitle: "1 semaine à Cuba, voyage de La Havane à Trinidad"
+seotitle: 1 semaine à Cuba, voyage de La Havane à Trinidad
 date: "2018-02-26"
 slug: "1-semaine-a-cuba"
 categories:

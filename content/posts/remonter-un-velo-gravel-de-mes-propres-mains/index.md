@@ -76,7 +76,9 @@ Cintre **[Ritchey VentureMax Comp 44cm](https://amzn.to/2ApYccb)** Guidoline [**
 
 Après avoir commandé un pied d'atelier, mon kit d'outils manquants, j'allais pouvoir attaquer. J'ai commencé par dépouiller tout le vélo de ses pièces d'origine pour le nettoyer de fond en comble et partir d'une base saine et propre. J'ai suivi quelques tutos sur YouTube notamment les chaines de ParkTool (anglais) et ProBikeShop TV (français) pour m'éclairer sur certaines parties que je maitrisais moins. Je ne garantis pas que j'ai fait les gestes qu'un vrai mécano vélo ferait, c'est pourquoi ni cet article ni cette vidéo ne sont des tutos, mais une simple illustration de mon expérience.
 
-https://youtu.be/TKwgRqFxDvI
+{{< youtube TKwgRqFxDvI>}}
+</div>
+
 
 J'ai pris mon pied à faire ce projet. J'ai eu la sensation d'apprendre des choses à chaque étape, pour chaque pièce remontée et c'était jouissif d'augmenter mon savoir, de réussir et valider chaque étape pour passer à la suivante. Je pose aussi un regard différent sur mon vélo, l'envie d'en prendre encore plus soin après y avoir mis autant d'heures de recherches et d'énergie. Si c'était à refaire, je referai tout pareil, sans rien changer. J'ai adoré apprendre, tout en mêlant ma passion pour le vélo et l'image. Si cet article peut vous donner des idées alors j'en serais ravi. Je l'ai avant tout écrit pour décrire mon expérience, ayant eu du mal à trouver des personnes ayant fait quelque chose dans cette veine là. J'ai très peu roulé avec depuis la fin du montage, il me tarde de faire une sortie longue avec mais aucun regret pour l'heure et je suis fan du comportement joueur que j'ai réussi à conserver et que je ressentais d'origine avec ce vélo mais en ayant désormais une monture plus véloce, légère et fun à piloter. Pour l'instant je vais continuer avec ce vélo et je verrai dans quelques années lorsque je souhaiterai faire évoluer mon cadre et ma fourche. _Brothers Cycles, I'm looking at you!_
 

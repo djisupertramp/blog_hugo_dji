@@ -129,7 +129,7 @@ header {
   .social {
     background-image: none;
     text-decoration: none;
-    border-bottom: none;	  
+    border-bottom: none;
   }
 }
 
@@ -137,7 +137,6 @@ footer {
   padding: 50px;
   text-align: center;
   position: relative;
-  background-image: url(waves.png);
   background-color: var(--onyx);
   color: var(--white-text);
   line-height: 37px;
@@ -147,7 +146,7 @@ footer {
     padding-bottom: 2px;
     text-shadow: -1px -1px 0 var(--onyx), 1px -1px 0 var(--onyx), -1px 1px 0 var(--onyx), 1px 1px 0 var(--onyx);
     background-image: linear-gradient(to top, transparent, transparent 2px, #f8f8f8 2px, #f8f8f8 2.5px, transparent 2.5px);
-    border-bottom: none;  
+    border-bottom: none;
   }
 }
 
@@ -502,7 +501,7 @@ a.link-block {
     text-decoration: none;
     background-image: none;
     color: var(--onyx);
-    border-bottom: none;	
+    border-bottom: none;
 }
 
 span.link-title {

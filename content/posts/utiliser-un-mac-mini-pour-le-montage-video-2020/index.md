@@ -1,8 +1,8 @@
 ---
 title: "Utiliser un Mac mini pour le montage vidéo"
-seotitle: "Config et retour d'expérience de mon utilisation d'un Mac Mini avec eGPU pour le montage vidéo avec Final Cut Pro X, Lightroom, Photoshop..."
+seotitle: "Config et utilisation d'un Mac Mini pour le montage vidéo avec Final Cut Pro X"
 date: "2020-12-03"
-slug: "quel-adaptateur-dobjectif-pour-monture-l-panasonic-s1"
+slug: "utiliser-un-mac-mini-pour-le-montage-video-2020"
 categories:
 - Materiel
 tags: ["video", "apple", "mac mini", "mac", "config", "eGPU", "montage", "final cut pro", "photoshop", "lightroom","edit", "logiciel montage"]

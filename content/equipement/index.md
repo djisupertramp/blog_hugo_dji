@@ -16,8 +16,10 @@ Voici mon matériel photo et vidéo, pour filmer mes projets [Captain Yvon](http
 
 Après 6 ans sur la gamme Sony Alpha, [j'ai quitté Sony pour le Panasonic S1,](http://jeremyjanin.com/matos-photo-video-pourquoi-jai-quitte-sony-pour-le-panasonic-s1/) et je n'ai aucun regret. Je n'ai jamais autant pris de plaisir qu'avec cette config lors de mes tournages. Certes le poids est non négligeable mais on l'oublie vite compte tenu de toutes les qualités que ce setup comporte. Au contraire, j'ai même volontairement alourdi ma rig avec une batterie v-mount et d'autres accessoires pour un rendu encore organique et naturel à main levée. C'est le setup que j'utilise pour toutes mes réalisation vidéos et qui m'a aussi suivi pour le tournage de notre documentaire Captain Yvon "IMMERSION, 7 vies inspirées par la mer"
 
-![equipement video jeremy janin](panasonic-s1-jeremy-janin-1.jpg)Voici à quoi ma rig vidéo ressemble plus en détail :
+![equipement video jeremy janin](panasonic-s1-jeremy-janin-1.jpg)
+![equipement video jeremy janin](panasonic-s1-jeremy-janin-4.jpg)
 
+Voici à quoi ma rig vidéo ressemble plus en détail :
 
 - [Panasonic S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21) + mise à jour V-LOG
 - [Cage Smallrig pour Panasonic S1](https://amzn.to/2SW4U6J)
@@ -64,22 +66,21 @@ Après 6 ans sur la gamme Sony Alpha, [j'ai quitté Sony pour le Panasonic S1,](
 - [Zhiyun Weebill-S](https://amzn.to/2SNybfV)
 - [DJI Mavic 2 Pro](http://amzn.to/2o7zV2G)
 
-![equipement video jeremy janin](images/equipement_video_jeremyjanin4-1024x683.jpg)
-![equipement video jeremy janin](images/equipement_video_jeremyjanin6-1024x683.jpg) 
-![equipement video jeremy janin](images/equipement_video_jeremyjanin7-1024x683.jpg)
-
 ### ARGENTIQUE
 
 **SUPER 8**
+
 - Camera Super 8 Beaulieu 4008 ZMII
 - [Kodak Vision 3 50D](https://www.digit-photo.com/KODAK-Film-Vision3-50D-8mm-pour-Camera-Super-8-rKODAKKS850D.html?dpa_id=21)
 
 **ARGENTIQUE**
+
 - Olympus XA - _compact 35mm de poche_
 - Canon A1 - _35mm utilisé avec les objectifs cités dans la section vidéo au dessus_
 - Fuji GW690III - _Moyen format 6x9_
 
 **PELLICULES**
+
 - [Kodak Portra 400](https://www.digit-photo.com/KODAK-Portra-400-135-36-Poses-X5-rKFILM386.html?dpa_id=21)
 - [Kodak Portra 800](https://www.digit-photo.com/KODAK-Portra-800asa-135-36Poses-rFPNK1451855.html?dpa_id=21)
 - [Kodak Ektar 100](https://www.digit-photo.com/KODAK-Ektar-100-Professionnel-135-36-poses-rKODAK1500277.html?dpa_id=21)
@@ -92,6 +93,6 @@ Je fais développer mes photos chez [Mori Film Lab](https://morifilmlab.com/) à
 
 ### POST PRODUCTION
 
-Là où je passe mon temps à éditer tous mes films. Bureau basé autour d'une config de Mac Mini pour le montage vidéo avec un eGPU et un setup à deux écrans. Pour en lire d'avantage à ce sujet, je vous invite à lire mon article détaillé ici.
+Là où je passe mon temps à éditer tous mes films. Bureau basé autour d'une config de Mac Mini pour le montage vidéo avec un eGPU et un setup à deux écrans. Pour en lire d'avantage à ce sujet, je vous invite à lire mon [article détaillé ici](http://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020).
 
 ![equipement video jeremy janin](mac_mini_montage_video_jeremyjanin_13.jpg)

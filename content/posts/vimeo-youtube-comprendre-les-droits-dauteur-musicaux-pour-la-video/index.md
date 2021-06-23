@@ -15,7 +15,9 @@ resources:
 
 Les copyrights musicaux sur les plateformes vidéos ont amené de nombreuses personnes à se poser la question : **YouTube ou Vimeo ?** Quels sont les risques encourus ? Quelles sont les solutions ? J'ai fait partie de ces personnes là, et j'ai fait mon choix, mais voici un article que je vais tâcher de rendre aussi complet et clair que possible pour expliquer comment fonctionnent les copyrights musicaux sur les deux grandes plateformes vidéos, les différences entre YouTube et Vimeo, les risques encourus et les solutions pour pouvoir continuer à mettre des musiques sur ses vidéos sans devenir hors la loi. J'aborde ici essentiellement dans cet article l'utilisation de musiques pour une vidéo personnelle avec publication sur l'une de ces plateformes vidéos, il va de soi que toute vidéo à but commercial (ou dont on toucherait un revenu grâce à celle-ci) est un autre registre et mérite une compensation financière.
 
-( A noter : je ne suis pas avocat et les propos que je tiens dans cet article sont uniquement ici à titre d'information et je ne saurais en aucun cas être tenu pour responsable d'un quelconque problème en lien avec les copyrights et ne saurais être considéré comme un quelconque représentant légal. Mes propos sont uniquement le fruit de mes recherches faites sur différents sites pour tenter d'éclaircir le sujet, mais si le moindre questionnement persiste, je recommande de prendre contact directement avec un avocat spécialisé, dont la parole fera foi. )
+( _A noter : je ne suis pas avocat et les propos que je tiens dans cet article sont uniquement ici à titre d'information et je ne saurais en aucun cas être tenu pour responsable d'un quelconque problème en lien avec les copyrights et ne saurais être considéré comme un quelconque représentant légal. Mes propos sont uniquement le fruit de mes recherches faites sur différents sites pour tenter d'éclaircir le sujet, mais si le moindre questionnement persiste, je recommande de prendre contact directement avec un avocat spécialisé, dont la parole fera foi._ )
+
+
 
 ### **LES DROITS D'AUTEURS**
 
@@ -42,22 +44,22 @@ _[(source)](https://support.google.com/youtube/answer/2797466?hl=fr)_
 
 ![](images/IMG_7800.jpg)
 
-### LES SOLUTIONS PROPOSÉES PAR YOUTUBE ET VIMEO POUR DÉCELER LES INFRACTIONS DE COPYRIGHT.
+## LES SOLUTIONS PROPOSÉES PAR YOUTUBE ET VIMEO POUR DÉCELER LES INFRACTIONS DE COPYRIGHT.
 
-**\+ YouTube**
+### **\+ YouTube**
 
 Votre vidéo peut être supprimée par YouTube s'ils reçoivent une [notice de retrait](https://support.google.com/youtube/answer/6005900) (takedown notice) de la part de l'artiste ou du label, ou de quiconque ayant la paternité sur la musique utilisée et souhaitant la revendiquer et affirmer ne pas avoir donné d'autorisation pour l'utilisation du morceau.
 
 YouTube a également mis un place un outils appelé "Content ID" qui permet aux artistes d'envoyer à YouTube leurs oeuvres que la plateforme vidéo stocke dans une base de donnée et qui analyse les contenus publiées sur le site pour voir s'il y a des résultats correspondants. La base de données contient plus de 3 millions de fichiers (2010). Si un résultat est trouvé, l'artiste est informé et alors plusieurs choix sont possibles :
 
-- - - - Mettre en "muet" la bande son des vidéos qui utilisent ce morceau
+- Mettre en "muet" la bande son des vidéos qui utilisent ce morceau
             - Bloquer la vidéo
             - Monétiser la vidéo avec des publicités
             - Avoir accès aux statistiques de la vidéo (pour prendre des mesures ensuite)
 
 Pour en savoir plus sur le fonctionnement du _Content ID_, je vous invite le très bon article de YouTube sur le sujet. ([lien](https://support.google.com/youtube/answer/2797370?hl=fr))
 
-**\+ Vimeo**
+### **\+ Vimeo**
 
 Jusqu'à présent Vimeo n'avait pas d'outil spécial pour faire face à l'infraction de Copyright. Il était également écrit dans les régles de la communauté et termes et conditions que chaque utilisateur doit accepter à la création du compte, que l'on ne doit pas utiliser des oeuvres dont l'utilisateur n'a pas l'autorisation d'utiliser ou reproduire.
 
@@ -69,7 +71,7 @@ Depuis peu, au moment où j'écris ces lignes, Vimeo a mis en place un outil qui
 
 ![](images/IMG_7808.jpg)
 
-### **QUE DIT LA LOI ? QUELS SONT LES RISQUES ?**
+## **QUE DIT LA LOI ? QUELS SONT LES RISQUES ?**
 
 Selon le code de la propriété intellectuelle ( [à lire en entier ici](http://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006069414&dateTexte=20140629) ) :
 
@@ -91,15 +93,13 @@ Est également un délit de contrefaçon toute reproduction, représentation, ou
 
 Est punie de deux ans d'emprisonnement et de 300.000 euros d'amende toute fixation, reproduction, communication ou mise à disposition du public, à titre onéreux ou gratuit, ou toute télédiffusion d'une prestation, d'un phonogramme (enregistrement sonore), d'un vidéogramme (oeuvre audiovisuelle) ou d'un programme, réalisée sans l'autorisation, lorsqu'elle est exigée, de l'artiste interprète, du producteur de phonogramme ou de vidéogramme ou de l'entreprise de communication audiovisuelle Est punie des mêmes peines toute importation ou exportation de phonogrammes ou de vidéogrammes réalisée sans l'accord du producteur ou de l'artiste interprète, lorsqu'elle est exigée.
 
-### QUELLES SONT LES SOLUTIONS ?
+## QUELLES SONT LES SOLUTIONS ?
 
-Pour ne pas avoir de problème lors de la mise en ligne de vidéos sur internet, nous avons toutefois recourt à plusieurs solutions. Tout d'abord, vous pouvez contacter l'artiste qui vous intéresse en lui parlant de votre projet d'utilisation de l'un de ses morceaux pour l'une de vos vidéos personnelles avec une diffusion sur internet, en lui demandant son autorisation écrite. Si l'artiste vous répond (ce qui arrive régulièrement avec des groupes qui n'ont pas encore éclaté au grand jour) dans ce cas, assurez-vous de bien couvrir tous les besoins que vous avez : _autorisation d'utilisation de la musique sur votre vidéo personnelle avec autorisation de diffusion sur une plateforme vidéo telle que YouTube et Vimeo._ Dans le cas où votre vidéo serait à but commercial, il va s'en dire qu'il faudra le stipuler et prévoir une rémunération.
-
-Si l'artiste ne répond pas, ou que vous préférez trouver une autre solution, de nombreux sites proposent des bibliothèques de musiques avec licences Creative Commons (vous permettant d'utiliser un morceau sous certaines conditions mais sans frais.) le plus connu en France est certainement [Jamendo](http://www.jamendo.com/fr/).
+Pour ne pas avoir de problème lors de la mise en ligne de vidéos sur internet, nous avons toutefois recourt à plusieurs solutions. Tout d'abord, vous pouvez contacter l'artiste qui vous intéresse en lui parlant de votre projet d'utilisation de l'un de ses morceaux pour l'une de vos vidéos personnelles avec une diffusion sur internet, en lui demandant son autorisation écrite. Si l'artiste vous répond (ce qui arrive régulièrement avec des groupes qui n'ont pas encore éclaté au grand jour) dans ce cas, assurez-vous de bien couvrir tous les besoins que vous avez : _autorisation d'utilisation de la musique sur votre vidéo personnelle avec autorisation de diffusion sur une plateforme vidéo telle que YouTube et Vimeo._ Dans le cas où votre vidéo serait à but commercial, il va s'en dire qu'il faudra le stipuler et prévoir une rémunération. Si l'artiste ne répond pas, ou que vous préférez trouver une autre solution, de nombreux sites proposent des bibliothèques de musiques avec licences Creative Commons (vous permettant d'utiliser un morceau sous certaines conditions mais sans frais.) le plus connu en France est certainement [Jamendo](http://www.jamendo.com/fr/).
 
 ### * * *
 
-### MA SOLUTION PRÉFÉRÉE : ARTLIST
+## MA SOLUTION PRÉFÉRÉE : ARTLIST
 
 J'utilise depuis près d'1 an le site **Artlist**, plus fraichement arrivé dans le milieu comparé à Music Bed, mais qui pour moi, est la meilleure option pour l'heure. _The Music Bed_ reste un peu plus haut de gamme en terme de musique pour certains projets mais son prix est lui aussi beaucoup plus élevé. Artlist correspond à 98% de mes besoins en vidéo et c'est celui que j'utilise pour toutes mes productions personnelles, comme pour [Captain Yvon](http://captainyvon.fr). Le concept m'a séduit tout de suite, on paie 199$ / an **(environ 170€ / an)** et on a accès illimité au catalogue en ligne et avec **tous les droits d'utilisation (usage commercial inclus)**. Les musiques sont qualis, il y-en a pour tous les goûts et le site est vraiment bien fait.
 
@@ -107,8 +107,6 @@ Si vous décidez de vous inscrire à ce service (et je ne suis aucunement rémun
 
 ### * * *
 
-Vous pouvez également utiliser des banques de musiques en ligne, je suis devenu assez fan de [The Music Bed](https://www.themusicbed.com/) qui semble tout droit pensé pour les réalisateurs de vidéos. On peut acquérir une licence avec autorisation d'utilisation et de diffusion pour 49€ la musique, et si la vidéo est à but ou devient dans le futur à but commercial, il y a la possibilité de payer un nouveau montant pour mettre à jour la licence selon les nouvelles conditions d'utilisations. D'autres sites sont à noter, comme [Extreme Music](https://www.extrememusic.com/), Audio Network, Epidemic Sound... par exemple, et il y en a certainement beaucoup d'autres. C'est une somme, mais cela permet aussi de mieux trier les vidéos qu'on va mettre en ligne tout en étant certain de ne pas contourner la loi et donc de ne pas s'exposer à un quelconque risque, car les dégâts seraient beaucoup plus importants que quelques dizaines d'euros en cas de recours en justice.
+Vous pouvez également utiliser d'autres banques de musiques en ligne, c'est une somme, mais cela permet aussi de mieux trier les vidéos qu'on va mettre en ligne tout en étant certain de ne pas contourner la loi et donc de ne pas s'exposer à un quelconque risque, car les dégâts seraient beaucoup plus importants que quelques dizaines d'euros en cas de recours en justice.
 
-Enfin, le [Vimeo Music Store](https://vimeo.com/musicstore) est une alternative un peu moins honéreuse avec des musiques à partir de 1,99$ voire même gratuite en Creative Commons, néanmoins le catalogue manque encore d'un peu de choix, mais en fouillant on peut réussir à trouver son bonheur.
-
-Il y a assurément de nombreux autres sites, j'ai néanmoins abordé mes solutions favorites et à mon sens les plus qualitatives en terme de choix / qualité des résultats dans les catalogues des bibliothèques musicales concernées.
+Il y a assurément de nombreux autres sites comme Music Bed, Epidemic Sound, j'ai néanmoins abordé mes solutions favorites et à mon sens les plus qualitatives en terme de choix / qualité des résultats dans les catalogues des bibliothèques musicales concernées tout en conservant un buget contenu.

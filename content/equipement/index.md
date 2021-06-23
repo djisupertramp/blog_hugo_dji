@@ -16,8 +16,8 @@ Voici mon matériel photo et vidéo, pour filmer mes projets [Captain Yvon](http
 
 Après 6 ans sur la gamme Sony Alpha, [j'ai quitté Sony pour le Panasonic S1,](http://jeremyjanin.com/matos-photo-video-pourquoi-jai-quitte-sony-pour-le-panasonic-s1/) et je n'ai aucun regret. Je n'ai jamais autant pris de plaisir qu'avec cette config lors de mes tournages. Certes le poids est non négligeable mais on l'oublie vite compte tenu de toutes les qualités que ce setup comporte. Au contraire, j'ai même volontairement alourdi ma rig avec une batterie v-mount et d'autres accessoires pour un rendu encore organique et naturel à main levée. C'est le setup que j'utilise pour toutes mes réalisation vidéos et qui m'a aussi suivi pour le tournage de notre documentaire Captain Yvon ["IMMERSION, 7 vies inspirées par la mer"](https://www.immersion-lefilm.fr/).
 
-![equipement video jeremy janin](panasonic-s1-jeremy-janin-1.jpg)
-![equipement video jeremy janin](panasonic-s1-jeremy-janin-4.jpg)
+{{< photo src="panasonic-s1-jeremy-janin-1.jpg" alt="equipement video jeremy janin" >}}
+{{< photo src="panasonic-s1-jeremy-janin-4.jpg" alt="equipement video jeremy janin" >}}
 
 Voici à quoi ma rig vidéo ressemble plus en détail :
 
@@ -29,7 +29,8 @@ Voici à quoi ma rig vidéo ressemble plus en détail :
 - Batteries : V-mount [Baxxtar Pro II V95 compact](https://amzn.to/3gNau4k) | Sony NPF | 2x [Batteries Patona](https://www.digit-photo.com/PATONA-Batterie-Panasonic-DMW-BLJ31-rPATONA1319.html?dpa_id=21) pour Panasonic S1
 - Cartes mémoires [CF Express B Integral Ultima 128Go](https://www.digit-photo.com/INTEGRAL-Carte-Cfexpress-Type-B-2-0-128Gb-1600-1700MB-s-rINTEGRALINCFE128.html?dpa_id=21)
 
-![equipement video jeremy janin](panasonic-s1-jeremy-janin-2.jpg)
+{{< photo src="panasonic-s1-jeremy-janin-2.jpg" alt="equipement video jeremy janin" >}}
+
 
 **OBJECTIFS**
 
@@ -54,7 +55,7 @@ Voici à quoi ma rig vidéo ressemble plus en détail :
 
 ### ARGENTIQUE
 
-![equipement video jeremy janin](equipement_video_jeremyjanin-1.jpg)
+{{< photo src="equipement_video_jeremyjanin-1.jpg" alt="equipement video jeremy janin" >}}
 
 Je photographie quasi essentiellement à l'argentique aujourd'hui, avec 3 appareils avec des usages différents :
 
@@ -70,6 +71,6 @@ Je fais développer mes photos chez [Mori Film Lab](https://morifilmlab.com/) à
 
 ### POST PRODUCTION
 
-![equipement video jeremy janin](mac_mini_montage_video_jeremyjanin_13.jpg)
+{{< photo src="mac_mini_montage_video_jeremyjanin_13.jpg" alt="equipement video jeremy janin" >}}
 
 Là où je passe mon temps à éditer tous mes films. Bureau basé autour d'une config de Mac Mini pour le montage vidéo avec un eGPU et un setup à deux écrans. J'édite mes vidéos sur Final Cut Pro X. Pour en lire d'avantage à ce sujet, je vous invite à lire mon [article détaillé ici](http://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020).

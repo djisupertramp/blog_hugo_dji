@@ -16,6 +16,7 @@ paginate = 12
 [permalinks]
   posts = "/:slug"
   categories = "/:slug"
+  projects = "/:slug"
 
 [imaging]
   resampleFilter = "lanczos"

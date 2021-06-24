@@ -1,16 +1,16 @@
 ---
-title: "The roll"
-seotitle: "Série photographie argentique nature et outdoor - Jeremy Janin"
-description: "Ce qui passe à travers mon objectif, de manière désorganisée et sans logique."
+title: "The Roll 01 - Jeremy Janin"
+seotitle: "The Roll 01 - série photo argentique - Jeremy Janin"
+date: "2021-06-24"
+draft: false
 type: "about"
 resources:
 - src: "*.jpg"
 - src: "1.jpg"
   name: "cover"
 ---
-
 <center> **// The roll** </center>  
-<center> _Moments from my film roll_ </center>  
+<center> _Moments from my film roll_ </center>   
 
 ![The Roll - série photo argentique - Jeremy Janin](01.jpg)
 ![The Roll - série photo argentique - Jeremy Janin](02.jpg)

@@ -1,6 +1,6 @@
 ---
-title: "The Roll 01 - Jeremy Janin"
-seotitle: "The Roll 01 - série photo argentique - Jeremy Janin"
+title: "The Roll - Jeremy Janin"
+seotitle: "The Roll - série photo argentique - Jeremy Janin"
 date: "2021-06-24"
 draft: false
 type: "about"
@@ -9,7 +9,7 @@ resources:
 - src: "1.jpg"
   name: "cover"
 ---
-<center> **// The roll** </center>  
+### <center> **// The Roll** </center>  
 <center> _Moments from my film roll_ </center>   
 
 ![The Roll - série photo argentique - Jeremy Janin](01.jpg)
@@ -28,4 +28,4 @@ resources:
 ![The Roll - série photo argentique - Jeremy Janin](14.jpg)
 ![The Roll - série photo argentique - Jeremy Janin](15.jpg)
 
-<justify> [**SUIVANT >>**](http://jeremyjanin.com/the-roll) </justify>
+<center> [**SUIVANT >>**](http://jeremyjanin.com/the-roll) </center>  

@@ -2,12 +2,9 @@
 title: "The Roll - Jeremy Janin"
 seotitle: "The Roll - série photo argentique - Jeremy Janin"
 date: "2021-06-24"
-draft: false
 type: "about"
 resources:
 - src: "*.jpg"
-- src: "1.jpg"
-  name: "cover"
 ---
 ### <center> **// The Roll** </center>  
 <center> _Moments from my film roll_ </center>   

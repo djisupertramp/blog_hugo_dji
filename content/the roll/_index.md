@@ -2,6 +2,11 @@
 title: "The roll"
 seotitle: "Série photographie argentique nature et outdoor - Jeremy Janin"
 description: "Ce qui passe à travers mon objectif, de manière désorganisée et sans logique."
+type: "about"
+resources:
+- src: "*.jpg"
+- src: "1.jpg"
+  name: "cover"
 ---
 
 <center> **// The roll**

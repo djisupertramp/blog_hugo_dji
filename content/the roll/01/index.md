@@ -13,20 +13,20 @@ resources:
 <center> **// The roll**
     _Moments from my film roll_ </center>   
 
-{{< photo src="01.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="02.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="03.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="04.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="05.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="06.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="07.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="08.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="09.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="10.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="11.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="12.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="13.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="14.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="15.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+![The Roll - série photo argentique - Jeremy Janin](01.jpg)
+![The Roll - série photo argentique - Jeremy Janin](02.jpg)
+![The Roll - série photo argentique - Jeremy Janin](03.jpg)
+![The Roll - série photo argentique - Jeremy Janin](04.jpg)
+![The Roll - série photo argentique - Jeremy Janin](05.jpg)
+![The Roll - série photo argentique - Jeremy Janin](06.jpg)
+![The Roll - série photo argentique - Jeremy Janin](07.jpg)
+![The Roll - série photo argentique - Jeremy Janin](08.jpg)
+![The Roll - série photo argentique - Jeremy Janin](09.jpg)
+![The Roll - série photo argentique - Jeremy Janin](10.jpg)
+![The Roll - série photo argentique - Jeremy Janin](11.jpg)
+![The Roll - série photo argentique - Jeremy Janin](12.jpg)
+![The Roll - série photo argentique - Jeremy Janin](13.jpg)
+![The Roll - série photo argentique - Jeremy Janin](14.jpg)
+![The Roll - série photo argentique - Jeremy Janin](15.jpg)
 
 <right> [**SUIVANT >>**](http://jeremyjanin.com/the-roll) </right>

@@ -1,7 +1,7 @@
 ---
 title: "The Roll 02"
 seotitle: "The Roll 02- série photo argentique - Jeremy Janin"
-date: "2021-06-23"
+date: "2021-06-24"
 resources:
 - src: "*.jpg"
 ---

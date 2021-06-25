@@ -7,12 +7,13 @@ resources:
 ---
 <center> _Moments from my film roll_ </center>
 
-![The Roll - série photo argentique - Jeremy Janin](01.jpg)
-![The Roll - série photo argentique - Jeremy Janin](02.jpg)
-![The Roll - série photo argentique - Jeremy Janin](03.jpg)
-![The Roll - série photo argentique - Jeremy Janin](04.jpg)
-![The Roll - série photo argentique - Jeremy Janin](05.jpg)
-![The Roll - série photo argentique - Jeremy Janin](06.jpg)
-![The Roll - série photo argentique - Jeremy Janin](07.jpg)
-![The Roll - série photo argentique - Jeremy Janin](08.jpg)
-![The Roll - série photo argentique - Jeremy Janin](09.jpg)
+{{< photo src="15.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="01.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="02.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="03.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="04.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="05.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="06.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="07.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="08.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="09.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}

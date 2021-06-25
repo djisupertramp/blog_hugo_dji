@@ -2,7 +2,7 @@
 title: "Une semaine à l'île Maurice"
 seotitle: "Voyage à l'île Maurice : que voir et que faire en une semaine"
 date: "2018-06-11"
-slug: "quel-adaptateur-dobjectif-pour-monture-l-panasonic-s1"
+slug: "une-semaine-a-lile-maurice"
 categories:
 - aventures
 tags: ["ile maurice", "ile", "voyage", "conseils","hotels attitude","vacances",]

@@ -1,7 +1,7 @@
 ---
 title: "The Roll 03"
 seotitle: "The Roll 03- série photo argentique - Jeremy Janin"
-date: "2021-06-23"
+date: "2021-06-25"
 resources:
 - src: "*.jpg"
 ---

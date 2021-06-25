@@ -7,7 +7,6 @@ resources:
 ---
 <center> _Moments from my film roll_ </center>
 
-![The Roll - série photo argentique - Jeremy Janin](15.jpg)
 ![The Roll - série photo argentique - Jeremy Janin](01.jpg)
 ![The Roll - série photo argentique - Jeremy Janin](02.jpg)
 ![The Roll - série photo argentique - Jeremy Janin](03.jpg)

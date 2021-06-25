@@ -7,7 +7,6 @@ resources:
 ---
 <center> _"Hem à Us", à vélo et avec du matériel seconde main — Olympus XA, Portra 400_ </center>
 
-{{< photo src="15.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="01.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="02.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="03.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}

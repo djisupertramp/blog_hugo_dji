@@ -5,9 +5,8 @@ date: "2021-05-30"
 resources:
 - src: "*.jpg"
 ---
-<center> _"Cotes d'Armor, Bretagne — Canon A1, Ektar 100_ </center>
+<center> _Cotes d'Armor, Bretagne — Canon A1, Ektar 100_ </center>
 
-{{< photo src="15.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="01.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="02.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="03.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}

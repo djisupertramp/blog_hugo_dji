@@ -12,13 +12,21 @@ resources:
 {{< photo src="03.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="04.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="05.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photoset max="2" >}}   
+{{< photo src="06.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photo src="07.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{</ photoset >}}
 {{< photo src="06.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="07.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="08.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="09.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photoset max="2" >}}   
 {{< photo src="10.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="11.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{</ photoset >}}
 {{< photo src="12.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{< photoset max="3" >}}   
 {{< photo src="13.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="14.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="15.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
+{{</ photoset >}}

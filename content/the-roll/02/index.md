@@ -1,13 +1,12 @@
 ---
-title: "The Roll 02"
+title: "The Roll — 02"
 seotitle: "The Roll 02- série photo argentique - Jeremy Janin"
-date: "2021-06-24"
+date: "2021-01-03"
 resources:
 - src: "*.jpg"
 ---
-<center> _Moments from my film roll_ </center>
+<center> _Cotes d'Armor — Olympus XA, Portra 400, Fuji Pro 400H_ </center>
 
-{{< photo src="15.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="01.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="02.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="03.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}

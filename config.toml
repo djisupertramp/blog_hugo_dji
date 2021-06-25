@@ -59,11 +59,11 @@ paginate = 12
   identifier = "portfolio"
   url = "/"
 [[menu.main]]
-  name = "Projets"
-  title = "Films & Documentaires"
+  name = "The Roll"
+  title = "Photographie argentique"
   weight = 2
-  identifier = "Projets"
-  url = "/projets"
+  identifier = "the-roll"
+  url = "/the-roll"
 [[menu.main]]
   name = "Blog"
   title = "Blog"

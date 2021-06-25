@@ -1,11 +1,11 @@
 ---
-title: "The Roll 01"
+title: "The Roll — 01"
 seotitle: "The Roll 01- série photo argentique - Jeremy Janin"
-date: "2021-06-23"
+date: "2020-10-23"
 resources:
 - src: "*.jpg"
 ---
-<center> _Moments from my film roll_ </center>
+<center> _Manche — Minolta X700, Portra 400_ </center>
 
 {{< photo src="01.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="02.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}

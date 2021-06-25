@@ -1,6 +1,6 @@
 ---
 title: "The Roll — 04"
-seotitle: "The Roll 04- série photo argentique - Jeremy Janin"
+seotitle: "The Roll 04- série photo argentique, Alpes Françaises - Jeremy Janin"
 date: "2021-01-29"
 resources:
 - src: "*.jpg"

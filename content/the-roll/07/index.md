@@ -1,11 +1,11 @@
 ---
-title: "The Roll — 06"
-seotitle: "The Roll 06- série photo argentique Bretagne - Jeremy Janin"
-date: "2021-06-24"
+title: "The Roll — 07"
+seotitle: "The Roll 07- série photo argentique Bretagne et Normandie - Jeremy Janin"
+date: "2021-06-25"
 resources:
 - src: "*.jpg"
 ---
-<center> _Cotes d'Armor, Bretagne — Canon A1, Ektar 100_ </center>
+<center> _Bretagne & Normandie — Canon A1, Ektar 100_ </center>
 
 {{< photo src="01.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="02.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
@@ -22,5 +22,3 @@ resources:
 {{< photo src="13.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="14.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
 {{< photo src="15.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="16.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}
-{{< photo src="17.jpg" alt="The Roll - série photo argentique - Jeremy Janin" >}}

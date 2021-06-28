@@ -25,3 +25,14 @@
 .pagination li.disabled {
   opacity: 0.3;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 50%;
+  margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-baseURL = "http://jeremyjanin.com"
+baseURL = "https://jeremyjanin.com"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 theme = "less"

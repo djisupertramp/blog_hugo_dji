@@ -1,4 +1,4 @@
-baseURL = "https://fervent-kalam-22dd83.netlify.app/"
+baseURL = "http://jeremyjanin.com"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 theme = "less"

@@ -8,8 +8,8 @@
 		{{.Content}}
 
 		<div class="previous-post">
-			{{ if .PrevPage }}
-			<a class="link-reverse" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title | truncate 50 "..."}}
+			{{ if .PrevInSection }}
+			<a class="link-reverse" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title | truncate 50 "..."}}
 				»</a>
 			{{ end }}
 		</div>

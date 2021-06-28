@@ -1,8 +1,8 @@
 ---
-title: "Grégory Mignard"
-seotitle: "Grégory Mignard - Photographe & Vidéaste Outdoor"
-description: "Photographe et vidéaste basé dans le Finistère, je réalise des images outdoor et documente des histoires authentiques."
-tags: ["bretagne", "finistère", "surf", "voyage", "photographe", "vidéaste", "outdoor", "storytelling", "photographie", "microaventures", "océan"]
+title: "Jeremy Janin"
+seotitle: "Jeremy Janin - Photographe & Vidéaste Outdoor"
+description: "Photographe et vidéaste passionné de sport d'action et outdoor, spécialisé dans les documentaires et basé à Lille."
+tags: ["lille", "france", "voyage", "filmmaker", "photographe", "vidéaste", "outdoor", "storytelling", "photographie", "sport", "documentaire"]
 resources:
 - src: "*.jpg"
 ---

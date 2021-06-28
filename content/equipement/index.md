@@ -1,7 +1,7 @@
 ---
-title: "Equipement - Grégory Mignard"
-seotitle: "Equipement - Grégory Mignard"
-date: 2021-05-21T22:57:50+02:00
+title: "Equipement - Jeremy Janin"
+seotitle: "Equipement photo et vidéo - Jeremy Janin"
+date: "2021-01-11"
 draft: false
 type: "about"
 resources:
@@ -10,57 +10,67 @@ resources:
   name: "cover"
 ---
 
-***
+Voici mon matériel photo et vidéo, pour filmer mes projets [Captain Yvon](http://captainyvon.fr), comme mes projets perso. Du voyage, du documentaire comme de l'outdoor, c'est le setup qui me convient.
 
-### DSLR
+### MATERIEL VIDEO
 
-Mon choix s'est porté sur le [Fujifilm X-T3](https://www.digit-photo.com/FUJI-X-T3-Boitier-Nu-Noir-rFUJIXT3BK.html?dpa_id=23) pour ses perfomances aussi bien en photo qu'en vidéo, mais également pour sa polyvalence et sa petite taille. Capable de filmer en 4K 10 bits, il n'a rien à envier à certaines caméras professionnelles et excelle en photographie. Dans la très grande majorité des cas, il est accompagné de l'excellent [Fuji XF 23mm f/1.4 R](https://www.digit-photo.com/FUJI-XF-23mm-f-1-4-R-rFUJI11508.html?dpa_id=23), mon objectif à (presque) tout faire.  
-Je possède également le [Fuji XF 10-24mm f/4 OIS WR](https://www.digit-photo.com/FUJI-XF-10-24mm-f-4-0-R-OIS-WR-rFUJI16666791.html?dpa_id=23) qui me sert plutôt dans le caisson étanche avec le dôme, le [Fuji XF 56mm f/1.2 R](https://www.digit-photo.com/FUJI-XF-56mm-f-1-2-R-Noir-rFUJI11510.html?dpa_id=23) et son incroyable piqué et le [100-400mm f/4.5-5.6 R LM OIS WR](https://www.digit-photo.com/FUJI-XF-100-400mm-f-4-5-5-6-R-LM-OIS-WR-Noir-rFUJI16501109.html?dpa_id=23) pour certaines images.
+Après 6 ans sur la gamme Sony Alpha, [j'ai quitté Sony pour le Panasonic S1,](http://jeremyjanin.com/matos-photo-video-pourquoi-jai-quitte-sony-pour-le-panasonic-s1/) et je n'ai aucun regret. Je n'ai jamais autant pris de plaisir qu'avec cette config lors de mes tournages. Certes le poids est non négligeable mais on l'oublie vite compte tenu de toutes les qualités que ce setup comporte. Au contraire, j'ai même volontairement alourdi ma rig avec une batterie v-mount et d'autres accessoires pour un rendu encore organique et naturel à main levée. C'est le setup que j'utilise pour toutes mes réalisation vidéos et qui m'a aussi suivi pour le tournage de notre documentaire Captain Yvon ["IMMERSION, 7 vies inspirées par la mer"](https://www.immersion-lefilm.fr/).
 
-***
+{{< photo src="panasonic-s1-jeremy-janin-1.jpg" alt="equipement video jeremy janin" >}}
+{{< photo src="panasonic-s1-jeremy-janin-4.jpg" alt="equipement video jeremy janin" >}}
 
-### Filmmaking
+Voici à quoi ma rig vidéo ressemble plus en détail :
 
-Le principal atout du X-T3 est son faible poids/encombrement, mais ça devient également son principal défaut quand il s'agit de filmer à main levée. C'est pourquoi j'ai imaginé un Setup RIG adapté à mon usage qui me permet de passer d'un petit appareil photo à un setup vidéo ultra versatile. Voici une liste des éléments qui composent ce setup : 
+- [Panasonic S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21) + mise à jour V-LOG
+- Moniteur [Atomos Shinobi](https://www.digit-photo.com/ATOMOS-Shinobi-Moniteur-5-4k-HDMI-HDR-rATOMOSATOMSHBH01.html?dpa_id=21)
+- Follow Focus Edelkrone
+- [Cage Smallrig pour Panasonic S1](https://amzn.to/2SW4U6J) | [Poignée Top handle Nitze](https://amzn.to/3d7PanZ)
+- [Base plate Smallrig](https://amzn.to/3xNmzvY) | [tiges Smallrig](https://amzn.to/2UyMJEN) | Support batterie [v-mount Tilta](https://amzn.to/3xOTuR9)
+- Batteries : V-mount [Baxxtar Pro II V95 compact](https://amzn.to/3gNau4k) | Sony NPF | 2x [Batteries Patona](https://www.digit-photo.com/PATONA-Batterie-Panasonic-DMW-BLJ31-rPATONA1319.html?dpa_id=21) pour Panasonic S1
+- Cartes mémoires [CF Express B Integral Ultima 128Go](https://www.digit-photo.com/INTEGRAL-Carte-Cfexpress-Type-B-2-0-128Gb-1600-1700MB-s-rINTEGRALINCFE128.html?dpa_id=21)
 
-* [Cage pour X-T3 - SmallRig 2228](https://www.digit-photo.com/SMALLRIG-2228-Cage-pour-Fuji-X-T3-rSMALLRIGD154561.html?dpa_id=23)
-* [Poignée latérale - SmallRig 2093](https://www.digit-photo.com/SMALLRIG-2093-Poignee-Laterale-Universelle-en-Bois-rSMALLRIGD149261.html?dpa_id=23)
-* [Poignée NATO - SmallRig 1955](https://www.digit-photo.com/SMALLRIG-1955-Poignee-Nato-rSMALLRIGD152811.html?dpa_id=23)
-* [Rods de 22.5cm en carbone - SmallRig 1690](https://amzn.to/3c1cFi7)
-* [Base Plate - SmallRig 1674](https://amzn.to/3vE9sN1)
-* [Tilta V-Mount Battery Plate](https://amzn.to/3c3SX5c)
-* [Batterie V-Mount V95 Compact](https://amzn.to/3fQdvz6)
-* [Follow Focus Edelkrone FocusONE](https://store-fr.edelkrone-eu.com/products/focusone)
-* [Micro RØDE VideoMic NTG](https://www.digit-photo.com/RODE-Microphone-VideoMic-NTG-Noir-rRODER100315.html?dpa_id=23) + [RØDE Softy](https://www.digit-photo.com/RODE-Protection-Micro-Anti-Vent-rRODER100317.html?dpa_id=23)
-* [Ecran de monitoring Desview R5](https://amzn.to/3ySNg3I)
-* [Filtres ND Hoya Pro](https://www.digit-photo.com/Filtres-vissants-aFA0032/Hoya/+choixMarque-821%7C?dpa_id=23)
-* [Filtres de diffusion CineBloom 10%](https://www.shopmoment.com/filters/diffusion-filters)
+{{< photo src="panasonic-s1-jeremy-janin-2.jpg" alt="equipement video jeremy janin" >}}
 
-***
 
-### Argentique
+**OBJECTIFS**
 
-{{< photoset always="2" >}}
-{{< photo src="portra400.jpg" alt="Equipement">}}
-{{< photo src="nikonosv.jpg" alt="Equipement">}}
-{{</ photoset >}}
+[Sigma ART 35mm f/1.4](https://www.digit-photo.com/SIGMA-35mm-f-1-4-DG-HSM-Art-Monture-L-rSIGMA340969.html?dpa_id=21) | Canon FD 24mm f/2.8 | Canon FD 35mm f/2 SSC | Canon FD 50mm f/3.5 macro SSC |  Canon FD 55mm f/1.2 SSC | Canon FD 85mm f/1.8 SSC
 
-Depuis la fin 2020, je retrouve les joies de [la photographie argentique](https://gregorymignard.com/analog/). Pas loin de la totalité de ma pratique photo personnelle se fait désormais sur pellicule. Parmi mes films favoris, on retrouve de la [Portra 800](https://www.digit-photo.com/KODAK-Portra-800asa-135-36Poses-rFPNK1451855.html?dpa_id=23) et de la [Ektar 100](https://www.digit-photo.com/KODAK-Ektar-100-Professionnel-135-36-poses-rKODAK1500277.html?dpa_id=23), mais également très souvent de la [Portra 400](https://www.digit-photo.com/KODAK-Portra-400-135-36-Poses-X5-rKFILM386.html?dpa_id=23). Il m'arrive parfois de charger un peu de noir & blanc ([400TX](https://www.digit-photo.com/KODAK-Tri-X-Pan135-400asa-36-Poses-rFNBK3872728.html?dpa_id=23) ou [HP5+](https://www.digit-photo.com/ILFORD-HP5-135-400asa-36-Poses-rFNBI1574577.html?dpa_id=23)) ou de la [Gold 200](https://www.digit-photo.com/KODAK-Gold-200-135-36-Poses-X3-rKODAK41880806.html?dpa_id=23). J'envoi mes négatifs à développer et scanner chez [Mori Film Lab](https://morifilmlab.com/), il m'arrive parfois de numériser par moi-même avec mon DSLR et le plugin [Negative Lab Pro](https://www.negativelabpro.com/).
+**FILTRES**
 
-Je shoote ces films avec les appareils suivants :
+- [XUME Manfrotto](https://www.digit-photo.com/MANFROTTO-XUME-Adaptateur-pour-Objectif-a-Fixation-Rapide-67mm-rMANMFXLA67.html?dpa_id=21) pour aimanter ses filtres au lieu de les visser
+- Filtres [ND8](https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND8-D67mm-rHOYAPROND867.html?dpa_id=21) et [ND64 HOYA PRO](https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND64-D67mm-rHOYAPROND6467.html?dpa_id=21)
+- [Filtre Tiffen Black Pro Mist 1/8](https://amzn.to/2TRjAEi) [(lire mon test ici)](http://jeremyjanin.com/filtre-tiffen-black-pro-mist-lequel-choisir/)
 
-* [Olympus XA](https://ebay.us/PvYGR2) - (Lien vers [ma review](https://gregorymignard.com/olympus-xa/) sur le blog)
-* [Nikon Fm2](https://ebay.us/d5ANCb)
-* [Nikonos V](https://ebay.us/p47TEI) - (Lien vers [ma review](https://gregorymignard.com/nikonos-v/) sur le blog)
-* [Fuji GW690iii](https://ebay.us/MWYxD3)
+**AUDIO**
 
-J'ai également complété cette collection argentique par une caméra Super 8 [Canon 312 XL-S](https://ebay.us/fliAe8) que j'utilise de manière occasionnelle avec des bandes de [Kodak Vision 3 50D](https://www.digit-photo.com/KODAK-Film-Vision3-50D-8mm-pour-Camera-Super-8-rKODAKKS850D.html?dpa_id=23).
+- Micros [Rode VideoMic Pro](http://amzn.to/2eUJUGG) | [Rode NTG4+](https://amzn.to/2OscJi1) | [Rode Blimp](https://amzn.to/3sRdm3s)
+- Enregistreurs [ZOOM H4N Pro](https://amzn.to/2OrgGTY) | [ZOOM H1n](https://amzn.to/3c4TEdF)
 
-***
+**ACCESSOIRES**
 
-### Studio
+- Sac photo [F-Stop Lotus](https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21) | insert [F-Stop Medium Shallow ICU](https://www.digit-photo.com/F-STOP-Fourre-Tout-Insert-Shallow-Icu-Medium-rFSTOPFSTM226.html?dpa_id=21)
+- [Zhiyun Weebill-S](https://amzn.to/2SNybfV)
+- [DJI Mavic 2 Pro](http://amzn.to/2o7zV2G)
 
-{{< photo src="studio.jpg" alt="Studio">}}
+### ARGENTIQUE
 
-J'utilise un [Mac mini M1](https://gregorymignard.com/mac-mini-m1/) avec Final Cut Pro X pour le montage vidéo ainsi qu'avec Lightroom CC pour le post-traitement photo. En complément et en mobilité, j'utilise un [iPad Pro 11](https://amzn.to/3vEf0am) avec un [Apple Pencil](https://amzn.to/3i64VPK) et le [Logitech Folio Touch](https://amzn.to/3fC2wKV).  
-Pour la partie stockage, j'utilise le Cloud Adobe pour mes photos, un [NAS Synology](https://amzn.to/3vq2daS) pour y stocker mes projets vidéo et des SSD [SanDisk Extreme](https://amzn.to/2TuXt6n) pour les déplacements et l'éditing avec FCPX.
+{{< photo src="equipement_video_jeremyjanin-1.jpg" alt="equipement video jeremy janin" >}}
+
+Je photographie quasi essentiellement à l'argentique aujourd'hui, avec 3 appareils avec des usages différents :
+
+- Olympus XA - _compact 35mm de poche_
+- Canon A1 - _35mm utilisé avec les objectifs cités dans la section vidéo au dessus_
+- Fuji GW690III - _Moyen format 6x9_
+
+Je les couple avec mes pellicules préférées que sont les [Kodak Portra 400](https://www.digit-photo.com/KODAK-Portra-400-135-36-Poses-X5-rKFILM386.html?dpa_id=21), [Kodak Portra 800](https://www.digit-photo.com/KODAK-Portra-800asa-135-36Poses-rFPNK1451855.html?dpa_id=21), [Kodak Ektar 100](https://www.digit-photo.com/KODAK-Ektar-100-Professionnel-135-36-poses-rKODAK1500277.html?dpa_id=21). Je shoote peu de noir et blanc mais quand je le fais, j'utilise la [Kodak Tri-X 400](https://www.digit-photo.com/KODAK-Tri-X-Pan135-400asa-36-Poses-rFNBK3872728.html?dpa_id=21) ou la [Kodak T-Max 400](https://www.digit-photo.com/KODAK-T-Max-135-400asa-36-Poses-rFNBK3841038.html?dpa_id=21).
+
+Je filme aussi à la Super 8 avec ma _Beaulieu 4008ZMII_ dont je suis absolument fan, couplé à un objectif Schneider Optivarion 6-66mm f/1.8 et des cartouches [Kodak Vision 3 50D](https://www.digit-photo.com/KODAK-Film-Vision3-50D-8mm-pour-Camera-Super-8-rKODAKKS850D.html?dpa_id=21).
+
+Je fais développer mes photos chez [Mori Film Lab](https://morifilmlab.com/) à Bruxelles et mes cartouches super 8, chez [Color Films Archives](https://colorfilmsarchives.com/) en France.
+
+### POST PRODUCTION
+
+{{< photo src="mac_mini_montage_video_jeremyjanin_13.jpg" alt="equipement video jeremy janin" >}}
+
+Là où je passe mon temps à éditer tous mes films. Bureau basé autour d'une config de Mac Mini pour le montage vidéo avec un eGPU et un setup à deux écrans. J'édite mes vidéos sur Final Cut Pro X. Pour en lire d'avantage à ce sujet, je vous invite à lire mon [article détaillé ici](http://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020).

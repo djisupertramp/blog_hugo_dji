@@ -1,6 +1,6 @@
 ---
-title: "Films & Documentaires - Grégory Mignard"
-seotitle: "Films & Documentaires - Grégory Mignard"
+title: "Films & Documentaires - Jeremy Janin"
+seotitle: "Films & Documentaires - Jeremy Janin"
 date: 2020-10-22T22:57:50+02:00
 draft: false
 type: "about"
@@ -10,34 +10,6 @@ resources:
   name: "cover"
 ---
 
-### Outline Ep.001 - Dehors !
-
-<div>
-{{< youtube PbDizRll11Q >}}
-</div>
-
-<center>
-🙎🏻‍♂️ Starring: Yves Quéré  
-🎞 Production: Captain Yvon Studio  
-🎥 DOP: Grégory Mignard
-</center>
-
-***
-
-### Asymétrie
-
-<div>
-{{< vimeo 463093392 >}}
-</div>
-
-<center>
-🏄 Surfeur: Camille Prigent, Maison Rivages  
-🎞 Production: Captain Yvon Studio  
-🎥 DOP: Grégory Mignard
-</center>
-
-***
-
 ### Léa Brassy x Latitude Manche
 
 <div>
@@ -45,9 +17,9 @@ resources:
 </div>
 
 <center>
-🏄 Surfeuse: Léa Brassy  
-🎞 Production: Captain Yvon Studio  
-🎥 DOP: Grégory Mignard & Jeremy Janin
+Surfeuse: Léa Brassy  
+Production: Captain Yvon Studio  
+DOP: Grégory Mignard & Jeremy Janin
 </center>
 
 ***
@@ -59,9 +31,9 @@ resources:
 </div>
 
 <center>
-🚴 Rider: Ambroise Hébert  
-🎞 Production: Captain Yvon Studio  
-🎥 DOP: Grégory Mignard & Jeremy Janin
+Rider: Ambroise Hébert  
+Production: Captain Yvon Studio  
+DOP: Grégory Mignard & Jeremy Janin
 </center>
 
 ***
@@ -73,7 +45,7 @@ resources:
 </div>
 
 <center>
-🚣 Kayakiste: Nathalie Jaffres  
-🎞 Production: Captain Yvon Studio  
-🎥 DOP: Grégory Mignard & Jeremy Janin
+Kayakiste: Nathalie Jaffres  
+Production: Captain Yvon Studio  
+DOP: Grégory Mignard & Jeremy Janin
 </center>

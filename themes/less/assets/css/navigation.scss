@@ -25,3 +25,25 @@
 .pagination li.disabled {
   opacity: 0.3;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.next-previous {
+  display: flex;
+  width:50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.next-previous div {
+    margin: 0 10px;
+}

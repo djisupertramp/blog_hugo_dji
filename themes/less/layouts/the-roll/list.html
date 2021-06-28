@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="main">
+	{{ range first 1 .Pages }}
+	<div class="main">
+		<header>
+			<h1>{{ .Title }}</h1>
+		</header>
+		{{.Content}}
+
+    <div class="next-previous">
+      <div class="previous-post">
+        {{ if .PrevInSection }}
+        <a class="link-reverse" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title | truncate 50 "..."}}
+          »</a>
+        {{ end }}
+      </div>
+		</div>
+	</div>
+	{{ end }}
+</div>
+{{ end }}

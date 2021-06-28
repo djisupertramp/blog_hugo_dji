@@ -7,11 +7,13 @@
 		</header>
 		{{.Content}}
 
-		<div class="previous-post">
-			{{ if .PrevInSection }}
-			<a class="link-reverse" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title | truncate 50 "..."}}
-				»</a>
-			{{ end }}
+    <div class="next-previous">
+      <div class="previous-post">
+        {{ if .PrevInSection }}
+        <a class="link-reverse" href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title | truncate 50 "..."}}
+          »</a>
+        {{ end }}
+      </div>
 		</div>
 	</div>
 	{{ end }}

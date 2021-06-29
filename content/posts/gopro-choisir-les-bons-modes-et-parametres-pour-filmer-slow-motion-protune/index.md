@@ -1,6 +1,6 @@
 ---
 title: "Choisir les bons modes et paramètres pour filmer avec sa GoPro"
-seotitle: "Choisir les bons réglages pour filmer avec sa GoPro : ski, surf, vtt, voyage, plongée... Mes conseils pour maitriser sa GoPro !"
+seotitle: "Choisir les bons réglages pour filmer avec sa GoPro... Mes conseils pour maitriser sa GoPro !"
 date: "2020-01-06"
 slug: "gopro-choisir-les-bons-modes-et-parametres-pour-filmer-slow-motion-protune"
 categories:

@@ -57,7 +57,7 @@ Voici à quoi ma rig vidéo ressemble plus en détail :
 
 {{< photo src="equipement_video_jeremyjanin-1.jpg" alt="equipement video jeremy janin" >}}
 
-Je photographie quasi essentiellement à l'argentique aujourd'hui, avec 3 appareils avec des usages différents :
+Je photographie presque essentiellement à l'argentique aujourd'hui, avec 3 appareils avec des usages différents :
 
 - Olympus XA - _compact 35mm de poche_
 - Canon A1 - _35mm utilisé avec les objectifs cités dans la section vidéo au dessus_

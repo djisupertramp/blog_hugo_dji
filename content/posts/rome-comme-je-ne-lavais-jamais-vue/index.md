@@ -5,7 +5,7 @@
   slug: "rome-comme-je-ne-lavais-jamais-vue"
   categories:
   - aventures
-  tags: ["voyage", "italie", "rome", "colisée"]
+  tags: ["voyage", "italie", "rome", "colisée", "conseils", "guide voyage rome", "que faire à rome"]
   description: "Rome comme je ne l'avais jamais vue."
   resources:
   - src: "cover.jpg"

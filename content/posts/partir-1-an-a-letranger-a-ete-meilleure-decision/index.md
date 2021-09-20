@@ -7,7 +7,7 @@
   - reflexions
   - aventures
   tags: ["aventure", "microaventure", "voyage", "canada", "australie", "PVT", "visa vacances travail", "conseils"]
-  description: "Pourquoi partir 1 an à l'étranger a été ma meilleure décision ?"
+  description: "PVT Canada et Australie... Pourquoi partir 1 an à l'étranger a été ma meilleure décision ?"
   resources:
   - src: "cover.jpg"
     name: "cover"

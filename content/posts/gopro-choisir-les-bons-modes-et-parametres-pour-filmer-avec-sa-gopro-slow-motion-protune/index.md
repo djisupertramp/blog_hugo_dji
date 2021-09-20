@@ -2,7 +2,7 @@
 title: "Choisir les bons modes et paramètres pour filmer avec sa GoPro"
 seotitle: "Choisir les bons réglages pour filmer avec sa GoPro... Mes conseils pour maitriser sa GoPro !"
 date: "2020-01-06"
-slug: "gopro-choisir-les-bons-modes-et-parametres-pour-filmer-slow-motion-protune"
+slug: "gopro-choisir-les-bons-modes-et-parametres-pour-filmer-avec-sa-gopro-slow-motion-protune"
 categories:
 - Materiel
 tags: ["video", "gopro", "HERO4", "HERO5", "HERO6", "HERO7", "HERO8", "HERO9", "filmer", "Go Pro", "camera de sport", "camera embarquée", "drone", "ski", "plongee", "vtt" , "voyage"]

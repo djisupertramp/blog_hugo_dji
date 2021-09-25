@@ -12,6 +12,23 @@ resources:
 
 Voici mon matériel photo et vidéo, pour filmer mes projets [Captain Yvon](http://captainyvon.fr), comme mes projets perso. Du voyage, du documentaire comme de l'outdoor, c'est le setup qui me convient.
 
+### ARGENTIQUE
+
+{{< photo src="equipement_video_jeremyjanin-1.jpg" alt="equipement video jeremy janin" >}}
+
+Je photographie presque essentiellement à l'argentique aujourd'hui, avec 3 appareils avec des usages différents :
+
+- Olympus Mju II - _point and shoot 35mm de poche_
+- Canon A1 - _35mm utilisé avec les objectifs cités dans la section vidéo ci-dessous_
+- Nikonos V - _35mm étanche pour la photo aquatique et de surf_
+
+Je les couple avec mes pellicules préférées que sont les [Kodak Portra 400](https://www.digit-photo.com/KODAK-Portra-400-135-36-Poses-X5-rKFILM386.html?dpa_id=21), [Kodak Portra 800](https://www.digit-photo.com/KODAK-Portra-800asa-135-36Poses-rFPNK1451855.html?dpa_id=21), [Kodak Ektar 100](https://www.digit-photo.com/KODAK-Ektar-100-Professionnel-135-36-poses-rKODAK1500277.html?dpa_id=21). Je shoote peu de noir et blanc mais quand je le fais, j'utilise la [Kodak Tri-X 400](https://www.digit-photo.com/KODAK-Tri-X-Pan135-400asa-36-Poses-rFNBK3872728.html?dpa_id=21) ou la [Kodak T-Max 400](https://www.digit-photo.com/KODAK-T-Max-135-400asa-36-Poses-rFNBK3841038.html?dpa_id=21).
+
+Je filme aussi à la Super 8 avec ma _Beaulieu 4008ZMII_ dont je suis absolument fan, couplé à un objectif Schneider Optivarion 6-66mm f/1.8 et des cartouches [Kodak Vision 3 50D](https://www.digit-photo.com/KODAK-Film-Vision3-50D-8mm-pour-Camera-Super-8-rKODAKKS850D.html?dpa_id=21).
+
+Je fais développer mes photos chez [Mori Film Lab](https://morifilmlab.com/) à Bruxelles et mes cartouches super 8, chez [Color Films Archives](https://colorfilmsarchives.com/) en France.
+
+
 ### MATERIEL VIDEO
 
 Après 6 ans sur la gamme Sony Alpha, [j'ai quitté Sony pour le Panasonic S1,](http://jeremyjanin.com/matos-photo-video-pourquoi-jai-quitte-sony-pour-le-panasonic-s1/) et je n'ai aucun regret. Je n'ai jamais autant pris de plaisir qu'avec cette config lors de mes tournages. Certes le poids est non négligeable mais on l'oublie vite compte tenu de toutes les qualités que ce setup comporte. Au contraire, j'ai même volontairement alourdi ma rig avec une batterie v-mount et d'autres accessoires pour un rendu encore organique et naturel à main levée. C'est le setup que j'utilise pour toutes mes réalisation vidéos et qui m'a aussi suivi pour le tournage de notre documentaire Captain Yvon ["IMMERSION, 7 vies inspirées par la mer"](https://www.immersion-lefilm.fr/).
@@ -52,22 +69,6 @@ Voici à quoi ma rig vidéo ressemble plus en détail :
 - Sac photo [F-Stop Lotus](https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21) | insert [F-Stop Medium Shallow ICU](https://www.digit-photo.com/F-STOP-Fourre-Tout-Insert-Shallow-Icu-Medium-rFSTOPFSTM226.html?dpa_id=21)
 - [Zhiyun Weebill-S](https://amzn.to/2SNybfV)
 - [DJI Mavic 2 Pro](http://amzn.to/2o7zV2G)
-
-### ARGENTIQUE
-
-{{< photo src="equipement_video_jeremyjanin-1.jpg" alt="equipement video jeremy janin" >}}
-
-Je photographie presque essentiellement à l'argentique aujourd'hui, avec 3 appareils avec des usages différents :
-
-- Olympus Mju II - _point and shoot 35mm de poche_
-- Canon A1 - _35mm utilisé avec les objectifs cités dans la section vidéo au dessus_
-- Nikonos V - _35mm étanche pour la photo aquatique et de surf_
-
-Je les couple avec mes pellicules préférées que sont les [Kodak Portra 400](https://www.digit-photo.com/KODAK-Portra-400-135-36-Poses-X5-rKFILM386.html?dpa_id=21), [Kodak Portra 800](https://www.digit-photo.com/KODAK-Portra-800asa-135-36Poses-rFPNK1451855.html?dpa_id=21), [Kodak Ektar 100](https://www.digit-photo.com/KODAK-Ektar-100-Professionnel-135-36-poses-rKODAK1500277.html?dpa_id=21). Je shoote peu de noir et blanc mais quand je le fais, j'utilise la [Kodak Tri-X 400](https://www.digit-photo.com/KODAK-Tri-X-Pan135-400asa-36-Poses-rFNBK3872728.html?dpa_id=21) ou la [Kodak T-Max 400](https://www.digit-photo.com/KODAK-T-Max-135-400asa-36-Poses-rFNBK3841038.html?dpa_id=21).
-
-Je filme aussi à la Super 8 avec ma _Beaulieu 4008ZMII_ dont je suis absolument fan, couplé à un objectif Schneider Optivarion 6-66mm f/1.8 et des cartouches [Kodak Vision 3 50D](https://www.digit-photo.com/KODAK-Film-Vision3-50D-8mm-pour-Camera-Super-8-rKODAKKS850D.html?dpa_id=21).
-
-Je fais développer mes photos chez [Mori Film Lab](https://morifilmlab.com/) à Bruxelles et mes cartouches super 8, chez [Color Films Archives](https://colorfilmsarchives.com/) en France.
 
 ### POST PRODUCTION
 

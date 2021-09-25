@@ -59,9 +59,9 @@ Voici à quoi ma rig vidéo ressemble plus en détail :
 
 Je photographie presque essentiellement à l'argentique aujourd'hui, avec 3 appareils avec des usages différents :
 
-- Olympus XA - _compact 35mm de poche_
+- Olympus Mju II - _point and shoot 35mm de poche_
 - Canon A1 - _35mm utilisé avec les objectifs cités dans la section vidéo au dessus_
-- Fuji GW690III - _Moyen format 6x9_
+- Nikonos V - _35mm étanche pour la photo aquatique et de surf_
 
 Je les couple avec mes pellicules préférées que sont les [Kodak Portra 400](https://www.digit-photo.com/KODAK-Portra-400-135-36-Poses-X5-rKFILM386.html?dpa_id=21), [Kodak Portra 800](https://www.digit-photo.com/KODAK-Portra-800asa-135-36Poses-rFPNK1451855.html?dpa_id=21), [Kodak Ektar 100](https://www.digit-photo.com/KODAK-Ektar-100-Professionnel-135-36-poses-rKODAK1500277.html?dpa_id=21). Je shoote peu de noir et blanc mais quand je le fais, j'utilise la [Kodak Tri-X 400](https://www.digit-photo.com/KODAK-Tri-X-Pan135-400asa-36-Poses-rFNBK3872728.html?dpa_id=21) ou la [Kodak T-Max 400](https://www.digit-photo.com/KODAK-T-Max-135-400asa-36-Poses-rFNBK3841038.html?dpa_id=21).
 

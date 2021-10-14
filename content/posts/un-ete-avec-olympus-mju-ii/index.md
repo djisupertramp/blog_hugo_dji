@@ -1,13 +1,12 @@
 ---
   title: "Un été avec mon Olympus Mju II"
   seotitle: "Test et review de l'Olympus Mju II, point and shoot argentique"
-  date: "2021-09-20"
+  date: "2021-10-14"
   slug: "un-ete-avec-olympus-mju-ii"
   categories:
   - materiel
-  - aventures
-  tags: ["aventure", "été", "Olympus", "Mju ii", "Mju", "test", "argentique", "point and shoot"]
-  description: "Un été à l'argentique avec l'Olympus Mju II"
+  tags: ["test", "été", "Olympus", "Mju ii", "Mju", "review", "argentique", "appareil photo", "point and shoot"]
+  description: "Un été à l'argentique avec l'Olympus Mju II, mon point and shoot favoris."
   resources:
   - src: "cover.jpg"
     name: "cover"

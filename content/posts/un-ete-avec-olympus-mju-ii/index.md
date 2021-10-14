@@ -61,4 +61,4 @@ Ces photos argentiques ne sont pas les plus incroyables, mais elles signifient b
 
 Les photos de cet article test de l'**Olympus Mju II** ont été prises avec de la [**Portra 400**](https://www.digit-photo.com/KODAK-Portra-400-135-36-Poses-X5-rKFILM386.html?dpa_id=21) / [**UltraMax 400**](https://www.digit-photo.com/KODAK-Ultramax-400-135-36-Poses-X3-rKODAK41024389.html?dpa_id=21) / [**T-Max 400**](https://www.digit-photo.com/KODAK-T-Max-135-400asa-36-Poses-rFNBK3841038.html?dpa_id=21) / [**Ilford HP5+**](https://www.digit-photo.com/ILFORD-HP5-135-400asa-36-Poses-rFNBI1574577.html?dpa_id=21)
 
-Envie d’échanger sur le sujet avec moi ? [Rejoins-moi sur Twitter](http://twitter.com/jeremy.janin) ou sur [Discord](https://discord.gg/rvk5DTwT8H) !
+Envie d’échanger sur le sujet avec moi ? [Rejoins-moi sur Twitter](http://twitter.com/jeremyjanin) ou sur [Discord](https://discord.gg/rvk5DTwT8H) !

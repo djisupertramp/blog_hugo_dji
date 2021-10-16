@@ -17,7 +17,7 @@ Les copyrights musicaux sur les plateformes vidéos ont amené de nombreuses 
 
 ( _A noter : je ne suis pas avocat et les propos que je tiens dans cet article sont uniquement ici à titre d'information et je ne saurais en aucun cas être tenu pour responsable d'un quelconque problème en lien avec les copyrights et ne saurais être considéré comme un quelconque représentant légal. Mes propos sont uniquement le fruit de mes recherches faites sur différents sites pour tenter d'éclaircir le sujet, mais si le moindre questionnement persiste, je recommande de prendre contact directement avec un avocat spécialisé, dont la parole fera foi._ )
 
-
+![](images/01.jpg)
 
 ### **LES DROITS D'AUTEURS**
 
@@ -92,6 +92,8 @@ Est également un délit de contrefaçon toute reproduction, représentation, ou
 **Article 335-4**
 
 Est punie de deux ans d'emprisonnement et de 300.000 euros d'amende toute fixation, reproduction, communication ou mise à disposition du public, à titre onéreux ou gratuit, ou toute télédiffusion d'une prestation, d'un phonogramme (enregistrement sonore), d'un vidéogramme (oeuvre audiovisuelle) ou d'un programme, réalisée sans l'autorisation, lorsqu'elle est exigée, de l'artiste interprète, du producteur de phonogramme ou de vidéogramme ou de l'entreprise de communication audiovisuelle Est punie des mêmes peines toute importation ou exportation de phonogrammes ou de vidéogrammes réalisée sans l'accord du producteur ou de l'artiste interprète, lorsqu'elle est exigée.
+
+![](images/02.jpg)
 
 ## QUELLES SONT LES SOLUTIONS ?
 

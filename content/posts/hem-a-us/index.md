@@ -16,6 +16,7 @@ Vivre une micro aventure à vélo pour relier Hem à Us avec du matériel second
 
 ![HEM À US, micro-aventure bikepacking et seconde main](images/08.jpg)
 ![HEM À US, micro-aventure bikepacking et seconde main](images/11.jpg)
+![HEM À US, micro-aventure bikepacking et seconde main](images/22.jpg)
 
 # Une micro-aventure bikepacking version seconde main en France
 
@@ -32,6 +33,7 @@ C’était donc acté, on allait rallier Hem à Us à vélo avec du matos de sec
 
 ![HEM À US, micro-aventure bikepacking et seconde main](images/12.jpg)
 ![HEM À US, micro-aventure bikepacking et seconde main](images/17.jpg)
+![HEM À US, micro-aventure bikepacking et seconde main](images/23.jpg)
 ![HEM À US, micro-aventure bikepacking et seconde main](images/05.jpg)
 
 # Comment on s'est équipé pour notre micro-aventure

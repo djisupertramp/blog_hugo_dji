@@ -67,6 +67,8 @@ On a écumé quelques Emmaüs et Recycleries pour trouver quelques vêtements, p
 
 Quand j'ai trouvé une petite ville appelée Us sur internet, c'était une première victoire. J'ai ensuite regardé le code postal. 95, c'est bon, déjà on allait pas devoir traverser toute la France. Je lance une recherche depuis mon [profil Komoot](https://www.komoot.fr/user/739261110267?ref=wud) "Hem" vers "Us" et là bingo. On cochait toutes les cases qu'on voulait : local, fun, dans une région pas très touristique.
 
+![HEM À US, micro-aventure bikepacking et seconde main](images/komoot01.png)
+![HEM À US, micro-aventure bikepacking et seconde main](images/komoot02.png)
 Pour pimenter tout ça, on a choisi un type de trace "gravel" pour ne pas faire que de la route et avec le recul, on a aucun regret, on se sera éclaté dans les petits chemins, en bord de terrils, dans les bois, à travers champs... Étant donné qu'on savait qu'on souhaitait filmer notre aventure, prendre le temps de faire des photos, on a décidé de se laisser 4 jours pour parcourir les 250km. C'est pour ça que j'adore utiliser le planificateur d'étapes Komoot car j'ai juste eu à sélectionner le nombre de jour, le niveau — ici _débutant_ pour prendre en compte nos petits vélos, et les arrêts photos. Je l'avais déjà utilisé lors de [mon trip bikepacking en Écosse avec mon père](https://jeremyjanin.com/bikepacking-fatbike-en-ecosse-avec-mon-pere/) et à chaque fois c'est royal. Komoot sépare les journées en des étapes équitables et on a juste à trouver un endroit où dormir chaque soir dans le coin.
 
 ![HEM À US, micro-aventure bikepacking et seconde main](images/13.jpg)
@@ -84,7 +86,7 @@ On s'est donc élancés de Hem sous quelques gouttes de pluie : le Nord pleure d
 C’était tellement cool comme aventure, qu’on s’est dit que ça serait vraiment chouette si vous aussi vous pouviez vivre ça. Donc à votre tour d’imaginer votre périple pour tenter de gagner les deux vélos Peugeot NS600 qui nous ont accompagné sur cette aventure 🔧
 
 Pour participer au concours, ça se passe sur Instagram :
-✅ abonnez-vous aux comptes Instagram [@sportplanetemaif](https://instagram.com/sportplanetemaif) et [@jeremy.janin](https://instagram.com/jeremy.janin)
+✅ Abonnez-vous aux comptes Instagram [@sportplanetemaif](https://instagram.com/sportplanetemaif) et [@jeremy.janin](https://instagram.com/jeremy.janin)
 ✅ Tracez votre trajet idéal (avec ou sans jeu de mot) en dessinant (ou avec une capture d’écran de carte)à faire avec ces 2 vélos en taguant la personne avec qui vous aimeriez partir
 ✅ Partagez l’itinéraire en Story Instagram publique et taguez @sportplanetemaif et @jeremy.janin pour que nous puissions sélectionner votre participation.
 

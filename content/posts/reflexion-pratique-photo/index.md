@@ -55,4 +55,4 @@ Et si c'était comme tout dans la vie ? Une question d'équilibre. Pas besoin de
 
 Je crois que c'est ça mon axe de progression pour cet hiver et 2022. Me ré-approprier la photographie, ré-aiguiser mon oeil et documenter, en détail comme en plan large. En numérique comme à l'argentique. Le proche comme le lointain. La passion comme métronome. L'appareil toujours à portée de main.
 
-Envie d’échanger sur le sujet avec moi ? [Rejoins-moi sur Twitter](http://twitter.com/jeremyjanin) ou sur [Discord](https://discord.gg/rvk5DTwT8H) !
+Envie d’échanger sur le sujet avec moi ? [Rejoins-moi sur Twitter](https://twitter.com/jeremyjanin) ou sur [Discord](https://discord.gg/rvk5DTwT8H) !

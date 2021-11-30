@@ -13,13 +13,13 @@
   - src: "*.jpg"
 ---
 
-La Norvège, c'est un vrai Kinder, quand on y goute, à chaque fois on a droit à une nouvelle surprise. J'en avais déjà pris plein les yeux à **[Tromsø](http://jeremyjanin.com/tromso-en-norvege "Tromso")** le premier jour, mais c'était rien comparé à ce que je m'apprêtais à vivre quelques heures plus tard... Je n'avais pas revu de neige depuis noël et même si j'ai toujours vécu près des montagnes, c'était quand même sacrément magique tout ces paysages immaculés, calmes, apaisants et apaisés.
+La Norvège, c'est un vrai Kinder, quand on y goute, à chaque fois on a droit à une nouvelle surprise. J'en avais déjà pris plein les yeux à **[Tromsø](http://jeremyjanin.com/tromso-en-norvege "Tromso")** le premier jour, mais c'était rien comparé à ce que je m'apprêtais à vivre quelques heures plus tard... Je n'avais pas revu de neige depuis noël et même si j'ai toujours vécu près des montagnes, c'était quand même sacrément magique tout ces paysages calmes, immaculés, apaisants et apaisés.
 
 ![Intro](images/Sans-titre-1.jpg)
 
 Après être partis à la nuit tombée de Tromsø à bord du MS Polarlys, le célèbre Express Côtier, voir les cotes norvégiennes depuis l'océan, c'est vraiment quelque chose. Si le vent glacial nous permettait de rester plus longtemps dehors, on l'aurait fait. Quand on est sur le pont, à regarder tout droit, à gauche, à droite (pas derrière c'est la porte!), les paysages changent à une vitesse... une montagne en remplace une autre, on sort d'un fjord pour mieux découvrir l'ocean arctique, on troque les rochers pour la glace, on échange la neige contre l'écume, même les nuages font place à un soleil radieux. Il est là, devant moi, il me tend les bras : l'Arctique. Oubliez ce que vous avez vu en cours de géo, les paysages sont incroyables, il faut le voir pour le croire. On est dans un autre monde, c'est fou, le blanc de la neige jure avec le blanc de la glace, tout comme le bleu de l'océan avec le bleu du ciel. On a envie de se jeter dedans (sauf qu'en vrai l'eau est à 2°c alors non!) du coup, on est des vrais gosses, quand on pose le pied à terre c'est pour une bataille de boule de neige, quand on en évite une à gauche, on se la prend sur la droite. On se court après pour se faire tomber, on se jette dans le bon mètre de neige fraiche en 1 seconde et on en met 10 à en ressortir. La neige a et aura toujours la capacité à nous faire revenir de vrais gosses en l'espace de quelques instants. C'est con hein ? MAIS C'EST BON!
 
-<iframe src="http://player.vimeo.com/video/63025023?color=ffffff" width="950" height="405" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://player.vimeo.com/video/63025023?color=ffffff" width="950" height="405" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
  _(C'est certainement l'une des pires vidéos que j'ai faite, je n'avais pas le temps de prendre un trépied, le froid m'empêchait de rester stable et c'était assez "speed" alors soyez indulgent, c'est vraiment un petit aperçu, juste pour que vous puissiez voir un tout petit peu comment ça peut être par là bas. Pardon.)_
 

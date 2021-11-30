@@ -13,7 +13,7 @@
   - src: "*.jpg"
 ---
 
-La Norvège, c'est un vrai Kinder, quand on y goute, à chaque fois on a droit à une nouvelle surprise. J'en avais déjà pris plein les yeux à **[Tromsø](http://jeremyjanin.com/tromso-en-norvege "Tromso")** le premier jour, mais c'était rien comparé à ce que je m'apprêtais à vivre quelques heures plus tard... Je n'avais pas revu de neige depuis noël et même si j'ai toujours vécu près des montagnes, c'était quand même sacrément magique tout ces paysages immaculés, calmes, apaisants et apaisés.
+La Norvège, c'est un vrai Kinder, quand on y goute, à chaque fois on a droit à une nouvelle surprise. J'en avais déjà pris plein les yeux à **[Tromsø](http://jeremyjanin.com/tromso-en-norvege "Tromso")** le premier jour, mais c'était rien comparé à ce que je m'apprêtais à vivre quelques heures plus tard... Je n'avais pas revu de neige depuis noël et même si j'ai toujours vécu près des montagnes, c'était quand même sacrément magique tout ces paysages calmes, immaculés, apaisants et apaisés.
 
 ![Intro](images/Sans-titre-1.jpg)
 

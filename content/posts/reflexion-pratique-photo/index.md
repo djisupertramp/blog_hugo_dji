@@ -4,7 +4,7 @@ seotitle: "Réflexion sur ma pratique photo : trouver l'équilibre entre numéri
 date: "2021-11-30"
 slug: "reflexion-pratique-photo"
 categories:
-- materiel
+- Reflexions
 tags: ["photographie", "argentique", "reflexion", "numérique", "rx100"]
 description: "Réflexion sur ma pratique photo : trouver l'équilibre entre numérique et argentique."
 resources:

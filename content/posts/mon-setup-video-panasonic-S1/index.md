@@ -43,7 +43,6 @@ Ils ont un caractère que j'adore, le flare est incroyable, notamment sur le 24m
 
 Niveau stockage des données, j'utilise les cartes CFexpress Type B, que je trouve nettement plus rapides que les SD, plus fiable et le temps de transfert une fois rentré à la maison pour la [sauvegarde via mon Mac mini](https://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020/) est vraiment plus rapide qu'une SD. J'ai investis dans un [**lecteur de carte Pro Grade**](https://amzn.to/3Dlq8N7) et je n'ai aucun regret vu la rapidité des transferts, surtout que je sauvegarde très souvent avec ces différents projets. Un vrai gain de temps.
 
-![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_8.jpg)
 ![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_2.jpg)
 
 # Les indispensables de mon setup vidéo documentaire
@@ -74,7 +73,7 @@ Pour pouvoir fixer plusieurs accessoires à mon LUMIX S1, il m'est indispensable
 Optionnel quand je veux passer à la rig complète avec plus d'autonomie et d'ergonomie :
 
 - [**Baseplate avec fixation pour tubes de 15mm**](https://amzn.to/3ov9uFW)
-- [**Tiges de 15mm Smallrig**]() pour supporter la fixation de la batterie V-MOUNT et le Follow focus
+- [**Tiges de 15mm Smallrig**](https://amzn.to/3osyuh3) pour supporter la fixation de la batterie V-MOUNT et le Follow focus
 - [**Support Tilta Mini V-Mount**](https://amzn.to/31twkFu) pour fixer à l'horizontal ou vertical la batterie V-Mount
 - [**Batterie Baxxtar Pro II V-Mount V95**](https://amzn.to/3pBLqkc) hyper compact, je la préfère aux V-Mount classiques car elle permet de réduire l'encombrement. La batterie me sert aussi de point de contact additionnel sur mon corps pour stabiliser les plans en marchant notamment et m'assure une autonomie de dingue au fil de la journée.
 - [**Follow Focus Edelkrone One**](https://edelkrone-eu.com/products/focusone) Je ne l'utilise pas toujours mais il fait très bien le job. Il est robuste et la roue est souple. Une vraie pépite d'ingénierie à un prix contenu. Je préfère un follow focus manuel à un sans fil électronique pour réduire ma dépendance aux batteries, et éliminer tout risque de bug ou de perte de temps d'appairage.

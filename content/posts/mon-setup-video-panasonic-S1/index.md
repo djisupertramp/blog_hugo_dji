@@ -1,12 +1,12 @@
 ---
 title: "Panasonic S1, mon setup vidéo"
-seotitle: "Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire"
+seotitle: "Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire"
 date: "2021-12-07"
 slug: "mon-setup-video-panasonic-S1"
 categories:
 - materiel
 tags: ["lumix", "S1", "S5", "S1H", "Panasonic", "review", "run and gun", "setup vidéo", "caméra", "documentaire", "vidéo", "rig", "camera rig"]
-description: "Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire"
+description: "Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire"
 resources:
 - src: "cover.jpg"
   name: "cover"
@@ -16,11 +16,13 @@ Aujourd'hui, je vais rentrer dans le détail du setup vidéo que j'utilise pour 
 
 En 2020, on a produit avec Greg notre premier documentaire de 52 minutes "IMMERSION, 7 vies inspirées par la mer" et nous avons eu ce besoin d'améliorer le setup pour être réactif tout en filmant des images de qualité. En parallèle, je travaille sur un documentaire personnel depuis 1 an et demi pour lequel je filme près de 2 semaines par mois. Même si comme je le disais dans mon article, j'ai longtemps considéré une BMPCC 6K, avoir un appareil photo qui filme bien semble être la meilleure option pour moi. Je reviendrais dans un article plus détaillé sur ce que j'aime avec le S1 mais aujourd'hui, je voulais m'attarder sur le setup que j'ai construit autour de ce boitier. Tout ce que je décris dans cet article est applicable au LUMIX S1, S1H ou S5 de Panasonic (sauf peut-être la cage qui diffèrera avec le S5) sinon tout est adaptable à ces boitiers LUMIX, si vous chercher à utiliser certaines pièces que j'utilise.
 
-![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_9.gif)
+![Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_9.gif)
 
-# Mes critères pour ce setup vidéo
+# Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire
 
-Je n'ai pas construit ce setup vidéo pour qu'il fasse "cinéma" et juste qu'il soit cool sur Instagram mais pour qu'il réponde vraiment à mes besoins assez "run and gun". À savoir :
+## Mes critères pour ce setup vidéo
+
+Je n'ai pas construit ce setup vidéo pour qu'il fasse "cinéma" ou juste qu'il soit cool sur Instagram mais pour qu'il réponde vraiment à mes besoins assez "run and gun" de tournage en documentaire, en solo ou à deux avec Greg pour nos prods Captain Yvon. À savoir :
 
 - Améliorer la prise en main
 - Augmenter la polyvalence du setup
@@ -29,9 +31,9 @@ Je n'ai pas construit ce setup vidéo pour qu'il fasse "cinéma" et juste qu'il 
 - Pouvoir capter le son et la vidéo quand je filme seul
 - Améliorer la visibilité de mes compositions
 
-{{< photoset always="2" >}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_9.jpg" alt="Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire">}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_10.jpg" alt="Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire">}} {{</ photoset >}}
+{{< photoset always="2" >}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_9.jpg" alt="Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire">}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_10.jpg" alt="Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire">}} {{</ photoset >}}
 
-# Le coeur de mon setup vidéo documentaire : Panasonic LUMIX S1 et optiques vintages Canon FD
+## Le coeur de mon setup vidéo documentaire : Panasonic LUMIX S1 et optiques vintages Canon FD
 
 Le coeur de ce setup est donc mon [Panasonic LUMIX S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21). Depuis que [je suis passé au Panasonic S1 après avoir été chez Sony](https://jeremyjanin.com/matos-photo-video-pourquoi-jai-quitte-sony-pour-le-panasonic-s1/) qui me permet de filmer en 4K (ou 6K suite à la dernière mise à jour), en 4.2.2 10bits selon le mode sélectionné. C'était un élément clé pour moi au moment de choisir ce boitier. Les mises à jour apportée au S1 depuis sa sortie ont vraiment boostées les capacités du boitier en vidéo pour se rapprocher non loin d'un S1H.
 
@@ -41,10 +43,10 @@ Ils ont un caractère que j'adore, le flare est incroyable, notamment sur le 24m
 
 Niveau stockage des données, j'utilise les cartes CFexpress Type B, que je trouve nettement plus rapides que les SD, plus fiable et le temps de transfert une fois rentré à la maison pour la [sauvegarde via mon Mac mini](https://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020/) est vraiment plus rapide qu'une SD. J'ai investis dans un [**lecteur de carte Pro Grade**](https://amzn.to/3Dlq8N7) et je n'ai aucun regret vu la rapidité des transferts, surtout que je sauvegarde très souvent avec ces différents projets. Un vrai gain de temps.
 
-![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_2.jpg)
-![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_3.jpg)
+![Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_2.jpg)
+![Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_3.jpg)
 
-# Les indispensables de mon setup vidéo documentaire
+## Les indispensables de mon setup vidéo documentaire
 
 Moniteur, cage, accessoires, batteries, follow focus... tous les indispensables à mon setup vidéo run and gun.
 
@@ -54,8 +56,8 @@ L'un des gros facteurs de décision de construire un vrai setup a été la volon
 
 Pour le son, pour la plupart des captations sur le vif, j'utilise le [Rode VideoMic Pro](https://www.digit-photo.com/RODE-Microphone-VideoMic-Pro-Rycote-rRODE100262.html?dpa_id=21). Si besoin, j'ai un zoom h1n avec micro-cravate pour une interview imprévue. Pour la captation d'interview posée, j'opte pour le [**Rode NTG4+**](https://www.digit-photo.com/RODE-Microphone-NTG4-Noir-rRODE100256.html?dpa_id=21) avec le ZOOM H4N Pro. Mais la majeur partie de mon temps est passée avec le VideoMic Pro pour capteur le son sur le vif.
 
-![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_4.jpg)
-![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_1.jpg)
+![Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_4.jpg)
+![Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_1.jpg)
 
 ### Cage et accessoires
 
@@ -77,9 +79,9 @@ Optionnel quand je veux passer à la rig complète avec plus d'autonomie et d'er
 - [**Batterie Baxxtar Pro II V-Mount V95**](https://amzn.to/3pBLqkc) hyper compact, je la préfère aux V-Mount classiques car elle permet de réduire l'encombrement. La batterie me sert aussi de point de contact additionnel sur mon corps pour stabiliser les plans en marchant notamment et m'assure une autonomie de dingue au fil de la journée.
 - [**Follow Focus Edelkrone One**](https://edelkrone-eu.com/products/focusone) Je ne l'utilise pas toujours mais il fait très bien le job. Il est robuste et la roue est souple. Une vraie pépite d'ingénierie à un prix contenu. Je préfère un follow focus manuel à un sans fil électronique pour réduire ma dépendance aux batteries, et éliminer tout risque de bug ou de perte de temps d'appairage.
 
-{{< photoset always="2" >}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_7.jpg" alt="Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire">}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_6.jpg" alt="Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire">}} {{</ photoset >}}
+{{< photoset always="2" >}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_7.jpg" alt="Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire">}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_6.jpg" alt="Panasonic LUMIX S1 : mon setup vidéo run and gun pour du documentaire">}} {{</ photoset >}}
 
-# Mon setup à l'usage
+## Mon setup à l'usage
 
 J'ai utilisé ce setup en partie sur le tournage d'[IMMERSION](https://www.immersion-lefilm.fr/) puis  sur celui de [*Slow Is Beautiful*](https://vimeo.com/625382741), et je l'ai développé encore ces dernières semaines. J'aime vraiment le confort qu'il m'apporte.
 

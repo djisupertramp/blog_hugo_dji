@@ -31,8 +31,6 @@ Je n'ai pas construit ce setup vidéo pour qu'il fasse "cinéma" et juste qu'il 
 
 {{< photoset always="2" >}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_9.jpg" alt="Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire">}} {{< photo src="images/setup_video_panasonic_S1_JeremyJanin_10.jpg" alt="Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire">}} {{</ photoset >}}
 
-![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_3.jpg)
-
 # Le coeur de mon setup vidéo documentaire : Panasonic LUMIX S1 et optiques vintages Canon FD
 
 Le coeur de ce setup est donc mon [Panasonic LUMIX S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21). Depuis que [je suis passé au Panasonic S1 après avoir été chez Sony](https://jeremyjanin.com/matos-photo-video-pourquoi-jai-quitte-sony-pour-le-panasonic-s1/) qui me permet de filmer en 4K (ou 6K suite à la dernière mise à jour), en 4.2.2 10bits selon le mode sélectionné. C'était un élément clé pour moi au moment de choisir ce boitier. Les mises à jour apportée au S1 depuis sa sortie ont vraiment boostées les capacités du boitier en vidéo pour se rapprocher non loin d'un S1H.
@@ -44,6 +42,7 @@ Ils ont un caractère que j'adore, le flare est incroyable, notamment sur le 24m
 Niveau stockage des données, j'utilise les cartes CFexpress Type B, que je trouve nettement plus rapides que les SD, plus fiable et le temps de transfert une fois rentré à la maison pour la [sauvegarde via mon Mac mini](https://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020/) est vraiment plus rapide qu'une SD. J'ai investis dans un [**lecteur de carte Pro Grade**](https://amzn.to/3Dlq8N7) et je n'ai aucun regret vu la rapidité des transferts, surtout que je sauvegarde très souvent avec ces différents projets. Un vrai gain de temps.
 
 ![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_2.jpg)
+![Panasonic LUMIX S1, objectifs Canon FD, cage, moniteur Atomos : mon setup vidéo run and gun pour du documentaire](images/setup_video_panasonic_S1_JeremyJanin_3.jpg)
 
 # Les indispensables de mon setup vidéo documentaire
 
@@ -82,11 +81,7 @@ Optionnel quand je veux passer à la rig complète avec plus d'autonomie et d'er
 
 # Mon setup à l'usage
 
-J'ai utilisé ce setup en partie sur le tournage d'[IMMERSION](https://www.immersion-lefilm.fr/) puis  sur celui de *Slow Is Beautiful*, et je l'ai développé encore ces dernières semaines. J'aime vraiment le confort qu'il m'apporte.
-
-<div>
-{{< vimeo 625382741 >}}
-</div>
+J'ai utilisé ce setup en partie sur le tournage d'[IMMERSION](https://www.immersion-lefilm.fr/) puis  sur celui de [*Slow Is Beautiful*](https://vimeo.com/625382741), et je l'ai développé encore ces dernières semaines. J'aime vraiment le confort qu'il m'apporte.
 
 Je l'utilise dans différentes configurations et l'une des plus réactives et faciles est celle avec la cage, le moniteur et le micro. Le follow focus est intéressant mais je ne l'utilise pas systématiquement. Dans cette config minimaliste, je peux transporter le boitier dans un petit sac à dos, l'avoir sans être trop intrusif ou sans que ça ne soit trop imposant au point d'intimider les personnes que je filme. Le setup n'est pas léger mais il permet aussi des mouvements plus naturels, pour éviter les micro-secousses, même si la stabilisation du capteur du S1 est incroyable pour ça. Mais j'essaie aussi de la désactiver pour un rendu parfois plus naturel pour éviter les "accoups du capteur" en marchant ou en me déplaçant. C'est dans cette config la plus minimaliste que je préfère l'utiliser mais chaque config a son avantage et je peux très facilement rajouter ou enlever une pièce en fonction des besoins du moment.
 

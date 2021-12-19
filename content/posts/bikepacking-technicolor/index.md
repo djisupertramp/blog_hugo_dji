@@ -19,22 +19,22 @@ Vous lirez souvent que si vous vous ennuyez sur vos sentiers locaux, essayez de 
 Dans le but de dépeindre une vision différente des aventures hivernales à vélo, je me suis amusé à capturer une autre vision de notre sortie VTT nocturne dans la nature à travers les couleurs et le contraste. J'ai embarqué mon trépied et un petit [panneau LED Aputure](https://www.digit-photo.com/APUTURE-MC-Lampe-LED-RGBWW-rAPUTUREMC.html?dpa_id=21) pour éclairer notre sentier et les textures de ce terrain de jeu redécouvert pour donner naissance à cette petite série photo version _technicolor_.
 
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_39.jpg)
+
+{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_22.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_32.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
+
+{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_57.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_56.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
+
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_8.jpg)
-
-{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_9.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_10.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
-
-{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_13.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_14.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
-
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_2.jpg)
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_29.jpg)
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_30.jpg)
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_54.jpg)
 
-{{< photoset always="4" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_16.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_17.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_18.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_19.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
+{{< photoset always="3" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_16.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_17.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_19.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
 
-{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_22.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_32.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
+{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_14.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_13.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
 
-{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_56.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_57.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
+{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_9.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_10.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
 
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_4.jpg)
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_45.jpg)
@@ -49,8 +49,8 @@ Dans le but de dépeindre une vision différente des aventures hivernales à vé
 {{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_51.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_53.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
 
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_23.jpg)
-![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_26.jpg)
-![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_28.jpg)
+
+{{< photoset always="2" >}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_26.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{< photo src="images/BikepackingTechnicolor_S1_JeremyJanin_28.jpg" alt="Série photo VTT bikepacking de nuit en technicolor">}} {{</ photoset >}}
+
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_34.jpg)
 ![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_41.jpg)
-![Série photo VTT bikepacking de nuit en technicolor](images/BikepackingTechnicolor_S1_JeremyJanin_58.jpg)

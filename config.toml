@@ -65,11 +65,11 @@ paginate = 12
   identifier = "the-roll"
   url = "/the-roll"
   [[menu.main]]
-    name = "Everyday"
-    title = "Everyday"
+    name = "moments"
+    title = "Moments"
     weight = 3
-    identifier = "Everyday"
-    url = "/everyday"
+    identifier = "Moments"
+    url = "/moments"
 [[menu.main]]
   name = "Blog"
   title = "Blog"

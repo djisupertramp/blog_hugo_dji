@@ -1,3 +1,4 @@
+
 baseURL = "https://jeremyjanin.com"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
@@ -12,6 +13,9 @@ paginate = 12
 
 [author]
   name = "Jeremy Janin"
+
+[build]
+  writeStats = true
 
 [permalinks]
   posts = "/:slug"

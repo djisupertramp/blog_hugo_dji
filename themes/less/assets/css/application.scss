@@ -1,3 +1,7 @@
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "node_modules/tailwindcss/utilities";
+
 :root {
   --serif-font: "{{ .Site.Params.bodyFont }}", serif;
   --title-font: "{{ .Site.Params.titleFont }}", var(--serif-font);
@@ -7,11 +11,12 @@
   --white-text: #FAFAFA;
   --white-background: #F3F3F3;
   --max-width: 74rem;
-  --light-gray: rgba(0,0,0,0.3)
+  --light-gray: rgba(0,0,0,0.3);
+  --gap: 18px;
 }
 
-@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.titleFont " " "+" }}');
-@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:300,900');
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.titleFont " " "+" }}:900');
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:300,300i,600');
 @import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.sansSerifFont " " "+" }}');
 @import "helpers";
 @import "form";
@@ -76,12 +81,10 @@ h1 {
 }
 h2, h1.medium {
   font-size: 2.9rem;
-  font-weight: normal;
-  text-transform: capitalize;
+  font-weight: 900;
 }
 h3 {
   font-size: 1.6rem;
-  text-transform: capitalize;
 }
 h4 {
   font-size: 1.6rem;
@@ -515,4 +518,11 @@ span.link-subtitle {
     margin-top: 8px;
     font-style: italic;
     font-size: 15px;
+}
+
+.mgrid img {
+  width: calc(100% - var(--gap, 18px));
+  height: calc(100% - var(--gap, 18px));
+  left: calc(var(--gap, 18px) * 0.5);
+  top: calc(var(--gap, 18px) * 0.5);
 }

@@ -1,3 +1,4 @@
+
 baseURL = "https://jeremyjanin.com"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
@@ -13,6 +14,9 @@ paginate = 12
 [author]
   name = "Jeremy Janin"
 
+[build]
+  writeStats = true
+
 [permalinks]
   posts = "/:slug"
   categories = "/:slug"
@@ -25,9 +29,9 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Open Sans"
-  titleFont = "Merriweather"
-  bodyFont = "Open Sans"
+  sansSerifFont = "Barlow"
+  titleFont = "Barlow"
+  bodyFont = "Barlow"
 
   hasLogo = true
   accentColor = "#037b80"
@@ -58,22 +62,22 @@ paginate = 12
   weight = 1
   identifier = "portfolio"
   url = "/"
-[[menu.main]]
-  name = "The Roll"
-  title = "Photographie argentique"
-  weight = 2
-  identifier = "the-roll"
-  url = "/the-roll"
+  [[menu.main]]
+    name = "moments"
+    title = "Moments"
+    weight = 3
+    identifier = "Moments"
+    url = "/moments"
 [[menu.main]]
   name = "Blog"
   title = "Blog"
-  weight = 3
+  weight = 4
   identifier = "blog"
   url = "/posts/"
 [[menu.main]]
   name = "À Propos"
   title = "Infos & Contact"
-  weight = 4
+  weight = 5
   identifier = "now"
   url = "/now"
 

@@ -1,8 +1,8 @@
 {{ block "header" . }}
 {{ if .Params.minimalHeader }}
     <header class="minimal_header">
-      <div class="wrapped">
-      <span class="title">
+      <div class="wrapped my-16">
+      <div class="title block ">
         <a href="/">
           {{ if .Site.Params.hasLogo }}
             <img src="/logo.svg" />
@@ -10,31 +10,31 @@
             {{ .Site.Title }}
           {{ end }}
         </a>
-      </span>
+      </div>
 
       {{ partial "social_icons" . }}
       </div>
     </header>
 {{ else }}
     <header class="main_header">
-      <div class="wrapped">
-      <span class="title">
-        <a href="/">
-          {{ if .Site.Params.hasLogo }}
-            <img src="/logo.svg" />
-          {{ else }}
-            {{ .Site.Title }}
-          {{ end }}
-        </a>
-      </span>
+      <div class="wrapped  ">
+        <div class="title block mt-8 mb-4">
+          <a href="/">
+            {{ if .Site.Params.hasLogo }}
+              <img class="h-9" src="/logo.svg" />
+            {{ else }}
+              {{ .Site.Title }}
+            {{ end }}
+          </a>
+        </div>
 
-      <input id="burger" type="checkbox" />
+        <input id="burger" type="checkbox" />
 
-      <label class="burger_label" for="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+        <label class="burger_label" for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
         {{ partial "social_icons" . }}
         {{ partial "main_menu" . }}
       </div>

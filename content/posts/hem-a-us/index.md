@@ -83,15 +83,4 @@ On s'est donc élancés de Hem sous quelques gouttes de pluie : le Nord pleure d
 {{< youtube -McCvcG8bYQ>}}
 </div>
 
-# Et si vous repartiez avec nos vélos ?
-
-C’était tellement cool comme aventure, qu’on s’est dit que ça serait vraiment chouette si vous aussi vous pouviez vivre ça. Donc à votre tour d’imaginer votre périple pour tenter de gagner les deux vélos Peugeot NS600 qui nous ont accompagné sur cette aventure 🔧
-
-Pour participer au concours, ça se passe sur Instagram :
-✅ Abonnez-vous aux comptes Instagram [@sportplanetemaif](https://instagram.com/sportplanetemaif) et [@jeremy.janin](https://instagram.com/jeremy.janin)
-✅ Tracez votre trajet idéal (avec ou sans jeu de mot) en dessinant (ou avec une capture d’écran de carte)à faire avec ces 2 vélos en taguant la personne avec qui vous aimeriez partir
-✅ Partagez l’itinéraire en Story Instagram publique et taguez @sportplanetemaif et @jeremy.janin pour que nous puissions sélectionner votre participation.
-
-Fin du jeu le 12/11/2021 à 14h00, un tirage au sort désignera les 2 gagnants.
-
 ![HEM À US, micro-aventure bikepacking et seconde main](images/21.jpg)

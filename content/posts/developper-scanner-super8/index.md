@@ -18,10 +18,6 @@ Depuis que j'ai commencé à filmer à la Super 8, je ne peux plus m'en passer. 
 
 		(!) À LIRE AUSSI... [Comment filmer à la Super 8 : tous mes conseils.](https://jeremyjanin.com/filmer-super8)
 
-<div>
-{{< youtube Qb6y1Kz9AOU}}
-</div>
-
 # Pourquoi je fais développer et scanner mes bobines Super 8 chez Mutascan ?
 
 J'en suis à près d'une dizaine de bobines développées chez [Mutascan](https://mutascan.film/) et comme je le dis dans mes 8 conseils pour filmer à la Super 8, il est crucial de trouver un bon labo, en qui on a confiance et dont le travail est propre. Initialement, je ne trouvais que des images de Finlandais quand je me suis renseigné sur eux donc j'avais du mal à savoir comment ça se passerait d'envoyer depuis la France vers chez eux. Quelques échanges de mails très réactifs plus tard, j'étais conquis et depuis, je suis sûr de ne plus jamais regarder en arrière. Ils investissent dans des scanners de haute qualité pouvant filmer de la Super 8 jusqu'en 4K, avec la possibilité d'avoir un fichier *LOG* et *ProRes 4444* sans sur-coût pour les plus aguerris ou des fichiers déjà traités au niveau des couleurs et dans un format moins lourd.
@@ -83,10 +79,6 @@ C'est important de stipuler à combien d'images par seconde vous aurez filmer.
 		(!) Personnellement, je filme en 18fps et sélectionne donc cette option dans ce menu déroulant
 
 Les autres options sont explicites, ajoutez autant de scans à votre panier qu'il y-a de bobines à numériser.
-
-<div>
-{{< youtube thGmMVeycDw}}
-</div>
 
 Voilà, il ne vous reste plus qu'à finaliser votre commande, préparer votre colis avec vos bobines et le tour est joué. Je choisis de toujours me faire renvoyer les bobines une fois numérisées, et j'en profite pour leur faire glisser une ou deux bobines neuves dans le colis pour couvrir mes besoins suivants.
 

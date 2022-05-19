@@ -17,10 +17,6 @@ Après une année à filmer à la Super 8, j'ai décidé de distillé mes consei
 
 {{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_5.jpg" alt="Comment filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_4.jpg" alt="Comment filmer à la Super 8">}} {{</ photoset >}}
 
-<div>
-{{< youtube thGmMVeycDw}}
-</div>
-
 # Quelle caméra pour filmer à la Super 8 ?
 
 Tout d'abord, pour filmer à la Super 8, il faut une caméra ! Il y-a énormément de modèles anciens disponibles sur le marché et il n'est pas évident de savoir comment choisir une caméra super 8.

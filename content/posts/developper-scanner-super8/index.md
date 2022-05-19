@@ -4,7 +4,7 @@ seotitle: "Où et comment développer et scanner ses bobines Super 8"
 date: "2022-05-08"
 slug: "developper-scanner-super8"
 categories:
-- materiel
+- Materiel
 tags: ["argentique", "super 8", "Beaulieu", "Kodak", "Bobine", "film", "Mutascan", "labo", "caméra", "Kodak Vision 3"]
 description: "Où et comment développer et scanner ses bobines Super 8"
 resources:

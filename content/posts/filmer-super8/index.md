@@ -4,7 +4,7 @@ seotitle: "Comment filmer avec une camera Super 8"
 date: "2022-05-08"
 slug: "filmer-super8"
 categories:
-- materiel
+- Materiel
 tags: ["argentique", "super 8", "Beaulieu", "Kodak", "Bobine", "film", "Mutascan", "labo", "camera", "Kodak Vision 3"]
 description: "Mes conseils pour savoir comment filmer en Super 8"
 resources:

@@ -4,7 +4,7 @@ seotitle: "8 conseils pour filmer à la Super 8"
 date: "2022-05-08"
 slug: "conseils-super8"
 categories:
-- materiel
+- Materiel
 tags: ["argentique", "super 8", "Beaulieu", "Kodak", "Bobine", "film", "Mutascan", "labo", "caméra", "Kodak Vision 3"]
 description: "8 conseils pour filmer à la Super 8"
 resources:

@@ -29,9 +29,9 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Space Mono"
+  sansSerifFont = "Barlow"
   titleFont = "Barlow"
-  bodyFont = "Space Mono"
+  bodyFont = "Barlow"
 
   hasLogo = true
   accentColor = "#037b80"

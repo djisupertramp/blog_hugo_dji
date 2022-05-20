@@ -18,6 +18,7 @@ Après une année à filmer à la Super 8, j'ai décidé de distillé mes consei
 ![Comment filmer à la Super 8](images/super8_jeremyjanin_1.jpg)
 {{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_5.jpg" alt="Comment filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_3.jpg" alt="Comment filmer à la Super 8">}} {{</ photoset >}}
 
+  
 ### Quelle caméra pour filmer à la Super 8 ?
 
 Tout d'abord, pour filmer à la Super 8, il faut une caméra ! Il y-a énormément de modèles anciens disponibles sur le marché et il n'est pas évident de savoir comment choisir une caméra super 8.
@@ -60,7 +61,7 @@ En moyenne, une fois la caméra achetée, comptez environ 45€ pour l'achat d'u
 
 Voilà, comment filmer à la Super 8 dans les grandes lignes. Je reviendrai plus en détails dans d'autres articles sur le développement et la numérisation des bobines, comment traiter l'image LOG une fois ses scans reçus etc... D'ici là, j'espère que ça vous aura permis d'y voir plus clair.
 
-![Comment filmer à la Super 8](images/super8_jeremyjanin_3.jpg)
+{{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_6.jpg" alt="Comment filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_7.jpg" alt="Comment filmer à la Super 8">}} {{</ photoset >}}
 
 En résumé, même si ce n'est pas donné, les souvenirs capturés à la Super 8 ont une saveur vraiment spéciale, inégalable d'un point de vue couleurs malgré toutes les retouches que vous voudrez, et puis l'expérience que de shooter avec une caméra ancienne font que c'est une combinaison dont je ne pourrais plus me passer aujourd'hui.
 

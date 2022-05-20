@@ -27,7 +27,7 @@ Tout d'abord, pour filmer à la Super 8, il faut une caméra ! Il y-a énorméme
 
 Il y-a aussi les Nizo, Bauer, Chinon etc...
 
-{{< youtube thGmMVeycDw >}}
+{{< video thGmMVeycDw >}}
 
 ### Où et comment acheter une caméra super 8 ?
 

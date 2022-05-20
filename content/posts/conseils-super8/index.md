@@ -32,9 +32,7 @@ Si vous achetez une bobine Kodak Vision 3 50D, la bobine est calibrée pour film
 
 Le développement et le Scan de vos images, c'est assurément LA partie à ne pas rater pour la Super 8. C'est cette étape qui va révéler vos images ! Ne perdez pas votre temps avec les scanners du commerce, une pellicule a une latitude incroyable dans l'image et ces scanners domestiques ruineraient ça. Faute de bon labo moderne en France pour développer et scanner la Super 8 (croyez moi, j'ai testé !), j'ai fait des recherches pour trouver un bon labo en Europe avec des prix qui resteraient abordables pour de la Super 8, et depuis que j'ai trouvé [**Mutascan**](https://mutascan.film/) à Helsinki, je ne regarde plus ailleurs. Leur service client est incroyable de gentillesse et de réactivité, et la qualité du développement et du scan est superbe, avec des scans hyper personnalisables en réglage, jusqu'en 4K.
 
-{{% tip %}}
 **À LIRE AUSSI... [Comment développer et scanner ses bobines Super 8 chez Mutascan : le processus complet](https://jeremyjanin.com/developper-scanner-super8)**
-{{% /tip %}}
 
 {{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_6.jpg" alt="8 conseils pour filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_5.jpg" alt="8 conseils pour filmer à la Super 8">}} {{</ photoset >}}
 
@@ -56,9 +54,7 @@ Sauf choix artistique délibéré pour un projet professionnel par exemple où l
 
 C'est comme pour de l'argentique, il vaut mieux sur-exposer que sous-exposer une bobine de film, contrairement aux caméras numériques. Donc si vous filmez en auto, assurez-vous d'avoir toujours assez de lumière par rapport à la sensibilité de votre bobine et l'ouverture de votre objectif. Si vous filmez en manuel, tâchez d'exposer correctement pour ne pas avoir d'image sous exposée, qui est difficile voire impossible à récupérer, même scannée en LOG.
 
-{{% tip %}}
 **À LIRE AUSSI...[Comment filmer à la Super 8 : tous mes conseils.](https://jeremyjanin.com/filmer-super8)**
-{{% /tip %}}
 
 ### 8 - Se renseigner et faire les bons choix.
 

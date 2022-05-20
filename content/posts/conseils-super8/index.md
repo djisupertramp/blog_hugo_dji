@@ -28,13 +28,13 @@ C'est LE piège de la Super 8. Il n'y-a (souvent) pas de voyant ou d'information
 
 Si vous achetez une bobine Kodak Vision 3 50D, la bobine est calibrée pour filmer en plein jour. Or, si vous optez pour une 200T ou 500T il s'agit de films "Tungsten", déjà corrigés pour filmer en intérieur notamment. Très souvent, les caméras Super 8 sont équipés d'un bouton qui permet d'activer un filtre orange dans la caméra et qui permet d'utiliser une bobine tungstène pour filmer en extérieur et corriger le rendu "bleu" naturel de la chimie de la bobine. Donc en fonction de votre choix de bobine, pensez à vérifier comment régler votre caméra pour filmer de jour ou de nuit, surtout si vous prenez une bobine tungstène.
 
-<div> {{< youtube thGmMVeycDw >}} </div> 
+{{< youtube thGmMVeycDw >}}
 
 ### 4 -  Ne pas négliger son labo de développement et de scan Super 8
 
 Le développement et le Scan de vos images, c'est assurément LA partie à ne pas rater pour la Super 8. C'est cette étape qui va révéler vos images ! Ne perdez pas votre temps avec les scanners du commerce, une pellicule a une latitude incroyable dans l'image et ces scanners domestiques ruineraient ça. Faute de bon labo moderne en France pour développer et scanner la Super 8 (croyez moi, j'ai testé !), j'ai fait des recherches pour trouver un bon labo en Europe avec des prix qui resteraient abordables pour de la Super 8, et depuis que j'ai trouvé [**Mutascan**](https://mutascan.film/) à Helsinki, je ne regarde plus ailleurs. Leur service client est incroyable de gentillesse et de réactivité, et la qualité du développement et du scan est superbe, avec des scans hyper personnalisables en réglage, jusqu'en 4K.
 
-	**À LIRE AUSSI... [Comment développer et scanner ses bobines Super 8 chez Mutascan : le processus complet](https://jeremyjanin.com/developper-scanner-super8)**
+**À LIRE AUSSI... [Comment développer et scanner ses bobines Super 8 chez Mutascan : le processus complet](https://jeremyjanin.com/developper-scanner-super8)**
 
 {{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_6.jpg" alt="8 conseils pour filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_5.jpg" alt="8 conseils pour filmer à la Super 8">}} {{</ photoset >}}
 

@@ -22,13 +22,13 @@ L'excitation des débuts une fois qu'on a sa caméra, c'est de vouloir tout film
 
 C'est LE piège de la Super 8. Il n'y-a (souvent) pas de voyant ou d'information lorsque la bobine est terminée donc si vous ne voulez pas filmer tout une journée alors que vous avez terminé votre bobine la veille, il faut surveiller de près combien de film il reste sur votre bobine. Une bobine fait 15 mètres de long. En filmant en 18 images par secondes, vous pouvez filmer autour de 3min 10ec, et autour de 2min 20sec si vous filmez en 24 images par secondes. Les caméras Super 8 sont pourvues d'un compteur, mais il n'est pas très précis, donc ce n'est pas évident de savoir exactement quand il n'y-a plus de bobine. Avec l'expérience, on arrive à ne pas manquer trop d'image. Une chose à savoir, c'est que si vous avez un doute, vous pouvez toujours sortir la bobine. Seuls les 7 derniers "frames" seront alors cramés par le contact avec la lumière (donc à peine une demi seconde d'image). Lors qu'une bobine est exposée, elle doit afficher *"exposed"* quand vous la sortez de la caméra.
 
-![8 conseils pour filmer à la Super 8](images/super8_jeremyjanin.gif)
-
 ### 3 - Tungsten ou Daylight : penser à régler sa caméra en fonction de la balance des blancs d'une bobine Super 8
 
 Si vous achetez une bobine Kodak Vision 3 50D, la bobine est calibrée pour filmer en plein jour. Or, si vous optez pour une 200T ou 500T il s'agit de films "Tungsten", déjà corrigés pour filmer en intérieur notamment. Très souvent, les caméras Super 8 sont équipés d'un bouton qui permet d'activer un filtre orange dans la caméra et qui permet d'utiliser une bobine tungstène pour filmer en extérieur et corriger le rendu "bleu" naturel de la chimie de la bobine. Donc en fonction de votre choix de bobine, pensez à vérifier comment régler votre caméra pour filmer de jour ou de nuit, surtout si vous prenez une bobine tungstène.
 
+<div>
 {{< youtube -McCvcG8bYQ >}}
+</div>
 
 ### 4 -  Ne pas négliger son labo de développement et de scan Super 8
 

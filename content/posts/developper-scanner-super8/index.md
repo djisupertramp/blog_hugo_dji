@@ -18,13 +18,13 @@ Depuis que j'ai commencé à filmer à la Super 8, je ne peux plus m'en passer. 
 
 **À LIRE AUSSI... [Comment filmer à la Super 8 : tous mes conseils.](https://jeremyjanin.com/filmer-super8)**
 
-# Pourquoi je fais développer et scanner mes bobines Super 8 chez Mutascan ?
+# OÙ FAIRE DÉVELOPPER ET SCANNER SES BOBINES SUPER 8 ?
 
 J'en suis à près d'une dizaine de bobines développées chez [Mutascan](https://mutascan.film/) et comme je le dis dans mes 8 conseils pour filmer à la Super 8, il est crucial de trouver un bon labo, en qui on a confiance et dont le travail est propre. Initialement, je ne trouvais que des images de Finlandais quand je me suis renseigné sur eux donc j'avais du mal à savoir comment ça se passerait d'envoyer depuis la France vers chez eux. Quelques échanges de mails très réactifs plus tard, j'étais conquis et depuis, je suis sûr de ne plus jamais regarder en arrière. Ils investissent dans des scanners de haute qualité pouvant filmer de la Super 8 jusqu'en 4K, avec la possibilité d'avoir un fichier *LOG* et *ProRes 4444* sans sur-coût pour les plus aguerris ou des fichiers déjà traités au niveau des couleurs et dans un format moins lourd.
 
 Pour vous aider à y voir plus clair dans cette marée d'options, voici comment je procède quand je passe commande pour faire développer et scanner mes bobines Super 8.
 
-{{< youtube thGmMVeycDw >}}
+{{< video thGmMVeycDw >}}
 
 # DEVELOPPER SES BOBINES SUPER 8
 

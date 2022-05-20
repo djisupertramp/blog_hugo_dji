@@ -15,7 +15,8 @@ resources:
 Filmer à la super 8 aujourd'hui, est non seulement attirant mais c'est devenu un de mes moyens favoris de capturer des souvenirs. Ça fait une dizaine d'années que je me suis pris de passion pour  filmer. J'ai commencé à l'époque où le 5DMkII révolutionnait le monde de la vidéo et aujourd'hui, je filme en 4K ou 6K avec des caméras toujours plus avancées. J'utilise ces caméras pour des projets de documentaire avec Captain Yvon, mais je m'aperçois que je filme pas ou peu pour documenter des moments du quotidiens ou plus perso. Il y-a 1 an et demi, je me suis relancé dans la pratique de l'argentique, ce qui m'a fait ouvrir les yeux sur ma passion et mon approche de l'image et comment j'aime photographier. Et puis, le déclic de filmer à la super 8 est venu de mon pote Jean qui a filmé un week-end dans les Alpes avec sa Super 8. Quand il m'a envoyé sa vidéo, je suis immédiatement tombé amoureux du format, du rendu de l'image et de la lenteur qu'imposait ce médium. J'étais persuadé que c'était un médium désuet et plus utilisé, mais c'est comme l'argentique : le film n'est pas mort, vive le film !
 Après une année à filmer à la Super 8, j'ai décidé de distillé mes conseils pour vous aider dans une série d'articles. J'ai poncé le sujet et j'aurais aimé avoir une ressource pour mieux comprendre la Super 8 avant de commencer.
 
-{{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_5.jpg" alt="Comment filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_4.jpg" alt="Comment filmer à la Super 8">}} {{</ photoset >}}
+![Comment filmer à la Super 8](images/super8_jeremyjanin_1.jpg)
+{{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_5.jpg" alt="Comment filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_3.jpg" alt="Comment filmer à la Super 8">}} {{</ photoset >}}
 
 ### Quelle caméra pour filmer à la Super 8 ?
 

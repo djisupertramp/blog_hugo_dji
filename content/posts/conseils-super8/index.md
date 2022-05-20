@@ -28,7 +28,7 @@ C'est LE piège de la Super 8. Il n'y-a (souvent) pas de voyant ou d'information
 
 Si vous achetez une bobine Kodak Vision 3 50D, la bobine est calibrée pour filmer en plein jour. Or, si vous optez pour une 200T ou 500T il s'agit de films "Tungsten", déjà corrigés pour filmer en intérieur notamment. Très souvent, les caméras Super 8 sont équipés d'un bouton qui permet d'activer un filtre orange dans la caméra et qui permet d'utiliser une bobine tungstène pour filmer en extérieur et corriger le rendu "bleu" naturel de la chimie de la bobine. Donc en fonction de votre choix de bobine, pensez à vérifier comment régler votre caméra pour filmer de jour ou de nuit, surtout si vous prenez une bobine tungstène.
 
-{{< youtube thGmMVeycDw >}}
+<div> {{< youtube thGmMVeycDw >}} </div> 
 
 ### 4 -  Ne pas négliger son labo de développement et de scan Super 8
 

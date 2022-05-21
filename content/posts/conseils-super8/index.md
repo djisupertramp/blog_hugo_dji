@@ -18,7 +18,7 @@ L'excitation des débuts une fois qu'on a sa caméra, c'est de vouloir tout film
 
 {{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_8.jpg" alt="8 conseils pour filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_9.jpg" alt="8 conseils pour filmer à la Super 8">}} {{</ photoset >}}
 
-
+  
 ### 2 - Surveiller combien de film Super 8 il vous reste
 
 C'est LE piège de la Super 8. Il n'y-a (souvent) pas de voyant ou d'information lorsque la bobine est terminée donc si vous ne voulez pas filmer tout une journée alors que vous avez terminé votre bobine la veille, il faut surveiller de près combien de film il reste sur votre bobine. Une bobine fait 15 mètres de long. En filmant en 18 images par secondes, vous pouvez filmer autour de 3min 10ec, et autour de 2min 20sec si vous filmez en 24 images par secondes. Les caméras Super 8 sont pourvues d'un compteur, mais il n'est pas très précis, donc ce n'est pas évident de savoir exactement quand il n'y-a plus de bobine. Avec l'expérience, on arrive à ne pas manquer trop d'image. Une chose à savoir, c'est que si vous avez un doute, vous pouvez toujours sortir la bobine. Seuls les 7 derniers "frames" seront alors cramés par le contact avec la lumière (donc à peine une demi seconde d'image). Lors qu'une bobine est exposée, elle doit afficher *"exposed"* quand vous la sortez de la caméra.
@@ -34,9 +34,7 @@ Si vous achetez une bobine Kodak Vision 3 50D, la bobine est calibrée pour film
 
 Le développement et le Scan de vos images, c'est assurément LA partie à ne pas rater pour la Super 8. C'est cette étape qui va révéler vos images ! Ne perdez pas votre temps avec les scanners du commerce, une pellicule a une latitude incroyable dans l'image et ces scanners domestiques ruineraient ça. Faute de bon labo moderne en France pour développer et scanner la Super 8 (croyez moi, j'ai testé !), j'ai fait des recherches pour trouver un bon labo en Europe avec des prix qui resteraient abordables pour de la Super 8, et depuis que j'ai trouvé [**Mutascan**](https://mutascan.film/) à Helsinki, je ne regarde plus ailleurs. Leur service client est incroyable de gentillesse et de réactivité, et la qualité du développement et du scan est superbe, avec des scans hyper personnalisables en réglage, jusqu'en 4K.
 
-<p class="bg-slate-400"
 **À LIRE AUSSI... [Comment développer et scanner ses bobines Super 8 chez Mutascan : le processus complet](https://jeremyjanin.com/developper-scanner-super8)**
-</p>
 
 {{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_6.jpg" alt="8 conseils pour filmer à la Super 8">}} {{< photo src="images/super8_jeremyjanin_5.jpg" alt="8 conseils pour filmer à la Super 8">}} {{</ photoset >}}
 

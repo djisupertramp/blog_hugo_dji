@@ -18,8 +18,8 @@ Depuis que j'ai commencé à filmer à la Super 8, je ne peux plus m'en passer. 
 
 **À LIRE AUSSI... [Comment filmer à la Super 8 : tous mes conseils.](https://jeremyjanin.com/filmer-super8)**
 
-![Où et comment développer et scanner ses bobines Super 8](images/super8_jeremyjanin_08.jpg)
-![Où et comment développer et scanner ses bobines Super 8](images/super8_jeremyjanin_09.jpg)
+![Où et comment développer et scanner ses bobines Super 8](images/super8_jeremyjanin_8.jpg)
+![Où et comment développer et scanner ses bobines Super 8](images/super8_jeremyjanin_9.jpg)
 
 # OÙ FAIRE DÉVELOPPER ET SCANNER SES BOBINES SUPER 8 ?
 
@@ -70,17 +70,15 @@ Une fois la résolution choisie, vous aurez plusieurs options à sélectionner :
 ### - Output format
 
 À vous de choisir le codec / format de fichier que vous préférez. MP4 est le plus simple et le plus léger, ProRes 4444 s'adresse plus aux pros ou si vous voulez la meilleure qualité possible, tout en sachant qu'un scan de bobine pèsera autour de 80Go !
-
 **Personnellement, j'opte pour le ProRes 4444.**
 
 ### - Prep for Scanning
 
 Il s'agit là d'une option pour dépoussiérer et nettoyer votre film une fois développé, avant de le passer à la numérisation. C'est obligatoire à mon sens. Vous n'avez qu'à sélectionner le nombre de bobines qu'il y-a à nettoyer. Si vous ne le faites pas, vous aurez plus de poussières, poils et autres éléments parasites sur la bobine au moment du scan.
 
-### Camera Frame Rate
+### - Camera Frame Rate
 
 C'est important de stipuler à combien d'images par seconde vous aurez filmer.
-
 **Personnellement, je filme en 18fps et sélectionne donc cette option dans ce menu déroulant**
 
 Les autres options sont explicites, ajoutez autant de scans à votre panier qu'il y-a de bobines à numériser.

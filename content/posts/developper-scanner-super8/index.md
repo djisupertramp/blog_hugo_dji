@@ -18,13 +18,17 @@ Depuis que j'ai commencé à filmer à la Super 8, je ne peux plus m'en passer. 
 
 **À LIRE AUSSI... [Comment filmer à la Super 8 : tous mes conseils.](https://jeremyjanin.com/filmer-super8)**
 
+![Où et comment développer et scanner ses bobines Super 8](images/super8_jeremyjanin_08.jpg)
+![Où et comment développer et scanner ses bobines Super 8](images/super8_jeremyjanin_09.jpg)
+
 # OÙ FAIRE DÉVELOPPER ET SCANNER SES BOBINES SUPER 8 ?
 
 J'en suis à près d'une dizaine de bobines développées chez [Mutascan](https://mutascan.film/) et comme je le dis dans mes 8 conseils pour filmer à la Super 8, il est crucial de trouver un bon labo, en qui on a confiance et dont le travail est propre. Initialement, je ne trouvais que des images de Finlandais quand je me suis renseigné sur eux donc j'avais du mal à savoir comment ça se passerait d'envoyer depuis la France vers chez eux. Quelques échanges de mails très réactifs plus tard, j'étais conquis et depuis, je suis sûr de ne plus jamais regarder en arrière. Ils investissent dans des scanners de haute qualité pouvant filmer de la Super 8 jusqu'en 4K, avec la possibilité d'avoir un fichier *LOG* et *ProRes 4444* sans sur-coût pour les plus aguerris ou des fichiers déjà traités au niveau des couleurs et dans un format moins lourd.
 
 Pour vous aider à y voir plus clair dans cette marée d'options, voici comment je procède quand je passe commande pour faire développer et scanner mes bobines Super 8.
 
-{{< video thGmMVeycDw >}}
+{{< video Qb6y1Kz9AOU >}}
+
 
 # DEVELOPPER SES BOBINES SUPER 8
 
@@ -37,6 +41,7 @@ Par exemple, choisissez *"Color Reversal"* si vous filmez avec une Ektachrome ou
 C'est à cette étape que ça se complexifie un petit peu et qu'il faut faire le plus de choix :
 
 ![Où et comment développer et scanner ses bobines Super 8](images/super8_jeremyjanin_01.jpg)
+
 
 ### 1 - RESOLUTION
 
@@ -60,8 +65,7 @@ Une fois la résolution choisie, vous aurez plusieurs options à sélectionner :
 
 *À gauche : scan en LOG brut de chez Mutascan / À droite : Même scan une fois que je l'ai post-traité*
 
-_**Personnellement, j'opte pour le Flat pour pouvoir faire la colorimétrie moi même.**_
-
+**Personnellement, j'opte pour le Flat pour pouvoir faire la colorimétrie moi même.**
 
 ### - Output format
 
@@ -77,9 +81,12 @@ Il s'agit là d'une option pour dépoussiérer et nettoyer votre film une fois d
 
 C'est important de stipuler à combien d'images par seconde vous aurez filmer.
 
-_**Personnellement, je filme en 18fps et sélectionne donc cette option dans ce menu déroulant**_
+**Personnellement, je filme en 18fps et sélectionne donc cette option dans ce menu déroulant**
 
 Les autres options sont explicites, ajoutez autant de scans à votre panier qu'il y-a de bobines à numériser.
+
+{{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_19.jpg" alt="Où et comment développer et scanner ses bobines Super 8">}} {{< photo src="images/super8_jeremyjanin_23.jpg" alt="Où et comment développer et scanner ses bobines Super 8">}} {{</ photoset >}}
+{{< photoset always="2" >}} {{< photo src="images/super8_jeremyjanin_10.jpg" alt="Où et comment développer et scanner ses bobines Super 8">}} {{< photo src="images/super8_jeremyjanin_28.jpg" alt="Où et comment développer et scanner ses bobines Super 8">}} {{</ photoset >}}
 
 Voilà, il ne vous reste plus qu'à finaliser votre commande, préparer votre colis avec vos bobines et le tour est joué. Je choisis de toujours me faire renvoyer les bobines une fois numérisées, et j'en profite pour leur faire glisser une ou deux bobines neuves dans le colis pour couvrir mes besoins suivants.
 

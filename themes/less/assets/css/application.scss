@@ -85,6 +85,7 @@ h2, h1.medium {
 }
 h3 {
   font-size: 1.6rem;
+  font-weight: 800;
 }
 h4 {
   font-size: 1.6rem;
@@ -101,9 +102,10 @@ h5 {
 
 h1, h2, h3, h4, h5 {
   margin: 0;
-  text-align: center;
+  text-align: left;
   font-weight: normal;
   font-family: var(--title-font);
+  max-width: 60rem !important;
 }
 .title {
   font-family: var(--title-font);

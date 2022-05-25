@@ -2,10 +2,10 @@
 title: "Breizhpacking"
 seotitle: "3 jours de bikepacking en Bretagne"
 date: "2022-05-25"
-slug: "Breizhpacking"
+slug: "breizhpacking"
 categories:
 - aventures
-tags: ["argentique", "bikepacking", "VTT", "Bretagne", "finistere","rockhopper"]
+tags: ["argentique", "bikepacking", "VTT", "Bretagne", "finistere","rockhopper", "xbiking"]
 description: "3 jours de bikepacking en Bretagne"
 resources:
 - src: "cover.jpg"
@@ -33,6 +33,7 @@ Se vanner, rouler, parler NBA. Changer de pellicule, rouler encore plus ou moins
 Manger. Filmer. Pédaler. Photographier. C'est ça la liberté !
 
 {{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Ultramax400_45.jpg" alt="Breizhpacking">}} {{< photo src="images/Breizhpacking_MjuII_Ultramax400_6.jpg" alt="Breizhpacking">}} {{</ photoset >}}
+
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_33.jpg)
 
 S'aventurer à travers les terres jusqu'à apercevoir la mer.
@@ -86,4 +87,4 @@ Se dire que le plus dur est derrière nous. Plus que quelques kilomètres avant 
 Rouler. Grimper. Se laisser aller.
 Redescendre dans la vallée. Pédaler encore. Remonter plus fort.
 Terminer les pellicules. Se féliciter. Se saluer.
-Il est déjà l'heure de rentrer. 
+Il est déjà l'heure de rentrer.

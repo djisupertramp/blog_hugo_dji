@@ -14,9 +14,9 @@ resources:
 ---
 
 Quitter Lille par le train de 7h51 et traverser la France au petit matin.  
-Arriver en Bretagne en début d'après-midi, retrouver la famille de [Grégory](https://gregorymignard.com).
+Arriver en Bretagne en début d'après-midi, retrouver la famille de [Grégory](https://gregorymignard.com).  
 Rattraper le temps perdu et partager un barbecue.  
-Préparer les vélos. Faire une balade pour tout vérifier et diner avec [Yannick](https://yannickschutz.com/) et Cloé.
+Préparer les vélos. Faire une balade pour tout vérifier et diner avec [Yannick](https://yannickschutz.com/) et Cloé.  
 Des cannellonis fait avec amour, partir pour un tour.  
 
 {{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Portra400_32.jpg" alt="Breizhpacking">}} {{< photo src="images/bzhpacking.GIF" alt="Breizhpacking">}} {{</ photoset >}}

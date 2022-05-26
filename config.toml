@@ -46,16 +46,17 @@ paginate = 12
   categories = "Catégories"
 
 [params.social]
-  email = "jeremy@captainyvon.fr"
+  email = "hello@jeremyjanin.com"
   domain = "Jeremy Janin"
   twitter = "jeremyjanin"
   instagram = "jeremy.janin"
-  youtube = "captainyvon"
+  youtube = "UCINkLmBgLVQwS3dNcSpHeeQ"
+  discord = "VuS8nCcmb8"
 
 [params.tinyletter]
   username = "captainyvon"
-  title = "Outline, la lettre"
-  description = "Si tu aimes ce que j’écris ici, alors je t’invite à t’abonner à notre newsletter Captain Yvon 'Outline'. "
+  title = "Poursuivre l'aventure..."
+  description = "Si tu aimes ce que j’écris ici, alors je t’invite à t’abonner à ma newsletter. "
 [[menu.main]]
   name = "Home"
   title = "Portfolio"

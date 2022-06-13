@@ -100,8 +100,6 @@ Cette v2.1 est une évolution moins majeure mais néanmoins importante de la ver
 
 {{< photoset always="2" >}} {{< photo src="images/rockhopper_64.jpg" alt="restauration Specialized RockHopper">}} {{< photo src="images/rockhopper_70.jpg" alt="restauration Specialized RockHopper">}} {{</ photoset >}}
 
-![restauration Specialized RockHopper](images/rockhopper_60.jpg)
-
 Pour l'heure, le vélo reste dans cette version, par flemme de le re-basculer en singlespeed en grande partie et puis m'éviter les nombreux montages / démontages à chaque nouveau trip prévu.
 
 J'ai aussi [cousu une sacoche de cadre sur-mesure](http://instagram.com/fieldpacks) en XPAC VX21 + Dyneema Gridstop + DCF 3.5oz, partiellement fixée en *bolt-on* par les vis de portes-bidons d'origine et par velcro, avec zip étanche de part et d'autres, assorti d'un *Jumbo Stem Bag* qui me permet de ranger une gourde Nalgene ou un petit appareil photo avec mon iPhone.

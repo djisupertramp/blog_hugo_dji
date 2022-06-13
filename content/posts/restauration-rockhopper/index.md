@@ -32,7 +32,9 @@ Quand j'ai commencé la restauration, j'hésitais à le repeindre ou à le conse
 Le vélo tel que je l'ai reçu, dans son jus, mais avec un potentiel que je décelais derrière ses bosses et ses cicatrices.
 
 {{< photoset always="2" >}} {{< photo src="images/rockhopper_3.jpg" alt="restauration Specialized RockHopper">}} {{< photo src="images/rockhopper_5.jpg" alt="restauration Specialized RockHopper">}} {{</ photoset >}}
+
 ![restauration Specialized RockHopper](images/rockhopper_2.jpg)
+
 {{< photoset always="2" >}} {{< photo src="images/rockhopper_27.jpg" alt="restauration Specialized RockHopper">}} {{< photo src="images/rockhopper_26.jpg" alt="restauration Specialized RockHopper">}} {{</ photoset >}}
 
 ### *Unloved Bike Project — Specialized RockHopper v1.0*
@@ -81,7 +83,9 @@ Une fois repeint, je suis reparti vers Lille où il ne me restait plus qu'à col
 ![restauration Specialized RockHopper](images/rockhopper_62.jpg)
 ![restauration Specialized RockHopper](images/rockhopper_61.jpg)
 ![restauration Specialized RockHopper](images/rockhopper_56.jpg)
+
 {{< photoset always="2" >}} {{< photo src="images/rockhopper_58.jpg" alt="restauration Specialized RockHopper">}} {{< photo src="images/rockhopper_63.jpg" alt="restauration Specialized RockHopper">}} {{</ photoset >}}
+
 ![restauration Specialized RockHopper](images/rockhopper_57.jpg)
 ![restauration Specialized RockHopper](images/rockhopper_60.jpg)
 
@@ -93,7 +97,9 @@ Cette v2.1 est une évolution moins majeure mais néanmoins importante de la ver
 
 ![restauration Specialized RockHopper](images/rockhopper_69.jpg)
 ![restauration Specialized RockHopper](images/rockhopper_67.jpg)
+
 {{< photoset always="2" >}} {{< photo src="images/rockhopper_64.jpg" alt="restauration Specialized RockHopper">}} {{< photo src="images/rockhopper_70.jpg" alt="restauration Specialized RockHopper">}} {{</ photoset >}}
+
 ![restauration Specialized RockHopper](images/rockhopper_60.jpg)
 
 Pour l'heure, le vélo reste dans cette version, par flemme de le re-basculer en singlespeed en grande partie et puis m'éviter les nombreux montages / démontages à chaque nouveau trip prévu.

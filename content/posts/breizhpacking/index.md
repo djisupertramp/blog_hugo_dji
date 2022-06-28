@@ -77,6 +77,7 @@ Dire au revoir à Yves qui doit rentrer. Jouer aux raquettes avec les gamins.
 Manger des brochettes, se doucher, puis se coucher en pensant déjà à demain.  
 
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_37.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_37.jpg)
 
 Nouveau petit déjeuner au beurre salé avant de remercier les copains pour leur hospitalité.  
 Une dernière caresse à Oggy. Objectif Sizun avant midi.  
@@ -89,4 +90,10 @@ Se dire que le plus dur est derrière nous. Plus que quelques kilomètres avant 
 Rouler. Grimper. Se laisser aller.  
 Redescendre dans la vallée. Pédaler encore. Remonter plus fort.  
 Terminer les pellicules. Se féliciter. Se saluer.  
-Il est déjà l'heure de rentrer.  
+Il est déjà l'heure de rentrer.
+
+{{< video yjlX66-oMk8 >}}
+
+Retrouvez aussi le [récit de Greg](https://gregorymignard.com/breizhpacking/) ainsi que la trace GPS de l'itinéraire sur [mon profil Komoot.](https://www.komoot.fr/user/739261110267)
+
+<iframe src="https://www.komoot.fr/tour/817196784/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>

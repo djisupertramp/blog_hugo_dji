@@ -110,4 +110,5 @@ Il est déjà l'heure de rentrer.
 
 Retrouvez aussi le [récit de Greg](https://gregorymignard.com/breizhpacking/) ainsi que la trace GPS de l'itinéraire sur [mon profil Komoot.](https://www.komoot.fr/user/739261110267)
 
-<div><iframe src="https://www.komoot.fr/tour/817196784/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe></div>
+<iframe src="https://www.komoot.fr/tour/817196784/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.komoot.fr/tour/689571867/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>

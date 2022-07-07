@@ -21,7 +21,7 @@ Des cannellonis fait avec amour, partir pour un tour.
 
 {{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Portra400_32.jpg" alt="Breizhpacking">}} {{< photo src="images/bzhpacking.GIF" alt="Breizhpacking">}} {{</ photoset >}}
 
-Sangler les sacoches. Charger une pelloche. Lancer [Komoot](https://www.komoot.fr/user/739261110267). Suivre la route.  
+Sangler les sacoches. Mettre une pelloche. Charger la trace GPS, suivre les recommandations de [Komoot](https://www.komoot.fr/user/739261110267) et tailler la route.
 Saluer Yves, rouler à allure plus ou moins vive.  
 Rigoler. Rouler. Pédaler.  
 Faire une pause et prendre la pose. Faire une photo. Puis deux. Puis trois.  
@@ -37,6 +37,7 @@ Manger. Filmer. Pédaler. Photographier. C'est ça la liberté !
 {{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Ultramax400_45.jpg" alt="Breizhpacking">}} {{< photo src="images/Breizhpacking_MjuII_Ultramax400_6.jpg" alt="Breizhpacking">}} {{</ photoset >}}
 
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_33.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_23.jpg)
 
 S'aventurer à travers les terres jusqu'à apercevoir la mer.  
 Longer les cailloux de Kerlouan et demander une photo à un passant.  
@@ -57,6 +58,11 @@ Arriver à l'heure dorée. Roscoff comme ligne d'arrivée.
 Soirée pizza-koh lanta. Une douche, un morceau de chocolat : bikepacking version tout confort, une tisane et tout le monde dort.  
 
 {{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Portra400_12.jpg" alt="Breizhpacking">}} {{< photo src="images/Breizhpacking_MjuII_Portra400_20.jpg" alt="Breizhpacking">}} {{</ photoset >}}
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_28.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_39.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_47.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_49.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_50.jpg)
 
 Avaler le petit déjeuner option beurre demi-sel et se remettre en selle.  
 Remplir les bidons pour la journée et essuyer la rosée. Les premiers coups de pédales font grimacer.  
@@ -76,8 +82,13 @@ Arriver à Berrien. Passer voir [la cabane "Douarenn"](https://www.instagram.com
 Dire au revoir à Yves qui doit rentrer. Jouer aux raquettes avec les gamins.  
 Manger des brochettes, se doucher, puis se coucher en pensant déjà à demain.  
 
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_57.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_61.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_23.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_4.jpg)
+{{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Ultramax400_17.jpg" alt="Breizhpacking">}} {{< photo src="images/Breizhpacking_MjuII_Portra400_27.jpg" alt="Breizhpacking">}} {{</ photoset >}}
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_37.jpg)
-![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_37.jpg)
+![Breizhpacking](images/Breizhpacking_MjuII_Portra400_15.jpg)
 
 Nouveau petit déjeuner au beurre salé avant de remercier les copains pour leur hospitalité.  
 Une dernière caresse à Oggy. Objectif Sizun avant midi.  
@@ -96,4 +107,4 @@ Il est déjà l'heure de rentrer.
 
 Retrouvez aussi le [récit de Greg](https://gregorymignard.com/breizhpacking/) ainsi que la trace GPS de l'itinéraire sur [mon profil Komoot.](https://www.komoot.fr/user/739261110267)
 
-<iframe src="https://www.komoot.fr/tour/817196784/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+<div><iframe src="https://www.komoot.fr/tour/817196784/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe></div>

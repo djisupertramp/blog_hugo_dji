@@ -58,6 +58,7 @@ Arriver à l'heure dorée. Roscoff comme ligne d'arrivée.
 Soirée pizza-koh lanta. Une douche, un morceau de chocolat : bikepacking version tout confort, une tisane et tout le monde dort.  
 
 {{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Portra400_12.jpg" alt="Breizhpacking">}} {{< photo src="images/Breizhpacking_MjuII_Portra400_20.jpg" alt="Breizhpacking">}} {{</ photoset >}}
+
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_28.jpg)
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_39.jpg)
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_47.jpg)
@@ -82,11 +83,13 @@ Arriver à Berrien. Passer voir [la cabane "Douarenn"](https://www.instagram.com
 Dire au revoir à Yves qui doit rentrer. Jouer aux raquettes avec les gamins.  
 Manger des brochettes, se doucher, puis se coucher en pensant déjà à demain.  
 
+![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_4.jpg)
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_57.jpg)
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_61.jpg)
-![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_23.jpg)
-![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_4.jpg)
+
+
 {{< photoset always="2" >}} {{< photo src="images/Breizhpacking_MjuII_Ultramax400_17.jpg" alt="Breizhpacking">}} {{< photo src="images/Breizhpacking_MjuII_Portra400_27.jpg" alt="Breizhpacking">}} {{</ photoset >}}
+
 ![Breizhpacking](images/Breizhpacking_MjuII_Ultramax400_37.jpg)
 ![Breizhpacking](images/Breizhpacking_MjuII_Portra400_15.jpg)
 

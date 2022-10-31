@@ -66,7 +66,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #e4e4e4;
+  border-bottom: 2px solid ##b8dad9;
 }
 
 a:hover {
@@ -81,18 +81,19 @@ h1 {
 }
 h2, h1.medium {
   font-size: 2.9rem;
-  font-weight: 900;
+  font-weight: 600;
 }
 h3 {
   font-size: 1.6rem;
-  font-weight: 800;
+  font-weight: 500;
 }
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 h5 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 .post h2 {
   font-size: 1.6rem;

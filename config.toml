@@ -29,9 +29,9 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Roboto"
-  titleFont = "Barlow"
-  bodyFont = "Roboto"
+  sansSerifFont = "Lora"
+  titleFont = "Poppins"
+  bodyFont = "Lora"
 
   hasLogo = true
   accentColor = "#037b80"
@@ -85,6 +85,6 @@ paginate = 12
   name = "categories"
   weight =  1 # We don't really need this, but omitting it would disable the indice.
   includeNewer = true
-  
+
 [markup.goldmark.renderer]
   unsafe= true

@@ -29,9 +29,9 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Lora"
-  titleFont = "Poppins"
-  bodyFont = "Lora"
+  sansSerifFont = "Lato"
+  titleFont = "Vollkorn"
+  bodyFont = "Lato"
 
   hasLogo = true
   accentColor = "#037b80"

@@ -15,8 +15,8 @@
   --gap: 18px;
 }
 
-@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.titleFont " " "+" }}:600');
-@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:400,400i,600');
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.titleFont " " "+" }}:800');
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:300,300i,600');
 @import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.sansSerifFont " " "+" }}');
 @import "helpers";
 @import "form";
@@ -55,7 +55,7 @@ body {
   height: 100%;
   color: var(--onyx);
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   font-family:  var(--serif-font);
@@ -81,19 +81,19 @@ h1 {
 }
 h2, h1.medium {
   font-size: 2.9rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 h3 {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 h4 {
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 h5 {
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 .post h2 {
   font-size: 1.6rem;
@@ -151,7 +151,7 @@ footer {
     color: var(--white-text);
     padding-bottom: 2px;
     text-shadow: -1px -1px 0 var(--onyx), 1px -1px 0 var(--onyx), -1px 1px 0 var(--onyx), 1px 1px 0 var(--onyx);
-    background-image: linear-gradient(to top, transparent, transparent 2px, #f8f8f8 2px, #f8f8f8 2.5px, transparent 2.5px);
+    background-image: linear-gradient(to top, transparent, transparent 2px, #ffffff 2px, #ffffff 2.5px, transparent 2.5px);
     border-bottom: none;
   }
 }

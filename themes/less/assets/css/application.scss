@@ -16,7 +16,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.titleFont " " "+" }}:400');
-@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:400,400i,600');
+@import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:300,300i,600');
 @import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.sansSerifFont " " "+" }}');
 @import "helpers";
 @import "form";
@@ -55,12 +55,12 @@ body {
   height: 100%;
   color: var(--onyx);
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   font-family:  var(--serif-font);
   text-rendering: optimizeLegibility;
-  line-height: 1.62;
+  line-height: 2;
 }
 
 a {

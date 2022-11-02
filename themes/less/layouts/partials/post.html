@@ -23,7 +23,7 @@
       </span>
     <h3>
         {{ .post.Params.emoji }}
-        <a class="title bold no-decoration" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
+        <a class="title no-decoration" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
     </h3>
     <p>
       {{ .post.Summary | replaceRE "(?ms)(<(figure|blockquote).*</(figure|blockquote)>)" "" | safeHTML | truncate 200 }}

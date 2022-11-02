@@ -30,7 +30,7 @@ paginate = 12
   tags = []
 
   sansSerifFont = "Roboto"
-  titleFont = "Roboto"
+  titleFont = "Oswald"
   bodyFont = "Roboto Slab"
 
   hasLogo = true

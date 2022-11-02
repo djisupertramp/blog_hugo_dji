@@ -29,9 +29,9 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Roboto"
-  titleFont = "Barlow"
-  bodyFont = "Roboto"
+  sansSerifFont = "Questrial"
+  titleFont = "Merriweather"
+  bodyFont = "Questrial"
 
   hasLogo = true
   accentColor = "#037b80"
@@ -50,7 +50,7 @@ paginate = 12
   domain = "Jeremy Janin"
   twitter = "jeremyjanin"
   instagram = "jeremy.janin"
-  youtube = "UCINkLmBgLVQwS3dNcSpHeeQ"
+  youtube = "djisupertramp"
 
 [params.tinyletter]
   username = "captainyvon"
@@ -85,6 +85,6 @@ paginate = 12
   name = "categories"
   weight =  1 # We don't really need this, but omitting it would disable the indice.
   includeNewer = true
-  
+
 [markup.goldmark.renderer]
   unsafe= true

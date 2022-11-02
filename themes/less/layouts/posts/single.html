@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{ $image := .Resources.GetMatch "cover" | default (index (.Resources.ByType "image") 0) }}
-<div class="post-img" style="background: url('{{ $image.Permalink }}') no-repeat 50% / cover"></div>
 <div class="post-title">
   <span class="category">
     {{ range first 1 .Params.categories }}
@@ -8,7 +7,7 @@
     {{ end }} —
     {{ .Date.Day }} {{ index .Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
   </span>
-  <h1 class="medium uppercase">{{ .Params.emoji}} {{ .Title }}</h1>
+  <h1>{{ .Params.emoji}} {{ .Title }}</h1>
   <h3>{{ .Params.subtitle }}</h3>
 </div>
 <div data-pswp class="main post">

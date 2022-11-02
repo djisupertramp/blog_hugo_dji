@@ -30,7 +30,7 @@ paginate = 12
   tags = []
 
   sansSerifFont = "Questrial"
-  titleFont = "Orelega One"
+  titleFont = "Merriweather"
   bodyFont = "Questrial"
 
   hasLogo = true

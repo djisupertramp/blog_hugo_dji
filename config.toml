@@ -29,8 +29,8 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Roboto Slab"
-  titleFont = "Oswald"
+  sansSerifFont = "Roboto"
+  titleFont = "Roboto"
   bodyFont = "Roboto Slab"
 
   hasLogo = true

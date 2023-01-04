@@ -14,7 +14,7 @@ resources:
 ---
 Bien inspiré par les listes de 100 trucs cools de mes amis [Yannick](https://yannickschutz.com/100-trucs-2022/) et [Greg](https://gregorymignard.com/100-trucs-cool-en-2022/) et avec l'envie de faire une rétrospective sur cette année, j'ai voulu faire différemment mais finalement ce ton léger sans s'étaler me plait bien, alors c'est parti ! J’avais commencé à le faire pour 2021, mais je ne l’ai jamais publié, donc j’ai tout effacé et je le fais pour 2022. Il en manque sûrement plein, mais c’est pas évident de repenser à tout.
 
-{{< photo src="cover.jpg" alt="100 trucs cools en 2022" >}}
+{{< photo src="images/cover.jpg" alt="100 trucs cools en 2022" >}}
 
 Bref, en 2022, j’ai …
 
@@ -214,7 +214,7 @@ Bref, en 2022, j’ai …
 
 98 - Du coup, j’ai acheté une chaise Helinox à emmener avec moi en bikepacking parce que j’aime pas m’assoir par terre, ça fait mal au c*l. (Oui, je deviens vieux)
 
-99 - Arrêté de lutter à vouloir me persuadé à rester sur ce que je pense aimé, mais accepté que mes goûts évoluent. Surtout en photo. Ce n'est pas parce que j'adore l'outdoor, que je n'ai pas le droit d'aimer photographier en ville.
+99 - Arrêté de lutter à vouloir me persuader à rester sur ce que je pense aimer, mais plutôt accepter que mes goûts évoluent. Surtout en photo. Ce n'est pas parce que j'adore l'outdoor, que je n'ai pas le droit d'[aimer photographier en ville](https://jeremyjanin.com/routine-decousue/).
 
 100 - Été heureux. Même si tout n’est pas passé comme prévu, même si je n’ai pas fait tout ce que je voulais. C’était quand même une chouette année.
 

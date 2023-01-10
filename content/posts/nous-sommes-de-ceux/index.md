@@ -37,6 +37,6 @@ Nous sommes de ceux qui évitent de trop en dire aux proches avant chaque étape
 
 Nous pensons à ceux qui l’intériorisent, à ceux qui craquent, à ceux qui se séparent, à ceux qui ne savent pas comment l’annoncer, à ceux qui sont seuls, à ceux qui n’ont pas de solution, à ceux qui ont cessé d’y croire, à ceux qui font une pause, à ceux qui commencent, à ceux qui s’accrochent, à ceux qui souffrent, à ceux qui explosent en route, à ceux qui ont réussi. Nous sommes de ceux qui ont fait un pari sans certitude de résultat. Nous sommes de ceux qui se sont lancés sur un itinéraire (bis) sans savoir si un jour nous arriverons à destination.
 
-Nous sommes de ceux qui sont en PMA. Nous sommes de ceux qui sont malmenés mais que cette aventure a rapproché.
-Nous sommes de ceux qui sont pensent que derrière les nuages le soleil brille toujours.
-Nous sommes de ceux qui sont persuadés que l’Amour triomphe toujours.
+Nous sommes de ceux qui sont en PMA. Nous sommes de ceux qui sont malmenés mais que cette aventure a rapproché.  
+Nous sommes de ceux qui croient que derrière les nuages, le soleil brille toujours.  
+Nous sommes de ceux qui sont persuadés que l’Amour triomphe toujours.  

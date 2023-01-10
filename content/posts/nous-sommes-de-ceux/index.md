@@ -1,7 +1,7 @@
 ---
 title: "Nous sommes de ceux"
 seotitle: "Nous sommes de ceux qui sont en parcours PMA"
-date: "2023-01-10"
+date: "2023-01-11"
 slug: "nous-sommes-de-ceux"
 categories:
 - reflexions
@@ -17,7 +17,7 @@ Nous sommes de ceux qui empruntent un itinéraire (bis) depuis 2 ans et demi. No
 
 {{< photo src="images/01.jpg" alt="Nous sommes de ceux qui sont en parcours PMA" >}}
 
-Cet enfant, il est une évidence. Une envie profonde pour nous deux. Celui qui nous pousse à nous battre. Ce parcours PMA, il rythme nos mois, nos semaines et nos journées. 2 ans et demi sans répit à se questionner quotidiennement « est-ce que tu penses qu’un jour ça marchera ? » , « qu’est-ce qu’on fait si le problème vient de toi ? Et si ça vient de moi ? », « et en fait, si ça venait de nous ? », « Et si nos gamètes n’étaient pas compatibles ? », « tu crois que cette fois c’est la bonne ? », « tu te piques où ce soir au milieu de tous ces bleus ? », « comment tu tiens la douleur aujourd’hui ? »… Les même questions qu’on se répète sans cesse et qu’on se pose l’un à l’autre. Parfois en quête d’un acquiescement réconfortant, parfois comme un signal de détresse envoyé à l’autre en espérant qu’il nous envoie une bouée à laquelle se raccrocher. Et pourtant en PMA, il y-a aussi tout ce qu’on ne dit pas.
+Cet enfant, il est une évidence. Une envie profonde pour nous deux. Celui qui nous pousse à nous battre. Ce parcours PMA, il rythme nos mois, nos semaines et nos journées. 2 ans et demi sans répit à se questionner quotidiennement « est-ce que tu penses qu’un jour ça marchera ? » , « qu’est-ce qu’on fait si le problème vient de toi ? Et si ça vient de moi ? », « et en fait, si ça venait de nous ? », « Et si nos gamètes n’étaient pas compatibles ? », « tu crois que cette fois c’est la bonne ? », « tu te piques où ce soir au milieu de tous ces bleus ? », « comment tu tiens la douleur aujourd’hui ? », "qu'est-ce qu'on fait si ça ne marche jamais ?"… Les même questions qu’on se répète sans cesse et qu’on se pose l’un à l’autre. Parfois en quête d’un acquiescement réconfortant, parfois comme un signal de détresse envoyé à l’autre en espérant qu’il nous envoie une bouée à laquelle se raccrocher. Et pourtant en PMA, il y-a aussi tout ce qu’on ne dit pas.
 
 Nous sommes de ceux qui partons à un concert avec les seringues de stimulation rangées dans la glacière au fond du coffre de la voiture. Nous sommes de ceux qui devons retarder un départ en vacances ou avancer un retour pour ne pas manquer un rendez-vous. Nous sommes de ceux qui font l’ouverture des laboratoires d’analyses aux 4 coins de la ville. Nous sommes de ceux qui ne lâchent rien malgré les tempêtes.
 

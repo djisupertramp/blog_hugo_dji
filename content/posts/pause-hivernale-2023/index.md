@@ -17,7 +17,8 @@ Tout est cyclique. ∞ En tous cas dans mes passions, tout est cyclique. Je m’
 Cette pause est souvent l’occasion pour moi de faire un nettoyage de printemps, mais à l’automne/hiver. Je fais l’inventaire de l’état de mes projets, de mon matériel pour trier ce que je n’utilise plus de ce qui m’est essentiel. C’est aussi synonyme d’introspection sur mes passions que sont la photo, la vidéo, le vélo et la couture de matos outdoor. Cette année n’y coupe pas, et je suis en plein dedans, même si je commence à sentir que Février se rapproche. Je me suis dit que ça pourrait être marrant de tenir une sorte de carnet de bord année après année pour en suivre l’évolution.
 
 {{< photo src="images/Pause2023_2.jpg" alt="Les Alpes en hiver">}}  
-##### — Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.
+
+##### — Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo : Olympus XA + Portra 800.
 ￼
 ### État d’esprit
 
@@ -40,7 +41,7 @@ D’un point de vue [équipement](https://jeremyjanin.com/equipement/), au nivea
 J’ai commencé la photo il y-a 15 ans en shootant avec un 50mm et ça a duré de nombreuses années. Depuis 5 ans, je l’avais quasiment abandonné au profit du 35mm qui semble me correspondre davantage avec les évolutions de ma pratique. J’ai complètement délaissé cette focale, mais je commence à reprendre du plaisir à l’utiliser sur mon *Canon A1*. J’utilise l’objectif *Canon FD 55mm f/1.2 SSC*, qui me sert aussi en vidéo. Mais elle me permet de me mettre dans un état d’esprit un peu différent du 35mm que je qualifierais de plus « documentaire », là où je vois mon 55mm comme plus « artistique » peut-être ? En tous cas, je vois un peu plus de jeux d’ombres, de compositions minimalistes ou simplement plaisantes à mon oeil lorsque je me balade avec.
 
 {{< photoset always="2" >}} {{< photo src="images/Pause2023_4.jpg" alt="renouer avec le 50mm" title="Photos prises au Canon A1 + Canon FD 55mm f/1.2 avec une Portra 400">}} {{< photo src="images/Pause2023_7.jpg" alt="renouer avec le 50mm">}} {{</ photoset >}}
-##### — Photos prises au Canon A1 + Canon FD 55mm f/1.2 avec une Portra 400
+##### — Photos prises au Canon A1 avec Canon FD 55mm f/1.2 SSC + Portra 400
 
 **35 + 85, mon combo parfait ?**  
 

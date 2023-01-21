@@ -16,8 +16,8 @@ Tout est cyclique. ∞ En tous cas dans mes passions, tout est cyclique. Je m’
 
 Cette pause est souvent l’occasion pour moi de faire un nettoyage de printemps, mais à l’automne/hiver. Je fais l’inventaire de l’état de mes projets, de mon matériel pour trier ce que je n’utilise plus de ce qui m’est essentiel. C’est aussi synonyme d’introspection sur mes passions que sont la photo, la vidéo, le vélo et la couture de matos outdoor. Cette année n’y coupe pas, et je suis en plein dedans, même si je commence à sentir que Février se rapproche. Je me suis dit que ça pourrait être marrant de tenir une sorte de carnet de bord année après année pour en suivre l’évolution.
 
-{{< photo src="images/Pause2023_2.jpg" title="Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800." alt="Les Alpes en hiver">}}
-##### — *Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.*
+{{< photo src="images/Pause2023_2.jpg" alt="Les Alpes en hiver">}}
+##### — Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.
 ￼
 ### État d’esprit
 
@@ -40,7 +40,7 @@ D’un point de vue [équipement](https://jeremyjanin.com/equipement/), au nivea
 J’ai commencé la photo il y-a 15 ans en shootant avec un 50mm et ça a duré de nombreuses années. Depuis 5 ans, je l’avais quasiment abandonné au profit du 35mm qui semble me correspondre davantage avec les évolutions de ma pratique. J’ai complètement délaissé cette focale, mais je commence à reprendre du plaisir à l’utiliser sur mon *Canon A1*. J’utilise l’objectif *Canon FD 55mm f/1.2 SSC*, qui me sert aussi en vidéo. Mais elle me permet de me mettre dans un état d’esprit un peu différent du 35mm que je qualifierais de plus « documentaire », là où je vois mon 55mm comme plus « artistique » peut-être ? En tous cas, je vois un peu plus de jeux d’ombres, de compositions minimalistes ou simplement plaisantes à mon oeil lorsque je me balade avec.
 
 {{< photoset always="2" >}} {{< photo src="images/Pause2023_4.jpg" alt="renouer avec le 50mm" title="Photos prises au Canon A1 + Canon FD 55mm f/1.2 avec une Portra 400">}} {{< photo src="images/Pause2023_7.jpg" alt="renouer avec le 50mm">}} {{</ photoset >}}
-##### — *Photos prises au Canon A1 + Canon FD 55mm f/1.2 avec une Portra 400*
+##### — Photos prises au Canon A1 + Canon FD 55mm f/1.2 avec une Portra 400
 
 **35 + 85, mon combo parfait ?**  
 
@@ -62,7 +62,7 @@ Je l’ai offert à [Samantha](https://www.instagram.com/vagabondanse/) pour son
 Un [filtre Tiffen orange 85B](https://amzn.to/3kAaPMp) a rejoint ma pochette de filtres pour pouvoir photographier avec de la [Cinestill 800T](https://www.digit-photo.com/CINESTILL-Tungsten-X-Pro-800Asa-135-C-41-36-rCINESTILLFCS8011.html?dpa_id=21), même en plein jour. D’abord j’aime le rendu de cette pellicule de nuit (même si le halo rouge commence à me lasser), mais en plus, ce filtre me permettra d’être moins restreint si je n’arrive pas à terminer un roll avant que le jour ne se lève.
 
 ￼{{< photoset always="2" >}} {{< photo src="images/Pause2023_8.jpg" alt="londres à la cinestill 800T">}} {{< photo src="images/Pause2023_6.jpg" alt="londres à la cinestill 800T">}} {{</ photoset >}}
-##### — *Photo prise au Canon A1 + 50mm f/1.2 SSC avec le filtre Tiffen Orange 85B sur une Cinestill 800T*
+##### — Photo prise au Canon A1 + 50mm f/1.2 SSC avec le filtre Tiffen Orange 85B sur une Cinestill 800T
 
 **Fuji X100F**  
 

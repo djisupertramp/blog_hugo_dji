@@ -16,8 +16,10 @@ Tout est cyclique. ∞ En tous cas dans mes passions, tout est cyclique. Je m’
 
 Cette pause est souvent l’occasion pour moi de faire un nettoyage de printemps, mais à l’automne/hiver. Je fais l’inventaire de l’état de mes projets, de mon matériel pour trier ce que je n’utilise plus de ce qui m’est essentiel. C’est aussi synonyme d’introspection sur mes passions que sont la photo, la vidéo, le vélo et la couture de matos outdoor. Cette année n’y coupe pas, et je suis en plein dedans, même si je commence à sentir que Février se rapproche. Je me suis dit que ça pourrait être marrant de tenir une sorte de carnet de bord année après année pour en suivre l’évolution.
 
-{{< photo src="images/Pause2023_2.jpg" alt="Les Alpes en hiver" title="*Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.*">}}
-> * Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.*
+{{< photo class="fullwidth" src="images/Pause2023_2.jpg" alt="Les Alpes en hiver" title="Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.">}}
+
+{{< photo src="images/Pause2023_2.jpg" title="Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800." alt="Les Alpes en hiver">}}
+> Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.
 ￼
 ### État d’esprit
 

@@ -55,7 +55,7 @@ paginate = 12
 [params.tinyletter]
   username = "captainyvon"
   title = "Poursuivre l'aventure..."
-  description = "Si tu veux rester au courant de mes projets majeurs, abonnes-toi à ma newsletter (https://jeremyjanin.com/envie-pour-2023/jeremyjanin.com/posts/index.xml)"
+  description = "Si tu veux rester au courant de mes projets majeurs, abonnes-toi à ma newsletter !"
 [[menu.main]]
   name = "Home"
   title = "Portfolio"

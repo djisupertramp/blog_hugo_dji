@@ -16,7 +16,7 @@ Tout est cyclique. ∞ En tous cas dans mes passions, tout est cyclique. Je m’
 
 Cette pause est souvent l’occasion pour moi de faire un nettoyage de printemps, mais à l’automne/hiver. Je fais l’inventaire de l’état de mes projets, de mon matériel pour trier ce que je n’utilise plus de ce qui m’est essentiel. C’est aussi synonyme d’introspection sur mes passions que sont la photo, la vidéo, le vélo et la couture de matos outdoor. Cette année n’y coupe pas, et je suis en plein dedans, même si je commence à sentir que Février se rapproche. Je me suis dit que ça pourrait être marrant de tenir une sorte de carnet de bord année après année pour en suivre l’évolution.
 
-{{< photo src="images/Pause2023_2.jpg" alt="Les Alpes en hiver">}}
+{{< photo src="images/Pause2023_2.jpg" alt="Les Alpes en hiver">}}  
 ##### — Le sommet qui surgit de derrière les nuages, un peu comme mon esprit sort du brouillard à l'approche de la fin de cette pause annuelle. Photo prise avec un Olympus XA et une Portra 800.
 ￼
 ### État d’esprit
@@ -62,13 +62,13 @@ Je l’ai offert à [Samantha](https://www.instagram.com/vagabondanse/) pour son
 Un [filtre Tiffen orange 85B](https://amzn.to/3kAaPMp) a rejoint ma pochette de filtres pour pouvoir photographier avec de la [Cinestill 800T](https://www.digit-photo.com/CINESTILL-Tungsten-X-Pro-800Asa-135-C-41-36-rCINESTILLFCS8011.html?dpa_id=21), même en plein jour. D’abord j’aime le rendu de cette pellicule de nuit (même si le halo rouge commence à me lasser), mais en plus, ce filtre me permettra d’être moins restreint si je n’arrive pas à terminer un roll avant que le jour ne se lève.
 
 ￼{{< photoset always="2" >}} {{< photo src="images/Pause2023_8.jpg" alt="londres à la cinestill 800T">}} {{< photo src="images/Pause2023_6.jpg" alt="londres à la cinestill 800T">}} {{</ photoset >}}
-##### — Photo prise au Canon A1 + 50mm f/1.2 SSC avec le filtre Tiffen Orange 85B sur une Cinestill 800T
+##### — Photos prises au Canon A1 + 55mm f/1.2 SSC avec le filtre Tiffen Orange 85B sur une Cinestill 800T
 
 **Fuji X100F**  
 
 Après des années de lobbying de la part de Greg, j’ai craqué et acheté un Fuji X100F. Lui a le [X100V](https://www.digit-photo.com/FUJI-X100V-Noir-rFUJI16643000.html?dpa_id=21) qui est très tentant, mais faut de disponibilité et un prix qui s’est envolé, je me suis orienté sur une occasion en parfait état de son prédécesseur. Ce Fuji vient remplacer l’un de mes deux *Olympus Mju II* (j’en garde quand même un) ainsi que mon Sony RX100 V pour lequel je n’ai jamais vraiment réussi à trouver de place dans mon usage, en dehors de quelques rushes vidéos à la volée dans le cadre du documentaire de notre parcours PMA. Je l'ai reçu aujourd'hui, je n'ai même pas fini de le setup mais l’excitation est belle et bien là. Et mes premiers tests me laissent déjà entrevoir de chouettes possibilités. J’espère réussir à photographier davantage la vie à la maison avec, comme mes sorties vélos. Je viendrai sûrement reparler de mes premières impressions ici.
 
-{{< photo src="images/Pause2023_14.jpg" alt="Hello Fuji X100F" >}}
+{{< photo src="images/Pause2023_14.jpg" alt="Hello Fuji X100F" >}}  
 
 ### Outdoor  
 

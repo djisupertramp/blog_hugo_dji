@@ -1,0 +1,39 @@
+name: Everyday
+
+on:
+  push:
+    paths:
+      - .github/workflows/daily.yml # Only run a new workflow every time this file (flat.yaml) file changes
+  workflow_dispatch: # Required even though this is currently empty
+  schedule:
+    - cron: "0 * * * *" # Run this workflow every 5 minutes
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0' # Not needed with a .ruby-version file
+      - name: Fetch Moments album
+        run: |
+          rm content/moments/*.jpg
+          ruby bin/download-lr.rb 
+      - name: Commit files
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
+          git add -A content/everyday/
+          git commit -m "Sync the everyday album" || echo "nothing to do and it is fine"
+          git pull origin ${{ github.ref }}
+          echo "::set-output name=push::true"
+        shell: bash
+      - name: Push changes
+        if: steps.commit.outputs.push == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

@@ -3,7 +3,7 @@ name: Everyday
 on:
   push:
     paths:
-      - .github/workflows/daily.yml # Only run a new workflow every time this file (flat.yaml) file changes
+      - .github/workflows/everyday.yml # Only run a new workflow every time this file (flat.yaml) file changes
   workflow_dispatch: # Required even though this is currently empty
   schedule:
     - cron: "0 * * * *" # Run this workflow every 5 minutes
@@ -27,7 +27,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
           git add -A content/everyday/
-          git commit -m "Sync the everyday album" || echo "nothing to do and it is fine"
+          git commit -m "Sync the moments album" || echo "nothing to do and it is fine"
           git pull origin ${{ github.ref }}
           echo "::set-output name=push::true"
         shell: bash

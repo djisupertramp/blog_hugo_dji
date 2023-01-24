@@ -1,6 +1,7 @@
 require "net/http"
 require "json"
 require "date"
+require "yaml"
 require "uri"
 
 class Downloader

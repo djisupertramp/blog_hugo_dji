@@ -25,5 +25,5 @@ class Downloader
   end
 end
 
-daily = YAML.load(File.read("data/moments.yaml"), symbolize_names: true)
+daily = YAML.load(File.read("data/moments.yml"), symbolize_names: true)
 Downloader.new(daily[:moments][:space_id], daily[:moments][:album_id]).run

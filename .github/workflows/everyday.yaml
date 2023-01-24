@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
-          git add -A content/everyday/
+          git add -A content/moments/
           git commit -m "Sync the moments album" || echo "nothing to do and it is fine"
           git pull origin ${{ github.ref }}
           echo "::set-output name=push::true"

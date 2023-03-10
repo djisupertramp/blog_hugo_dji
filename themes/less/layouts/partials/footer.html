@@ -1,14 +1,15 @@
 <footer class="w-full p-12 text-sm">
  <div class="container max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4">
   <div class="w-36">
-    <a href="https://www.onepercentfortheplanet.fr" target="_blank" ><img src="/1ftp.png" alt="1% for The Planet" width="143" height="60"></a>
+    <ul>
+      <li><a href="/posts/">blog</a></li>
+      <li><a href="/">portfolio</a></li>
   </div>
   <div>
     <!--Should be template -->
     <ul>
-      <li><a href="/blogroll">Blogroll</a></li>
       <li><a href="/equipement/">Mon équipement</a></li>
-      <li><a href="mailto:{{ $.Site.Params.social.email }}">hello@gregorymignard.com</a></li>
+      <li><a href="mailto:{{ $.Site.Params.social.email }}">hello@jeremyjanin.com</a></li>
   </div>
   <div>
     <!--Should be template -->
@@ -18,7 +19,7 @@
   </div>
   <div class="text-l max-w-4xl">
   © {{ now.Format "2006"}} {{ $.Site.Params.social.domain }}</br>
-  Merci pour votre visite 🤙
+  Merci pour votre visite
   </div>
  </div>
 </footer>

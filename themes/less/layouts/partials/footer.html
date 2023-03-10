@@ -1,4 +1,24 @@
-<footer class="t09">
+<footer class="w-full p-12 text-sm">
+ <div class="container max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4">
+  <div class="w-36">
+    <a href="https://www.onepercentfortheplanet.fr" target="_blank" ><img src="/1ftp.png" alt="1% for The Planet" width="143" height="60"></a>
+  </div>
+  <div>
+    <!--Should be template -->
+    <ul>
+      <li><a href="/blogroll">Blogroll</a></li>
+      <li><a href="/equipement/">Mon équipement</a></li>
+      <li><a href="mailto:{{ $.Site.Params.social.email }}">hello@gregorymignard.com</a></li>
+  </div>
+  <div>
+    <!--Should be template -->
+    <ul>
+      <li><a href="https://captainyvon.fr/" target="_blank">Captain Yvon Studio</a></li>
+      <li><a href="http://slowisbeautiful.cool" target="_blank">Slow is Beautiful</a></li>
+  </div>
+  <div class="text-l max-w-4xl">
   © {{ now.Format "2006"}} {{ $.Site.Params.social.domain }}</br>
-  <a href="https://jeremyjanin.com/posts/index.xml">FLUX RSS</a> • <a href="/equipement/">ÉQUIPEMENT</a> • <a href="/now/">À PROPOS</a> • <a href="mailto:{{ $.Site.Params.social.email }}">CONTACT</a> • <a href="https://captainyvon.fr/">CAPTAIN YVON</a> 
+  Merci pour votre visite 🤙
+  </div>
+ </div>
 </footer>

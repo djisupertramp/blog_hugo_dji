@@ -56,10 +56,10 @@ paginate = 12
   username = "captainyvon"
   title = "Abonnez-vous à ma newsletter « Slow is beautiful »"
   description = "Une invitation à prendre le temps de prendre le temps où l'on place le confort avant la performance. En gros, moins de STRAVA, plus de pauses chocolat."
-  
+
 [[menu.main]]
-  name = "Home"
-  title = "Portfolio"
+  name = "portfolio"
+  title = "portfolio"
   weight = 1
   identifier = "portfolio"
   url = "/"
@@ -70,13 +70,13 @@ paginate = 12
     identifier = "Moments"
     url = "/moments"
 [[menu.main]]
-  name = "Blog"
+  name = "blog"
   title = "Blog"
   weight = 4
   identifier = "blog"
   url = "/posts/"
 [[menu.main]]
-  name = "À Propos"
+  name = "à propos"
   title = "Infos & Contact"
   weight = 5
   identifier = "now"

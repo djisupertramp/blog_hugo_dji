@@ -18,6 +18,10 @@ Moi c’est Jeremy, passionné d’outdoor, de voyages et de belles images. Je s
 **Un projet pro dont vous aimeriez me parler ? Vous pouvez me contacter à** [hello@jeremyjanin.com](mailto:hello@jeremyjanin.com)
 
 
+{{< columns before="true" src="cover.webp" >}}Ton texte d'à propos{{</columns>}}
+
+
+
 {{< photoset max="2" >}}
   {{< photo src="now_1.jpg" alt="Jeremy Janin" >}}
   {{< photo src="now_2.jpg" alt="Jeremy Janin" >}}
@@ -33,7 +37,7 @@ Je suis tellement passionné de vidéo qu'en 2016, avec mon ami [Grégory Mignar
 
 Pendant le confinement de mars 2020, je me suis même acheté une machine à coudre et des matières techniques comme le DCF (Dyneema) et du XPAC pour me fabriquer du matos outdoor. J'ai vendu quelques productions sur Instagram et depuis, je me consacre davantage à mes besoins personnels.
 
-Si vous avez envie de discuter, on a ouvert un [Discord](https://discord.gg/JPNgxUmbmf) avec Greg et l'ambiance y-est très cool pour parler outdoor, argentique ou vidéo. Si vous voulez me suivre de plus près, n'hésitez pas à le faire via [Twitter](http://twitter.com/jeremyjanin) ou [Instagram](http://instagram.com/jeremy.janin) ou encore sur [YouTube](http://youtube.com/djisupertramp).
+Si vous voulez me suivre de plus près, n'hésitez pas à le faire via [Twitter](http://twitter.com/jeremyjanin) ou [Instagram](http://instagram.com/jeremy.janin) ou encore sur [YouTube](http://youtube.com/djisupertramp).
 
 Un projet dont vous aimeriez me parler ? Un e-mail à m'envoyer ? Vous pouvez me contacter à [hello@jeremyjanin.com](mailto:hello@jeremyjanin.com)
 

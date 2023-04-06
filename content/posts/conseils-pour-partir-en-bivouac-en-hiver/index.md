@@ -4,7 +4,7 @@ seotitle: "Matériel, techniques et conseils pour partir en bivouac en hiver"
 date: "2019-04-15"
 slug: "conseils-pour-partir-en-bivouac-en-hiver"
 categories:
-- outdoor
+- aventures
 tags: ["aventure", "microaventure", "bivouac", "france", "hiver", "camping sauvage", "tente", "randonnée", "montagne","neige", "froid", "materiel", "technique", "conseils"]
 description: "Matériel, techniques et conseils pour partir en bivouac en hiver"
 resources:

@@ -4,7 +4,7 @@
   date: "2013-10-04"
   slug: "bivouac-et-randonnee-du-lac-blanc-a-chamonix"
   categories:
-  - outdoor
+  - aventures
   tags: ["aventure", "microaventure", "bivouac", "france", "camping sauvage", "tente", "randonnée", "montagne","chamonix", "lac blanc"]
   description: "Bivouac et randonnée du Lac Blanc à Chamonix"
   resources:

@@ -1,14 +1,15 @@
-<footer class="w-full p-12 text-sm">
+<footer class="w-full p-12 text-base">
  <div class="container max-w-4xl mx-auto justify-center grid grid-cols-1 lg:grid-cols-4 gap-4">
-  <div class="w-36">
+  <div class="w-44">
     <ul>
       <li><a href="/posts/">blog</a></li>
-      <li><a href="/">portfolio</a></li>
-      <li><a href="/equipement/">Mon équipement</a></li>
+      <li><a href="/equipement/">mon équipement</a></li>
+      <li><a href="mailto:{{ $.Site.Params.social.email }}">hello@jeremyjanin.com</a></li>
   </div>
-  <div>
+  <div class="w-44">
     <!--Should be template -->
     <ul>
+<li><a href="mailto:{{ $.Site.Params.social.email }}">hello@jeremyjanin.com</a></li>
       <li><a href="https://captainyvon.fr/" target="_blank">Captain Yvon Studio</a></li>
       <li><a href="http://slowisbeautiful.cool" target="_blank">Slow is Beautiful</a></li>
   </div>

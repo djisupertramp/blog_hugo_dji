@@ -5,7 +5,6 @@ date: "2019-09-29"
 slug: "bikepacking-fatbike-en-ecosse-avec-mon-pere"
 categories:
 - aventures
-- outdoor
 tags: ["aventure", "microaventure", "bivouac", "ecosse", "hiver", "tente", "vtt", "fatbike", "bikepacking", "voyage", "vélo", "montagne", "neige"]
 description: "Bikepacking fatbike en Écosse avec mon père"
 resources:

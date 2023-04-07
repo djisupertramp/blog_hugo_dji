@@ -4,7 +4,7 @@ seotitle: "Bricoler et remonter un vélo gravel de mes propres main - HUNT, Sram
 date: "2019-09-17"
 slug: "remonter-un-velo-gravel-de-mes-propres-mains"
 categories:
-- outdoor
+- MYOG
 tags: ["velo", "gravel", "hunt", "sram", "apex", "ritchey", "kona rove", "kona dew", "adaptateur", "monture L", "Leica L", "Sigma FP", "Leica SL", "canon FD", "Canon EF", "Nikon F", "M42"]
 description: "Canon FD, EF, Nikon, M42... Bien choisir un adaptateur d'objectif pour monture L compatible avec Panasonic LUMIX S1, S1R, S1H, S5 et Sigma FP"
 resources:

@@ -4,7 +4,7 @@ seotitle: "Week-end outdoor et VTT aux Ménuires"
 date: "2017-08-01"
 slug: "week-end-outdoor-et-vtt-aux-menuires"
 categories:
-- outdoor
+- aventures
 tags: ["aventure", "microaventure", "bivouac", "france", "vtt", "descente", "via ferrata", "randonnée", "menuires", "3 vallées"]
 description: "Week-end outdoor et VTT aux Ménuires"
 resources:

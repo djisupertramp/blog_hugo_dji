@@ -4,7 +4,7 @@ seotitle: "Week-end microaventure en France : randonnée raquettes et bivouac en
 date: "2019-11-21"
 slug: "microaventure-raquettes-et-nuit-en-cabane-dans-le-vercors"
 categories:
-- outdoor
+- aventures
 tags: ["aventure", "microaventure", "vercors", "france", "hiver", "bivouac", "raquettes", "randonnée", "montagne"]
 description: "Week-end microaventure en hiver : randonnée raquettes et nuit en cabane dans le Vercors"
 resources:

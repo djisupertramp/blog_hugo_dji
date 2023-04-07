@@ -4,7 +4,7 @@ seotitle: "Comment j'ai restauré un VTT Specialized RockHopper des années 90 p
 date: "2022-06-13"
 slug: "restauration-rockhopper"
 categories:
-- outdoor
+- MYOG
 tags: ["restauration", "bikepacking", "VTT", "specialized", "1990","rockhopper", "stumpjumper", "hardrock"]
 description: "Comment j'ai restauré un VTT Specialized RockHopper des années 90 pour le bikepacking"
 resources:

@@ -1,4 +1,28 @@
-<footer class="t09">
+<footer class="w-full p-12 text-base">
+ <div class="container max-w-4xl mx-auto justify-center grid grid-cols-1 lg:grid-cols-4 gap-4">
+  <div class="w-72">
+    <ul>
+      <li><a href="/now/" class="no-underline">à propos</a></li>
+      <li><a href="/equipement/" class="no-underline">mon équipement</a></li>
+      <li><a href="/posts/index.xml" class="no-underline">flux RSS</a></li>
+      <li><a href="mailto:{{ $.Site.Params.social.email }}" class="no-underline">hello@jeremyjanin.com</a></li>
+
+  </div>
+  <div class="w-72">
+    <!--Should be template -->
+    <ul>
+      <li><a href="/aventures/" class="no-underline">aventures</a></li>
+      <li><a href="/MYOG/" class="no-underline">make your own gear</a></li>
+      <li><a href="/materiel/" class="no-underline">materiel</a></li>
+      <li><a href="/reflexions/" class="no-underline">reflexions</a></li>
+
+  </div>
+  <div class="w-72 text-l max-w-4xl">
+      <ul>
+      <li><a href="https://captainyvon.fr/" target="_blank" class="no-underline">Captain Yvon Studio</a></li>
+      <li><a href="http://slowisbeautiful.cool" target="_blank" class="no-underline">Slow is Beautiful</a></li>
+      </br>
   © {{ now.Format "2006"}} {{ $.Site.Params.social.domain }}</br>
-  <a href="https://jeremyjanin.com/posts/index.xml">FLUX RSS</a> • <a href="/equipement/">ÉQUIPEMENT</a> • <a href="/now/">À PROPOS</a> • <a href="mailto:{{ $.Site.Params.social.email }}">CONTACT</a> • <a href="https://captainyvon.fr/">CAPTAIN YVON</a> 
+  </div>
+ </div>
 </footer>

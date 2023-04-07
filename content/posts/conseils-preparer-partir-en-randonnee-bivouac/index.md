@@ -4,7 +4,7 @@
   date: "2017-05-16"
   slug: "conseils-preparer-partir-en-randonnee-bivouac"
   categories:
-  - outdoor
+  - aventures
   tags: ["aventure", "microaventure", "bivouac", "france", "camping sauvage", "tente", "randonnée", "montagne","neige", "froid", "materiel", "technique", "conseils"]
   description: "Conseils pour préparer et partir en randonnée bivouac"
   resources:

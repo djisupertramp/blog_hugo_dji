@@ -4,7 +4,7 @@
   date: "2017-01-03"
   slug: "week-end-sensation-plagne"
   categories:
-  - outdoor
+  - aventures
   tags: ["aventure", "microaventure", "bivouac", "france", "vtt", "descente", "via ferrata", "randonnée", "menuires", "3 vallées"]
   description: "Week-end sensation à La Plagne"
   resources:

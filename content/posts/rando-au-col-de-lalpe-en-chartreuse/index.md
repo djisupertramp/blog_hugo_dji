@@ -4,7 +4,6 @@
   date: "2015-08-27"
   slug: "rando-au-col-de-lalpe-en-chartreuse"
   categories:
-  - outdoor
   - aventures
   tags: ["aventure", "microaventure", "france", "chartreuse", "montagne"]
   description: "Rando au Col de l'Alpe en Chartreuse"

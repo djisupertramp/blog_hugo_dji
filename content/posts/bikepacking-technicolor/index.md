@@ -4,7 +4,7 @@ seotitle: "Série photo VTT bikepacking de nuit en technicolor"
 date: "2021-12-19"
 slug: "bikepacking-technicolor"
 categories:
-- Outdoor
+- aventures
 tags: ["photographie", "bikepacking", "aventure", "S1", "VTT", "technicolor","nuit"]
 description: "Série photo VTT bikepacking de nuit en technicolor avec l'Aputure MC"
 resources:

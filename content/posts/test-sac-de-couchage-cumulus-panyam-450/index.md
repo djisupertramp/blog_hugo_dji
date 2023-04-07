@@ -4,7 +4,7 @@
   date: "2015-07-30"
   slug: "test-sac-de-couchage-cumulus-panyam-450"
   categories:
-  - outdoor
+  - aventures
   tags: ["aventure", "microaventure", "bivouac", "france", "camping sauvage", "tente", "randonnée", "montagne","sac de couchage", "cumulus", "materiel", "technique", "panyam", "conseils"]
   description: "Conseils pour préparer et partir en randonnée bivouac"
   resources:

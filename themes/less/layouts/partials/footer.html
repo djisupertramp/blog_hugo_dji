@@ -1,16 +1,10 @@
 <footer class="w-full p-12 text-sm">
  <div class="container max-w-4xl mx-auto justify-center grid grid-cols-1 lg:grid-cols-4 gap-4">
-
   <div class="w-36">
     <ul>
       <li><a href="/posts/">blog</a></li>
       <li><a href="/">portfolio</a></li>
-  </div>
-  <div>
-    <!--Should be template -->
-    <ul>
       <li><a href="/equipement/">Mon équipement</a></li>
-      <li><a href="mailto:{{ $.Site.Params.social.email }}">hello@jeremyjanin.com</a></li>
   </div>
   <div>
     <!--Should be template -->
@@ -19,8 +13,9 @@
       <li><a href="http://slowisbeautiful.cool" target="_blank">Slow is Beautiful</a></li>
   </div>
   <div class="text-l max-w-4xl">
+      <ul>
+      <li><a href="mailto:{{ $.Site.Params.social.email }}">hello@jeremyjanin.com</a></li>
   © {{ now.Format "2006"}} {{ $.Site.Params.social.domain }}</br>
-  Merci pour votre visite
   </div>
  </div>
 </footer>

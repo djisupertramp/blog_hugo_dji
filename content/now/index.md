@@ -18,7 +18,7 @@ Moi c’est Jeremy, passionné d’outdoor, de voyages et de belles images. Je s
 **Un projet pro dont vous aimeriez me parler ? Vous pouvez me contacter à** [hello@jeremyjanin.com](mailto:hello@jeremyjanin.com)
 
 
-{{< columns before="true" src="cover.webp" >}}Ton texte d'à propos{{</columns>}}
+{{< columns before="true" src="cover.webp" >}}{{</columns>}}
 
 
 

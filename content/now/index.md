@@ -15,9 +15,9 @@ Moi c’est Jeremy, passionné d’outdoor, de voyages et de belles images, bas�
 
 Pendant plus de 10 ans, j'ai tenu le blog djisupertramp.com mais je ne me retrouvais plus dans ce pseudo, c'est donc début 2021 que j'ai décidé de le transférer dans sa version actuelle qui porte simplement mon nom. Ce site est mon espace personnel où je partage mes [reflexions](https://jeremyjanin.com/reflexions/), mes [aventures](https://jeremyjanin.com/aventures/), mon expérience avec du [matériel photo / outdoor](https://jeremyjanin.com/materiel/) ou les [accessoires que je fabrique](https://jeremyjanin.com/MYOG/).
 
-→ [hello@jeremyjanin.com] (mailto:hello@jeremyjanin.com)  
-→ Suivez-moi sur [Instagram](https://www.instagram.com/jeremy.janin/), [Twitter](https://twitter.com/jeremyjanin), [Mastodon ](https://piaille.fr/@jeremy) et le [flux RSS](https://jeremyjanin.com/posts/index.xml) de ce blog  
-→ En savoir plus sur [mon équipement](https://jeremyjanin.com/equipement/)  
- → Crédit photo : [Grégory Mignard](https://gregorymignard.com/)  
-
+→ hello@jeremyjanin.com  <br/>
+→ Suivez-moi sur [Instagram](https://www.instagram.com/jeremy.janin/), [Twitter](https://twitter.com/jeremyjanin), [Mastodon ](https://piaille.fr/@jeremy) et le [flux RSS](https://jeremyjanin.com/posts/index.xml) de ce blog  <br/>
+→ En savoir plus sur [mon équipement](https://jeremyjanin.com/equipement/)  <br/>
+ → Crédit photo : [Grégory Mignard](https://gregorymignard.com/)  <br/>
+<br/>
 ✌🏻{{</columns>}}

@@ -18,6 +18,6 @@ Pendant plus de 10 ans, j'ai tenu le blog djisupertramp.com mais je ne me retrou
 → hello@jeremyjanin.com  <br/>
 → Suivez-moi sur <a href="https://www.instagram.com/jeremy.janin/" target="blank">Instagram</a>, <a href="https://twitter.com/jeremyjanin" target="blank">Twitter</a>, <a href="https://piaille.fr/@jeremy" target="blank">Mastodon</a> et le <a href="https://jeremyjanin.com/posts/index.xml" target="blank">flux RSS</a> de ce blog  <br/>
 → En savoir plus sur <a href="https://jeremyjanin.com/equipement/">mon équipement</a><br/>
- → Crédit photo : <a href="https://gregorymignard.com/" target="Greg Mignard</a><br/>
+ → Crédit photo : <a href="https://gregorymignard.com/" target="blank">Greg Mignard</a><br/>
 <br/>
 ✌🏻{{</columns>}}

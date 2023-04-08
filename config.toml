@@ -51,6 +51,7 @@ paginate = 12
   twitter = "jeremyjanin"
   instagram = "jeremy.janin"
   youtube = "djisupertramp"
+  mastodon = "@jeremy"
 
 [params.tinyletter]
   username = "captainyvon"
@@ -85,8 +86,8 @@ paginate = 12
   name = "à propos"
   title = "Infos & Contact"
   weight = 4
-  identifier = "now"
-  url = "/now"
+  identifier = "about"
+  url = "/about"
 
 [[related.indices]]
   name = "categories"

@@ -16,4 +16,4 @@ resources:
 <p>→ <a href="mailto="hello@jeremyjanin.com">hello@jeremyjanin.com</a><br/>
 → Suivez-moi sur <a href="https://www.instagram.com/jeremy.janin/" target="blank">Instagram</a>, <a href="https://twitter.com/jeremyjanin" target="blank">Twitter</a>, <a href="https://piaille.fr/@jeremy" target="blank">Mastodon</a> et le <a href="https://jeremyjanin.com/posts/index.xml" target="blank">flux RSS</a> de ce blog.<br/>
 → En savoir plus sur <a href="https://jeremyjanin.com/equipement/">mon équipement</a><br/>
- → Crédit photo : <a href="https://gregorymignard.com/" target="blank">Grégory Mignard</a></p>{{</columns>}}
+ → Crédit photo : <a href="https://gregorymignard.com/" target="blank">Grégory Mignard</a></p> {{</columns>}}

@@ -9,7 +9,7 @@ resources:
 - src: "cover.jpg"
   name: "cover"
 ---
-{{< columns before="true" src="cover.jpg" >}}{{</columns>}}
+{{< columns before="true" src="cover.jpg" >}}
 
 ### Hello.
 
@@ -23,6 +23,6 @@ Pendant plus de 10 ans, j'ai tenu le blog djisupertramp.com mais je ne me retrou
  → Crédit photo : [Grégory Mignard](https://gregorymignard.com/)<br/>
 
 ✌🏻
-
+{{</columns>}}
 
 <form style="max-width: 57rem!important; background-color: #F3F3F3;border:1px solid #F3F3F3;padding:24px;text-align:center;" action="https://tinyletter.com/captainyvon" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/captainyvon', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail"><h3>Outline, newsletter</h3></br>Si tu veux prolonger la découverte, alors je t’invite à t’abonner à notre newsletter Captain Yvon 'Outline'.</label></p><p><input type="text" style="width:320px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input class="button" type="submit" value="S'abonner" /></form>

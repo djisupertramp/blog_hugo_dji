@@ -6,10 +6,10 @@ draft: false
 type: "about"
 resources:
 - src: "*.jpg"
-- src: "jeremy.jpg"
+- src: "1.jpg"
   name: "cover"
 ---
-<div><img src="01.jpg"></div>
+<div><img src="cover.jpg"></div>
 
 <p>Hello.</p>
 <p>Moi c’est Jeremy, passionné d’outdoor, de voyages et de belles images, basé à Lille. Je suis le co-fondateur de <a href="https://captainyvon.fr" target="blank">Captain Yvon Studio</a> & <a href="https://slowisbeautiful.cool" target="blank">Slow is Beautiful</a> et j’ai aussi un projet de couture de matériel outdoor / sacoches de vélo en parallèle appelé <a href="https://www.instagram.com/fieldpacks/" target="blank">FIELDPACKS</a>. Amoureux de la nature, de sport et d’histoires authentiques à documenter, vous me trouverez le plus souvent derrière mon appareil photo, argentique ou numérique, sur mon vélo, derrière ma machine à coudre ou parfois sous ma tente en bivouac.</p>

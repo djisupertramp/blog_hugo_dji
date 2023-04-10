@@ -116,3 +116,30 @@ Après l'avoir testé dans cette version sur 250km en Bretagne, 180km aux Pays B
 Est-ce que j'ai rempli mon objectif ? OUI, c'est un grand OUI. Je suis fier de me balader en 26 pouces, avec mon axe carré dans le pédalier, mes freins v-brakes... ça parait stupide, mais oui, j'y pense à chaque sortie. Ce sont des standards qu'on pourrait qualifier de désuets aujourd'hui et pourtant ils fonctionnent. Je suis un amoureux des freins à disque en VTT, mais force est de constater que les v-brakes ça fonctionne hyper bien quand ils sont de qualités et bien réglés.
 
 Dire que je n'ai pas d'autres envies serait mentir, mais je pense que je les réserve pour un autre cadre avec une approche différente d'un point de cosmétique et organisationnel. Maintenant, le tout, c'est de faire de la place dans la cabane au fond du jardin.
+
+### *Unloved Bike Project — Specialized RockHopper v3.0*
+(Février 2023)
+
+Force est de constater que finalement, j'ai fait de la place dans la cabane au fond du jardin, mais je ne me suis pas arrêté là dans la rénovation du RockHopper. Mes envies évoluant, ma pratique aussi, j’ai fini par ressentir l’envie de plus de confort au niveau des poignets, surtout en bikepacking ou longues sorties. J’avais aussi envie d’une évolution esthétique du vélo au passage, pour se rapprocher d’un style plus à la cool, plus inspiré par la philosophie de Grant Petersen et Rivendell ou des récents Brother Cycles Mr Wooden ou Singular Peregrine. Cette v3.0 contient donc des évolutions majeures.
+
+![restauration Specialized RockHopper](cover.jpg)
+
+J’ai changé le guidon et la potence style BMX pour un Simworks Fun Bar 3 avec plus de back sweep pour plus de confort complété par des poignées OURY V2, la potence est une Velo Orange Faceplate en 110mm de long. L’ensemble de mon kit Shimano Deore moderne a été remplacé par l’iconique Shimano XTR M-951 pour les freins v-brake, toujours avec des patins KoolStop, ainsi que le derailleur arrière, XTR M-951 en Rapid Rise (assez rare, mais à l’indexation inversée. Naturellement, le ressort pousse la cage vers les vitesses les plus souples, à l’inverse des modernes qui ont naturellement tendance à partir vers les plus dures.) . Vous l’aurez compris, j’ai donc revendu mon derailleur arrière Deore ainsi que la cassette 1x10 pour passer au XTR avec une transmission 1x9 vitesses en 11-36 et troqué le shifter moderne pour un shifter à friction Dia Compe ENE non indexé. Quel plaisir de ne plus avoir de bruit de clic à chaque changement de vitesse. Et j’aime ce petit jeu de maîtriser le mouvement de friction pour tomber pile sur la bonne vitesse. J’appréhendais au début et finalement, c’est très naturel et très facile.
+
+![restauration Specialized RockHopper](images/02.jpg)
+![restauration Specialized RockHopper](images/06.jpg)
+![restauration Specialized RockHopper](images/010.jpg)
+
+J’ai aussi réussi à avoir l’une des dernières étoiles triples vendues par Middleburn pour mon RS7. Mon pédalier est désormais en double plateau mais utilisé comme un mono-plateau. Je n’ai pas de derailleur avant, j’utilise quasiment jamais le petit plateau que j’ai rajouté, mais si je l’ai rajouté c’est bien pour une raison : pouvoir mieux passer les grosses cotes en bikepacking. Je ne suis jamais pressé donc pas besoin du derailleur avant qui viendrait me rajouter de l’encombrement avec un shifter sur le guidon, je peux juste tomber la chaine avec mon talon tout en pédalant pour qu’elle passe sur mon plateau de 24 dents. Et de toute façon, quand j’arrive en haut, j’ai besoin de souffler (ou de faire une photo de la vue), donc j’ai qu’à remonter la chaine avec les doigts sur le plateau de 38 dents. D’ailleurs, je ne me salis plus les doigts avec la chaine. J’ai arrêté l’usage d’une huile qui a tendance à noircir très rapidement. Désormais, j’utilise une cire très facile à appliquer, qui demande moins d’entretien, à laquelle la saleté n’adhère pas et qui garde ma transmission propre. Je revis depuis !
+
+![restauration Specialized RockHopper](images/05.jpg)
+![restauration Specialized RockHopper](images/08.jpg)
+![restauration Specialized RockHopper](images/09.jpg)
+
+Enfin, et non des moindres, les roues ont également été changées. J’ai assemblé moi-même une paire de roues Ryde Big Bull (initialement prévues pour la descente) en 26 pouces toujours et 36 rayons, et chiné 2 moyeux Shimano XT Parallax M737. J’ai remplacé mes pneus Vittoria Booze Light par des Continental Race King qui m’apportent un peu plus d’accroche sur les chemins et en conditions humides. Et ils font un peu moins BMX sur cette version de ma build qui a une esthétique plus classique désormais. Pour peaufiner le tout, j'ai ajouté un éclairage Supernova Mini Pro 2 compatible dynamo et USB. Je n'ai pas choisi l'option dynamo, je branche directement le phare à une powerbank dédiée. Enfin, point final de cette nouvelle build, j’ai troqué ma selle Brooks Cambium C17 contre une Berthoud Aspin fabriquée à 5km de là où j’ai grandi.
+
+![restauration Specialized RockHopper](images/04.jpg)
+![restauration Specialized RockHopper](images/03.jpg)
+![restauration Specialized RockHopper](images/07.jpg)
+
+Dire que je suis amoureux de cette nouvelle version serait un euphémisme. À tel point que j'ai revendu tous mes autres vélos et qu'aujourd'hui, je ne roule plus qu'avec celui là. Je tiens une satisfaction incommensurable de ce vélo, il me met un smile grand comme ça, que ce soit pour un aller-retour à la boulangerie ou une balade dans le bois du coin. Je n'ai aucune envie de le faire évoluer à ce jour, rien ne me fait de l'oeil pour son évolution. Je ne garantis pas que ça sera sa dernière version, mais là tout de suite, je le trouve parfait comme ça.

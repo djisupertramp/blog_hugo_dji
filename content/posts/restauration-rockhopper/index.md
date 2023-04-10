@@ -143,3 +143,5 @@ Enfin, et non des moindres, les roues ont également été changées. J’ai ass
 ![restauration Specialized RockHopper](images/07.jpg)
 
 Dire que je suis amoureux de cette nouvelle version serait un euphémisme. À tel point que j'ai revendu tous mes autres vélos et qu'aujourd'hui, je ne roule plus qu'avec celui là. Je tiens une satisfaction incommensurable de ce vélo, il me met un smile grand comme ça, que ce soit pour un aller-retour à la boulangerie ou une balade dans le bois du coin. Je n'ai aucune envie de le faire évoluer à ce jour, rien ne me fait de l'oeil pour son évolution. Je ne garantis pas que ça sera sa dernière version, mais là tout de suite, je le trouve parfait comme ça.
+
+Si ça vous dit de voir une autre build très très cool, allez lire l'article de mon pote Greg sur la rénovation de son [Rockrider 700 de 1998](https://gregorymignard.com/restauration-vtt-atb/).

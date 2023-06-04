@@ -5,7 +5,7 @@ date: "2023-06-04"
 slug: "maison-le-detour"
 categories:
 - aventures
-tags: ["maison d'hôtes", "tourraine", "gites", "fuji X100F", "daily photo", "vacances en france", "gites campagne", "le mans", "tours", "angers", "chateaux de la loire", "france"]
+tags: ["maison d'hotes", "touraine", "gites", "fuji X100F", "vacances en france", "gites campagne", "le mans", "tours", "angers"]
 description: "La dolce vita lors de notre séjour à la maison d'hôte "Le Détour" en Touraine"
 resources:
 - src: "cover.jpg"
@@ -35,7 +35,7 @@ Samantha avait suivi tout le projet de rénovation sur [Instagram](https://www.i
 Une nuit de repos dans notre cocon douillet, lovés dans des draps qu’on aurait bien rapportés chez nous, on se lève avec les rayons du soleil qui viennent taper aux carreaux de la chambre. On prolonge la grasse matinée en ouvrant la porte qui donne sur notre petite terrasse face au grand noyer pour laisser la légère brise s’engouffrer et nous offrir un réveil bercé par les petits cris des oiseaux mêlé au son du vent qui fait valser les grandes herbes et les branches des noyers. On rejoint Pauline sur la terrasse qui nous a préparé un petit déjeuner à base de produit de la région, qu’avec des petites attentions faites main par Pauline. Chaque matin un petit déjeuner différent qui vient comme une surprise et un vrai moment de retrouvaille. D’abord entre nous, à déguster ses babkas, financiers, pancakes, focaccia sucrées, coulant au chocolat et autres gateaux aux épices tout en laissant divaguer notre regard sur cet horizon d’herbes dansantes, réchauffés par les rayons du soleil qui s’élèvent au dessus de la plaine qui nous fait face.
 
 {{< photo src="images/Detour_23.jpg" alt="Maison Le Détour">}}
-{{< photo src="images/Detour_46.jpg" alt="Maison Le Détour">}} 
+{{< photo src="images/Detour_46.jpg" alt="Maison Le Détour">}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_43.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_44.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_35.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_18.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_21.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_18.jpg" alt="Maison Le Détour">}} {{</ photoset >}}

@@ -6,7 +6,7 @@ slug: "maison-le-detour"
 categories:
 - aventures
 tags: ["maison hotes", "touraine", "gites", "fuji X100F", "vacances france", "gites campagne", "le mans", "tours", "angers"]
-description: "Dolce vita à la maison d'hôte "Le Détour" en Touraine"
+description: "Dolce vita à la maison d'hôte Le Détour en Touraine"
 resources:
 - src: "cover.jpg"
   name: "cover"

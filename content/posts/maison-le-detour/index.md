@@ -50,9 +50,9 @@ Et puis les retrouvailles aussi avec Pauline et Paul, au détour d’une pause, 
 {{< photo src="images/Detour_27.jpg" alt="Maison Le Détour">}}
 {{< photo src="images/Detour_22.jpg" alt="Maison Le Détour">}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_45.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_47.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
-{{< photoset always="2" >}} {{< photo src="images/Detour_6.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_48.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
+{{< photoset always="2" >}} {{< photo src="images/Detour_50.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_48.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 
 Une parenthèse dans cette maison, où la vie est bercée par l’insouciance du temps qui passe, coupés des nouvelles et de tout ce qui pourrait nous polluer ce moment. J’ai laissé ma montre dans la chambre pendant tout le séjour, mon iPhone coupé de toutes les notifications. Une retraite à la campagne. Une déconnexion pour mieux se reconnecter à nous même, à la nature et aux choses simples. Rien que nous, cette belle maison à déambuler entre dedans et dehors, et puis Eux.  
 
-  
+
 *La dolce vita.*

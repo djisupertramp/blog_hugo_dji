@@ -4,7 +4,7 @@ seotitle: "Séjour à la maison d'hôte Le Détour en Touraine"
 date: "2023-06-04"
 slug: "maison-le-detour"
 categories:
-- aventures
+- reflexions
 tags: ["maison d'hotes", "touraine", "gites", "fuji X100F", "vacances en france", "gites campagne", "le mans", "tours", "angers"]
 description: "La dolce vita lors de notre séjour à la maison d'hôte "Le Détour" en Touraine"
 resources:

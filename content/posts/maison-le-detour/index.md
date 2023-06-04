@@ -38,18 +38,17 @@ Une nuit de repos dans notre cocon douillet, lovés dans des draps qu’on aurai
 {{< photo src="images/Detour_46.jpg" alt="Maison Le Détour">}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_43.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_44.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_35.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_18.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
-{{< photoset always="2" >}} {{< photo src="images/Detour_21.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_18.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
+{{< photoset always="2" >}} {{< photo src="images/Detour_21.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_19.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photo src="images/Detour_37.jpg" alt="Maison Le Détour">}}
 
 Et puis les retrouvailles aussi avec Pauline et Paul, au détour d’une pause, en se croisant devant leur jardin ou au coin de la porte. On s’échange quelques mots, qui très vite partent en pause thé ou soirée pétanque, à poursuivre sur l’élan de la veille. Nous étions venus là pour nous retrouver, profiter, et ne rien faire. Faire une sieste au creux du canapé, se cuisiner de bons petits plats sur la plancha, se rafraichir en journée ou se réchauffer en soirée dans le spa de campagne de la terrasse attenante, feuilleter un livre, puis deux, puis trois et commencer à tailler une branche de noyer grâce aux outils chaleureusement prêtés. Les journées passent doucement et rapidement à la fois. On ne fait rien, mais on ne s’ennuie pas. Jamais. Un vrai sentiment de repos nous envahit au troisième jour, qui nous fera même étendre notre séjour de 24h supplémentaire, comme pour étirer encore et encore cette parenthèse. On avait envie de rab, et surtout pas très envie de les quitter. Nous sommes venus nous retrouver nous, nous y aurons trouvé beaucoup plus. La quiétude et la douceur des belles journées d’été mêlées à la puissance d’une vraie belle rencontre. Un coup de coeur aussi grand pour le lieu que pour ses propriétaires et déjà l’envie esquissée d’y retourner en hiver, pour rester à bouquiner au coin du feu, tester le spa quand les températures seront fraiches et prolonger ses belles soirées à quatre autour d’une raclette.
 
 {{< photo src="images/Detour_1.jpg" alt="Maison Le Détour">}}
-{{< photoset always="2" >}} {{< photo src="images/Detour_43.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_44.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_38.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_34.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_39.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_41.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
-{{< photo src="images/Detour_27.jpg" alt="Maison Le Détour">}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_26.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_29.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photo src="images/Detour_28.jpg" alt="Maison Le Détour">}}
+{{< photo src="images/Detour_27.jpg" alt="Maison Le Détour">}}
 {{< photo src="images/Detour_22.jpg" alt="Maison Le Détour">}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_45.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_47.jpg" alt="Maison Le Détour">}} {{</ photoset >}}
 {{< photoset always="2" >}} {{< photo src="images/Detour_6.jpg" alt="Maison Le Détour">}} {{< photo src="images/Detour_48.jpg" alt="Maison Le Détour">}} {{</ photoset >}}

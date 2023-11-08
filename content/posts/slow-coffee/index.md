@@ -25,12 +25,13 @@ Ni une ni deux, Jeremy toujours dans la demi-mesure : je commande d’emblée un
 
 {{< photo src="images/cafe_12.jpg" alt="histoire de café" >}}
 
-Mon setup café actuel à la maison : **[Chemex 3 tasses](https://amzn.to/47kOg1g )** / **[Bouilloire Gooseneck Fellow Stagg](https://amzn.to/473hXnB)** / **[Moulin à café Kalita KH-Retro](https://amzn.to/3sgGqqD )** / **Mini tasse sierra** pour prendre les grains au fond du sac de café
+*Mon setup café actuel à la maison : **[Chemex 3 tasses](https://amzn.to/47kOg1g )** / **[Bouilloire Gooseneck Fellow Stagg](https://amzn.to/473hXnB)** / **[Moulin à café Kalita KH-Retro](https://amzn.to/3sgGqqD )** / **Mini tasse sierra** pour prendre les grains au fond du sac de café*
 
-{{< photo src="images/cafe_9.jpg" alt="histoire de café" >}}
+
 {{< photoset always="2" >}} {{< photo src="images/cafe_13.jpg" alt="coffee outside">}} {{< photo src="images/cafe_14.jpg" alt="coffee outside">}} {{</ photoset >}}
 {{< photoset always="2" >}} {{< photo src="images/cafe_15.jpg" alt="coffee outside">}} {{< photo src="images/cafe_16.jpg" alt="coffee outside">}} {{</ photoset >}}
 {{< photo src="images/cafe_18.jpg" alt="histoire de café" >}}
+
 
 La Chemex arrive enfin et je commence à essayer de me faire des cafés avec. Je tâtonne un peu mais je m’en sors. Le plus difficile est que j’ai utilisé ma balance de cuisine basique, qui est tout sauf suffisamment précise ou réactive. Idem pour ma bouilloire Smeg, certes très jolie, mais qui ne convient pas du tout au slow coffee dans mon cas, par manque de précision au service notamment. Je recherche, pose des questions à Greg et Yannick, fais des benchmarks et passe une nouvelle commande pour une bouilloire gooseneck et une balance dédiée au café. Mon rituel café commençait alors à prendre forme.
 
@@ -38,17 +39,21 @@ Quelques semaines plus tard, et après plusieurs allers retours chez mon torréf
 
 Depuis, je suis retourné à Londres pour le travail et en ai profité pour racheter quelques sachets chez *Origin Coffee* pour tester de nouveaux arômes et de nouvelles références. Le coup de coeur est confirmé. En parallèle, j’ai découvert des adresses cools à Lille sur les bons conseils de nos amis, notamment pour assouvir mon envie de flat white et je cherche toujours des bons cafés via l’app Source. Mon QG est *Q de bouteilles* dans le Vieux Lille et *Coffee Makers*, plus rarement mais très cool aussi.
 
+{{< photo src="images/cafe_1.jpg" alt="histoire de café" >}}
+
 Je crois que ce qui me plait dans tout ça, c’est, bien évidemment de boire du café mais aussi le rituel et la préparation avant d’avoir une tasse pleine. Je n’ai pas besoin du café pour me réveiller ni pour quoi que ce soit d’autres. Je peux passer 1 mois sans en boire sans problème. Je n’en bois d’ailleurs pas tous les jours. Je le fais à l’envie, soit à 11h soit à 14h. Parfois les deux. Parfois plus tôt. Parfois plus tard. Je n’ai pas de règle si ce n’est d’avoir un peu de temps devant moi pour mon rituel. D’abord sortir l’ensemble des ustensiles. Ensuite mettre l’eau à chauffer. Moudre mon grain à la main avec mon moulin à café. Plier mon filtre de Chemex. Poser la Chemex sur la balance. Une fois l’eau à température, arroser le filtre puis jeter l’eau tombée dans la carafe, afin de rincer le filtre. Verser ma mouture. Verser l’eau de manière concentrique avec la bouilloire jusqu’à épuisement. Laisser s’écouler le goutte à goutte. Secouer la carafe pour humer les parfums. Regarder la couleur du café. Verser dans la tasse. Déguster.
 
 Et puis il y-a aussi le plaisir de prendre mon vélo, mettre l'équipement dans la sacoche et partir prendre un café dehors. Je ne le fais pas souvent, mais quand je le fais, c'est toujours mémorable. Je prends mon kit café et reproduit mon rituel de la maison mais en pleine nature, avec du matériel adapté. [#coffeeoutside](https://www.instagram.com/explore/tags/coffeeoutside)
 
-{{< photo src="images/cafe_2.jpg" alt="coffee outside" >}}
-{{< photo src="images/cafe_5.jpg" alt="coffee outside" >}}
+
 {{< photoset always="2" >}} {{< photo src="images/cafe_20.jpg" alt="coffee outside">}} {{< photo src="images/cafe_4.jpg" alt="coffee outside">}} {{</ photoset >}}
 
-Mon setup café en déplacement : **[Porlex Mini II](https://amzn.to/49o4Vml)** / **[Porte filtre Sotto Helix](https://sotooutdoors.eu/fr/produkt/cafetiere-helix/)** / **[Tasse Klean Kanteen double paroi]**(https://amzn.to/472r4F0) ou **[Snow Peak 300ml](https://amzn.to/3QrQ41x)** / **[Réchaud MSR Pocket Rocket II](https://amzn.to/40wK1NY)** / **[Tasse Titane TOAKS](https://amzn.to/47ponNx)** / **Mini tasse sierra** que j’ai gravé pour repérer la quantité de grain nécessaire pour une tasse à café et m’éviter d’avoir besoin d’une balance à transporter / Le tout transporté soit dans ma **[lunch box Stanley](https://amzn.to/3MyMsJZ)** soit dans mon bento « BE-PAL X MONTBELL » et en vrac dans ma **[sacoche de vélo FIELDPACKS](http://fieldpacks.fr)**.
+*Mon setup café en déplacement : **[Porlex Mini II](https://amzn.to/49o4Vml)** / **[Porte filtre Sotto Helix](https://sotooutdoors.eu/fr/produkt/cafetiere-helix/)** / **[Tasse Klean Kanteen double paroi](https://amzn.to/472r4F0)** ou **[Snow Peak 300ml](https://amzn.to/3QrQ41x)** / **[Réchaud MSR Pocket Rocket II](https://amzn.to/40wK1NY)** / **[Tasse Titane TOAKS](https://amzn.to/47ponNx)***
 
-Un café pris au lever de soleil, seul, avec vue a un goût encore différent de celui pris à la maison. Un vrai sentiment de ralentir et de plaisir. Une parenthèse mémorable alors que beaucoup de gens sont encore en train de dormir.
+{{< photo src="images/cafe_5.jpg" alt="coffee outside" >}}
+{{< photo src="images/cafe_2.jpg" alt="coffee outside" >}}
+
+Un café pris au lever de soleil, seul, avec vue a un goût encore différent de celui pris à la maison. Le tout transporté soit dans ma **[lunch box Stanley](https://amzn.to/3MyMsJZ)** soit dans mon bento « BE-PAL X MONTBELL » et en vrac dans ma **[sacoche de vélo FIELDPACKS](http://fieldpacks.fr)**. Un vrai sentiment de ralentir et de plaisir. Une parenthèse mémorable alors que beaucoup de gens sont encore en train de dormir.
 
 Dans quelques semaines, je serai de passage à Londres pour le travail, ça sera l’occasion de faire du stock maintenant que je sais lesquels je préfère.
 Et désormais, à chaque fois qu’on s’écrit, une des premières questions que me posent Isaac ou Alex, c’est de me demander où j’en suis dans mon parcours café.

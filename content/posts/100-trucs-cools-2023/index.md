@@ -64,6 +64,9 @@ Pour faire suite à celle de [2022](https://jeremyjanin.com/100-trucs-cools-2022
 - 48 . Détester poncer tous ces mètres carrés de placo à la giraffe. Définitivement le truc que je déteste le plus en bricolage
 - 49 . Me lever à 3h pour être à l’ouverture d’une brocante à 5h pour finalement arriver sous un torrent de pluie et finir notre nuit dans la voiture en attendant la fin du déluge à 7h30.
 - 50 . Pas pu faire la braderie de Lille cette année pour cause d’accouchement. À 12h près.
+
+{{< photo src="images/DSCF4816.jpg" alt="100 trucs cools en 2023" >}}
+
 - 51 . Commencé l’aquarelle
 - 52 . Visité une boutique de haute joaillerie Place Vendôme et c’était FA-SCI-NANT. Merci Clémentine.
 - 53 . Visité le NBA Store de Paris mais être déçu.
@@ -115,6 +118,6 @@ Pour faire suite à celle de [2022](https://jeremyjanin.com/100-trucs-cools-2022
 - 99 . Été heureux de voir Greg passer [du gravel à son ATB](https://gregorymignard.com/restauration-vtt-atb/) et le conseiller pour remonter le vélo dont il rêvait
 - 100 . Vécu [ma meilleure année](https://www.instagram.com/p/C12ZkdkMnbj/) !
 
-{{< photo src="images/DSCF4816.jpg" alt="100 trucs cools en 2023" >}}
+
 
 ✌🏻

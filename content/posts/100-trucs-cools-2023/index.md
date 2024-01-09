@@ -12,8 +12,6 @@ resources:
   name: "cover"
 - src: "*.jpg"
 ---
-
-
 Pour faire suite à celle de [2022](https://jeremyjanin.com/100-trucs-cools-2022/), en 2023…
 
 - 1 . Ma vie a changé !

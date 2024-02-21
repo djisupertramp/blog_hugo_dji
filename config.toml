@@ -48,10 +48,11 @@ paginate = 12
 [params.social]
   email = "hello@jeremyjanin.com"
   domain = "Jeremy Janin"
-  twitter = "jeremyjanin"
+  threads = "jeremyjanin"
   instagram = "jeremy.janin"
+  twitter = "jeremyjanin"
   youtube = "djisupertramp"
-  mastodon = "@jeremy"
+
 
 [params.tinyletter]
   username = "captainyvon"

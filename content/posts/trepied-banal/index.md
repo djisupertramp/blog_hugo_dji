@@ -18,12 +18,12 @@ Je me balade de temps en temps sur Digit Photo ou sur d’autres sites spéciali
 
 De manière régulière au cours des dix dernières années, je me suis dit que quand même ça serait bien d’upgrader mon trépied. Comme pour à peu près tout dans ma vie, j’ai une spreadsheet et je fais un état des lieux de ce qui se fait et compare les options. Comme toujours, une petite recherche qui est censée durer 10 minutes, fini par être un énorme puit sans fond, jusqu’à ce que décision soit prise. Le problème avec les « vrais trépieds » c’est que pour être plus solides, plus stables et mieux finis, ils sont plus gros, plus encombrants, plus lourds et souvent très chers. Sauf qu’au fur et à mesure de mes recherches, je tombais que sur des vidéos et des articles qui répétaient sans cesse « c’est le meilleur », « ne lésinez pas sur la qualité », « investissez aujourd’hui et gardez le à vie », « best travel tripod » etc… J’ai donc fini par me convaincre moi-même : il me fallait un nouveau trépied.
 
-- *Tant pis, je fais quoi ? Je craque et je lache 700€ pour ce [Peak Design en carbone révolutionnaire](https://dp.gt/a/ak3eg9mq) et compact ? Bon ça fait cher mais est-ce que ça vaudrait pas le coup une bonne fois pour toute ?*\
-- *Après quitte à mettre cette somme, si je monte à 1000€ il y-a ce Sachtler avec son système pour ajuster la hauteur à une main, ça a l’air fou ! Et puis c’est ce que tout le monde utilise dans la réalisation de documentaires. Et moi c’est ce que je veux faire, non ?*\
-- *Oh Ulanzi a sorti une version moitié moins chère que Peak Design, ça a l’air tentant aussi !*\
-- *Ah et puis Smallrig vient de sortir un [trépied vidéo compact](https://dp.gt/a/37i1uv4ja), c’est cool et pas très cher pour le coup !*\
-- *Finalement, un bon vieux Manfrotto bien robuste ça ne ferait pas le job ? Surtout avec mon Sigma 100-400mm et une bonne tête vidéo !*\
-- *Bon, je fais quoi moi avec tout ça ?*\
+  - *Tant pis, je fais quoi ? Je craque et je lache 700€ pour ce [Peak Design en carbone révolutionnaire](https://dp.gt/a/ak3eg9mq) et compact ? Bon ça fait cher mais est-ce que ça vaudrait pas le coup une bonne fois pour toute ?*\
+  - *Après quitte à mettre cette somme, si je monte à 1000€ il y-a ce Sachtler avec son système pour ajuster la hauteur à une main, ça a l’air fou ! Et puis c’est ce que tout le monde utilise dans la réalisation de documentaires. Et moi c’est ce que je veux faire, non ?*
+  - *Oh Ulanzi a sorti une version moitié moins chère que Peak Design, ça a l’air tentant aussi !*
+  - *Ah et puis Smallrig vient de sortir un [trépied vidéo compact](https://dp.gt/a/37i1uv4ja), c’est cool et pas très cher pour le coup !*
+  - *Finalement, un bon vieux Manfrotto bien robuste ça ne ferait pas le job ? Surtout avec mon Sigma 100-400mm et une bonne tête vidéo !*
+  - *Bon, je fais quoi moi avec tout ça ?*
 
 Est-ce que j’ai vraiment envie de dépenser 700€ pour un trépied qui pèse 100g de moins que mon actuel ? Ce n’est pas du safran en terme de tarif au gramme mais ça fait réfléchir quand même. Bien sûr c’est réducteur de ne prendre en compte que le poids, mais avec une vision terre à terre, un trépied est là pour maintenir mon appareil photo ou ma caméra stable. Bien sûr il y-a plein d’autres alternatives, moins chères et qui sont certainement mieux que mon trépied cheap. Si demain j’achetais un trépied plus haut de gamme en carbone, est-ce que je l’attacherais sur mon vélo avec 2 straps en m’en fichant que la peinture s’écaille en frottant contre le porte bagage ?
 

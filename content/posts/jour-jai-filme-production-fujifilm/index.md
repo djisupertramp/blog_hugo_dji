@@ -26,7 +26,7 @@ On a eu des conditions rêvées avec une ambiance de dingue au dessus des falais
 Comme le projet était pour Fujifilm, ils m’ont prêté le matériel de mon choix de leur marque pour réaliser cette vidéo 100% Fuji. J’ai donc opté pour un [Fujifilm X-H2S](https://dp.gt/a/vjj9imhxs) (4K25 10bit F-LOG2) avec le [35mm f/1.4](https://dp.gt/a/4rt0qtq2p) comme optique principale (équivalent 50mm en plein format) et quelques optiques secondaires pour compléter le setup. J’ai au final uniquement utilisé le 35mm f/1.4. J’ai aussi utilisé mon Black Pro Mist 1/8 en plus et [mon moniteur](https://dp.gt/a/jnpyg61a) pour cadrer avec plus de précision et de confort.
 
 {{< photo src="images/production-fujifilm-xt-50-19.jpg" alt="J’ai filmé une campagne vidéo pour la sortie du Fujifilm XT-50" wide="true" >}}
-*Photo — [Anne Eeckeman](https://www.instagram.com/anneeeck)*
+Photo — [Anne Eeckeman](https://www.instagram.com/anneeeck)
 
 Fidèle à mon habitude, j’ai passé tout le tournage à les suivre avec le XH2-S en bandoulière, à essayer de me faufiler, me faire discret avec un setup aussi minimaliste que possible. Ce week-end a été pour moi l’occasion de filmer pour la première fois avec un XH2-S (dont Greg est propriétaire et ne cesse de m’en vanter les qualités). Ce fut un baptême osé en apprenant à le maitriser sur le tas, tant pour sa montée en ISO que sa stabilisation. J’ai uniquement filmé en focus manuel, n’étant plus habitué à filmer avec de l’AF et surtout parce que je préfère.
 
@@ -34,8 +34,6 @@ Fidèle à mon habitude, j’ai passé tout le tournage à les suivre avec le XH
 
 Je ne me suis pas encombré d’un micro, ni d’une cage, j’ai pris le parti d’avoir un setup que je pourrais avoir systématiquement en bandoulière. Le seul extra était mon moniteur car je ne pourrais pas m’en passer. Je pense que c’était la clé que de pouvoir être aussi réactif, léger et discret pour pouvoir déclencher l’air de rien. Le meilleur compliment que j’ai pu avoir de la part d’Anne et Kevin, c’est qu’ils étaient inquiets que je n’ai rien pu filmer et qu’ils se sont aperçus que j’avais filmé des moments qu’eux même n’avaient pas remarqués. Ça décrit totalement ce que j’essaie de faire dans chacune de mes productions. Tenter d’avoir un rendu surprenant avec un setup minimaliste qui me permet justement de pouvoir être créatif, au rythme que j’impose et non que mon matériel m’impose.
 
-
-{{< photo src="images/production-fujifilm-xt-50-07.jpg" alt="J’ai filmé une campagne vidéo pour la sortie du Fujifilm XT-50" wide="true" >}}
 {{< photo src="images/production-fujifilm-xt-50-08.jpg" alt="J’ai filmé une campagne vidéo pour la sortie du Fujifilm XT-50" wide="true" >}}
 {{< photo src="images/production-fujifilm-xt-50-10.jpg" alt="J’ai filmé une campagne vidéo pour la sortie du Fujifilm XT-50" wide="true" >}}
 {{< photo src="images/production-fujifilm-xt-50-09.jpg" alt="J’ai filmé une campagne vidéo pour la sortie du Fujifilm XT-50" wide="true" >}}

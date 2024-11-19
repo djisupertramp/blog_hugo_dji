@@ -11,14 +11,14 @@ resources:
 ---
 ## Boitiers
 
-- [Panasonic S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21) + mise à jour V-LOG
-- [DJI Air 3](https://dp.gt/a/oz5sd53o)
-- Canon A1
-- Olympus Mju II
-- Nikonos V
-- Hasselblad 500CM
-- Super 8 Beaulieu 4008ZMII
-- [iPhone 16 Pro](https://amzn.to/4hMNT5x)
+* [Panasonic S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21)
+* [DJI Air 3](https://dp.gt/a/oz5sd53o)
+* Canon A1
+* Olympus Mju II
+* Nikonos V
+* Hasselblad 500CM
+* Super 8 Beaulieu 4008ZMII
+* [iPhone 16 Pro](https://amzn.to/4hMNT5x)
 
 ## Objectifs
 - Canon FD 24mm f/2.8
@@ -40,12 +40,13 @@ resources:
 
 ## Audio
 
-- [ZOOM F3](https://dp.gt/a/4e1wzzk4o)
-- [Immersive Soundscapes Earsight Standard V2](https://immersivesoundscapes.com/earsight-standard-v2/)
-- [ZOOM H1n](https://dp.gt/a/i5nqjkrt9)
-- [Hollyland Lark M2](https://dp.gt/a/lr0mbg3xc)
-- [Rode VideoMic Pro](http://amzn.to/2eUJUGG)
+* [ZOOM F3](https://dp.gt/a/4e1wzzk4o)
+* [Immersive Soundscapes Earsight Standard V2](https://immersivesoundscapes.com/earsight-standard-v2/)
+* [ZOOM H1n](https://dp.gt/a/i5nqjkrt9)
+* [Hollyland Lark M2](https://dp.gt/a/lr0mbg3xc)
+* [Rode Videomic NTG](https://amzn.to/48TQl6e)
 
+### POST PRODUCTION
 
 ## Post-production
 

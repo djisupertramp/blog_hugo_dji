@@ -34,7 +34,7 @@ paginate = 12
   bodyFont = "Questrial"
 
   hasLogo = true
-  accentColor = "#037b80"
+  accentColor = "#8e9c95"
 
 #heroHeader = false
 

@@ -29,9 +29,9 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Questrial"
-  titleFont = "Merriweather"
-  bodyFont = "Questrial"
+  sansSerifFont = "Times New Roman"
+  titleFont = "Times New Roman"
+  bodyFont = "Times New Roman"
 
   hasLogo = true
   accentColor = "#8e9c95"

@@ -37,11 +37,11 @@ module.exports = {
           "sans-serif"
         ],
         serif: [
+          "Times New Roman",
           "-apple-system-ui-serif",
           "Iowan Old Style",
           "Apple Garamond",
           "Baskerville",
-          "Times New Roman",
           "Droid Serif",
           "Times",
           "Source Serif Pro",

@@ -29,7 +29,7 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Questrial"
+  sansSerifFont = "Times New Roman"
   titleFont = "Times New Roman"
   bodyFont = "Times New Roman"
 

@@ -76,24 +76,31 @@ a:hover {
 h1.large {
   font-size: 3.7rem;
   letter-spacing: 0.5px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 h1 {
   font-size: 2rem;
   letter-spacing: 0.5px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 h2, h1.medium {
   font-size: 2.9rem;
   font-weight: 300;
   letter-spacing: 0.5px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 1.6rem;
   font-weight: 300;
+  text-transform: uppercase;
 }
 h4 {
   font-size: 1.4rem;
   font-weight: 300;
+  text-transform: uppercase;
 }
 h5 {
   font-size: 0.8rem;
@@ -102,8 +109,9 @@ h5 {
 }
 .post h2 {
   font-size: 1.6rem;
-  text-transform: normal;
+  text-transform: uppercase;
   margin: 20px 0;
+  font-weight: 700;
 }
 
 h1, h2, h3, h4, h5 {

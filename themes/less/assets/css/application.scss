@@ -73,6 +73,10 @@ a:hover {
   border-bottom-color: var(--accent);
 }
 
+ul {
+    list-style: inside;
+} 
+
 h1.large {
   font-size: 3.7rem;
   letter-spacing: 0.5px;

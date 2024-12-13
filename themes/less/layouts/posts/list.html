@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="main">
-    <div class="list journal">
+    <div class="grid grid-cols-1 gap-12">
       {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "posts") 12) }}
       {{ range $index, $post := $paginator.Pages }}
         {{ partial "post.html" (dict "post" $post "index" $index "ctx" $)}}

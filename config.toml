@@ -30,8 +30,8 @@ paginate = 12
   tags = []
 
   sansSerifFont = "Questrial"
-  titleFont = "Tinos"
-  bodyFont = "Tinos"
+  titleFont = "Times"
+  bodyFont = "Times"
 
   hasLogo = true
   accentColor = "#8e9c95"

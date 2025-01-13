@@ -110,6 +110,7 @@ h5 {
 }
 
 h1, h2, h3, h4, h5 {
+  -webkit-text-stroke: 2px black;
   margin: 0;
   text-align: left;
   font-weight: normal;
@@ -118,6 +119,7 @@ h1, h2, h3, h4, h5 {
 }
 .title {
   font-family: var(--title-font);
+  -webkit-text-stroke: 2px black;
 }
 
 .date, .main_menu, footer{

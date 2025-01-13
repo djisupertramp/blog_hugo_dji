@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5 {
   text-align: left;
   font-weight: normal;
   font-family: var(--title-font);
-  max-width: 60rem !important;
+  max-width: 40rem !important;
 }
 .title {
   font-family: var(--title-font);
@@ -252,7 +252,7 @@ img {
     }
 
     p, blockquote, ul, ol, .micropost {
-      max-width: 60rem !important;
+      max-width: 40rem !important;
       margin-top: 25px;
       margin-bottom: 25px;
     }

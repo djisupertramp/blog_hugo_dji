@@ -20,10 +20,10 @@
   {{ end }}
   {{ partial "gallery.html" . }}
   {{.Content}}
+  <a href="#" class="myButton">Bouton</a>
   {{if .Params.gear }}
     <p class="center t12"><i>Gear: </i>{{ delimit .Params.gear " ● " }}</p>
   {{ end }}
 </div>
-<a href="#" class="myButton">Bouton</a>
 {{ partial "tinyletter.html" . }}
 {{ end }}

@@ -9,6 +9,7 @@
       "center",
       "div",
       "em",
+      "figcaption",
       "figure",
       "footer",
       "h1",
@@ -43,6 +44,9 @@
       "ul"
     ],
     "classes": [
+      "-mt-4",
+      "-mt-6",
+      "-mt-8",
       "absolute",
       "active",
       "align-center",
@@ -71,6 +75,7 @@
       "h-full",
       "inherit",
       "italic",
+      "italic-mt-6",
       "items-center",
       "journal",
       "justify-between",
@@ -133,6 +138,7 @@
       "social",
       "text-2xl",
       "text-center",
+      "text-gray-500",
       "text-italic",
       "text-left",
       "text-sm",

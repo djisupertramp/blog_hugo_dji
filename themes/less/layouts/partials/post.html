@@ -14,13 +14,13 @@
       </a>
     </div>
   {{end}}
-  <div class="post-header">
-    <h3>
+  <div class="post-header mt-8 flex flex-col items-center">
+    <h3 class="block">
         {{ .post.Params.emoji }}
         <a class="title no-decoration" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
     </h3>
-    <p>
-      {{ .post.Summary | replaceRE "(?ms)(<(figure|blockquote).*</(figure|blockquote)>)" "" | safeHTML | truncate 200 }}   <a class="title no-decoration" href="{{ .post.Permalink }}">Lire la suite →</a>
+    <p class="block text-center italic">
+    {{ .post.Summary | replaceRE "(?ms)(<(figure|blockquote).*</(figure|blockquote)>)" "" | safeHTML | truncate 200 }} <br/>  <a class="bold title no-decoration" href="{{ .post.Permalink }}">Lire la suite →</a>
     </p>
   </div>
 </div>

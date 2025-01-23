@@ -97,3 +97,5 @@ paginate = 12
 
 [markup.goldmark.renderer]
   unsafe= true
+[security.exec]
+  osEnv = ['.*']

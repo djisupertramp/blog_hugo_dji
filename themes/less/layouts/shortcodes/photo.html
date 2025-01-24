@@ -1,5 +1,5 @@
-<figure>
-  <picture class="{{ if .Get "wide" }}md:-mx-32{{else}}md:-mx-6{{end}} {{ with .Get "class"}}{{ . }}{{ end }}">
+<figure class="{{ if .Get "wide" }}md:-mx-32{{else}}md:-mx-6{{end}} {{ with .Get "class"}}{{ . }}{{ end }}">
+  <picture >
     {{ $media := $.Page.Resources }}
     {{ $original := $media.GetMatch (.Get "src") }}
     {{ if $original }}

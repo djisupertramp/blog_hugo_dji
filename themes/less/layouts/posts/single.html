@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $image := .Resources.GetMatch "cover" | default (index (.Resources.ByType "image") 0) }}
-<div class="post-title">
+<div class="post-title text-center">
   <span class="category">
     {{ range first 1 .Params.categories }}
     <a class="no-decoration" href="/{{ . }}">{{ . }}</a>

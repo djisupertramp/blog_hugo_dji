@@ -13,13 +13,13 @@ resources:
 <p><strong>Hello.</strong></p>
 Moi, c’est Jérémy. Je suis avant tout quelqu'un de passionné. J'adore tout ce qui touche à la nature, aux activités outdoor, surtout faire des images argentique comme numérique et quelques voyages. Plus que les grosses expéditions, ce qui m'anime c'est de mettre un peu d'esprit d'aventure dans mon quotidien. Même si j'adore bivouaquer, faire du bikepacking ou randonner, j'ai aussi une vie de famille à côté et je tente de trouver l'équilibre entre toutes mes casquettes.
 <br/>
-{{</columns>}}
 J'ai co-fondé, avec <a href="https://gregorymignard.com/" target="blank">Grégory Mignard</a>, <a href="https://captainyvon.fr" target="blank">Captain Yvon Studio</a>, avec lequel on crée des vidéos avec une approche documentaire et cinématographique. On partage aussi chaque mois une newsletter, [Slow Is Beautiful](https://slowisbeautiful.substack.com), dans laquelle on parle de tout ce qui nous fait réflechir, nous inspire et nous passionne.<br/>
 <br/>
 En parallèle, <a href="http://fieldpacks.fr" target="blank">FIELDPACKS</a> c'est mon laboratoire-projet de couture de matériel outdoor depuis 5 ans.<br/>
 <br/>
 Je tiens ce blog depuis 2009, beaucoup d'archives ont disparu et pendant plus de 10 ans il s'est appelé djisupertramp.com, mais 2021, j’ai décidé de simplifier tout ça en le remplaçant par mon nom. Il a évolué mais l'essence reste la même et c'est bien toujours moi derrière. <br/>
 <br/>
+{{</columns>}}
 
 <p>
 → Basé à Lille

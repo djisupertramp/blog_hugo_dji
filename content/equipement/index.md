@@ -45,7 +45,6 @@ resources:
     <a href="https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND8-D67mm-rHOYAPROND867.html?dpa_id=21" target="blank">Filtres ND8</a> et <a href="https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND64-D67mm-rHOYAPROND6467.html?dpa_id=21" target="blank">ND64 HOYA PRO</a><br/>
     <a href="https://amzn.to/2TRjAEi" target="blank">Filtre Tiffen Black Pro Mist 1/8</a> → <a href="http://jeremyjanin.com/filtre-tiffen-black-pro-mist-lequel-choisir/">lire mon test ici</a><br/>
     <a href="https://amzn.to/2SNybfV" target="blank">Zhiyun Weebill-S</a><br/>
-
   </div>
   <div class="bg-white p-4">
     <h2 class="text-xl font-bold">Audio</h2>
@@ -55,13 +54,12 @@ resources:
     <a href="https://dp.gt/a/lr0mbg3xc" target="blank">Hollyland Lark M2</a><br/>
     <a href="https://amzn.to/48TQl6e" target="blank">Rode Videomic NTG</a><br/>
   </div>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="bg-white p-4">
       <h2 class="text-xl font-bold">Post-production</h2>
       Final Cut Pro X + Davinci Resolve<br/>
       Mac Mini M4 Pro<br/>
-
     </div>
     <div class="bg-white p-4">
       <h2 class="text-xl font-bold">Scan argentique</h2>

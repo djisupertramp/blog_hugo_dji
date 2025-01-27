@@ -20,10 +20,14 @@ En parallèle, <a href="http://fieldpacks.fr" target="blank">FIELDPACKS</a> c'es
 Je tiens ce blog depuis 2009, beaucoup d'archives ont disparu et pendant plus de 10 ans il s'est appelé djisupertramp.com, mais 2021, j’ai décidé de simplifier tout ça en le remplaçant par mon nom. Il a évolué mais l'essence reste la même et c'est bien toujours moi derrière. <br/>
 <br/>
 {{</columns>}}
+
+
+{{< columns before="false" src="image2.jpg" >}}
 <p>
-→ Basé à Lille
+→ Basé à Lille<br/>
 → <a href="mailto="hello@jeremyjanin.com">hello@jeremyjanin.com</a><br/>
 → Présent sur <a href="https://www.instagram.com/jeremy.janin/" target="blank">Instagram</a> et <a href="https://www.threads.net/@jeremy.janin" target="blank">Threads</a><br/>
 → <a href="https://jeremyjanin.com/posts/index.xml" target="blank">Flux RSS du blog</a><br/>
 → En savoir plus sur <a href="https://jeremyjanin.com/equipement/">mon équipement</a><br/>
 → Crédit photo : <a href="https://gregorymignard.com/" target="blank">Grégory Mignard</a></p>
+{{</columns>}}

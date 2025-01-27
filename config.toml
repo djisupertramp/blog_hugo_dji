@@ -29,7 +29,7 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Montserrat"
+  sansSerifFont = "Times"
   titleFont = "Times"
   bodyFont = "Times"
 
@@ -59,31 +59,31 @@ paginate = 12
   description = "Écrite avec mon ami Greg, chaque 1er du mois on partage nos réflexions, nos dernières trouvailles et inspirations sur tous les sujets qui nous passionnent."
 
 [[menu.main]]
-  name = "portfolio"
-  title = "portfolio"
+  name = "PORTFOLIO"
+  title = "PORTFOLIO"
   weight = 1
   identifier = "portfolio"
   url = "/"
 [[menu.main]]
-  name = "Blog"
-  title = "Blog"
+  name = "BLOG"
+  title = "BLOG"
   weight = 2
   identifier = "blog"
   url = "/posts/"
   [[menu.main]]
-    name = "moments"
-    title = "Moments"
+    name = "MOMENTS"
+    title = "MOMENTS"
     weight = 3
     identifier = "Moments"
     url = "/moments"
 [[menu.main]]
-  name = "blog"
-  title = "Blog"
+  name = "BLOG"
+  title = "BLOG"
   weight = 4
   identifier = "blog"
   url = "/posts/"
 [[menu.main]]
-  name = "à propos"
+  name = "ABOUT"
   title = "Infos & Contact"
   weight = 4
   identifier = "about"

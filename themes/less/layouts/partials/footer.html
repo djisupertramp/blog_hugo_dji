@@ -1,19 +1,17 @@
-<footer class="w-full p-12 text-base">
- <div class="container max-w-4xl mx-auto justify-center grid grid-cols-1 lg:grid-cols-4 gap-4">
-  <div class="w-72">
-      <li><a href="/equipement/" class="no-underline">Mon équipement</a></li>
-      <li><a href="mailto:{{ $.Site.Params.social.email }}" class="no-underline">hello@jeremyjanin.com</a></li>
-
+<footer class="w-full p-12 text-sm">
+ <div class="container max-w-4xl w-full mx-auto flex flex-col justify-between md:flex-row gap-4">
+   <div class="text-left">
+     <a href="/equipement/" class="no-underline">Mon équipement</a></br>
+     <a href="mailto:{{ $.Site.Params.social.email }}" class="no-underline">hello@jeremyjanin.com</a></br>
   </div>
-  <div class="w-72">
+  <div class="text-center">
+     © {{ now.Format "2006"}} {{ $.Site.Params.social.domain }}</br>
+  </div>
+  <div class="md:text-right">
     <!--Should be template -->
+    <a href="https://slowisbeautiful.substack.com" target="_blank" class="no-underline">Ma newsletter</a></br>
+    <a href="https://captainyvon.fr/" target="_blank" class="no-underline">Captain Yvon Studio</a></br>
   </div>
-  <div class="w-72 text-l max-w-4xl">
-      <ul>
-      <li><a href="https://captainyvon.fr/" target="_blank" class="no-underline">Captain Yvon Studio</a></li>
-      <li><a href="https://slowisbeautiful.substack.com" target="_blank" class="no-underline">Ma newsletter</a></li>
-      </br>
-  © {{ now.Format "2006"}} {{ $.Site.Params.social.domain }}</br>
-  </div>
+
  </div>
 </footer>

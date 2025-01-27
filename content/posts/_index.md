@@ -7,5 +7,5 @@ resources:
 - src: "*.jpg"
 ---
 
-**JOURNAL**
+**JOURNAL**<br/>
 Expérimentations, récits & réflections personnelles.

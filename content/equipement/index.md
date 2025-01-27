@@ -39,15 +39,13 @@ resources:
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
   <div class="bg-white p-4">
     <h2 class="text-xl font-bold">Accessoires</h2>
-    <p><a href="https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21" target="blank">Sac photo F-Stop Lotus</a><br/>
+    <a href="https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21" target="blank">Sac photo F-Stop Lotus</a><br/>
     <a href="https://www.digit-photo.com/ATOMOS-Shinobi-Moniteur-5-4k-HDMI-HDR-rATOMOSATOMSHBH01.html?dpa_id=21" target="blank">Moniteur Atomos Shinobi</a><br/>
     <a href="https://amzn.to/2SW4U6J" target="blank">Cage Smallrig pour Panasonic S1</a><br/>
     <a href="https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND8-D67mm-rHOYAPROND867.html?dpa_id=21" target="blank">Filtres ND8</a> et <a href="https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND64-D67mm-rHOYAPROND6467.html?dpa_id=21" target="blank">ND64 HOYA PRO</a><br/>
     <a href="https://amzn.to/2TRjAEi" target="blank">Filtre Tiffen Black Pro Mist 1/8</a> → <a href="http://jeremyjanin.com/filtre-tiffen-black-pro-mist-lequel-choisir/">lire mon test ici</a><br/>
-    <a href="https://amzn.to/2SNybfV" target="blank">Zhiyun Weebill-S</a><br/></p>
-    <h2 class="text-xl font-bold">Post-production</h2>
-    <p>Final Cut Pro X + Davinci Resolve<br/>
-    Config autour d'un Mac Mini → <a href="http://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020" target="blank">Lire mon article détaillé à ce sujet</a></p>
+    <a href="https://amzn.to/2SNybfV" target="blank">Zhiyun Weebill-S</a><br/>
+
   </div>
   <div class="bg-white p-4">
     <h2 class="text-xl font-bold">Audio</h2>
@@ -57,4 +55,17 @@ resources:
     <a href="https://dp.gt/a/lr0mbg3xc" target="blank">Hollyland Lark M2</a><br/>
     <a href="https://amzn.to/48TQl6e" target="blank">Rode Videomic NTG</a><br/>
   </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="bg-white p-4">
+      <h2 class="text-xl font-bold">Post-production</h2>
+      Final Cut Pro X + Davinci Resolve<br/>
+      Mac Mini M4 Pro<br/>
+
+    </div>
+    <div class="bg-white p-4">
+      <h2 class="text-xl font-bold">Scan argentique</h2>
+      <a href="https://dp.gt/a/yyhjr464b" target="blank">Valoi Easy 35</a><br/>
+      Canon FD 50mm f/3.5 macro<br/>
+    </div>
 </div>

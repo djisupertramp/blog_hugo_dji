@@ -29,7 +29,7 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Questrial"
+  sansSerifFont = "Montserrat"
   titleFont = "Times"
   bodyFont = "Times"
 
@@ -50,14 +50,13 @@ paginate = 12
   domain = "Jeremy Janin"
   threads = "jeremyjanin"
   instagram = "jeremy.janin"
-  twitter = "jeremyjanin"
   youtube = "djisupertramp"
 
 
 [params.tinyletter]
   username = "captainyvon"
   title = "Abonnez-vous à ma newsletter « Slow is beautiful »"
-  description = "Une lettre mensuelle à lire avec une tasse de café où l'on parle de prendre son temps, créativité, vélo et tous les sujets qui nous passionnent."
+  description = "Écrite avec mon ami Greg, chaque 1er du mois on partage nos réflexions, nos dernières trouvailles et inspirations sur tous les sujets qui nous passionnent."
 
 [[menu.main]]
   name = "portfolio"

@@ -7,4 +7,5 @@ resources:
 - src: "*.jpg"
 ---
 
-Coucou 
+**JOURNAL**
+Expérimentations, récits & réflections personnelles.

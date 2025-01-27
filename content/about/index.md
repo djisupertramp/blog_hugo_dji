@@ -20,7 +20,6 @@ En parallèle, <a href="http://fieldpacks.fr" target="blank">FIELDPACKS</a> c'es
 Je tiens ce blog depuis 2009, beaucoup d'archives ont disparu et pendant plus de 10 ans il s'est appelé djisupertramp.com, mais 2021, j’ai décidé de simplifier tout ça en le remplaçant par mon nom. Il a évolué mais l'essence reste la même et c'est bien toujours moi derrière. <br/>
 <br/>
 {{</columns>}}
-
 <p>
 → Basé à Lille
 → <a href="mailto="hello@jeremyjanin.com">hello@jeremyjanin.com</a><br/>

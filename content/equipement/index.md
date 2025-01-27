@@ -52,7 +52,7 @@ resources:
   <div class="bg-white p-4">
     <h2 class="text-xl font-bold">Audio</h2>
     <a href="https://dp.gt/a/4e1wzzk4o" target="blank">ZOOM F3</a><br/>
-    <a href="https://immersivesoundscapes.com/earsight-standard-v2/"target="blank">Immersive Soundscapes Earsight Standard V2</a><br/>
+    <a href="https://immersivesoundscapes.com/earsight-standard-v2/" target="blank">Immersive Soundscapes Earsight Standard V2</a><br/>
     <a href="https://dp.gt/a/i5nqjkrt9" target="blank">ZOOM H1n</a><br/>
     <a href="https://dp.gt/a/lr0mbg3xc" target="blank">Hollyland Lark M2</a><br/>
     <a href="https://amzn.to/48TQl6e" target="blank">Rode Videomic NTG</a><br/>

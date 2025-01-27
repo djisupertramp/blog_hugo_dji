@@ -32,12 +32,7 @@ resources:
     Canon FD 135mm f/2.8 SSC<br/>
     Canon EF 40mm f/2.8<br/>
     <a href="https://dp.gt/a/xxtv4cnw" target="blank">Sigma 28-70mm f/2.8 DG DN</a><br/>
-    <a href="https://dp.gt/a/umzjcra2" target="blank">Sigma 100-400mm f/5-6.3 DG DN</a><br/>
-    <br/>
-    <br/>
-    <h2 class="text-xl font-bold">Post-production</h2>
-    <p>Final Cut Pro X + Davinci Resolve</p>
-    <p>Config autour d'un Mac Mini → <a href="http://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020" target="blank">Lire mon article détaillé à ce sujet</a><br/></p>
+    <a href="https://dp.gt/a/umzjcra2" target="blank">Sigma 100-400mm f/5-6.3 DG DN</a><br/>    
   </div>
 </div>
 
@@ -50,6 +45,9 @@ resources:
     <a href="https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND8-D67mm-rHOYAPROND867.html?dpa_id=21" target="blank">Filtres ND8</a> et <a href="https://www.digit-photo.com/HOYA-Filtre-Gris-Neutre-Pro-ND64-D67mm-rHOYAPROND6467.html?dpa_id=21" target="blank">ND64 HOYA PRO</a><br/>
     <a href="https://amzn.to/2TRjAEi" target="blank">Filtre Tiffen Black Pro Mist 1/8</a> → <a href="http://jeremyjanin.com/filtre-tiffen-black-pro-mist-lequel-choisir/">lire mon test ici</a><br/>
     <a href="https://amzn.to/2SNybfV" target="blank">Zhiyun Weebill-S</a><br/>
+    <h2 class="text-xl font-bold">Post-production</h2>
+    <p>Final Cut Pro X + Davinci Resolve<br/>
+    Config autour d'un Mac Mini → <a href="http://jeremyjanin.com/utiliser-un-mac-mini-pour-le-montage-video-2020" target="blank">Lire mon article détaillé à ce sujet</a></p>
   </div>
   <div class="bg-white p-4">
     <h2 class="text-xl font-bold">Audio</h2>

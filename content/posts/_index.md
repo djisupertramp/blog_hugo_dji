@@ -6,3 +6,6 @@ tags: ["lille", "alpes", "outdoor", "VTT", "bikepacking", "randonnée", "bivouac
 resources:
 - src: "*.jpg"
 ---
+
+**JOURNAL**<br/>
+Expérimentations, récits & réflections personnelles.

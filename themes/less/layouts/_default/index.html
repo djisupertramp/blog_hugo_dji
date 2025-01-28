@@ -1,4 +1,9 @@
 {{ define "main" }}
+  <div class="mb-8 container max-w-4xl mx-auto">
+      <p class="text-center mx-4 md:mx-0">
+        {{.Content}}
+      </p>
+  </div>
 {{ $allimages := slice }}
 {{ range sort (.Resources.ByType "image") "Name" "desc"}}
   {{ $allimages = $allimages | append (dict "Image" .  ) }}

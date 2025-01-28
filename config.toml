@@ -29,9 +29,9 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Questrial"
-  titleFont = "Merriweather"
-  bodyFont = "Questrial"
+  sansSerifFont = "Times"
+  titleFont = "Times"
+  bodyFont = "Times"
 
   hasLogo = true
   accentColor = "#8e9c95"
@@ -50,41 +50,40 @@ paginate = 12
   domain = "Jeremy Janin"
   threads = "jeremyjanin"
   instagram = "jeremy.janin"
-  twitter = "jeremyjanin"
   youtube = "djisupertramp"
 
 
 [params.tinyletter]
   username = "captainyvon"
   title = "Abonnez-vous à ma newsletter « Slow is beautiful »"
-  description = "Une lettre mensuelle à lire avec une tasse de café où l'on parle de prendre son temps, créativité, vélo et tous les sujets qui nous passionnent."
+  description = "Écrite avec mon ami Greg, chaque 1er du mois on partage nos réflexions, nos dernières trouvailles et inspirations sur tous les sujets qui nous passionnent."
 
 [[menu.main]]
-  name = "portfolio"
-  title = "portfolio"
+  name = "PORTFOLIO"
+  title = "PORTFOLIO"
   weight = 1
   identifier = "portfolio"
   url = "/"
 [[menu.main]]
-  name = "Blog"
-  title = "Blog"
+  name = "BLOG"
+  title = "BLOG"
   weight = 2
   identifier = "blog"
   url = "/posts/"
   [[menu.main]]
-    name = "moments"
-    title = "Moments"
+    name = "MOMENTS"
+    title = "MOMENTS"
     weight = 3
     identifier = "Moments"
     url = "/moments"
 [[menu.main]]
-  name = "blog"
-  title = "Blog"
+  name = "BLOG"
+  title = "BLOG"
   weight = 4
   identifier = "blog"
   url = "/posts/"
 [[menu.main]]
-  name = "à propos"
+  name = "ABOUT"
   title = "Infos & Contact"
   weight = 4
   identifier = "about"
@@ -97,3 +96,5 @@ paginate = 12
 
 [markup.goldmark.renderer]
   unsafe= true
+[security.exec]
+  osEnv = ['.*']

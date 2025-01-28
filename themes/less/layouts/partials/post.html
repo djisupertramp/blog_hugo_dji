@@ -1,10 +1,10 @@
 {{ $postScratch := newScratch }}
 <div class="post-tile">
   {{ $image := .post.Resources.GetMatch "cover" | default (index (.post.Resources.ByType "image") 0) }}
-  {{ $size := "600x400" }}
+  {{ $size := "1200x800" }}
   {{ $postScratch.Set "coverSize" (printf "%s center" $size)}}
   {{ $web := $image.Fill ($postScratch.Get "coverSize") }}
-  {{ $mini := $image.Fill "60x40" }}
+  {{ $mini := $image.Fill "120x80" }}
   {{if $image }}
     <div class="post-thumb">
       <a class="no-decoration" href="{{ .post.Permalink }}">
@@ -14,19 +14,13 @@
       </a>
     </div>
   {{end}}
-  <div class="post-header">
-      <span class="category">
-        {{ range first 1 .post.Params.categories }}
-        <a class="no-decoration" href="/{{ . }}">{{ . }}</a>
-        {{ end }} —
-        {{ .post.Date.Day }} {{ index .ctx.Site.Data.mois (printf "%d" .post.Date.Month) }} {{ .post.Date.Year }}
-      </span>
-    <h3>
+  <div class="post-header mt-8 flex flex-col items-center">
+    <h3 class="block text-center">
         {{ .post.Params.emoji }}
-        <a class="title no-decoration" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
+        <a class="title no-decoration font-bold uppercase" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
     </h3>
-    <p>
-      {{ .post.Summary | replaceRE "(?ms)(<(figure|blockquote).*</(figure|blockquote)>)" "" | safeHTML | truncate 200 }}
+    <p class="block text-center italic">
+    {{ .post.Summary | replaceRE "(?ms)(<(figure|blockquote).*</(figure|blockquote)>)" "" | safeHTML | truncate 300 }} <br/>  <a class="bold title no-decoration" href="{{ .post.Permalink }}">Lire la suite →</a>
     </p>
   </div>
 </div>

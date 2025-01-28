@@ -1,12 +1,19 @@
 <figure class="{{ if .Get "wide" }}md:-mx-32{{else}}md:-mx-6{{end}} {{ with .Get "class"}}{{ . }}{{ end }}">
-  {{ $media := $.Page.Resources }}
-  {{ $original := $media.GetMatch (.Get "src") }}
-  {{ if $original }}
-    {{ $resized := $original.Resize "x100" }}
-    <img class="lazyload"
-         src="{{ $resized.Permalink }}"
-         data-src="{{ $original.Permalink }}"
-         data-zoom-src="{{ $original.Permalink }}"
-         {{ with .Get "alt" }}alt="{{ . }}"{{ end }} data-action="zoom">
-  {{ end }}
+  <picture >
+    {{ $media := $.Page.Resources }}
+    {{ $original := $media.GetMatch (.Get "src") }}
+    {{ if $original }}
+      {{ $resized := $original.Resize "x100" }}
+      <img class="lazyload"
+           src="{{ $resized.Permalink }}"
+           data-src="{{ $original.Permalink }}"
+           data-zoom-src="{{ $original.Permalink }}"
+           {{ with .Get "alt" }}alt="{{ . }}"{{ end }} data-action="zoom">
+    {{ end }}
+  </picture>
+    {{ with .Get "title" }}
+      <figcaption class="text-center italic -mt-6 text-sm  text-gray-500 ">
+        {{ . | markdownify }}
+      </figcaption>
+    {{ end }}
 </figure>

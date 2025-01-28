@@ -11,19 +11,11 @@ resources:
 ---
 {{< columns before="true" src="cover.jpg" >}}
 <p><strong>Hello.</strong></p>
-Moi, c’est Jérémy. Je suis avant tout quelqu'un de passionné. J'adore tout ce qui touche à la nature, aux activités outdoor, surtout faire des images argentique comme numérique et quelques voyages. Plus que les grosses expéditions, ce qui m'anime c'est de mettre un peu d'esprit d'aventure dans mon quotidien. Même si j'adore bivouaquer, faire du bikepacking ou randonner, j'ai aussi une vie de famille à côté et je tente de trouver l'équilibre entre toutes mes casquettes.
-<br/>
-J'ai co-fondé, avec <a href="https://gregorymignard.com/" target="blank">Grégory Mignard</a>, <a href="https://captainyvon.fr" target="blank">Captain Yvon Studio</a>, avec lequel on crée des vidéos avec une approche documentaire et cinématographique. On partage aussi chaque mois une newsletter, <a href="https://slowisbeautiful.substack.com"  target="blank">Slow Is Beautiful</a>, dans laquelle on parle de tout ce qui nous fait réflechir, nous inspire et nous passionne.<br/>
-<br/>
-En parallèle, <a href="http://fieldpacks.fr" target="blank">FIELDPACKS</a> c'est mon laboratoire-projet de couture de matériel outdoor depuis 5 ans.<br/>
-<br/>
-Je tiens ce blog depuis 2009, beaucoup d'archives ont disparu et pendant plus de 10 ans il s'est appelé djisupertramp.com, mais 2021, j’ai décidé de simplifier tout ça en le remplaçant par mon nom. Il a évolué mais l'essence reste la même et c'est bien toujours moi derrière. <br/>
-<br/>
-{{</columns>}}
+<h2 class="text-xl font-bold">Hello.</h2><br/>
+Moi, c’est Jérémy. De l'argentique à la couture outdoor en passant par la vidéo, le vélo ou l'aquarelle, je suis avant tout quelqu'un de passionné et un peu touche à tout. J'aime passer du temps dans la nature, faire des images et quelques voyages. Plus que les grosses expéditions, ce qui m'anime c'est de mettre un peu d'esprit d'aventure dans mon quotidien. <br/><br/>
 
+J'ai co-fondé <a href="https://captainyvon.fr" target="blank">Captain Yvon Studio</a> avec <a href="https://gregorymignard.com/" target="blank">Grégory Mignard</a>. On partage aussi chaque mois une newsletter, <a href="https://slowisbeautiful.substack.com"  target="blank">Slow Is Beautiful</a>, dans laquelle on parle de tout ce qui nous fait réflechir, nous inspire et nous passionne. En parallèle, <a href="http://fieldpacks.fr" target="blank">FIELDPACKS</a> c'est mon laboratoire-projet de couture de matériel outdoor.<br/><br/>
 
-{{< columns after="true" src="image2.jpg" >}}
-<p>
 → Basé à Lille<br/>
 → <a href="mailto="hello@jeremyjanin.com">hello@jeremyjanin.com</a><br/>
 → Présent sur <a href="https://www.instagram.com/jeremy.janin/" target="blank">Instagram</a> et <a href="https://www.threads.net/@jeremy.janin" target="blank">Threads</a><br/>

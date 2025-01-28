@@ -7,4 +7,4 @@ resources:
 - src: "*.jpg"
 ---
 
-Coucou
+PHOTOGRAPHE & VIDÉASTE

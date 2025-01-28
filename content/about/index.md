@@ -22,7 +22,7 @@ Je tiens ce blog depuis 2009, beaucoup d'archives ont disparu et pendant plus de
 {{</columns>}}
 
 
-{{< columns before="false" src="image2.jpg" >}}
+{{< columns after="true" src="image2.jpg" >}}
 <p>
 → Basé à Lille<br/>
 → <a href="mailto="hello@jeremyjanin.com">hello@jeremyjanin.com</a><br/>

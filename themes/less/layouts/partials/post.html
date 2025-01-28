@@ -15,9 +15,9 @@
     </div>
   {{end}}
   <div class="post-header mt-8 flex flex-col items-center">
-    <h3 class="block">
+    <h3 class="block text-center">
         {{ .post.Params.emoji }}
-        <a class="title no-decoration" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
+        <a class="title no-decoration font-bold uppercase" href="{{ .post.Permalink }}">{{ .post.Title }}</a><br/>
     </h3>
     <p class="block text-center italic">
     {{ .post.Summary | replaceRE "(?ms)(<(figure|blockquote).*</(figure|blockquote)>)" "" | safeHTML | truncate 300 }} <br/>  <a class="bold title no-decoration" href="{{ .post.Permalink }}">Lire la suite →</a>

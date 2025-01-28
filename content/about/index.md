@@ -10,7 +10,6 @@ resources:
   name: "cover"
 ---
 {{< columns before="true" src="cover.jpg" >}}
-<p><strong>Hello.</strong></p>
 <h2 class="text-xl font-bold">Hello.</h2><br/>
 Moi, c’est Jérémy. De l'argentique à la couture outdoor en passant par la vidéo, le vélo ou l'aquarelle, je suis avant tout quelqu'un de passionné et un peu touche à tout. J'aime passer du temps dans la nature, faire des images et quelques voyages. Plus que les grosses expéditions, ce qui m'anime c'est de mettre un peu d'esprit d'aventure dans mon quotidien. <br/><br/>
 

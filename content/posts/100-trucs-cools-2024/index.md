@@ -65,7 +65,7 @@ Après l’article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-
 47 - Mis l’accent sur les matières naturelles pour mes nouveaux achats de vêtements<br/>
 48 - Privilégié la seconde main davantage que les années précédentes<br/>
 49 - Pris un plaisir fou à faire découvrir plein de choses à Ernest<br/>
-50 - Pris conscience à quel point on est les plus importants pour lui, et comprendre qu’il n’y a aucun sentiment plus gratifiant que celui là
+50 - Pris conscience à quel point on est les plus importants pour lui, et comprendre qu’il n’y a aucun sentiment plus gratifiant que celui là<br/>
 51 - Vu de légères aurores boréales au dessus de ma maison<br/>
 52 - Baigné dans plein de lacs et nagé dans la rivière<br/>
 53 - Vécu des vraies bonnes vacances d’été à voir les copains qu’on ne voit pas assez souvent<br/>

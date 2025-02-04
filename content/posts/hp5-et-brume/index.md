@@ -4,7 +4,7 @@ seotitle: "Une HP5 et de la brume"
 date: "2025-02-04"
 slug: "hp5-et-brume"
 categories:
-- Materiel
+- Reflexions
 tags: ["HP5", "photographie", "randonnée"]
 description: "Je suis parti faire une randonnée sur la côte avec une HP5+, sous la brume."
 resources:

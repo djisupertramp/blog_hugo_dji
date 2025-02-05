@@ -20,7 +20,6 @@ Je vous passe les détails de ma réflexion, de ma soirée assis devant mon carn
 
 Pour attaquer 2025 sur de bonnes bases, je me suis accordé une journée sur la côte pour renouer avec la randonnée qui me manque pas mal et la photo. La météo annonçait une brume persistante tout au long de la journée. Tant mieux, c’est ce que je cherchais.
 
-{{< photo src="images/01.jpg" alt="Une HP5 et de la brume" wide="true" >}}
 {{< photo src="images/03.jpg" alt="Une HP5 et de la brume" wide="true" >}}
 {{< photo src="images/02.jpg" alt="Une HP5 et de la brume" wide="true" >}}
 

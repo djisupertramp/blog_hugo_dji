@@ -1,5 +1,5 @@
 ---
-title: "FStop Lotus"
+title: "F-Stop Lotus"
 seotitle: "FSTOP LOTUS : Mon test et avis après 5 ans d'utilisation comme sac photo et vidéo"
 date: "2025-03-25"
 slug: "fstop-lotus"
@@ -23,7 +23,7 @@ Ici, je ne fais donc pas un test du F-Stop Lotus en passant en revue les caract�
 J’ai testé pas mal de configurations de sacs photos au fil des années. J’ai eu plusieurs modèles de sacs à dos Lowepro, j’ai testé des inserts directement dans des sacs à dos standards, j’ai testé les sacs d’amis comme des Peak Design ou des Shimoda et pourtant mon choix s’est posé sur le [F-Stop Lotus](https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21&dpa_campaign=FSTOP-LOTUS) : le plus petit des sacs à dos de la *Mountain Serie*s chez F-Stop (à l’époque).
 
 
-### Ce qui m’a séduit sur le papier
+# Ce qui m’a séduit sur le papier
 
 J’aime beaucoup les matières techniques, légères et imperméables des sacs à dos de randonnée. Je cherchais un sac qui puisse résister aux éléments car j’ai une facheuse tendance à aimer filmer quand la météo se gâte et que le soleil se cache. Voici quelques uns de mes critères avant de faire mon choix :
 
@@ -39,26 +39,26 @@ J’aime beaucoup les matières techniques, légères et imperméables des sacs 
 {{< photo src="images/fstop_lotus_test_10.jpg" alt="FSTOP LOTUS : Mon test et avis après 5 ans d'utilisation comme sac photo et vidéo" wide="true" >}}
 {{< photo src="images/fstop_lotus_test_9.jpg" alt="FSTOP LOTUS : Mon test et avis après 5 ans d'utilisation comme sac photo et vidéo" wide="true" >}}
 
-### Ce qui m’a séduit sur le terrain
+# Ce qui m’a séduit sur le terrain
 
 Première impression (et toujours la même 5 ans après)… Il est MASSIF ! Il est donné pour 32L mais j’ai l’impression d’avoir un 40L tellement je peux en ranger dedans. Pour autant, j’ai pris plusieurs vols nationaux et internationaux avec, et il est toujours passé en bagage cabine dans les compartiments au dessus des voyageurs.
 
-### Organisation
+# Organisation
 
-#### Dans le sac
+## Dans le sac
 Les poches sont massives. Là où des sacs plus urbains comme les Peak Design poussent l’organisation à son paroxysme avec plus de poignées, plus de rangements. Bien que ce soit pratique, le F-Stop n’est pas en reste et opte pour une option plus simplifiée et très efficace : des grandes poches qui peuvent stocker de bons volumes et être applaties quand elles ne sont pas utilisées.
 
 Je suis fan de la poche secrète sous le sac. Initialement prévue pour stocker la raincover, je l’utilise soit comme poche secrète pour glisser mon passeport ou effets personnels de valeur dans un endroit peu sûr, et la plupart du temps, comme elle est imperméable, j’y glisse un short de bain ou un vêtement mouillé.
 
-#### Quel ICU pour mon sac F-STOP LOTUS ?
+## Quel ICU pour mon sac F-STOP LOTUS ?
 
 J’ai opté pour l’insert [ICU Medium \(Shallow\)](https://www.digit-photo.com/F-STOP-Fourre-Tout-Insert-Shallow-Icu-Medium-rFSTOPFSTM226.html?dpa_id=21&dpa_campaign=FSTOP-LOTUS) - plus fin que le Medium Slope - qui suffit à stocker le matériel que j’ai besoin de stocker tout en me permettant d’avoir plus de place pour les poches avant et pour glisser facilement mon MacBook dans la poche derrière l’ICU. Le Medium Slope me permettrait de stocker mes appareils à la vertical (bien que j’arrive à le faire avec le Shallow si je veux), mais ça ne m’arrange pas par rapport à ma configuration. Le fait que mon ICU soit moins épais me permet de glisser mon MacBook dans le dos ou une veste tout en gardant de la place dans la poche avant.
 
-#### Accessoires
+## Accessoires
 
 J’ai aussi acheté les sangles [« Gatekeeper »](https://www.digit-photo.com/F-STOP-Sangle-de-Fixation-Gatekeeper-rFSTOPD225561.html?dpa_id=21&dpa_campaign=FSTOP-LOTUS) qui me permettent d’avoir du stockage extérieur en plus sur le sac pour glisser par exemple un vêtement mouillé, une veste, une paire de bottes ou un gros trépied. Un indispensable selon moi.
 
-### Durabilité & Confort
+## Durabilité & Confort
 
 Ce qui me frappe le plus je crois, c’est la durabilité de ce sac à dos. La matière du sac est très resistante. En 5 ans d’utilisation, malgré un usage à le poser sur des sentiers de randonnées rocailleux dans les Alpes, à flanc de montagne dans un bikepark Suisse, dans la neige de Saint-Pierre-et-Miquelon, ou sous le déluge et dans la boue lors de pas mal de tournages hivernaux, il ne m’a jamais fait défaut. Ni en imperméabilité, ni en solidité. J’ai déjà porté plus de 18kg de matériel sur le dos ou en setup plus léger pour être capable de suivre des athlètes en VTT, et même si les charges lourdes se ressentent sur les épaules, il reste stable et confortable dans toutes les conditions. Je me sens en confiance avec lui sur le dos.
 
@@ -70,7 +70,7 @@ Le dos matelassé qui fait figure d’accès au compartiment photo est l’une d
 {{< photo src="images/fstop_lotus_test_4.jpg" alt="FSTOP LOTUS : Mon test et avis après 5 ans d'utilisation comme sac photo et vidéo" wide="true" >}}
 {{< photo src="images/fstop_lotus_test_7.jpg" alt="FSTOP LOTUS : Mon test et avis après 5 ans d'utilisation comme sac photo et vidéo" wide="true" >}}
 
-### Ce que j’améliorerais
+# Ce que j’améliorerais
 
 Le plus gros point serait un espace un peu plus matelassé pour protèger mon ordi. Mais en même temps, j’apprécie qu’il n’ait pas de rigidité sur sa face avant ni de sur-épaisseur donc en écrivant ces lignes, je me dis qu’une simple housse d’ordinateur matelassée remplirait ce rôle.
 
@@ -82,7 +82,7 @@ Des bretelles avec poches en mesh inspiré des sacs de trail running (un peu com
 
 {{< photo src="images/fstop_lotus_test_8.jpg" alt="FSTOP LOTUS : Mon test et avis après 5 ans d'utilisation comme sac photo et vidéo" wide="true" >}}
 
-### Ma manière de paqueter mon matériel
+# Conclusion
 
 Je filme des vidéos plutôt documentaires et suis plutôt minimaliste dans mes choix de matériel. Plutôt que tout emmener et faire le choix sur place en utilisant que la moitié du matériel emporté, je réflechis, pèse les pour et contre à l’avance et fait mes choix avant le départ. Je n’ai donc pas besoin de tonnes de Pelicase ou de sacs. Que je parte 10 jours en tournage hivernal à Saint Pierre et Miquelon ou pour 3 jours de tournage VTT dans les Alpes, mon matériel tient dans mon [F-Stop Lotus](https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21&dpa_campaign=FSTOP-LOTUS). (Certaines pièces partent dans ma valise avec mes vêtements en avion ou pour alléger mon sac à dos), mais tout tient.
 
@@ -92,3 +92,5 @@ Aujourd’hui, si je devais reprendre un sac à dos, je referais le même choix.
 
 **Liens affiliés*
 *Si vous avez trouvé cet article utile, les liens sont affiliés auprès de Digit Photo ou vous pouvez utiliser mon code créateur DJISUPERTRAMP pour ce produit ou celui que vous voulez sur le site, je toucherai alors quelques euros qui permettent de soutenir ce blog, sans que ça ne vous coûte rien.*
+
+Images additionnelles : [Gregory Mignard](https://gregorymignard.com)

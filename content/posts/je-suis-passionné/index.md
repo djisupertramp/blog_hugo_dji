@@ -49,6 +49,7 @@ Une simple passion pour le vélo m’a fait geeker très loin… jusqu’aux lev
 
 En vidéo, j’ai appris à filmer, à éditer, à piloter un drone, à utiliser un stabilisateur, à enregistrer des sons, à geeker sur des setups de field recording minimalistes et donc benchmarker des micros stéréo, comprendre les différences entre les omnis et un setup ORTF, les distances idéales de placement de micro, la différence entre l’enregistrement 24bits et 32bits, entre les divers types de bonnettes face au vent etc… C’est ainsi que j’ai fabriqué mes propres bonnettes pour être sur-mesure pour le choix des micros que j’ai fait.
 
+{{< photo src="images/passion_1.jpg" alt="Passionné obsessionnel" wide="true" >}}
 {{< photo src="images/passion_4.jpg" alt="Passionné obsessionnel" wide="true" >}}
 {{< photo src="images/passion_8.jpg" alt="Passionné obsessionnel" wide="true" >}}
 {{< photo src="images/passion_3.jpg" alt="Passionné obsessionnel" wide="true" >}}

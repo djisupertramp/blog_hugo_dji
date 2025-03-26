@@ -65,7 +65,7 @@ Pour faire suite à celle de [2022](https://jeremyjanin.com/100-trucs-cools-2022
 - 49 . Me lever à 3h pour être à l’ouverture d’une brocante à 5h pour finalement arriver sous un torrent de pluie et finir notre nuit dans la voiture en attendant la fin du déluge à 7h30.
 - 50 . Pas pu faire la braderie de Lille cette année pour cause d’accouchement. À 12h près.
 
-{{< photo src="images/DSCF4816.jpg" title="le papa à vélo" alt="100 trucs cools en 2023" >}}
+{{< photo src="images/DSCF4816.jpg" title="" alt="100 trucs cools en 2023" >}}
 
 - 51 . Commencé l’aquarelle
 - 52 . Visité une boutique de haute joaillerie Place Vendôme et c’était FA-SCI-NANT. Merci Clémentine.

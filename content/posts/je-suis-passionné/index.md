@@ -12,7 +12,7 @@ resources:
   name: "cover"
 - src: "*.jpg"
 ---
-{{< photo src="images/passion_5.jpg" title="Quand je prends une pause sur tout ça" alt="Passionné obsessionnel" wide="true" >}}
+{{< photo src="images/passion_5.jpg" alt="Passionné obsessionnel" wide="true" >}}
 
 Si vous me connaissez personnellement, si vous demandez à mon entourage, si vous avez entendu les discours de nos proches à mon mariage, alors vous le savez : je suis quelqu’un de très passionné. Quelqu’un qui prend tout à coeur. Que ce soit pour un achat ou pour un nouveau loisir, je ne sais pas y aller à moitié.
 

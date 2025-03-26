@@ -2,7 +2,7 @@
 title: "Je suis passionné obsessionnel"
 seotitle: "Je suis passionné obsessionnel"
 date: "2025-03-26"
-slug: "hp5-et-brume"
+slug: "je-suis-passionne"
 categories:
 - Reflexions
 tags: ["passion", "photographie", "randonnée"]

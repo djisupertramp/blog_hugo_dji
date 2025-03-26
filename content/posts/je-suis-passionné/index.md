@@ -14,7 +14,7 @@ resources:
 ---
 {{< photo src="images/passion_5.jpg" title="Quand je prends une pause sur tout ça" alt="Passionné obsessionnel" wide="true" >}}
 
-Si vous me connaissez personnellement, si vous demandez à mon entourage, si vous avez entendu les discours de nos proches à mon mariage, alors vous le savez : je suis quelqu’un de très passionné. Quelqu’un qui prend tout à coeur. Que ce soit pour un achat pour un nouveau loisir, je ne sais pas y aller à moitié.
+Si vous me connaissez personnellement, si vous demandez à mon entourage, si vous avez entendu les discours de nos proches à mon mariage, alors vous le savez : je suis quelqu’un de très passionné. Quelqu’un qui prend tout à coeur. Que ce soit pour un achat ou pour un nouveau loisir, je ne sais pas y aller à moitié.
 
 Je ne suis pas compétiteur ni n’ai besoin de reconnaissance comme quelqu’un d’expert sur un sujet. J’ai juste besoin d’y aller à fond. De comprendre. D’essayer. D’insister jusqu’à réussir. Pour moi et pour personne d’autres. Chaque sujet est un nouveau terrain de jeu, chaque trouvaille est un puit sans fond. Chaque porte entrouverte m’emmène dans un nouveau monde que je ne peux pas m’empêcher d’explorer.
 

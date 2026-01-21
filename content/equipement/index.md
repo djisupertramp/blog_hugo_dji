@@ -55,7 +55,7 @@ resources:
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="bg-white p-4">
       <h2 class="text-xl font-bold">Post production</h2>
-      Davinci Resolve<br/>
+      FCPX + Davinci Resolve<br/>
       Adobe Lightroom
       Mac Mini M4 Pro<br/>
     </div>

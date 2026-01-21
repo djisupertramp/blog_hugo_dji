@@ -4,14 +4,14 @@ seotitle: "100 trucs cools en 2025"
 date: "2026-01-21"
 slug: "100-trucs-cools-2025"
 categories:
-"reflexions"
+  - "reflexions"
 draft: false
-tags: ["retrospective", "2025 », "bilan"]
+tags: ["retrospective", "2025 »", "bilan"]
 description: "100 trucs cools en 2025"
 resources:
-- src: "cover.jpg"
-- name: "cover"
-- src: "*.jpg"
+  - src: "cover.jpg"
+    name: "cover"
+  - src: "*.jpg"
 ---
 
 {{< photo src="images/cover.jpg" alt="100 trucs cools en 2025" wide="true" >}}

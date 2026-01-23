@@ -16,7 +16,7 @@ class Downloader
     assets = JSON.parse(resp)["resources"]
     assets.reverse #.sort_by { |a| DateTime.parse(a["payload"]["captureDate"]) }
       .each_with_index do |a,i|
-        `wget -O content/moments/#{i.to_s.rjust(3, "0")}.jpg https://photos.adobe.io/v2/spaces/#{@space_id}/#{a["asset"]["links"]["/rels/rendition_type/2048"]["href"]}`
+        `curl -s -o content/moments/#{i.to_s.rjust(3, "0")}.jpg https://photos.adobe.io/v2/spaces/#{@space_id}/#{a["asset"]["links"]["/rels/rendition_type/2048"]["href"]}`
       end
   end
 

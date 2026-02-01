@@ -4,7 +4,7 @@
 
 :root {
   --serif-font: "{{ .Site.Params.bodyFont }}", serif;
-  --title-font: "{{ .Site.Params.titleFont }}", var(--serif-font);
+  --title-font: "{{ .Site.Params.titleFont }}", "Helvetica Neue", Arial, sans-serif;
   --sans-serif-font: "{{ .Site.Params.sansSerifFont }}", sans-serif;
   --onyx: #323232;
   --accent: {{ .Site.Params.accentColor }};
@@ -26,6 +26,8 @@
 @import "three";
 @import "photos";
 @import "journal";
+@import "editorial";
+@import "about";
 @import "navigation";
 @import "photogrid";
 

@@ -29,12 +29,12 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Times"
-  titleFont = "Times"
-  bodyFont = "Times"
+  sansSerifFont = "Helvetica Neue"
+  titleFont = "DIN Alternate"
+  bodyFont = "Times New Roman"
 
   hasLogo = true
-  accentColor = "#8e9c95"
+  accentColor = "#4A5C4E"
 
 #heroHeader = false
 

@@ -41,10 +41,16 @@
       margin: 0;
       padding: 0;
     }
+    /* Excerpt justifié au lieu de centré */
     p {
-      text-align: right;
-      margin: 0;
+      text-align: justify;
+      text-align-last: left;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      margin: 0.5rem 0 0 0;
       padding: 0;
+      line-height: 1.6;
     }
   }
 

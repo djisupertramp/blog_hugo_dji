@@ -8,18 +8,44 @@
 {{ range sort (.Resources.ByType "image") "Name" "desc"}}
   {{ $allimages = $allimages | append (dict "Image" .  ) }}
 {{ end }}
-{{ $rows := dict }}
-{{ $columns := dict }}
-{{ range $index, $img := $allimages }}
-  {{ $columns = merge $columns (dict (string (mod $index 3)) (dict "Images" (slice $img)))}}
-  {{ if eq (mod $index 3) 2 }}
-    {{ $rows = merge $rows (dict (string (div $index 3)) $columns) }}
-  {{ end }}
-  {{ if eq (mod $index 3) 0 }}
-    {{ $columns := dict }}
-  {{ end }}
-{{ end }}
-  <div data-pswp class="w-full px-6">
-    {{ partial "grid" $rows }}
+
+{{/* Grille asymetrique avec images de tailles variees */}}
+<div data-pswp class="w-full px-4 md:px-6">
+  <div class="homepage-grid">
+    {{ range $index, $img := $allimages }}
+      {{/* Pattern: toutes les 5 images = wide (2 colonnes), toutes les 12 images = full (3 colonnes) */}}
+      {{ $sizeClass := "grid-item" }}
+      {{ if eq (mod $index 12) 0 }}
+        {{ $sizeClass = "grid-item grid-item-full" }}
+      {{ else if eq (mod $index 5) 0 }}
+        {{ $sizeClass = "grid-item grid-item-wide" }}
+      {{ end }}
+
+      <div class="{{ $sizeClass }}">
+        {{ $src := $img.Image }}
+        {{ if $src }}
+          {{ $xs := "20x" }}
+          {{ $md := "800x" }}
+          {{ $lqip := $src.Resize (printf "%s webp" $xs) }}
+          {{ $small := $src.Resize (printf "%s webp" $md) }}
+          {{ if eq $src.MediaType.SubType "gif" }}
+            {{ $lqip = $src.Resize (printf "%s" $xs) }}
+            {{ $small = $src }}
+          {{ end }}
+          <picture class="relative box-border block overflow-hidden">
+            <img
+              loading="lazy"
+              style="background: url(data:image/webp;base64,{{ $lqip.Content | base64Encode }}); background-size: cover"
+              alt=""
+              class="cursor-pointer object-cover lazy w-full h-full"
+              data-action="zoom"
+              data-zoom-src="{{ $src.RelPermalink }}"
+              src="{{ $small.RelPermalink }}"
+              width="{{ $src.Width }}" height="{{ $src.Height }}"/>
+          </picture>
+        {{ end }}
+      </div>
+    {{ end }}
   </div>
+</div>
 {{ end }}

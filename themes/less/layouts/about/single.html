@@ -1,5 +1,89 @@
 {{ define "main" }}
-  <div data-pswp class="main">
-    {{.Content}}
-  </div>
+<div class="about-page">
+  {{/* SECTION 1 : HERO */}}
+  <section class="about-hero">
+    {{ $cover := .Resources.GetMatch "cover" }}
+    {{ if $cover }}
+    <div class="hero-image">
+      {{ $small := $cover.Resize "1200x webp" }}
+      <img src="{{ $small.RelPermalink }}" alt="Jeremy Janin" loading="lazy">
+    </div>
+    {{ end }}
+    <div class="hero-overlay">
+      <h1 class="hero-title">Filmmaker / Cyclist / Maker</h1>
+    </div>
+  </section>
+
+  {{/* SECTION 2 : BIO */}}
+  <section class="about-bio">
+    <div class="bio-content" data-pswp>
+      {{.Content}}
+    </div>
+  </section>
+
+  {{/* SECTION 3 : PASSIONS EN BLOCS */}}
+  <section class="about-passions">
+    <div class="passions-grid">
+      <div class="passion-item">
+        <span class="passion-icon">&#x1F6B2;</span>
+        <h3>Velo</h3>
+        <p>Cycliste utilitaire au quotidien, bikepacking le week-end. Un RockHopper comme fidele compagnon.</p>
+      </div>
+      <div class="passion-item">
+        <span class="passion-icon">&#x1F3AC;</span>
+        <h3>Film</h3>
+        <p>Documentaires outdoor et videos qui racontent des histoires. Captain Yvon Studio.</p>
+      </div>
+      <div class="passion-item">
+        <span class="passion-icon">&#x2702;</span>
+        <h3>Fieldpacks</h3>
+        <p>Couture outdoor, MYOG. Creer mes propres sacs et equipements.</p>
+      </div>
+      <div class="passion-item">
+        <span class="passion-icon">&#x26F0;</span>
+        <h3>Outdoor</h3>
+        <p>L'aventure dans le quotidien. La nature comme terrain de jeu et source d'inspiration.</p>
+      </div>
+    </div>
+  </section>
+
+  {{/* SECTION 4 : SUR LE TERRAIN */}}
+  {{ $fieldImages := .Resources.Match "field/*" }}
+  {{ if $fieldImages }}
+  <section class="about-field">
+    <h2>Sur le terrain</h2>
+    <div class="field-grid" data-pswp>
+      {{ range $fieldImages }}
+        {{ $small := .Resize "600x webp" }}
+        {{ $lqip := .Resize "20x webp" }}
+        <div class="field-item">
+          <img
+            src="{{ $small.RelPermalink }}"
+            data-zoom-src="{{ .RelPermalink }}"
+            data-action="zoom"
+            alt="{{ .Title }}"
+            loading="lazy"
+            style="background: url(data:image/webp;base64,{{ $lqip.Content | base64Encode }}); background-size: cover">
+          <div class="field-overlay">
+            <span class="field-caption">{{ .Title }}</span>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* SECTION 5 : CONTACT */}}
+  <section class="about-contact">
+    <div class="contact-content">
+      <p class="contact-location">Base a Lille, riding daily.</p>
+      <div class="contact-links">
+        <a href="mailto:hello@jeremyjanin.com">hello@jeremyjanin.com</a>
+        <a href="https://captainyvon.fr" target="_blank">Captain Yvon Studio</a>
+        <a href="https://fieldpacks.fr" target="_blank">Fieldpacks</a>
+        <a href="https://slowisbeautiful.substack.com" target="_blank">Newsletter Slow Is Beautiful</a>
+      </div>
+    </div>
+  </section>
+</div>
 {{ end }}

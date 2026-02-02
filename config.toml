@@ -71,17 +71,17 @@ paginate = 12
   identifier = "moments"
   url = "/moments/"
 [[menu.main]]
-  name = "ABOUT"
-  title = "Infos & Contact"
-  weight = 3
-  identifier = "about"
-  url = "/about"
-[[menu.main]]
   name = "BLOG"
   title = "BLOG"
-  weight = 4
+  weight = 3
   identifier = "blog"
   url = "/posts/"
+[[menu.main]]
+  name = "ABOUT"
+  title = "Infos & Contact"
+  weight = 4
+  identifier = "about"
+  url = "/about"
 
 [[related.indices]]
   name = "categories"

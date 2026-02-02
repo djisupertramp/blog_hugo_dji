@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $image := .Resources.GetMatch "cover" | default (index (.Resources.ByType "image") 0) }}
 
-<!-- Hero Header Style Field Mag -->
+<!-- Hero Header -->
 <div class="hero-article" {{ with $image }}style="background-image: url('{{ .RelPermalink }}')"{{ end }}>
   <div class="hero-overlay"></div>
 
@@ -20,7 +20,7 @@
     {{ with .Params.subtitle }}<p class="hero-subtitle">{{ . }}</p>{{ end }}
   </div>
 
-  <!-- Encart métadonnées style Field Mag -->
+  <!-- Encart métadonnées -->
   {{ if or .Params.location .Params.bike .Params.film .Params.camera .Params.categories }}
   <div class="hero-meta-box">
     {{ with .Params.categories }}

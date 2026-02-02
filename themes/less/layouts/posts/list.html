@@ -1,42 +1,42 @@
 {{ define "main" }}
+  {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "posts") 12) }}
+  {{ $pages := $paginator.Pages }}
+  {{ $isFirstPage := eq $paginator.PageNumber 1 }}
+
+  {{/* Article Featured uniquement sur la page 1 - HORS du container .main pour full width */}}
+  {{ if and $isFirstPage (gt (len $pages) 0) }}
+    {{ $featured := index $pages 0 }}
+    {{ $image := $featured.Resources.GetMatch "cover" | default (index ($featured.Resources.ByType "image") 0) }}
+    {{ if $image }}
+      {{ $web := $image.Fit "2400x1600 center" }}
+      {{/* Mois en français */}}
+      {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
+      {{ $monthEn := $featured.Date.Format "January" }}
+      {{ $monthFr := index $months $monthEn }}
+      {{ $year := $featured.Date.Format "2006" }}
+      {{ $dateFr := printf "%s %s" $monthFr $year }}
+      <article class="featured-article" data-category="{{ (index $featured.Params.categories 0) | urlize }}">
+        <a href="{{ $featured.Permalink }}" class="featured-link">
+          <div class="featured-image">
+            <img src="{{ $web.Permalink }}" alt="{{ $featured.Title }}" loading="lazy">
+            <div class="featured-overlay">
+              <div class="featured-meta">
+                {{ with index $featured.Params.categories 0 }}
+                  <span class="featured-category">{{ . | upper }}</span>
+                {{ end }}
+                <span class="featured-separator">•</span>
+                <span class="featured-date">{{ $dateFr | upper }}</span>
+              </div>
+              <h2 class="featured-title">{{ $featured.Title }}</h2>
+            </div>
+          </div>
+        </a>
+      </article>
+    {{ end }}
+  {{ end }}
+
   <div class="main blog-page">
     {{.Content}}
-
-    {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "posts") 12) }}
-    {{ $pages := $paginator.Pages }}
-    {{ $isFirstPage := eq $paginator.PageNumber 1 }}
-
-    {{/* Article Featured uniquement sur la page 1 */}}
-    {{ if and $isFirstPage (gt (len $pages) 0) }}
-      {{ $featured := index $pages 0 }}
-      {{ $image := $featured.Resources.GetMatch "cover" | default (index ($featured.Resources.ByType "image") 0) }}
-      {{ if $image }}
-        {{ $web := $image.Fit "1920x1400 center" }}
-        {{/* Mois en français */}}
-        {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
-        {{ $monthEn := $featured.Date.Format "January" }}
-        {{ $monthFr := index $months $monthEn }}
-        {{ $year := $featured.Date.Format "2006" }}
-        {{ $dateFr := printf "%s %s" $monthFr $year }}
-        <article class="featured-article" data-category="{{ (index $featured.Params.categories 0) | urlize }}">
-          <a href="{{ $featured.Permalink }}" class="featured-link">
-            <div class="featured-image">
-              <img src="{{ $web.Permalink }}" alt="{{ $featured.Title }}" loading="lazy">
-              <div class="featured-overlay">
-                <div class="featured-meta">
-                  {{ with index $featured.Params.categories 0 }}
-                    <span class="featured-category">{{ . | upper }}</span>
-                  {{ end }}
-                  <span class="featured-separator">•</span>
-                  <span class="featured-date">{{ $dateFr | upper }}</span>
-                </div>
-                <h2 class="featured-title">{{ $featured.Title }}</h2>
-              </div>
-            </div>
-          </a>
-        </article>
-      {{ end }}
-    {{ end }}
 
     {{/* Section Récent */}}
     <section class="recent-section">

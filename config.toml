@@ -30,7 +30,7 @@ paginate = 12
   tags = []
 
   sansSerifFont = "Helvetica Neue"
-  titleFont = "DIN Alternate"
+  titleFont = "Oswald"
   bodyFont = "Times New Roman"
 
   hasLogo = true

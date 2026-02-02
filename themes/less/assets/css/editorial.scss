@@ -103,9 +103,9 @@
   letter-spacing: 0.05em;
   max-width: 440px;
   padding: 1.5rem 2rem;
-  background: rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border-radius: 4px;
 
   .meta-row {
@@ -186,10 +186,16 @@
   }
 }
 
+/* Espace entre header et début du contenu */
+.main.post {
+  padding-top: 5rem;
+}
+
 /* Paragraphes avec respiration dans les articles - Style Vogelius */
 .post p {
   margin-bottom: 2.5rem;
   line-height: 2;
+  font-size: 1.25rem; /* Taille augmentée pour confort de lecture */
 }
 
 /* Images dans les articles - espacements généreux style Vogelius */
@@ -480,5 +486,85 @@
   .homepage-grid .grid-item-wide,
   .homepage-grid .grid-item-full {
     grid-column: span 1;
+  }
+}
+
+/* ===================================
+   NAVIGATION ARTICLE PREV/NEXT
+   =================================== */
+
+.post-navigation {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background-color: #e8e8e8;
+  margin-top: 4rem;
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    border: none;
+    color: var(--onyx);
+    font-family: var(--sans-serif-font);
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--accent);
+      border: none;
+    }
+  }
+
+  .nav-previous {
+    text-align: left;
+  }
+
+  .nav-next {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  .nav-arrow {
+    font-size: 1.2rem;
+    opacity: 0.7;
+  }
+
+  .nav-title {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-navigation {
+    padding: 2rem 1rem;
+
+    .nav-links {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .nav-previous,
+    .nav-next {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .nav-title {
+      max-width: 200px;
+    }
   }
 }

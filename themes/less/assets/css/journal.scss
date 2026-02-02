@@ -111,6 +111,22 @@
   }
 }
 
+/* Excerpt du featured article */
+.featured-excerpt {
+  max-width: 40rem;
+  margin: 1.5rem auto 0;
+  text-align: center;
+
+  p {
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: var(--onyx);
+    margin: 0;
+  }
+}
+
 /* Section Title */
 .section-title {
   font-family: var(--title-font);
@@ -125,7 +141,7 @@
 .posts-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0;
+  gap: 1.5rem;
 }
 
 .post-item {
@@ -142,7 +158,7 @@
   .post-item-image {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 1;
     overflow: hidden;
     background-color: #f0f0f0;
 
@@ -245,6 +261,48 @@
 
     .post-item-title {
       font-size: 1rem;
+    }
+  }
+}
+
+/* Pagination - Style Vogelius */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+  .page-item {
+    list-style: none;
+
+    a, span {
+      font-family: var(--title-font);
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.5rem 1rem;
+      color: var(--onyx);
+      text-decoration: none;
+      border: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: var(--accent);
+        border: none;
+      }
+    }
+
+    &.active span {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    &.disabled span {
+      opacity: 0.3;
+      cursor: default;
     }
   }
 }

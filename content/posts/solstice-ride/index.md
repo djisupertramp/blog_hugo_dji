@@ -12,7 +12,6 @@ resources:
   name: "cover"
 - src: "*.jpg"
 ---
-{{< photo src="images/01.jpg" alt="Solstice ride" wide="true" >}}
 
 Une belle journée de printemps, une pause de libre pour s’échapper, plusieurs semaines sans toucher au vélo… Il ne m’en fallait pas plus. Alors que je me remets doucement d’un virus qui m’a attaqué les bronches, pédaler doucement en sentant le soleil danser sur mon visage, ma chemise flotter au vent et mes jambes qui ne font qu’un avec ce vélo que j’aime tant… C’était tout ce qu’il me fallait pour ce premier jour du printemps.
 

@@ -7,7 +7,7 @@
 
   <!-- Breadcrumb -->
   <div class="hero-breadcrumb">
-    <a href="/">HOME</a>
+    <a href="/posts/">BLOG</a>
     <span>/</span>
     {{ range first 1 .Params.categories }}
     <a href="/{{ . | urlize }}">{{ . | upper }}</a>

@@ -65,15 +65,21 @@ paginate = 12
   identifier = "portfolio"
   url = "/"
 [[menu.main]]
+  name = "MOMENTS"
+  title = "Moments"
+  weight = 2
+  identifier = "moments"
+  url = "/moments/"
+[[menu.main]]
   name = "ABOUT"
   title = "Infos & Contact"
-  weight = 2
+  weight = 3
   identifier = "about"
   url = "/about"
 [[menu.main]]
   name = "BLOG"
   title = "BLOG"
-  weight = 3
+  weight = 4
   identifier = "blog"
   url = "/posts/"
 

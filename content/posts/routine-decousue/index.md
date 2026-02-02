@@ -5,7 +5,7 @@ seotitle: "Routine décousue"
 date: "2022-12-12"
 slug: "routine-decousue"
 categories:
-- reflexions
+- note
 tags: ["photographie", "lille", "routine"]
 description: "Note 001 — Routine décousue"
 resources:

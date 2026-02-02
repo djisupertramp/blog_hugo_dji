@@ -1,12 +1,123 @@
 {{ define "main" }}
-  <div class="main">
+  <div class="main blog-page">
     {{.Content}}
-    <div class="grid grid-cols-1 gap-12">
-      {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "posts") 12) }}
-      {{ range $index, $post := $paginator.Pages }}
-        {{ partial "post.html" (dict "post" $post "index" $index "ctx" $)}}
+
+    {{/* Filtres par catégorie */}}
+    <div class="category-filters">
+      <button class="filter-btn active" data-filter="all">Tous</button>
+      {{ range $.Site.Taxonomies.categories }}
+        {{ $name := .Page.Title }}
+        {{ $count := len .Pages }}
+        {{ if gt $count 0 }}
+          <button class="filter-btn" data-filter="{{ $name | urlize }}">{{ $name }} <span class="count">({{ $count }})</span></button>
+        {{ end }}
       {{ end }}
     </div>
+
+    {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "posts") 12) }}
+    {{ $pages := $paginator.Pages }}
+
+    {{/* Article Featured (le premier/plus récent) */}}
+    {{ if gt (len $pages) 0 }}
+      {{ $featured := index $pages 0 }}
+      {{ $image := $featured.Resources.GetMatch "cover" | default (index ($featured.Resources.ByType "image") 0) }}
+      {{ if $image }}
+        {{ $web := $image.Fill "1600x900 center" }}
+        {{ $mini := $image.Fill "40x22" }}
+        <article class="featured-article fade-in" data-category="{{ (index $featured.Params.categories 0) | urlize }}">
+          <a href="{{ $featured.Permalink }}" class="featured-link">
+            <div class="featured-image">
+              <img class="lazyload" src="{{ $mini.Permalink }}" data-src="{{ $web.Permalink }}" alt="{{ $featured.Title }}">
+              <div class="featured-overlay">
+                <div class="featured-meta">
+                  {{ with index $featured.Params.categories 0 }}
+                    <span class="featured-category">{{ . | upper }}</span>
+                  {{ end }}
+                  <span class="featured-date">{{ $featured.Date.Format "January 2006" | upper }}</span>
+                </div>
+                <h2 class="featured-title">{{ $featured.Title }}</h2>
+              </div>
+            </div>
+          </a>
+        </article>
+      {{ end }}
+    {{ end }}
+
+    {{/* Section Recent */}}
+    <section class="recent-section">
+      <h3 class="section-title">Recent</h3>
+      <div class="posts-list">
+        {{ range $index, $post := after 1 $pages }}
+          {{ $categories := $post.Params.categories }}
+          {{ $catSlug := "" }}
+          {{ with index $categories 0 }}
+            {{ $catSlug = . | urlize }}
+          {{ end }}
+          <article class="post-item fade-in" data-category="{{ $catSlug }}">
+            {{ $image := $post.Resources.GetMatch "cover" | default (index ($post.Resources.ByType "image") 0) }}
+            {{ if $image }}
+              {{ $thumb := $image.Fill "800x450 center" }}
+              {{ $mini := $image.Fill "40x22" }}
+              <a href="{{ $post.Permalink }}" class="post-item-link">
+                <div class="post-item-image">
+                  <img class="lazyload" src="{{ $mini.Permalink }}" data-src="{{ $thumb.Permalink }}" alt="{{ $post.Title }}">
+                  <div class="post-item-overlay">
+                    <div class="post-item-meta">
+                      {{ with index $categories 0 }}
+                        <span class="post-item-category">{{ . | upper }}</span>
+                      {{ end }}
+                      <span class="post-item-separator">•</span>
+                      <span class="post-item-date">{{ $post.Date.Format "January 2006" | upper }}</span>
+                    </div>
+                    <h3 class="post-item-title">{{ $post.Title }}</h3>
+                  </div>
+                </div>
+              </a>
+            {{ end }}
+          </article>
+        {{ end }}
+      </div>
+    </section>
+
     {{ template "_internal/pagination.html" . }}
   </div>
+
+  <script>
+  // Filtres par catégorie
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const articles = document.querySelectorAll('[data-category]');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const filter = this.dataset.filter;
+
+        // Activer le bouton
+        filterBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+
+        // Filtrer les articles
+        articles.forEach(article => {
+          if (filter === 'all' || article.dataset.category === filter) {
+            article.style.display = '';
+            article.classList.add('fade-in');
+          } else {
+            article.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Animation au scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  });
+  </script>
 {{ end }}

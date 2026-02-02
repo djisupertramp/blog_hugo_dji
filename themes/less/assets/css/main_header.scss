@@ -89,7 +89,7 @@
   .main_menu li {
     list-style-type: none;
     a {
-      font-family: "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Consolas", monospace;
+      font-family: var(--sans-serif-font);
       font-weight: 400;
       font-size: 0.75rem;
       text-transform: uppercase;

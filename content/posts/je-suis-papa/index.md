@@ -4,7 +4,7 @@ seotitle: "Je suis papa"
 date: "2023-10-18"
 slug: "je-suis-papa"
 categories:
-- reflexions
+- note
 tags: ["PMA", "parcours PMA", "papa", "naissance"]
 description: "Je suis devenu papa."
 resources:

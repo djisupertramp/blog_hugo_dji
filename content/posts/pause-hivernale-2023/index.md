@@ -4,7 +4,7 @@ seotitle: "Pause hivernale (2023)"
 date: "2023-01-22"
 slug: "pause-hivernale-2023"
 categories:
-- reflexions
+- note
 tags: ["photographie", "lille", "matériel", "fuji X100F", "daily photo", "Mju ii", "Mju", "argentique", "appareil photo", "point and shoot"]
 description: "Point reflexion et matos pendant ma pause hivernale annuelle - edition 2023"
 resources:

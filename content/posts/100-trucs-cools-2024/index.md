@@ -4,7 +4,7 @@ seotitle: "100 trucs cools en 2024"
 date: "2025-01-28"
 slug: "100-trucs-cools-2024"
 categories:
-- reflexions
+- note
 tags: ["retrospective", "2024", "bilan"]
 description: "100 trucs cools en 2024"
 resources:
@@ -45,7 +45,7 @@ Après l’article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-
 27 - … Et découvert une nouvelle manière de découvrir un lieu à travers le son.<br/>
 28 - Fabriqué mes propres blimp pour isoler les micros des rafales de vent<br/>
 29 - Revu Coldplay en concert dans un stade, à Lyon cette fois.<br/>
-30 - Refait le monde, partagé mes reflexions et peaufiné nos envies et nos besoins chaque jour, chaque semaine avec Greg<br/>
+30 - Refait le monde, partagé mes note et peaufiné nos envies et nos besoins chaque jour, chaque semaine avec Greg<br/>
 31 - Fait mon EVG dans les Cévennes<br/>
 32 - Commencé à suivre la NFL *(Go Lions & Bills!)*<br/>
 33 - Passé un week-end hors du temps à Montreuil-Sur-Mer<br/>

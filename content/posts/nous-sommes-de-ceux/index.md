@@ -4,7 +4,7 @@ seotitle: "Nous sommes de ceux qui sont en parcours PMA"
 date: "2023-01-11"
 slug: "nous-sommes-de-ceux"
 categories:
-- reflexions
+- note
 tags: ["PMA", "parcours PMA"]
 description: "Nous sommes de ceux qui sont en parcours PMA"
 resources:

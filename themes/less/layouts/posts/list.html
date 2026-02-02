@@ -11,7 +11,7 @@
       {{ $featured := index $pages 0 }}
       {{ $image := $featured.Resources.GetMatch "cover" | default (index ($featured.Resources.ByType "image") 0) }}
       {{ if $image }}
-        {{ $web := $image.Fit "1600x1200 center" }}
+        {{ $web := $image.Fit "1920x1400 center" }}
         {{/* Mois en français */}}
         {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
         {{ $monthEn := $featured.Date.Format "January" }}
@@ -41,18 +41,6 @@
     {{/* Section Récent */}}
     <section class="recent-section">
       <h3 class="section-title">Récent</h3>
-
-      {{/* Filtres par catégorie - sous le titre et la barre */}}
-      <div class="category-filters">
-        <button class="filter-btn active" data-filter="all">Tous</button>
-        {{ range $.Site.Taxonomies.categories }}
-          {{ $name := .Page.Title }}
-          {{ $count := len .Pages }}
-          {{ if gt $count 0 }}
-            <button class="filter-btn" data-filter="{{ $name | urlize }}">{{ $name }} <span class="count">({{ $count }})</span></button>
-          {{ end }}
-        {{ end }}
-      </div>
 
       <div class="posts-list">
         {{/* Mois en français */}}
@@ -102,44 +90,4 @@
       {{ template "_internal/pagination.html" . }}
     </div>
   </div>
-
-  <script>
-  // Filtres par catégorie
-  document.addEventListener('DOMContentLoaded', function() {
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const articles = document.querySelectorAll('.post-item[data-category]');
-    const featuredArticle = document.querySelector('.featured-article');
-    const paginationContainer = document.querySelector('.pagination-container');
-
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', function() {
-        const filter = this.dataset.filter;
-
-        // Activer le bouton
-        filterBtns.forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-
-        // Gérer la pagination et le featured
-        if (filter === 'all') {
-          // Afficher pagination et featured
-          if (paginationContainer) paginationContainer.style.display = '';
-          if (featuredArticle) featuredArticle.style.display = '';
-        } else {
-          // Cacher pagination et featured quand on filtre
-          if (paginationContainer) paginationContainer.style.display = 'none';
-          if (featuredArticle) featuredArticle.style.display = 'none';
-        }
-
-        // Filtrer les articles
-        articles.forEach(article => {
-          if (filter === 'all' || article.dataset.category === filter) {
-            article.style.display = '';
-          } else {
-            article.style.display = 'none';
-          }
-        });
-      });
-    });
-  });
-  </script>
 {{ end }}

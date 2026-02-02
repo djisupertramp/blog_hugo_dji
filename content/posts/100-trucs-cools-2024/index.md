@@ -12,9 +12,8 @@ resources:
   name: "cover"
 - src: "*.jpg"
 ---
-{{< photo src="images/cover.jpg" alt="100 trucs cools en 2024" wide="true" >}}
 
-Après l’article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-trucs-cools-2022/), de [2023](https://jeremyjanin.com/100-trucs-cools-2023/)… en 2024, j’ai…
+Après l'article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-trucs-cools-2022/), de [2023](https://jeremyjanin.com/100-trucs-cools-2023/)… en 2024, j’ai…
 
 1 - Enfin célébré pleinement notre « vrai » mariage après le civil en 2023<br/>
 2 - Vu toutes les personnes qui nous sont chères réunies pour nous marier dans le lieu de nos rêves<br/>

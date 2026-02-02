@@ -14,9 +14,7 @@ resources:
   - src: "*.jpg"
 ---
 
-{{< photo src="images/cover.jpg" alt="100 trucs cools en 2025" wide="true" >}}
-
-Après l’article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-trucs-cools-2022/), de [2023](https://jeremyjanin.com/100-trucs-cools-2023/), de [2024](https://jeremyjanin.com/100-trucs-cools-2024/)… en 2025...
+Après l'article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-trucs-cools-2022/), de [2023](https://jeremyjanin.com/100-trucs-cools-2023/), de [2024](https://jeremyjanin.com/100-trucs-cools-2024/)… en 2025...
 
 1 - Je suis devenu papa une deuxième fois. Daphné <3<br/>
 2 - J’ai commencé l’année en m’asseyant devant une feuille pour lister ce qui m’avait manqué en 2024 : du temps pour moi. <br/>

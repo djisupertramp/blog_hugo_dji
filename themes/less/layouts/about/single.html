@@ -21,33 +21,7 @@
     </div>
   </section>
 
-  {{/* SECTION 3 : PASSIONS EN BLOCS */}}
-  <section class="about-passions">
-    <div class="passions-grid">
-      <div class="passion-item">
-        <span class="passion-icon">&#x1F6B2;</span>
-        <h3>Velo</h3>
-        <p>Cycliste utilitaire au quotidien, bikepacking le week-end. Un RockHopper comme fidele compagnon.</p>
-      </div>
-      <div class="passion-item">
-        <span class="passion-icon">&#x1F3AC;</span>
-        <h3>Film</h3>
-        <p>Documentaires outdoor et videos qui racontent des histoires. Captain Yvon Studio.</p>
-      </div>
-      <div class="passion-item">
-        <span class="passion-icon">&#x2702;</span>
-        <h3>Fieldpacks</h3>
-        <p>Couture outdoor, MYOG. Creer mes propres sacs et equipements.</p>
-      </div>
-      <div class="passion-item">
-        <span class="passion-icon">&#x26F0;</span>
-        <h3>Outdoor</h3>
-        <p>L'aventure dans le quotidien. La nature comme terrain de jeu et source d'inspiration.</p>
-      </div>
-    </div>
-  </section>
-
-  {{/* SECTION 4 : SUR LE TERRAIN */}}
+  {{/* SECTION 3 : SUR LE TERRAIN */}}
   {{ $fieldImages := .Resources.Match "field/*" }}
   {{ if $fieldImages }}
   <section class="about-field">

@@ -7,10 +7,20 @@
   overflow-x: hidden;
 }
 
-/* Featured Article - pleine largeur écran */
+/* Intro Journal */
+.blog-intro {
+  max-width: var(--max-width);
+  margin: 0 auto 2rem;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+/* Featured Article - plus large que la colonne récent */
 .featured-article {
   margin-bottom: 3rem;
-  width: 100%;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 
   .featured-link {

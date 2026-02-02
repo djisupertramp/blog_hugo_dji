@@ -200,6 +200,13 @@
   }
 }
 
+/* Pagination container - aligné avec récent */
+.pagination-container {
+  max-width: calc(var(--max-width) - 15%);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 /* Pagination */
 .pagination {
   display: flex;

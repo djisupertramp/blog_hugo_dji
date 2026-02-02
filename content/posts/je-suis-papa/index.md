@@ -12,7 +12,6 @@ resources:
   name: "cover"
 - src: "*.jpg"
 ---
-{{< photo src="images/01.jpg" alt="Je suis devenu papa." >}}
 
 Il y-a quelques mois, je posais quelques mots à propos de [notre parcours PMA](https://jeremyjanin.com/nous-sommes-de-ceux/), pour garder une trace écrite du rollercoaster infernal que représente ce parcours de près de 3 ans. 3 années marquantes qui nous ont fait vaciller mais qui ont plus que jamais renforcé notre *Nous* . Et puis, il a suffit qu’à un moment dans cette tourmente infernale les planètes s’alignent pour rompre cette spirale deceptive, la balayer avec un résultat de labo reçu sur un fichier pdf, comme une onde de choc. Comme un résultat longtemps espéré que l'on avait désormais du mal à croire. L’embryon avait pris et se développait… Dans quelques mois, ce pourquoi nous nous battons depuis des années allait se concrétiser. *Nous* ne serait plus synonyme de duo. *Nous* serait le chapeau de cette famille que l’on se créait. Ce doux espoir longtemps caressé, rêvé, imaginé et espéré faisait aujourd’hui sa place dans le ventre de sa mère.
 

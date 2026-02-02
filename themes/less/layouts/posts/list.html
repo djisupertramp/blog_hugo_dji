@@ -2,30 +2,18 @@
   <div class="main blog-page">
     {{.Content}}
 
-    {{/* Filtres par catégorie */}}
-    <div class="category-filters">
-      <button class="filter-btn active" data-filter="all">Tous</button>
-      {{ range $.Site.Taxonomies.categories }}
-        {{ $name := .Page.Title }}
-        {{ $count := len .Pages }}
-        {{ if gt $count 0 }}
-          <button class="filter-btn" data-filter="{{ $name | urlize }}">{{ $name }} <span class="count">({{ $count }})</span></button>
-        {{ end }}
-      {{ end }}
-    </div>
-
     {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "posts") 12) }}
     {{ $pages := $paginator.Pages }}
+    {{ $isFirstPage := eq $paginator.PageNumber 1 }}
 
-    {{/* Article Featured (le premier/plus récent) */}}
-    {{ if gt (len $pages) 0 }}
+    {{/* Article Featured uniquement sur la page 1 */}}
+    {{ if and $isFirstPage (gt (len $pages) 0) }}
       {{ $featured := index $pages 0 }}
       {{ $image := $featured.Resources.GetMatch "cover" | default (index ($featured.Resources.ByType "image") 0) }}
       {{ if $image }}
-        {{ $web := $image.Fill "1600x900 center" }}
+        {{ $web := $image.Fit "1600x1200 center" }}
         {{/* Mois en français */}}
         {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
-        {{ $dateEn := $featured.Date.Format "January 2006" }}
         {{ $monthEn := $featured.Date.Format "January" }}
         {{ $monthFr := index $months $monthEn }}
         {{ $year := $featured.Date.Format "2006" }}
@@ -46,16 +34,6 @@
               </div>
             </div>
           </a>
-          {{/* Excerpt en dessous de l'image */}}
-          {{ if $featured.Params.excerpt }}
-            <div class="featured-excerpt">
-              <p>{{ $featured.Params.excerpt }}</p>
-            </div>
-          {{ else if $featured.Summary }}
-            <div class="featured-excerpt">
-              <p>{{ $featured.Summary | truncate 200 }}</p>
-            </div>
-          {{ end }}
         </article>
       {{ end }}
     {{ end }}
@@ -63,10 +41,28 @@
     {{/* Section Récent */}}
     <section class="recent-section">
       <h3 class="section-title">Récent</h3>
+
+      {{/* Filtres par catégorie - sous le titre et la barre */}}
+      <div class="category-filters">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        {{ range $.Site.Taxonomies.categories }}
+          {{ $name := .Page.Title }}
+          {{ $count := len .Pages }}
+          {{ if gt $count 0 }}
+            <button class="filter-btn" data-filter="{{ $name | urlize }}">{{ $name }} <span class="count">({{ $count }})</span></button>
+          {{ end }}
+        {{ end }}
+      </div>
+
       <div class="posts-list">
         {{/* Mois en français */}}
         {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
-        {{ range $index, $post := after 1 $pages }}
+        {{/* Sur page 1, on skip le premier article (featured), sinon on affiche tout */}}
+        {{ $articlesToShow := $pages }}
+        {{ if $isFirstPage }}
+          {{ $articlesToShow = after 1 $pages }}
+        {{ end }}
+        {{ range $index, $post := $articlesToShow }}
           {{ $categories := $post.Params.categories }}
           {{ $catSlug := "" }}
           {{ with index $categories 0 }}
@@ -102,14 +98,18 @@
       </div>
     </section>
 
-    {{ template "_internal/pagination.html" . }}
+    <div class="pagination-container">
+      {{ template "_internal/pagination.html" . }}
+    </div>
   </div>
 
   <script>
   // Filtres par catégorie
   document.addEventListener('DOMContentLoaded', function() {
     const filterBtns = document.querySelectorAll('.filter-btn');
-    const articles = document.querySelectorAll('[data-category]');
+    const articles = document.querySelectorAll('.post-item[data-category]');
+    const featuredArticle = document.querySelector('.featured-article');
+    const paginationContainer = document.querySelector('.pagination-container');
 
     filterBtns.forEach(btn => {
       btn.addEventListener('click', function() {
@@ -118,6 +118,17 @@
         // Activer le bouton
         filterBtns.forEach(b => b.classList.remove('active'));
         this.classList.add('active');
+
+        // Gérer la pagination et le featured
+        if (filter === 'all') {
+          // Afficher pagination et featured
+          if (paginationContainer) paginationContainer.style.display = '';
+          if (featuredArticle) featuredArticle.style.display = '';
+        } else {
+          // Cacher pagination et featured quand on filtre
+          if (paginationContainer) paginationContainer.style.display = 'none';
+          if (featuredArticle) featuredArticle.style.display = 'none';
+        }
 
         // Filtrer les articles
         articles.forEach(article => {

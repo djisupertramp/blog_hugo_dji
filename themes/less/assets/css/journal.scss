@@ -7,11 +7,10 @@
   overflow-x: hidden;
 }
 
-/* Featured Article - déborde de la colonne */
+/* Featured Article - pleine largeur écran */
 .featured-article {
   margin-bottom: 3rem;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 100%;
   position: relative;
 
   .featured-link {

@@ -3,12 +3,17 @@
   {{ $pages := $paginator.Pages }}
   {{ $isFirstPage := eq $paginator.PageNumber 1 }}
 
-  {{/* Article Featured uniquement sur la page 1 - HORS du container .main pour full width */}}
+  {{/* Intro Journal - avant le featured */}}
+  <div class="blog-intro">
+    {{.Content}}
+  </div>
+
+  {{/* Article Featured uniquement sur la page 1 */}}
   {{ if and $isFirstPage (gt (len $pages) 0) }}
     {{ $featured := index $pages 0 }}
     {{ $image := $featured.Resources.GetMatch "cover" | default (index ($featured.Resources.ByType "image") 0) }}
     {{ if $image }}
-      {{ $web := $image.Fit "2400x1600 center" }}
+      {{ $web := $image.Fit "1600x900 center" }}
       {{/* Mois en français */}}
       {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
       {{ $monthEn := $featured.Date.Format "January" }}
@@ -36,8 +41,6 @@
   {{ end }}
 
   <div class="main blog-page">
-    {{.Content}}
-
     {{/* Section Récent */}}
     <section class="recent-section">
       <h3 class="section-title">Récent</h3>

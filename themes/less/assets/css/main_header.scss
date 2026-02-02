@@ -15,6 +15,11 @@
       justify-content: center;
     }
   }
+
+  /* Espace entre logo et menu */
+  .title {
+    margin-bottom: 1.5rem;
+  }
   .menu {
     flex: 1;
     flex-direction: row;

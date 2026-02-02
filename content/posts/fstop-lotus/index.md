@@ -12,9 +12,8 @@ resources:
   name: "cover"
 - src: "*.jpg"
 ---
-{{< photo src="images/fstop_lotus_test_6.jpg" alt="FSTOP LOTUS : Mon test et avis après 5 ans d'utilisation comme sac photo et vidéo" wide="true" >}}
 
-J’utilise le sac à dos **[F-Stop Lotus](https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21&dpa_campaign=FSTOP-LOTUS)** comme mon sac photo et vidéo depuis 5 ans. Je n’ai jamais écrit à son sujet et je pense avoir aujourd’hui assez de recul pour partager mon opinion sur ce sac.
+J'utilise le sac à dos **[F-Stop Lotus](https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21&dpa_campaign=FSTOP-LOTUS)** comme mon sac photo et vidéo depuis 5 ans. Je n’ai jamais écrit à son sujet et je pense avoir aujourd’hui assez de recul pour partager mon opinion sur ce sac.
 
 Ce n’est pas un titre clickbait pour vous vendre le sac à dos parfait, puisqu’il n’existe pas. Je pourrais en parler des heures, mais nous avons tous des besoins différents au sein même de nos propres besoins. Dupliquez ça à l’ensemble du marché et c’est un puit sans fond. Voici pourquoi le F-Stop Lotus au même titre que tous les autres sacs ne sont pas les sacs parfaits ou les sacs ultimes. Il remplit parfaitement la fonction que je lui demande, sans pour autant être mon seul et unique sac à dos.
 

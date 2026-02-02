@@ -4,7 +4,7 @@
    =================================== */
 
 /* ===================================
-   HERO ARTICLE - STYLE FIELD MAG
+   HERO ARTICLE
    =================================== */
 
 .hero-article {
@@ -102,11 +102,6 @@
   font-size: 0.77rem;
   letter-spacing: 0.05em;
   max-width: 440px;
-  padding: 1.5rem 2rem;
-  background: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 4px;
 
   .meta-row {
     display: flex;
@@ -174,7 +169,6 @@
     width: 90%;
     max-width: none;
     font-size: 0.72rem;
-    padding: 1rem 1.5rem;
 
     .meta-row {
       padding: 0.7rem 0;
@@ -191,14 +185,14 @@
   padding-top: 5rem;
 }
 
-/* Paragraphes avec respiration dans les articles - Style Vogelius */
+/* Paragraphes avec respiration dans les articles */
 .post p {
   margin-bottom: 2.5rem;
   line-height: 2;
   font-size: 1.25rem; /* Taille augmentée pour confort de lecture */
 }
 
-/* Images dans les articles - espacements généreux style Vogelius */
+/* Images dans les articles - espacements généreux */
 .post img,
 .post figure {
   margin-top: 3rem;
@@ -441,12 +435,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.4s ease, filter 0.4s ease;
-  }
-
-  &:hover img {
-    transform: scale(1.02);
-    filter: brightness(0.95);
   }
 }
 
@@ -497,7 +485,7 @@
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 4rem 2rem;
-  background-color: #e8e8e8;
+  background-color: #fff;
   margin-top: 4rem;
 
   .nav-links {

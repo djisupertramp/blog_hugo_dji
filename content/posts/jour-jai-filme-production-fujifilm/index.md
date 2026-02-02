@@ -4,7 +4,7 @@ seotitle: "Le jour où j'ai filmé une production pour Fujifilm"
 date: "2024-07-10"
 slug: "jour-jai-filme-production-fujifilm"
 categories:
-- Productions
+- note
 tags: ["video", "fujifilm", "baie de somme", "XT-50", "X-H2S"]
 description: "J'ai filmé une vidéo pour la campagne de lancement du Fujifilm XT-50"
 resources:

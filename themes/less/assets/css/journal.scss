@@ -73,9 +73,9 @@
   }
 }
 
-/* Section Récent */
+/* Section Récent - plus étroite que le featured pour contraste */
 .recent-section {
-  max-width: var(--max-width);
+  max-width: calc(var(--max-width) - 15%);
   margin: 0 auto;
   padding: 0 2rem;
 }

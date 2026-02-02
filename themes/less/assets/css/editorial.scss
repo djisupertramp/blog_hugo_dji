@@ -79,6 +79,7 @@
     margin: 0;
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
     letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
 
   .hero-subtitle {
@@ -93,13 +94,14 @@
 .hero-meta-box {
   position: absolute;
   bottom: 60px;
-  left: 70px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
   color: var(--white-text);
   font-family: "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Consolas", monospace;
-  font-size: 0.7rem;
+  font-size: 0.77rem;
   letter-spacing: 0.05em;
-  max-width: 400px;
+  max-width: 440px;
 
   .meta-row {
     display: flex;
@@ -156,10 +158,12 @@
 
   .hero-meta-box {
     bottom: 30px;
-    left: 20px;
-    right: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+    width: 90%;
     max-width: none;
-    font-size: 0.65rem;
+    font-size: 0.72rem;
 
     .meta-row {
       padding: 0.7rem 0;

@@ -21,9 +21,12 @@
       border-bottom: none;
     }
     h3.title {
-      font-weight: 900;
+      font-family: "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", "Consolas", monospace;
+      font-weight: 400;
       text-align: right;
-      font-size: 1.9rem;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
       a { color: var(--onyx); border-bottom: none; }
       a:hover { color: var(--accent); border-bottom: none; }
     }

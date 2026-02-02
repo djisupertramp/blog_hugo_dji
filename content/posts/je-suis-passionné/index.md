@@ -4,7 +4,7 @@ seotitle: "Je suis passionné obsessionnel"
 date: "2025-03-26"
 slug: "je-suis-passionne"
 categories:
-- Reflexions
+- note
 tags: ["passion", "photographie", "randonnée"]
 description: "Je suis parti faire une randonnée sur la côte avec une HP5+, sous la brume."
 resources:

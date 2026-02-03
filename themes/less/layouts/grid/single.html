@@ -1,9 +1,7 @@
 {{ define "main" }}
-<div class="mb-8 container max-w-4xl mx-auto moments-intro">
-  <h5 class="moments-title">{{ .Title | upper }}</h5>
-    <p class="mx-4 md:mx-0">
-      {{ .Params.subtitle }}
-    </p>
+<div class="blog-intro">
+  <h5>{{ .Title | upper }}</h5>
+  <p>{{ .Params.subtitle }}</p>
 </div>
 {{ $allimages := slice }}
 {{ range sort (.Resources.ByType "image") "Name" "asc"}}

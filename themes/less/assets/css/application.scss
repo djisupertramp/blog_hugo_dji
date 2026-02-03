@@ -165,6 +165,20 @@ footer {
     background-image: linear-gradient(to top, transparent, transparent 2px, #ffffff 2px, #ffffff 2.5px, transparent 2.5px);
     border-bottom: none;
   }
+
+  /* Social icons - blanc sans soulignement */
+  .footer-social a {
+    background-image: none;
+    text-shadow: none;
+
+    svg {
+      fill: #ffffff;
+    }
+
+    &:hover svg {
+      fill: var(--accent);
+    }
+  }
 }
 
 blockquote {

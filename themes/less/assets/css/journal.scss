@@ -18,7 +18,7 @@
 /* Featured Article - plus large que la colonne récent */
 .featured-article {
   margin-bottom: 1.5rem;
-  max-width: var(--max-width);
+  max-width: calc(var(--max-width) + 20%);
   margin-left: auto;
   margin-right: auto;
   position: relative;

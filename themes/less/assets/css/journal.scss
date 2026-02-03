@@ -7,12 +7,44 @@
   overflow-x: hidden;
 }
 
-/* Intro Journal - aligné à gauche avec respiration */
+/* Intro Journal - centré dans la colonne avec texte aligné à gauche */
 .blog-intro {
   max-width: var(--max-width);
   margin: 0 auto 1.5rem;
   padding: 2rem 2rem 1.5rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h5, p {
+    max-width: 40rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  h5 {
+    font-size: calc(0.8rem * 1.2);
+  }
+
+  p {
+    font-size: calc(1rem * 1.2);
+  }
+}
+
+/* Archives page - titre centré et grand comme Récent */
+.archives-intro {
+  max-width: var(--max-width);
+  margin: 0 auto 1.5rem;
+  padding: 2rem 2rem 1.5rem;
+  text-align: center;
+
+  h5 {
+    font-family: var(--title-font);
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
 
 /* Featured Article - full width avec border */
@@ -56,7 +88,7 @@
     color: #fff;
   }
 
-  /* Featured overlay centré (pour page blog) */
+  /* Featured overlay centré (pour page blog) - sans fond */
   .featured-overlay-centered {
     top: 0;
     bottom: 0;
@@ -65,7 +97,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgba(0, 0, 0, 0.4);
+    background: transparent;
   }
 
   .featured-meta {
@@ -222,7 +254,7 @@
 /* Lien vers tous les articles */
 .all-posts-link {
   max-width: var(--max-width);
-  margin: 3rem auto;
+  margin: 5rem auto 3rem;
   padding: 0 2rem;
   text-align: center;
 

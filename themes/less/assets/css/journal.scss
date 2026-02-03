@@ -7,17 +7,17 @@
   overflow-x: hidden;
 }
 
-/* Intro Journal */
+/* Intro Journal - aligné à gauche avec respiration */
 .blog-intro {
   max-width: var(--max-width);
-  margin: 0 auto 2rem;
-  padding: 0 2rem;
-  text-align: center;
+  margin: 0 auto 3rem;
+  padding: 2rem 2rem 3rem;
+  text-align: left;
 }
 
 /* Featured Article - plus large que la colonne récent */
 .featured-article {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
@@ -84,17 +84,17 @@
 
 /* Section Récent - plus étroite que le featured pour contraste */
 .recent-section {
-  max-width: calc(var(--max-width) - 15%);
+  max-width: calc(var(--max-width) - 35%);
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* Section Title - centré */
+/* Section Title - centré, plus grand */
 .section-title {
   font-family: var(--title-font);
-  font-size: 1.5rem;
+  font-size: 2.25rem;
   font-weight: 400;
-  margin: 2rem auto 1.5rem;
+  margin: 1rem auto 1.5rem;
   padding-bottom: 0.75rem;
   border-bottom: none;
   text-align: center;

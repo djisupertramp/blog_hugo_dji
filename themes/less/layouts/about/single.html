@@ -1,45 +1,44 @@
 {{ define "main" }}
-<div class="about-page about-page-single-column">
-  {{/* Photo centrée au-dessus */}}
-  {{ $cover := .Resources.GetMatch "cover" }}
-  {{ if $cover }}
-  <section class="about-photo-centered">
-    {{ $large := $cover.Resize "900x webp" }}
-    <img src="{{ $large.RelPermalink }}" alt="Jeremy Janin" loading="lazy">
-  </section>
-  {{ end }}
-
-  {{/* SECTION BIO */}}
-  <section class="about-bio-single">
-    <div class="bio-content" data-pswp>
-      {{.Content}}
+<div class="about-page about-split-layout">
+  {{/* Colonne gauche - Texte sticky */}}
+  <div class="about-text-column">
+    <div class="about-text-content">
+      <h1 class="about-title">À propos</h1>
+      <div class="about-bio-text">
+        <p>Moi, c'est Jérémy. De l'argentique à la couture outdoor en passant par la vidéo, le vélo ou l'aquarelle, je suis avant tout quelqu'un de passionné et un peu touche à tout.</p>
+        <p>J'aime passer du temps dans la nature, faire des images et quelques voyages. Plus que les grosses expéditions, ce qui m'anime c'est de mettre un peu d'esprit d'aventure dans mon quotidien.</p>
+        <p>J'ai co-fondé <a href="https://captainyvon.fr" target="_blank">Captain Yvon Studio</a> avec <a href="https://gregorymignard.com/" target="_blank">Grégory Mignard</a>. On partage aussi chaque mois une newsletter, <a href="https://slowisbeautiful.substack.com" target="_blank">Slow Is Beautiful</a>, dans laquelle on parle de tout ce qui nous fait réflechir, nous inspire et nous passionne.</p>
+        <p>En parallèle, <a href="https://fieldpacks.fr" target="_blank">FIELDPACKS</a> c'est mon laboratoire-projet de couture de matériel outdoor.</p>
+      </div>
+      <div class="about-links">
+        <p>→ Basé à Lille</p>
+        <p>→ <a href="mailto:hello@jeremyjanin.com">hello@jeremyjanin.com</a></p>
+        <p>→ <a href="https://www.instagram.com/jeremy.janin/" target="_blank">Instagram</a> · <a href="https://www.threads.net/@jeremy.janin" target="_blank">Threads</a></p>
+        <p>→ <a href="/equipement/">Mon équipement</a></p>
+      </div>
     </div>
-  </section>
+  </div>
 
-  {{/* SECTION SUR LE TERRAIN */}}
-  {{ $fieldImages := .Resources.Match "field/*" }}
-  {{ if $fieldImages }}
-  <section class="about-field">
-    <h2>Sur le terrain</h2>
-    <div class="field-grid" data-pswp>
-      {{ range $fieldImages }}
-        {{ $small := .Resize "600x webp" }}
-        {{ $lqip := .Resize "20x webp" }}
-        <div class="field-item">
-          <img
-            src="{{ $small.RelPermalink }}"
-            data-zoom-src="{{ .RelPermalink }}"
-            data-action="zoom"
-            alt="{{ .Title }}"
-            loading="lazy"
-            style="background: url(data:image/webp;base64,{{ $lqip.Content | base64Encode }}); background-size: cover">
-          <div class="field-overlay">
-            <span class="field-caption">{{ .Title }}</span>
-          </div>
+  {{/* Colonne droite - Photos défilantes */}}
+  <div class="about-photos-column">
+    {{ $galleryImages := .Resources.Match "gallery/*" }}
+    {{ if $galleryImages }}
+      {{ range $galleryImages }}
+        {{ $img := .Resize "800x webp" }}
+        <div class="about-photo-item">
+          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
         </div>
       {{ end }}
-    </div>
-  </section>
-  {{ end }}
+    {{ else }}
+      {{/* Fallback: utiliser les images existantes */}}
+      {{ $allImages := .Resources.ByType "image" }}
+      {{ range $allImages }}
+        {{ $img := .Resize "800x webp" }}
+        <div class="about-photo-item">
+          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
 </div>
 {{ end }}

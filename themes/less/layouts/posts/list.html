@@ -82,38 +82,6 @@
       </div>
     </section>
 
-    {{/* Section Catégories */}}
-    <section class="categories-section">
-      <h3 class="section-title">Catégories</h3>
-
-      <div class="posts-list">
-        {{ $categories := .Site.Taxonomies.categories }}
-        {{ range $name, $taxonomy := $categories }}
-          {{ $catPosts := $taxonomy.Pages }}
-          {{ if gt (len $catPosts) 0 }}
-            {{ $latestPost := index $catPosts 0 }}
-            {{ $image := $latestPost.Resources.GetMatch "cover" | default (index ($latestPost.Resources.ByType "image") 0) }}
-            {{ if $image }}
-              {{ $thumb := $image.Fill "800x200 center" }}
-              <article class="post-item category-item">
-                <a href="/{{ $name | urlize }}/" class="post-item-link">
-                  <div class="post-item-image">
-                    <img src="{{ $thumb.Permalink }}" alt="{{ $name }}" loading="lazy">
-                    <div class="post-item-overlay">
-                      <div class="post-item-meta">
-                        <span class="post-item-category">{{ len $catPosts }} ARTICLES</span>
-                      </div>
-                      <h3 class="post-item-title">{{ $name | title }}</h3>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            {{ end }}
-          {{ end }}
-        {{ end }}
-      </div>
-    </section>
-
     {{/* Lien vers tous les articles */}}
     <div class="all-posts-link">
       <a href="/archives/">Découvrir tous les articles →</a>

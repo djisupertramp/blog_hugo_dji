@@ -131,7 +131,126 @@ body.about-body {
 }
 
 /* ===================================
-   ABOUT PAGE - SINGLE COLUMN LAYOUT
+   ABOUT PAGE - SPLIT LAYOUT (IGNANT STYLE)
+   Texte sticky à gauche, photos défilantes à droite
+   =================================== */
+
+.about-split-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Colonne texte - sticky */
+.about-text-column {
+  position: relative;
+  padding: 4rem 3rem;
+
+  @media (min-width: 901px) {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 900px) {
+    padding: 3rem 2rem;
+  }
+}
+
+.about-text-content {
+  max-width: 400px;
+
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
+}
+
+.about-title {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+  max-width: 100% !important;
+}
+
+.about-bio-text {
+  p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 1.25rem;
+
+    &:last-child {
+      margin-bottom: 2rem;
+    }
+  }
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid var(--accent);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.about-links {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #999;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid var(--accent);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+/* Colonne photos - défilante */
+.about-photos-column {
+  padding: 2rem;
+
+  @media (max-width: 900px) {
+    padding: 1rem 2rem 3rem;
+  }
+}
+
+.about-photo-item {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* ===================================
+   ABOUT PAGE - SINGLE COLUMN LAYOUT (legacy)
    Photo centrée au-dessus du texte
    =================================== */
 

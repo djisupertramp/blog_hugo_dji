@@ -46,7 +46,19 @@ body.about-body {
     }
   }
 
-  /* Footer deja noir, ok */
+  /* Footer noir sur page about */
+  footer {
+    background-color: #000000;
+    color: var(--white-text);
+
+    a, a:visited, a:hover {
+      color: var(--white-text);
+    }
+
+    .footer-social a svg {
+      fill: #ffffff;
+    }
+  }
 }
 
 .about-page {

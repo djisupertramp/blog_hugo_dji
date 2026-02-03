@@ -1,19 +1,18 @@
 {{ define "main" }}
-  {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "posts") 12) }}
-  {{ $pages := $paginator.Pages }}
-  {{ $isFirstPage := eq $paginator.PageNumber 1 }}
+  {{ $allPosts := where .Site.RegularPages "Type" "posts" }}
+  {{ $pages := first 7 $allPosts }}
 
   {{/* Intro Journal - avant le featured */}}
   <div class="blog-intro">
     {{.Content}}
   </div>
 
-  {{/* Article Featured uniquement sur la page 1 */}}
-  {{ if and $isFirstPage (gt (len $pages) 0) }}
+  {{/* Article Featured - premier article */}}
+  {{ if gt (len $pages) 0 }}
     {{ $featured := index $pages 0 }}
     {{ $image := $featured.Resources.GetMatch "cover" | default (index ($featured.Resources.ByType "image") 0) }}
     {{ if $image }}
-      {{ $web := $image.Fit "1600x900 center" }}
+      {{ $web := $image.Fit "1920x1080 center" }}
       {{/* Mois en français */}}
       {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
       {{ $monthEn := $featured.Date.Format "January" }}
@@ -24,7 +23,7 @@
         <a href="{{ $featured.Permalink }}" class="featured-link">
           <div class="featured-image">
             <img src="{{ $web.Permalink }}" alt="{{ $featured.Title }}" loading="lazy">
-            <div class="featured-overlay">
+            <div class="featured-overlay featured-overlay-centered">
               <div class="featured-meta">
                 {{ with index $featured.Params.categories 0 }}
                   <span class="featured-category">{{ . | upper }}</span>
@@ -41,25 +40,19 @@
   {{ end }}
 
   <div class="main blog-page">
-    {{/* Section Récent */}}
+    {{/* Section Récent - 6 articles après le featured */}}
     <section class="recent-section">
       <h3 class="section-title">Récent</h3>
 
       <div class="posts-list">
-        {{/* Mois en français */}}
         {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
-        {{/* Sur page 1, on skip le premier article (featured), sinon on affiche tout */}}
-        {{ $articlesToShow := $pages }}
-        {{ if $isFirstPage }}
-          {{ $articlesToShow = after 1 $pages }}
-        {{ end }}
-        {{ range $index, $post := $articlesToShow }}
+        {{ $recentPosts := after 1 $pages }}
+        {{ range $index, $post := $recentPosts }}
           {{ $categories := $post.Params.categories }}
           {{ $catSlug := "" }}
           {{ with index $categories 0 }}
             {{ $catSlug = . | urlize }}
           {{ end }}
-          {{/* Date en français */}}
           {{ $monthEn := $post.Date.Format "January" }}
           {{ $monthFr := index $months $monthEn }}
           {{ $year := $post.Date.Format "2006" }}
@@ -89,8 +82,41 @@
       </div>
     </section>
 
-    <div class="pagination-container">
-      {{ template "_internal/pagination.html" . }}
+    {{/* Section Catégories */}}
+    <section class="categories-section">
+      <h3 class="section-title">Catégories</h3>
+
+      <div class="posts-list">
+        {{ $categories := .Site.Taxonomies.categories }}
+        {{ range $name, $taxonomy := $categories }}
+          {{ $catPosts := $taxonomy.Pages }}
+          {{ if gt (len $catPosts) 0 }}
+            {{ $latestPost := index $catPosts 0 }}
+            {{ $image := $latestPost.Resources.GetMatch "cover" | default (index ($latestPost.Resources.ByType "image") 0) }}
+            {{ if $image }}
+              {{ $thumb := $image.Fill "800x200 center" }}
+              <article class="post-item category-item">
+                <a href="/{{ $name | urlize }}/" class="post-item-link">
+                  <div class="post-item-image">
+                    <img src="{{ $thumb.Permalink }}" alt="{{ $name }}" loading="lazy">
+                    <div class="post-item-overlay">
+                      <div class="post-item-meta">
+                        <span class="post-item-category">{{ len $catPosts }} ARTICLES</span>
+                      </div>
+                      <h3 class="post-item-title">{{ $name | title }}</h3>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* Lien vers tous les articles */}}
+    <div class="all-posts-link">
+      <a href="/archives/">Découvrir tous les articles →</a>
     </div>
   </div>
 {{ end }}

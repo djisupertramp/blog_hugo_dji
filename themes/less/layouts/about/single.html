@@ -1,27 +1,22 @@
 {{ define "main" }}
-<div class="about-page">
-  {{/* SECTION 1 : HERO */}}
-  <section class="about-hero">
-    {{ $cover := .Resources.GetMatch "cover" }}
-    {{ if $cover }}
-    <div class="hero-image">
-      {{ $small := $cover.Resize "1200x webp" }}
-      <img src="{{ $small.RelPermalink }}" alt="Jeremy Janin" loading="lazy">
-    </div>
-    {{ end }}
-    <div class="hero-overlay">
-      <h1 class="hero-title">Filmmaker / Cyclist / Maker</h1>
-    </div>
+<div class="about-page about-page-single-column">
+  {{/* Photo centrée au-dessus */}}
+  {{ $cover := .Resources.GetMatch "cover" }}
+  {{ if $cover }}
+  <section class="about-photo-centered">
+    {{ $large := $cover.Resize "900x webp" }}
+    <img src="{{ $large.RelPermalink }}" alt="Jeremy Janin" loading="lazy">
   </section>
+  {{ end }}
 
-  {{/* SECTION 2 : BIO */}}
-  <section class="about-bio">
+  {{/* SECTION BIO */}}
+  <section class="about-bio-single">
     <div class="bio-content" data-pswp>
       {{.Content}}
     </div>
   </section>
 
-  {{/* SECTION 3 : SUR LE TERRAIN */}}
+  {{/* SECTION SUR LE TERRAIN */}}
   {{ $fieldImages := .Resources.Match "field/*" }}
   {{ if $fieldImages }}
   <section class="about-field">
@@ -46,18 +41,5 @@
     </div>
   </section>
   {{ end }}
-
-  {{/* SECTION 5 : CONTACT */}}
-  <section class="about-contact">
-    <div class="contact-content">
-      <p class="contact-location">Base a Lille, riding daily.</p>
-      <div class="contact-links">
-        <a href="mailto:hello@jeremyjanin.com">hello@jeremyjanin.com</a>
-        <a href="https://captainyvon.fr" target="_blank">Captain Yvon Studio</a>
-        <a href="https://fieldpacks.fr" target="_blank">Fieldpacks</a>
-        <a href="https://slowisbeautiful.substack.com" target="_blank">Newsletter Slow Is Beautiful</a>
-      </div>
-    </div>
-  </section>
 </div>
 {{ end }}

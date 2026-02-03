@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="main blog-page">
-  <div class="blog-intro">
-    <h5>{{ .Title | upper }}</h5>
-    <p>{{ len .Pages }} articles</p>
+  <div class="archives-intro">
+    <h5>{{ .Title }}</h5>
+    <p class="category-count">{{ len .Pages }} articles</p>
   </div>
 
   <section class="recent-section">

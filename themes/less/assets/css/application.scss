@@ -161,9 +161,10 @@ footer {
   a, a:visited, a:hover {
     color: var(--white-text);
     padding-bottom: 2px;
-    text-shadow: -1px -1px 0 var(--onyx), 1px -1px 0 var(--onyx), -1px 1px 0 var(--onyx), 1px 1px 0 var(--onyx);
-    background-image: linear-gradient(to top, transparent, transparent 2px, #ffffff 2px, #ffffff 2.5px, transparent 2.5px);
+    text-shadow: none;
+    background-image: none;
     border-bottom: none;
+    text-decoration: none;
   }
 
   /* Social icons - blanc sans soulignement */

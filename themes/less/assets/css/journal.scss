@@ -82,9 +82,9 @@
   }
 }
 
-/* Section Récent - plus étroite que le featured pour contraste */
+/* Section Récent */
 .recent-section {
-  max-width: calc(var(--max-width) - 35%);
+  max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -121,7 +121,8 @@
 
   .post-item-image {
     position: relative;
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
     aspect-ratio: 4 / 1;
     overflow: hidden;
     background-color: #f0f0f0;

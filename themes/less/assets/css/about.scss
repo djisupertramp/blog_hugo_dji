@@ -69,7 +69,7 @@ body.about-body {
 }
 
 /* ===================================
-   SECTION HERO
+   SECTION HERO (legacy)
    =================================== */
 
 .about-hero {
@@ -114,6 +114,56 @@ body.about-body {
 
     @media (max-width: 768px) {
       font-size: 1.5rem;
+    }
+  }
+}
+
+/* ===================================
+   ABOUT PAGE - SINGLE COLUMN LAYOUT
+   Photo centrée au-dessus du texte
+   =================================== */
+
+.about-page-single-column {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-photo-centered {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.about-bio-single {
+  padding: 0 0 3rem;
+
+  .bio-content {
+    h2 {
+      color: #fff;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      line-height: 1.9;
+      margin-bottom: 1.5rem;
+      color: #ccc;
+    }
+
+    a {
+      color: #fff;
+      border-bottom: 1px solid var(--accent);
+
+      &:hover {
+        color: var(--accent);
+      }
     }
   }
 }
@@ -338,5 +388,70 @@ body.about-body {
 
   .about-contact {
     padding: 3rem 1.5rem;
+  }
+}
+
+/* ===================================
+   PAGE EQUIPEMENT - FOND BLANC
+   Style inspiré de kj vogelius / greg mignard
+   =================================== */
+
+.equipement-page {
+  background-color: #fff;
+  color: var(--onyx);
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  max-width: 40rem;
+  margin: 0 auto;
+
+  .equipement-header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      font-family: var(--title-font);
+      font-size: 2.5rem;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      max-width: 100% !important;
+    }
+  }
+
+  .equipement-content {
+    h2 {
+      font-family: var(--title-font);
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      max-width: 100% !important;
+    }
+
+    p {
+      line-height: 2;
+      margin: 0;
+    }
+
+    a {
+      color: var(--onyx);
+      border-bottom: 1px solid var(--accent);
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: var(--accent);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .equipement-page {
+    padding: 3rem 1.5rem;
+
+    .equipement-header h1 {
+      font-size: 2rem;
+    }
   }
 }

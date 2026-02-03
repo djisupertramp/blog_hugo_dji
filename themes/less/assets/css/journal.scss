@@ -10,17 +10,15 @@
 /* Intro Journal - aligné à gauche avec respiration */
 .blog-intro {
   max-width: var(--max-width);
-  margin: 0 auto 3rem;
-  padding: 2rem 2rem 3rem;
+  margin: 0 auto 1.5rem;
+  padding: 2rem 2rem 1.5rem;
   text-align: left;
 }
 
-/* Featured Article - plus large que la colonne récent */
+/* Featured Article - full width avec border */
 .featured-article {
-  margin-bottom: 1.5rem;
-  max-width: calc(var(--max-width) + 20%);
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 2.25rem;
+  width: 100%;
   position: relative;
 
   .featured-link {
@@ -38,6 +36,7 @@
     width: 100%;
     overflow: hidden;
     background-color: #f0f0f0;
+    border: 12px solid var(--onyx);
 
     img {
       width: 100%;
@@ -201,11 +200,11 @@
   }
 }
 
-/* Pagination container - aligné avec récent */
+/* Pagination container - centré */
 .pagination-container {
-  max-width: calc(var(--max-width) - 15%);
-  margin: 0 auto;
-  padding: 0 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* Pagination */

@@ -227,8 +227,9 @@
   text-align: center;
 
   a {
-    font-family: var(--title-font);
-    font-size: 1.2rem;
+    font-family: var(--sans-serif-font);
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--onyx);
     text-decoration: none;
     border-bottom: 1px solid var(--onyx);

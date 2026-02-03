@@ -46,9 +46,9 @@ body.about-body {
     }
   }
 
-  /* Footer noir sur page about */
+  /* Footer même couleur que le fond about */
   footer {
-    background-color: #000000;
+    background-color: #0a0a0a;
     color: var(--white-text);
 
     a, a:visited, a:hover {

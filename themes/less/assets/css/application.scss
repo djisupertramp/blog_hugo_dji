@@ -190,6 +190,21 @@ blockquote {
   margin-left: -23px;
 }
 
+/* Page Moments - titre en Times New Roman capitalisé */
+.moments-intro {
+  text-align: left;
+  padding: 2rem;
+
+  .moments-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+}
+
 b {
   font-weight: 400;
 }

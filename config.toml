@@ -71,10 +71,10 @@ paginate = 12
   identifier = "moments"
   url = "/moments/"
 [[menu.main]]
-  name = "BLOG"
-  title = "BLOG"
+  name = "JOURNAL"
+  title = "JOURNAL"
   weight = 3
-  identifier = "blog"
+  identifier = "journal"
   url = "/posts/"
 [[menu.main]]
   name = "ABOUT"

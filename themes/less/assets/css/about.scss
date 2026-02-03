@@ -148,7 +148,7 @@ body.about-body {
 /* Colonne texte - sticky */
 .about-text-column {
   position: relative;
-  padding: 4rem 3rem;
+  padding: 4rem 3rem 4rem 8rem;
 
   @media (min-width: 901px) {
     position: sticky;
@@ -157,6 +157,10 @@ body.about-body {
     overflow-y: auto;
     display: flex;
     align-items: center;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 4rem 3rem 4rem 5rem;
   }
 
   @media (max-width: 900px) {

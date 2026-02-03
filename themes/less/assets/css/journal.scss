@@ -45,6 +45,13 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  .category-count {
+    font-family: var(--sans-serif-font);
+    font-size: 0.9rem;
+    color: var(--light-gray);
+    margin-top: 0.5rem;
+  }
 }
 
 /* Featured Article - full width avec border */
@@ -88,7 +95,7 @@
     color: #fff;
   }
 
-  /* Featured overlay centré (pour page blog) - sans fond */
+  /* Featured overlay centré (pour page blog) - avec fond semi-transparent */
   .featured-overlay-centered {
     top: 0;
     bottom: 0;
@@ -97,7 +104,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.4);
   }
 
   .featured-meta {

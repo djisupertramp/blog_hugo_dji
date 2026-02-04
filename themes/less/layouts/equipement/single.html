@@ -8,31 +8,33 @@
       {{ $sections := split .RawContent "## " }}
       {{ $sectionIndex := 0 }}
       {{ range $i, $section := $sections }}
-        {{ if gt (len $section) 0 }}
-          {{ if gt $i 0 }}
-            {{ $sectionIndex = add $sectionIndex 1 }}
-            {{ $lines := split $section "\n" }}
-            {{ $sectionTitle := index $lines 0 }}
+        {{ if and (gt (len $section) 0) (gt $i 0) }}
+          {{ $sectionIndex = add $sectionIndex 1 }}
+          {{ $lines := split $section "\n" }}
+          {{ $sectionTitle := index $lines 0 }}
 
-            <div class="equip-section">
-              <div class="equip-section-header">
-                <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
-                <span class="equip-section-title">{{ $sectionTitle }}</span>
-              </div>
-              <div class="equip-section-items">
-                {{ range $li, $line := $lines }}
-                  {{ if and (gt $li 0) (gt (len (strings.TrimSpace $line)) 0) }}
-                    {{ $trimmed := strings.TrimSpace $line }}
+          <div class="equip-section">
+            <div class="equip-section-header">
+              <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
+              <span class="equip-section-title">{{ $sectionTitle }}</span>
+            </div>
+            <div class="equip-section-items">
+              {{ $itemIndex := 0 }}
+              {{ range $li, $line := $lines }}
+                {{ if gt $li 0 }}
+                  {{ $trimmed := trim $line " \t\r" }}
+                  {{ if gt (len $trimmed) 0 }}
+                    {{ $itemIndex = add $itemIndex 1 }}
                     <div class="equip-item">
-                      <span class="equip-item-num">{{ printf "%02d.%d" $sectionIndex (add (sub $li 0) 0) }}</span>
+                      <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
                       <span class="equip-item-sep">/</span>
                       <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
                     </div>
                   {{ end }}
                 {{ end }}
-              </div>
+              {{ end }}
             </div>
-          {{ end }}
+          </div>
         {{ end }}
       {{ end }}
     </div>

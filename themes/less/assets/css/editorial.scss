@@ -1,4 +1,4 @@
-/* ===================================
+/* ==================================
    STYLE EDITORIAL ARTICLES
    Respiration, grilles images variees
    =================================== */
@@ -186,11 +186,32 @@
   padding-top: 8rem;
 }
 
-/* Paragraphes avec respiration dans les articles */
+/* Corps de texte uniforme dans les articles */
+.post p,
+.post ul,
+.post ol,
+.post li,
+.post blockquote {
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
 .post p {
   margin-bottom: 2.5rem;
-  line-height: 2;
-  font-size: 1.25rem; /* Taille augmentée pour confort de lecture */
+}
+
+.post ul,
+.post ol {
+  margin-bottom: 2.5rem;
+}
+
+.post li {
+  margin-bottom: 0.5rem;
+}
+
+.post blockquote {
+  font-family: var(--serif-font);
+  font-style: italic;
 }
 
 /* Images dans les articles - espacements généreux */

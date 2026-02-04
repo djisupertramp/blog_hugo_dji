@@ -1,4 +1,4 @@
-/* ===================================
+/* ==================================
    PAGE ABOUT - FOND NOIR
    =================================== */
 
@@ -539,8 +539,8 @@ body.about-body {
 }
 
 /* ===================================
-   PAGE EQUIPEMENT - 3 COLONNES
-   Gauche (01-05) | Milieu (Pelicase) | Droite (photos)
+   PAGE EQUIPEMENT - 2 COLONNES
+   Texte fixe a gauche | Photos scrollables a droite
    =================================== */
 
 .equipement-page {
@@ -561,8 +561,8 @@ body.about-body {
   }
 }
 
-/* Layout 3 colonnes */
-.equipement-3col-layout {
+/* Layout 2 colonnes */
+.equip-split-layout {
   @media (min-width: 901px) {
     display: flex;
     min-height: 100vh;
@@ -573,72 +573,50 @@ body.about-body {
   }
 }
 
-/* Colonne de base */
-.equip-col {
-  padding: 4rem 2.5rem;
-
-  @media (max-width: 900px) {
-    padding: 2rem 1.5rem;
-  }
-}
-
-/* Colonne gauche - fixe */
-.equip-col-left {
-  padding-left: 4rem;
-  border-right: 1px solid rgba(0, 0, 0, 0.06);
+/* Colonne texte - fixe */
+.equip-text-column {
+  padding: 4rem 3rem 4rem 4rem;
 
   @media (min-width: 901px) {
     position: fixed;
     top: 0;
     left: 0;
-    width: 33.333%;
+    width: 50%;
     height: 100vh;
     overflow-y: auto;
+    display: flex;
+    align-items: flex-start;
     padding-top: 8rem;
-    z-index: 1;
   }
 
   @media (max-width: 1200px) {
-    padding-left: 2.5rem;
+    padding: 4rem 2.5rem 4rem 2.5rem;
   }
 
   @media (max-width: 900px) {
-    padding-left: 1.5rem;
-    border-right: none;
-    padding-bottom: 1rem;
+    padding: 3rem 2rem;
   }
 }
 
-/* Colonne milieu - fixe */
-.equip-col-middle {
-  border-right: 1px solid rgba(0, 0, 0, 0.06);
-
-  @media (min-width: 901px) {
-    position: fixed;
-    top: 0;
-    left: 33.333%;
-    width: 33.333%;
-    height: 100vh;
-    overflow-y: auto;
-    padding-top: 8rem;
-    z-index: 1;
-  }
+.equip-text-content {
+  max-width: 500px;
 
   @media (max-width: 900px) {
-    border-right: none;
-    padding-top: 0;
+    max-width: 100%;
   }
 }
 
-/* Colonne droite - scrollable */
-.equip-col-right {
+/* Colonne photos - scrollable */
+.equip-photos-column {
+  padding: 2rem;
+
   @media (min-width: 901px) {
-    margin-left: 66.666%;
-    width: 33.333%;
+    margin-left: 50%;
+    width: 50%;
   }
 
   @media (max-width: 900px) {
-    padding-top: 0;
+    padding: 1rem 2rem 3rem;
   }
 }
 

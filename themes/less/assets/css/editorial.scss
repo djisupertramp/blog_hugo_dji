@@ -1,4 +1,4 @@
-/* ==================================
+/* ===================================
    STYLE EDITORIAL ARTICLES
    Respiration, grilles images variees
    =================================== */
@@ -299,7 +299,7 @@
 
   p {
     margin: 0;
-  }
+  t}
 }
 
 /* ===================================
@@ -353,7 +353,7 @@
 }
 
 /* ===================================
-   METADONNEES ARTICLE
+   MET@DONNEES ARTBCLES/E
    =================================== */
 
 .article-meta {
@@ -430,19 +430,6 @@
 .gallery-3 img:hover {
   opacity: 0.95;
   transition: opacity 0.3s ease;
-}
-
-/* ===================================
-   HOMEPAGE & MOMENTS - GRILLE FLEX
-   =================================== */
-
-.mgrid {
-  gap: var(--gap, 4px);
-  width: 100%;
-}
-
-.mgrid .inherit {
-  gap: var(--gap, 4px);
 }
 
 /* Responsive: mobile = 1 colonne empilee */

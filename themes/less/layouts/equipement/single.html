@@ -44,7 +44,8 @@
           </div>
           <div class="equip-section-items">
             {{ if $isPelicase }}
-              {{/* Pelicase : sous-categories indentees, pas de numerotation */}}
+              {{/* Pelicase : sous-categories non numerotees, items numerotes en 06.x */}}
+              {{ $pelicaseItemIndex := 0 }}
               {{ range $li, $line := $lines }}
                 {{ if gt $li 0 }}
                   {{ $trimmed := trim $line " \t\r" }}
@@ -53,7 +54,10 @@
                       {{ $subTitle := strings.TrimPrefix "### " $trimmed }}
                       <div class="equip-sub-header">{{ $subTitle }}</div>
                     {{ else }}
+                      {{ $pelicaseItemIndex = add $pelicaseItemIndex 1 }}
                       <div class="equip-item equip-item-indented">
+                        <span class="equip-item-num">{{ printf "%02d" $num }}.{{ $pelicaseItemIndex }}</span>
+                        <span class="equip-item-sep">/</span>
                         <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
                       </div>
                     {{ end }}

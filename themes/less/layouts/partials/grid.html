@@ -4,37 +4,23 @@
   {{ range $cindex, $images := $columns }}
     {{ $subwidth := 0 }}
     {{ range $images.Images }}
-      {{ $realRatio := div (mul .Image.Height 1.0) .Image.Width }}
-      {{ $normRatio := 0.6667 }}
-      {{ if gt $realRatio 1.0 }}
-        {{ $normRatio = 1.5 }}
-      {{ end }}
-      {{ $subwidth = add $subwidth $normRatio }}
+      {{ $subwidth =  add $subwidth (div (float .Image.Height) .Image.Width) }}
     {{ end }}
     {{ $width = add $width (div 1.0 $subwidth) }}
   {{ end }}
   {{ range $cindex, $images := $columns }}
       {{ $div := 0 }}
       {{ range $images.Images }}
-        {{ $realRatio := div (mul .Image.Height 1.0) .Image.Width }}
-        {{ $normRatio := 0.6667 }}
-        {{ if gt $realRatio 1.0 }}
-          {{ $normRatio = 1.5 }}
-        {{ end }}
-        {{ $div = add $div $normRatio }}
+        {{ $div = add $div (div (float .Image.Height) .Image.Width) }}
       {{ end }}
       {{ $colwidth := div (div 1.0 $div) $width }}
       {{ if (eq (len $columns) 1) }}
         <div class="md:flex flex-col min-h-full inherit" style="flex: 1 0 {{ mul 100.0 $colwidth -}}%">
           {{ range $images.Images }}
-            {{ $realRatio := div (mul .Image.Height 1.0) .Image.Width }}
-            {{ $normRatio := 0.6667 }}
-            {{ if gt $realRatio 1.0 }}
-              {{ $normRatio = 1.5 }}
-            {{ end }}
             {{ if .Blank  }}
-              <div style="padding-bottom: {{ mul $normRatio 100 -}}%" class="relative md:block hidden"></div>
+              <div style="padding-bottom: {{ div (mul 100.0 .Image.Height) .Image.Width -}}%" class="relative md:block hidden"></div>
             {{ else }}
+
               {{ if isset . "Link" }}
                 <a href="{{ .Link }}">
                   {{ partial "photo" . }}
@@ -48,15 +34,10 @@
       {{ else }}
         <div class="flex flex-col min-h-full inherit" style="flex: 1 0 {{ mul 100.0 $colwidth -}}%">
           {{ range $images.Images }}
-              {{ $realRatio := div (mul .Image.Height 1.0) .Image.Width }}
-              {{ $normRatio := 0.6667 }}
-              {{ if gt $realRatio 1.0 }}
-                {{ $normRatio = 1.5 }}
-              {{ end }}
-              {{ $dimension := div (mul 100.0 $normRatio) $div }}
+              {{ $dimension := div (div (mul 100.0 .Image.Height ) .Image.Width) $div }}
               <div style="flex: 1 0  {{ $dimension -}}%">
                 {{ if .Blank  }}
-                  <div style="padding-bottom: {{ mul $normRatio 100 -}}%" class="relative md:block hidden"></div>
+                  <div style="padding-bottom: {{ div (mul 100.0 .Image.Height) .Image.Width -}}%" class="relative md:block hidden"></div>
                 {{ else }}
                   {{ if isset . "Link" }}
                     <a href="{{ .Link }}">

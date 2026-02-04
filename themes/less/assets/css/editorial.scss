@@ -412,69 +412,28 @@
 }
 
 /* ===================================
-   HOMEPAGE GRILLE ASYMETRIQUE
+   HOMEPAGE GRILLE FLEX - RATIOS PRESERVES
    =================================== */
 
-.homepage-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--gap, 18px);
+.mgrid {
+  gap: var(--gap, 4px);
   width: 100%;
 }
 
-.homepage-grid .grid-item {
-  grid-column: span 1;
-  overflow: hidden;
-
-  picture {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.mgrid .inherit {
+  gap: var(--gap, 4px);
 }
 
-/* Image large (2 colonnes) */
-.homepage-grid .grid-item-wide {
-  grid-column: span 2;
-}
-
-/* Image pleine largeur (3 colonnes) */
-.homepage-grid .grid-item-full {
-  grid-column: span 3;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .homepage-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
+/* Responsive: mobile = 1 colonne empilee */
+@media (max-width: 767px) {
+  .mgrid {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 
-  .homepage-grid .grid-item-wide {
-    grid-column: span 2;
-  }
-
-  .homepage-grid .grid-item-full {
-    grid-column: span 2;
-  }
-}
-
-@media (max-width: 480px) {
-  .homepage-grid {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-
-  .homepage-grid .grid-item,
-  .homepage-grid .grid-item-wide,
-  .homepage-grid .grid-item-full {
-    grid-column: span 1;
+  .mgrid > div {
+    flex: 1 0 100% !important;
   }
 }
 

@@ -8,11 +8,15 @@
 {{/* Collecter toutes les ressources media (images + videos) */}}
 {{ $allmedia := slice }}
 
-{{/* Images */}}
+{{/* Images - normaliser au ratio 3:2 (horizontal) ou 2:3 (vertical) */}}
 {{ range sort (.Resources.ByType "image") "Name" "desc"}}
   {{ $w := mul .Width 1.0 }}
   {{ $h := mul .Height 1.0 }}
-  {{ $ratio := div $h $w }}
+  {{ $realRatio := div $h $w }}
+  {{ $ratio := 0.6667 }}
+  {{ if gt $realRatio 1.0 }}
+    {{ $ratio = 1.5 }}
+  {{ end }}
   {{ $allmedia = $allmedia | append (dict "Src" . "Kind" "image" "W" .Width "H" .Height "Ratio" $ratio "SortName" .Name) }}
 {{ end }}
 

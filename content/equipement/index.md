@@ -51,6 +51,13 @@ Anchored Coffee
 *La liberté ne meurt jamais* - Damien Castera
 *J'aurais pu être miliardaire, j'ai choisi d'être vagabond* - Alexis Jenni
 
+## Dans mon atelier couture
+JUKI DDL-8700
+Tissus XPAC VX / RX
+Cordura 1000 et 500
+Dyneema DCF
+Fil Gutermann Mara et Terra
+
 ## Dans ma Pelicase
 ### Boitiers
 [Panasonic S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21)
@@ -59,7 +66,6 @@ Canon A-1
 Olympus Mju II
 Hasselblad 500C
 Canon Elan 7
-[iPhone 16 Pro](https://amzn.to/4hMNT5x)
 ### Objectifs
 Canon FD 24mm f/2.8
 Canon FD 35mm f/2 SSC
@@ -86,10 +92,3 @@ SONY PCM-A10
 [Hollyland Lark M2](https://dp.gt/a/lr0mbg3xc)
 [Rode Videomic NTG](https://amzn.to/48TQl6e)
 [Marantz MPM-1000](https://amzn.to/3MgDVOK)
-
-## Dans mon atelier couture
-JUKI DDL-8700
-Tissus XPAC VX / RX
-Cordura 1000 et 500
-Dyneema DCF
-Fil Gutermann Mara et Terra

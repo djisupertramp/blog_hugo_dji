@@ -1,10 +1,62 @@
 {{ define "main" }}
-<div class="equipement-page">
-  <div class="equipement-header">
-    <h1>{{ .Title }}</h1>
+<div class="equipement-page equipement-split-layout">
+  {{/* Colonne gauche - Liste sticky */}}
+  <div class="equipement-text-column">
+    <div class="equipement-text-content">
+      <h1 class="equipement-title">{{ .Title }}</h1>
+
+      {{ $sections := split .RawContent "## " }}
+      {{ $sectionIndex := 0 }}
+      {{ range $i, $section := $sections }}
+        {{ if gt (len $section) 0 }}
+          {{ if gt $i 0 }}
+            {{ $sectionIndex = add $sectionIndex 1 }}
+            {{ $lines := split $section "\n" }}
+            {{ $sectionTitle := index $lines 0 }}
+
+            <div class="equip-section">
+              <div class="equip-section-header">
+                <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
+                <span class="equip-section-title">{{ $sectionTitle }}</span>
+              </div>
+              <div class="equip-section-items">
+                {{ range $li, $line := $lines }}
+                  {{ if and (gt $li 0) (gt (len (strings.TrimSpace $line)) 0) }}
+                    {{ $trimmed := strings.TrimSpace $line }}
+                    <div class="equip-item">
+                      <span class="equip-item-num">{{ printf "%02d.%d" $sectionIndex (add (sub $li 0) 0) }}</span>
+                      <span class="equip-item-sep">/</span>
+                      <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
+                    </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
   </div>
-  <div class="equipement-content" data-pswp>
-    {{ .Content }}
+
+  {{/* Colonne droite - Photos défilantes */}}
+  <div class="equipement-photos-column">
+    {{ $galleryImages := .Resources.Match "gallery/*" }}
+    {{ if $galleryImages }}
+      {{ range $galleryImages }}
+        {{ $img := .Resize "800x webp" }}
+        <div class="equipement-photo-item">
+          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+        </div>
+      {{ end }}
+    {{ else }}
+      {{ $allImages := .Resources.ByType "image" }}
+      {{ range $allImages }}
+        {{ $img := .Resize "800x webp" }}
+        <div class="equipement-photo-item">
+          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+        </div>
+      {{ end }}
+    {{ end }}
   </div>
 </div>
 {{ end }}

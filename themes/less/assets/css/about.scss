@@ -594,6 +594,8 @@ body.about-body {
     width: 33.333%;
     height: 100vh;
     overflow-y: auto;
+    padding-top: 8rem;
+    z-index: 1;
   }
 
   @media (max-width: 1200px) {
@@ -618,6 +620,8 @@ body.about-body {
     width: 33.333%;
     height: 100vh;
     overflow-y: auto;
+    padding-top: 8rem;
+    z-index: 1;
   }
 
   @media (max-width: 900px) {

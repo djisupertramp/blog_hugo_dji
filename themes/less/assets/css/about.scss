@@ -50,7 +50,6 @@ body.about-body {
   .site-footer {
     background-color: #0a0a0a;
     color: var(--white-text);
-    border-top-color: rgba(255, 255, 255, 0.1);
 
     a, a:visited {
       color: var(--white-text);
@@ -167,20 +166,20 @@ body.about-body {
   }
 }
 
-/* Colonne texte - fixe */
+/* Colonne texte - sticky */
 .about-text-column {
   position: relative;
   padding: 4rem 3rem 4rem 8rem;
 
   @media (min-width: 901px) {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     width: 50%;
     height: 100vh;
     overflow-y: auto;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
   }
 
   @media (max-width: 1200px) {
@@ -192,11 +191,11 @@ body.about-body {
   }
 }
 
-/* Colonne photos - décalée à droite */
+/* Colonne photos */
 .about-photos-column {
   @media (min-width: 901px) {
-    margin-left: 50%;
     width: 50%;
+    flex-shrink: 0;
   }
 }
 

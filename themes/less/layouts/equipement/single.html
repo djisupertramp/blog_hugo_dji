@@ -1,90 +1,75 @@
 {{ define "main" }}
-<div class="equipement-page equipement-3col-layout">
+<div class="equipement-page equip-split-layout">
 
   {{/* Parser les sections */}}
   {{ $sections := split .RawContent "## " }}
-  {{ $regularSections := slice }}
-  {{ $pelicaseRaw := "" }}
+  {{ $allSections := slice }}
 
   {{ range $i, $section := $sections }}
     {{ if and (gt (len $section) 0) (gt $i 0) }}
-      {{ $firstLine := index (split $section "\n") 0 }}
-      {{ if hasPrefix $firstLine "Dans ma Pelicase" }}
-        {{ $pelicaseRaw = $section }}
-      {{ else }}
-        {{ $regularSections = $regularSections | append $section }}
-      {{ end }}
+      {{ $allSections = $allSections | append $section }}
     {{ end }}
   {{ end }}
 
-  {{/* COLONNE GAUCHE - Titre + Sections 01 a 05 (fixe) */}}
-  <div class="equip-col equip-col-left">
-    <h1 class="equipement-title">{{ .Title }}</h1>
+  {{/* COLONNE GAUCHE - Tout le texte (fixe) */}}
+  <div class="equip-text-column">
+    <div class="equip-text-content">
+      <h1 class="equipement-title">{{ .Title }}</h1>
 
-    {{ range $idx, $section := $regularSections }}
-      {{ $num := add $idx 1 }}
-      {{ $lines := split $section "\n" }}
-      {{ $sectionTitle := index $lines 0 }}
+      {{ range $idx, $section := $allSections }}
+        {{ $num := add $idx 1 }}
+        {{ $lines := split $section "\n" }}
+        {{ $sectionTitle := index $lines 0 }}
+        {{ $isPelicase := hasPrefix $sectionTitle "Dans ma Pelicase" }}
 
-      <div class="equip-section">
-        <div class="equip-section-header">
-          <span class="equip-section-num">{{ printf "%02d" $num }}</span>
-          <span class="equip-section-title">{{ $sectionTitle }}</span>
-        </div>
-        <div class="equip-section-items">
-          {{ $itemIndex := 0 }}
-          {{ range $li, $line := $lines }}
-            {{ if gt $li 0 }}
-              {{ $trimmed := trim $line " \t\r" }}
-              {{ if gt (len $trimmed) 0 }}
-                {{ $itemIndex = add $itemIndex 1 }}
-                <div class="equip-item">
-                  <span class="equip-item-num">{{ printf "%02d" $num }}.{{ $itemIndex }}</span>
-                  <span class="equip-item-sep">/</span>
-                  <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
-                </div>
+        <div class="equip-section">
+          <div class="equip-section-header">
+            <span class="equip-section-num">{{ printf "%02d" $num }}</span>
+            <span class="equip-section-title">{{ $sectionTitle }}</span>
+          </div>
+          <div class="equip-section-items">
+            {{ if $isPelicase }}
+              {{/* Pelicase : sous-categories indentees, pas de numerotation */}}
+              {{ range $li, $line := $lines }}
+                {{ if gt $li 0 }}
+                  {{ $trimmed := trim $line " \t\r" }}
+                  {{ if gt (len $trimmed) 0 }}
+                    {{ if hasPrefix $trimmed "### " }}
+                      {{ $subTitle := strings.TrimPrefix "### " $trimmed }}
+                      <div class="equip-sub-header">{{ $subTitle }}</div>
+                    {{ else }}
+                      <div class="equip-item equip-item-indented">
+                        <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
+                      </div>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
               {{ end }}
-            {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    {{ end }}
-  </div>
-
-  {{/* COLONNE MILIEU - Pelicase avec sous-categories (fixe) */}}
-  <div class="equip-col equip-col-middle">
-    {{ if ne $pelicaseRaw "" }}
-      {{ $lines := split $pelicaseRaw "\n" }}
-      {{ $pelicaseTitle := index $lines 0 }}
-
-      <div class="equip-section equip-pelicase">
-        <div class="equip-section-header">
-          <span class="equip-section-num">06</span>
-          <span class="equip-section-title">{{ $pelicaseTitle }}</span>
-        </div>
-        <div class="equip-section-items">
-          {{ range $li, $line := $lines }}
-            {{ if gt $li 0 }}
-              {{ $trimmed := trim $line " \t\r" }}
-              {{ if gt (len $trimmed) 0 }}
-                {{ if hasPrefix $trimmed "### " }}
-                  {{ $subTitle := strings.TrimPrefix "### " $trimmed }}
-                  <div class="equip-sub-header">{{ $subTitle }}</div>
-                {{ else }}
-                  <div class="equip-item equip-item-indented">
-                    <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
-                  </div>
+            {{ else }}
+              {{/* Sections normales : numerotation classique */}}
+              {{ $itemIndex := 0 }}
+              {{ range $li, $line := $lines }}
+                {{ if gt $li 0 }}
+                  {{ $trimmed := trim $line " \t\r" }}
+                  {{ if gt (len $trimmed) 0 }}
+                    {{ $itemIndex = add $itemIndex 1 }}
+                    <div class="equip-item">
+                      <span class="equip-item-num">{{ printf "%02d" $num }}.{{ $itemIndex }}</span>
+                      <span class="equip-item-sep">/</span>
+                      <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
+                    </div>
+                  {{ end }}
                 {{ end }}
               {{ end }}
             {{ end }}
-          {{ end }}
+          </div>
         </div>
-      </div>
-    {{ end }}
+      {{ end }}
+    </div>
   </div>
 
   {{/* COLONNE DROITE - Photos (scrollable) */}}
-  <div class="equip-col equip-col-right">
+  <div class="equip-photos-column">
     {{ $galleryImages := .Resources.Match "gallery/*" }}
     {{ if $galleryImages }}
       {{ range $galleryImages }}

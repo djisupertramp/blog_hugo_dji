@@ -25,12 +25,18 @@
                   {{ if gt $li 0 }}
                     {{ $trimmed := trim $line " \t\r" }}
                     {{ if gt (len $trimmed) 0 }}
-                      {{ $itemIndex = add $itemIndex 1 }}
-                      <div class="equip-item">
-                        <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
-                        <span class="equip-item-sep">/</span>
-                        <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
-                      </div>
+                      {{/* Detecter les sous-categories ### */}}
+                      {{ if hasPrefix $trimmed "### " }}
+                        {{ $subTitle := strings.TrimPrefix "### " $trimmed }}
+                        <div class="equip-sub-header">{{ $subTitle }}</div>
+                      {{ else }}
+                        {{ $itemIndex = add $itemIndex 1 }}
+                        <div class="equip-item">
+                          <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
+                          <span class="equip-item-sep">/</span>
+                          <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
+                        </div>
+                      {{ end }}
                     {{ end }}
                   {{ end }}
                 {{ end }}

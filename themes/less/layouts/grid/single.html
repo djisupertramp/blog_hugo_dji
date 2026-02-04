@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="blog-intro">
-  <h5>{{ .Title | upper }}</h5>
-  <p>{{ .Params.subtitle }}</p>
+  {{.Content}}
 </div>
 {{ $allimages := slice }}
 {{ range sort (.Resources.ByType "image") "Name" "asc"}}

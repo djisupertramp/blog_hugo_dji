@@ -528,94 +528,190 @@ body.about-body {
 }
 
 /* ===================================
-   PAGE EQUIPEMENT - FOND BLANC
-   Style inspiré de kj vogelius / greg mignard
+   PAGE EQUIPEMENT - SPLIT LAYOUT FOND BLANC
+   Table des matières numérotée + photos défilantes
    =================================== */
 
 .equipement-page {
   background-color: #fff;
   color: var(--onyx);
   min-height: 100vh;
-  padding: 4rem 2rem;
-  max-width: 40rem;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 
-  .equipement-header {
-    text-align: center;
-    margin-bottom: 3rem;
+  a {
+    color: var(--onyx);
+    border-bottom: none;
+    transition: color 0.3s ease;
 
-    h1 {
-      font-family: var(--title-font);
-      font-size: 2.5rem;
-      font-weight: 400;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      max-width: 100% !important;
-    }
-  }
-
-  .equipement-content {
-    h2 {
-      font-family: var(--title-font);
-      font-size: 1.5rem;
-      font-weight: 400;
-      margin: 3rem 0 1rem;
-      padding: 0.6rem 1.5rem 0.5rem;
-      border: 1.5px solid var(--onyx);
-      border-bottom: none;
-      border-radius: 12px 12px 0 0;
-      max-width: fit-content;
-      position: relative;
-
-      &::after {
-        content: '';
-        position: absolute;
-        bottom: -1.5px;
-        left: 100%;
-        right: -999px;
-        height: 0;
-        border-bottom: 1.5px solid var(--onyx);
-      }
-
-      &::before {
-        content: '';
-        position: absolute;
-        bottom: -1.5px;
-        right: 100%;
-        left: -999px;
-        height: 0;
-        border-bottom: 1.5px solid var(--onyx);
-      }
-    }
-
-    /* Ligne horizontale sous la première section (avant le premier h2) */
-    h2:first-child {
-      margin-top: 1rem;
-    }
-
-    p {
-      line-height: 2;
-      margin: 0;
-    }
-
-    a {
-      color: var(--onyx);
-      border-bottom: 1px solid var(--accent);
-      transition: color 0.3s ease;
-
-      &:hover {
-        color: var(--accent);
-      }
+    &:hover {
+      color: var(--accent);
     }
   }
 }
 
-@media (max-width: 768px) {
-  .equipement-page {
-    padding: 3rem 1.5rem;
+/* Split layout */
+.equipement-split-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
 
-    .equipement-header h1 {
-      font-size: 2rem;
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Colonne texte - sticky */
+.equipement-text-column {
+  position: relative;
+  padding: 4rem 3rem 4rem 8rem;
+
+  @media (min-width: 901px) {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 6rem;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 4rem 3rem 4rem 5rem;
+  }
+
+  @media (max-width: 900px) {
+    padding: 3rem 2rem;
+  }
+}
+
+.equipement-text-content {
+  max-width: 500px;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
+}
+
+.equipement-title {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--onyx);
+  margin-bottom: 3rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  max-width: 100% !important;
+}
+
+/* Section (chapitre) */
+.equip-section {
+  margin-bottom: 2.5rem;
+}
+
+.equip-section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0;
+}
+
+.equip-section-num {
+  font-family: var(--sans-serif-font);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  min-width: 1.5rem;
+}
+
+.equip-section-title {
+  font-family: var(--sans-serif-font);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Items (lignes) */
+.equip-section-items {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.equip-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-family: var(--sans-serif-font);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  a {
+    text-transform: uppercase;
+  }
+}
+
+.equip-item-num {
+  font-size: 0.75rem;
+  min-width: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-variant-numeric: tabular-nums;
+}
+
+.equip-item-sep {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.75rem;
+}
+
+.equip-item-name {
+  flex: 1;
+
+  a {
+    color: var(--onyx);
+    border-bottom: none;
+
+    &:hover {
+      color: var(--accent);
     }
+  }
+
+  /* Supprimer les <p> generés par markdownify */
+  p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Colonne photos - défilante */
+.equipement-photos-column {
+  padding: 2rem;
+
+  @media (max-width: 900px) {
+    padding: 1rem 2rem 3rem;
+  }
+}
+
+.equipement-photo-item {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .equipement-title {
+    font-size: 1.6rem;
   }
 }

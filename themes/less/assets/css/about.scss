@@ -598,10 +598,10 @@ body.about-body {
 
 .equipement-title {
   font-family: var(--title-font);
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: var(--onyx);
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   max-width: 100% !important;
@@ -609,32 +609,44 @@ body.about-body {
 
 /* Section (chapitre) */
 .equip-section {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   break-inside: avoid;
 }
 
 .equip-section-header {
   display: flex;
   align-items: baseline;
-  gap: 1.5rem;
-  margin-bottom: 0.75rem;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
   padding-bottom: 0;
 }
 
 .equip-section-num {
   font-family: var(--sans-serif-font);
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  min-width: 1.5rem;
+  min-width: 1.2rem;
 }
 
 .equip-section-title {
   font-family: var(--sans-serif-font);
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+/* Sous-categorie (h3) */
+.equip-sub-header {
+  font-family: var(--sans-serif-font);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.45);
+  padding: 0.5rem 0 0.15rem;
+  margin-top: 0.25rem;
 }
 
 /* Items (lignes) */
@@ -645,13 +657,14 @@ body.about-body {
 .equip-item {
   display: flex;
   align-items: baseline;
-  gap: 0.75rem;
-  padding: 0.45rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   font-family: var(--sans-serif-font);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  line-height: 1.4;
 
   a {
     text-transform: uppercase;
@@ -659,15 +672,15 @@ body.about-body {
 }
 
 .equip-item-num {
-  font-size: 0.75rem;
-  min-width: 2rem;
-  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.65rem;
+  min-width: 1.8rem;
+  color: rgba(0, 0, 0, 0.4);
   font-variant-numeric: tabular-nums;
 }
 
 .equip-item-sep {
-  color: rgba(0, 0, 0, 0.3);
-  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 0.65rem;
 }
 
 .equip-item-name {

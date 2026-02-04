@@ -1,72 +1,119 @@
 {{ define "main" }}
 <div class="equipement-page equipement-split-layout">
-  {{/* Colonne gauche - Liste sticky */}}
-  <div class="equipement-text-column">
-    <div class="equipement-text-content">
-      <h1 class="equipement-title">{{ .Title }}</h1>
 
-      <div class="equip-columns">
-        {{ $sections := split .RawContent "## " }}
-        {{ $sectionIndex := 0 }}
-        {{ range $i, $section := $sections }}
-          {{ if and (gt (len $section) 0) (gt $i 0) }}
-            {{ $sectionIndex = add $sectionIndex 1 }}
-            {{ $lines := split $section "\n" }}
-            {{ $sectionTitle := index $lines 0 }}
+  {{/* Parser les sections */}}
+  {{ $sections := split .RawContent "## " }}
+  {{ $regularSections := slice }}
+  {{ $pelicaseSection := "" }}
 
-            <div class="equip-section">
-              <div class="equip-section-header">
-                <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
-                <span class="equip-section-title">{{ $sectionTitle }}</span>
-              </div>
-              <div class="equip-section-items">
-                {{ $itemIndex := 0 }}
-                {{ range $li, $line := $lines }}
-                  {{ if gt $li 0 }}
-                    {{ $trimmed := trim $line " \t\r" }}
-                    {{ if gt (len $trimmed) 0 }}
-                      {{/* Detecter les sous-categories ### */}}
-                      {{ if hasPrefix $trimmed "### " }}
-                        {{ $subTitle := strings.TrimPrefix "### " $trimmed }}
-                        <div class="equip-sub-header">{{ $subTitle }}</div>
-                      {{ else }}
-                        {{ $itemIndex = add $itemIndex 1 }}
-                        <div class="equip-item">
-                          <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
-                          <span class="equip-item-sep">/</span>
-                          <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
-                        </div>
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
-                {{ end }}
-              </div>
-            </div>
-          {{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-
-  {{/* Colonne droite - Photos défilantes */}}
-  <div class="equipement-photos-column">
-    {{ $galleryImages := .Resources.Match "gallery/*" }}
-    {{ if $galleryImages }}
-      {{ range $galleryImages }}
-        {{ $img := .Resize "800x webp" }}
-        <div class="equipement-photo-item">
-          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
-        </div>
-      {{ end }}
-    {{ else }}
-      {{ $allImages := .Resources.ByType "image" }}
-      {{ range $allImages }}
-        {{ $img := .Resize "800x webp" }}
-        <div class="equipement-photo-item">
-          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
-        </div>
+  {{ range $i, $section := $sections }}
+    {{ if and (gt (len $section) 0) (gt $i 0) }}
+      {{ $lines := split $section "\n" }}
+      {{ $title := index $lines 0 }}
+      {{ if hasPrefix $title "Dans ma Pelicase" }}
+        {{ $pelicaseSection = $section }}
+      {{ else }}
+        {{ $regularSections = $regularSections | append $section }}
       {{ end }}
     {{ end }}
+  {{ end }}
+
+  {{/* COLONNE GAUCHE - Sections 01 a 05 */}}
+  <div class="equip-col equip-col-left">
+    <h1 class="equipement-title">{{ .Title }}</h1>
+
+    {{ $sectionIndex := 0 }}
+    {{ range $section := $regularSections }}
+      {{ $sectionIndex = add $sectionIndex 1 }}
+      {{ $lines := split $section "\n" }}
+      {{ $sectionTitle := index $lines 0 }}
+
+      <div class="equip-section">
+        <div class="equip-section-header">
+          <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
+          <span class="equip-section-title">{{ $sectionTitle }}</span>
+        </div>
+        <div class="equip-section-items">
+          {{ $itemIndex := 0 }}
+          {{ range $li, $line := $lines }}
+            {{ if gt $li 0 }}
+              {{ $trimmed := trim $line " \t\r" }}
+              {{ if gt (len $trimmed) 0 }}
+                {{ $itemIndex = add $itemIndex 1 }}
+                <div class="equip-item">
+                  <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
+                  <span class="equip-item-sep">/</span>
+                  <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+
+  {{/* COLONNE DROITE - Pelicase avec sous-categories + photos */}}
+  <div class="equip-col equip-col-right">
+
+    {{ if gt (len $pelicaseSection) 0 }}
+      {{ $lines := split $pelicaseSection "\n" }}
+      {{ $pelicaseTitle := index $lines 0 }}
+      {{ $pelicaseNum := add (len $regularSections) 1 }}
+
+      <div class="equip-section equip-pelicase">
+        <div class="equip-section-header">
+          <span class="equip-section-num">{{ printf "%02d" $pelicaseNum }}</span>
+          <span class="equip-section-title">{{ $pelicaseTitle }}</span>
+        </div>
+        <div class="equip-section-items">
+          {{ $subIndex := 0 }}
+          {{ $subLetter := "" }}
+          {{ $itemInSub := 0 }}
+          {{ range $li, $line := $lines }}
+            {{ if gt $li 0 }}
+              {{ $trimmed := trim $line " \t\r" }}
+              {{ if gt (len $trimmed) 0 }}
+                {{ if hasPrefix $trimmed "### " }}
+                  {{ $subTitle := strings.TrimPrefix "### " $trimmed }}
+                  {{ $subIndex = add $subIndex 1 }}
+                  {{ $itemInSub = 0 }}
+                  <div class="equip-sub-header">{{ $subTitle }}</div>
+                {{ else }}
+                  {{ $itemInSub = add $itemInSub 1 }}
+                  <div class="equip-item equip-item-indented">
+                    <span class="equip-item-num">{{ printf "%02d" $pelicaseNum }}-{{ $itemInSub }}</span>
+                    <span class="equip-item-sep">/</span>
+                    <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
+                  </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+
+    {{/* Photos */}}
+    <div class="equipement-photos">
+      {{ $galleryImages := .Resources.Match "gallery/*" }}
+      {{ if $galleryImages }}
+        {{ range $galleryImages }}
+          {{ $img := .Resize "800x webp" }}
+          <div class="equipement-photo-item">
+            <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+          </div>
+        {{ end }}
+      {{ else }}
+        {{ $allImages := .Resources.ByType "image" }}
+        {{ range $allImages }}
+          {{ $img := .Resize "800x webp" }}
+          <div class="equipement-photo-item">
+            <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
   </div>
 </div>
 {{ end }}

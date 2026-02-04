@@ -47,16 +47,37 @@ body.about-body {
   }
 
   /* Footer même couleur que le fond about */
-  footer {
+  .site-footer {
     background-color: #0a0a0a;
     color: var(--white-text);
+    border-top-color: rgba(255, 255, 255, 0.1);
 
-    a, a:visited, a:hover {
+    a, a:visited {
       color: var(--white-text);
     }
 
-    .footer-social a svg {
-      fill: #ffffff;
+    a:hover {
+      color: var(--accent);
+    }
+
+    .footer-tagline {
+      color: #ccc;
+    }
+
+    .footer-dot {
+      color: rgba(255, 255, 255, 0.3);
+    }
+
+    .footer-email a {
+      color: #999;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .footer-copyright {
+      color: #666;
     }
   }
 }

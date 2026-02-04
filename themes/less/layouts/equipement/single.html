@@ -5,38 +5,40 @@
     <div class="equipement-text-content">
       <h1 class="equipement-title">{{ .Title }}</h1>
 
-      {{ $sections := split .RawContent "## " }}
-      {{ $sectionIndex := 0 }}
-      {{ range $i, $section := $sections }}
-        {{ if and (gt (len $section) 0) (gt $i 0) }}
-          {{ $sectionIndex = add $sectionIndex 1 }}
-          {{ $lines := split $section "\n" }}
-          {{ $sectionTitle := index $lines 0 }}
+      <div class="equip-columns">
+        {{ $sections := split .RawContent "## " }}
+        {{ $sectionIndex := 0 }}
+        {{ range $i, $section := $sections }}
+          {{ if and (gt (len $section) 0) (gt $i 0) }}
+            {{ $sectionIndex = add $sectionIndex 1 }}
+            {{ $lines := split $section "\n" }}
+            {{ $sectionTitle := index $lines 0 }}
 
-          <div class="equip-section">
-            <div class="equip-section-header">
-              <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
-              <span class="equip-section-title">{{ $sectionTitle }}</span>
-            </div>
-            <div class="equip-section-items">
-              {{ $itemIndex := 0 }}
-              {{ range $li, $line := $lines }}
-                {{ if gt $li 0 }}
-                  {{ $trimmed := trim $line " \t\r" }}
-                  {{ if gt (len $trimmed) 0 }}
-                    {{ $itemIndex = add $itemIndex 1 }}
-                    <div class="equip-item">
-                      <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
-                      <span class="equip-item-sep">/</span>
-                      <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
-                    </div>
+            <div class="equip-section">
+              <div class="equip-section-header">
+                <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
+                <span class="equip-section-title">{{ $sectionTitle }}</span>
+              </div>
+              <div class="equip-section-items">
+                {{ $itemIndex := 0 }}
+                {{ range $li, $line := $lines }}
+                  {{ if gt $li 0 }}
+                    {{ $trimmed := trim $line " \t\r" }}
+                    {{ if gt (len $trimmed) 0 }}
+                      {{ $itemIndex = add $itemIndex 1 }}
+                      <div class="equip-item">
+                        <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
+                        <span class="equip-item-sep">/</span>
+                        <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
+                      </div>
+                    {{ end }}
                   {{ end }}
                 {{ end }}
-              {{ end }}
+              </div>
             </div>
-          </div>
+          {{ end }}
         {{ end }}
-      {{ end }}
+      </div>
     </div>
   </div>
 

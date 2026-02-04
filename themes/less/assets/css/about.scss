@@ -528,8 +528,7 @@ body.about-body {
 }
 
 /* ===================================
-   PAGE EQUIPEMENT - SPLIT LAYOUT FOND BLANC
-   Table des matières numérotée + photos défilantes
+   PAGE EQUIPEMENT - 2 COLONNES + PHOTOS
    =================================== */
 
 .equipement-page {
@@ -550,10 +549,10 @@ body.about-body {
   }
 }
 
-/* Split layout */
+/* Layout 2 colonnes */
 .equipement-split-layout {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr;
   min-height: 100vh;
 
   @media (max-width: 900px) {
@@ -561,47 +560,42 @@ body.about-body {
   }
 }
 
-/* Colonne texte - sticky */
-.equipement-text-column {
-  position: relative;
-  padding: 4rem 3rem 4rem 4rem;
-
-  @media (min-width: 901px) {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    overflow-y: auto;
-  }
+/* Colonnes */
+.equip-col {
+  padding: 4rem 3rem;
 
   @media (max-width: 900px) {
-    padding: 3rem 2rem;
+    padding: 2rem 1.5rem;
   }
 }
 
-.equipement-text-content {
-  width: 100%;
-}
-
-/* 2 sous-colonnes pour les sections */
-.equip-columns {
-  column-count: 2;
-  column-gap: 3rem;
+.equip-col-left {
+  padding-left: 5rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
 
   @media (max-width: 1200px) {
-    column-gap: 2rem;
+    padding-left: 3rem;
   }
 
   @media (max-width: 900px) {
-    column-count: 1;
+    padding-left: 1.5rem;
+    border-right: none;
+    padding-bottom: 1rem;
+  }
+}
+
+.equip-col-right {
+  @media (max-width: 900px) {
+    padding-top: 0;
   }
 }
 
 .equipement-title {
   font-family: var(--title-font);
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 400;
   color: var(--onyx);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   max-width: 100% !important;
@@ -609,44 +603,42 @@ body.about-body {
 
 /* Section (chapitre) */
 .equip-section {
-  margin-bottom: 1.25rem;
-  break-inside: avoid;
+  margin-bottom: 2rem;
 }
 
 .equip-section-header {
   display: flex;
   align-items: baseline;
-  gap: 1rem;
-  margin-bottom: 0.4rem;
-  padding-bottom: 0;
+  gap: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .equip-section-num {
   font-family: var(--sans-serif-font);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  min-width: 1.2rem;
+  min-width: 1.5rem;
 }
 
 .equip-section-title {
   font-family: var(--sans-serif-font);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
-/* Sous-categorie (h3) */
+/* Sous-categorie (h3) dans Pelicase */
 .equip-sub-header {
   font-family: var(--sans-serif-font);
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(0, 0, 0, 0.45);
-  padding: 0.5rem 0 0.15rem;
-  margin-top: 0.25rem;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0.75rem 0 0.2rem 1.5rem;
+  margin-top: 0.15rem;
 }
 
 /* Items (lignes) */
@@ -657,30 +649,35 @@ body.about-body {
 .equip-item {
   display: flex;
   align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.25rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  gap: 0.6rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   font-family: var(--sans-serif-font);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  line-height: 1.4;
+  line-height: 1.5;
 
   a {
     text-transform: uppercase;
   }
 }
 
+/* Items indentés (sous Pelicase) */
+.equip-item-indented {
+  padding-left: 1.5rem;
+}
+
 .equip-item-num {
-  font-size: 0.65rem;
-  min-width: 1.8rem;
+  font-size: 0.7rem;
+  min-width: 2rem;
   color: rgba(0, 0, 0, 0.4);
   font-variant-numeric: tabular-nums;
 }
 
 .equip-item-sep {
   color: rgba(0, 0, 0, 0.25);
-  font-size: 0.65rem;
+  font-size: 0.7rem;
 }
 
 .equip-item-name {
@@ -695,7 +692,6 @@ body.about-body {
     }
   }
 
-  /* Supprimer les <p> generés par markdownify */
   p {
     display: inline;
     margin: 0;
@@ -703,13 +699,9 @@ body.about-body {
   }
 }
 
-/* Colonne photos - défilante */
-.equipement-photos-column {
-  padding: 2rem;
-
-  @media (max-width: 900px) {
-    padding: 1rem 2rem 3rem;
-  }
+/* Photos dans colonne droite */
+.equipement-photos {
+  margin-top: 3rem;
 }
 
 .equipement-photo-item {

@@ -4,44 +4,132 @@
         {{.Content}}
       </p>
   </div>
-{{ $allimages := slice }}
+
+{{/* Collecter toutes les ressources media (images + videos) */}}
+{{ $allmedia := slice }}
+
+{{/* Images */}}
 {{ range sort (.Resources.ByType "image") "Name" "desc"}}
-  {{ $allimages = $allimages | append (dict "Image" .  ) }}
+  {{ $ratio := div (float .Height) (float .Width) }}
+  {{ $allmedia = $allmedia | append (dict "Resource" . "Type" "image" "Width" .Width "Height" .Height "Ratio" $ratio) }}
 {{ end }}
 
-{{/* Grille asymetrique avec images de tailles variees */}}
+{{/* Videos MP4 */}}
+{{ range sort (.Resources.Match "*.mp4") "Name" "desc"}}
+  {{/* Extraire le ratio depuis le nom du fichier: NOM_WxH.mp4 */}}
+  {{ $name := .Name }}
+  {{ $ratio := 0.5625 }}{{/* Default 16:9 */}}
+  {{ if findRE "_16x9" $name }}
+    {{ $ratio = 0.5625 }}
+  {{ else if findRE "_9x16" $name }}
+    {{ $ratio = 1.7778 }}
+  {{ else if findRE "_4x3" $name }}
+    {{ $ratio = 0.75 }}
+  {{ else if findRE "_3x4" $name }}
+    {{ $ratio = 1.3333 }}
+  {{ else if findRE "_1x1" $name }}
+    {{ $ratio = 1.0 }}
+  {{ else if findRE "_4x5" $name }}
+    {{ $ratio = 1.25 }}
+  {{ else if findRE "_5x4" $name }}
+    {{ $ratio = 0.8 }}
+  {{ end }}
+  {{ $allmedia = $allmedia | append (dict "Resource" . "Type" "video" "Ratio" $ratio) }}
+{{ end }}
+
+{{/* Trier par nom decroissant */}}
+{{ $allmedia = sort $allmedia "Resource.Name" "desc" }}
+
+{{/* Grille flex avec ratios preserves - style Gregory Mignard */}}
 <div data-pswp class="w-full px-4 md:px-6">
-  <div class="homepage-grid">
-    {{ range $index, $img := $allimages }}
-      {{/* Pattern: toutes les 5 images = wide (2 colonnes), pas de full screen */}}
-      {{ $sizeClass := "grid-item" }}
-      {{ if eq (mod $index 5) 0 }}
-        {{ $sizeClass = "grid-item grid-item-wide" }}
+  <div class="mgrid md:flex flex-wrap justify-end">
+    {{/* Grouper les items par lignes de 3 et calculer les largeurs flex */}}
+    {{ $total := len $allmedia }}
+    {{ $i := 0 }}
+    {{ range $index, $item := $allmedia }}
+      {{/* Calculer la somme des ratios inverses pour cette ligne de 3 */}}
+      {{ $pos := mod $index 3 }}
+
+      {{/* Pour chaque item, calculer les items de sa ligne */}}
+      {{ $rowStart := sub $index $pos }}
+      {{ $item1Ratio := 0.6667 }}
+      {{ $item2Ratio := 0.6667 }}
+      {{ $item3Ratio := 0.6667 }}
+
+      {{/* Item 1 de la ligne */}}
+      {{ if lt $rowStart $total }}
+        {{ $r := index $allmedia $rowStart }}
+        {{ $item1Ratio = $r.Ratio }}
       {{ end }}
 
-      <div class="{{ $sizeClass }}">
-        {{ $src := $img.Image }}
-        {{ if $src }}
-          {{ $xs := "20x" }}
-          {{ $md := "800x" }}
-          {{ $lqip := $src.Resize (printf "%s webp" $xs) }}
-          {{ $small := $src.Resize (printf "%s webp" $md) }}
-          {{ if eq $src.MediaType.SubType "gif" }}
-            {{ $lqip = $src.Resize (printf "%s" $xs) }}
-            {{ $small = $src }}
+      {{/* Item 2 de la ligne */}}
+      {{ $rowIdx2 := add $rowStart 1 }}
+      {{ if lt $rowIdx2 $total }}
+        {{ $r := index $allmedia $rowIdx2 }}
+        {{ $item2Ratio = $r.Ratio }}
+      {{ end }}
+
+      {{/* Item 3 de la ligne */}}
+      {{ $rowIdx3 := add $rowStart 2 }}
+      {{ $hasItem3 := lt $rowIdx3 $total }}
+
+      {{ if $hasItem3 }}
+        {{ $r := index $allmedia $rowIdx3 }}
+        {{ $item3Ratio = $r.Ratio }}
+      {{ end }}
+
+      {{/* Calculer les largeurs proportionnelles */}}
+      {{/* Largeur proportionnelle = (1/ratio) / somme(1/ratio) * 100 */}}
+      {{ $invR1 := div 1.0 $item1Ratio }}
+      {{ $invR2 := div 1.0 $item2Ratio }}
+      {{ $invR3 := 0.0 }}
+      {{ if $hasItem3 }}
+        {{ $invR3 = div 1.0 $item3Ratio }}
+      {{ end }}
+
+      {{ $sumInv := add $invR1 $invR2 }}
+      {{ if $hasItem3 }}
+        {{ $sumInv = add $sumInv $invR3 }}
+      {{ end }}
+
+      {{ $myInvR := div 1.0 $item.Ratio }}
+      {{ $flexPct := mul (div $myInvR $sumInv) 100 }}
+      {{ $paddingBottom := mul $item.Ratio 100 }}
+
+      <div class="flex flex-col min-h-full inherit" style="flex:1 0 {{ $flexPct }}%">
+        <div style="flex:1 0 100%">
+          {{ if eq $item.Type "video" }}
+            {{/* Video MP4 loop */}}
+            <div style="padding-bottom:{{ $paddingBottom }}%" class="relative box-border block">
+              <video autoplay loop muted playsinline
+                     class="absolute top-0 left-0 w-full h-full object-cover"
+                     src="{{ $item.Resource.RelPermalink }}">
+              </video>
+            </div>
+          {{ else }}
+            {{/* Image */}}
+            {{ $src := $item.Resource }}
+            {{ $xs := "20x" }}
+            {{ $md := "800x" }}
+            {{ $lqip := $src.Resize (printf "%s webp" $xs) }}
+            {{ $small := $src.Resize (printf "%s webp" $md) }}
+            {{ if eq $src.MediaType.SubType "gif" }}
+              {{ $lqip = $src.Resize (printf "%s" $xs) }}
+              {{ $small = $src }}
+            {{ end }}
+            <picture style="padding-bottom:{{ $paddingBottom }}%" class="relative box-border block">
+              <img
+                loading="lazy"
+                style="background: url(data:image/webp;base64,{{ $lqip.Content | base64Encode }}); background-size: cover"
+                alt=""
+                class="cursor-pointer object-cover lazy absolute top-0 left-0 w-full h-full"
+                data-action="zoom"
+                data-zoom-src="{{ $src.RelPermalink }}"
+                src="{{ $small.RelPermalink }}"
+                width="{{ $src.Width }}" height="{{ $src.Height }}"/>
+            </picture>
           {{ end }}
-          <picture class="relative box-border block overflow-hidden">
-            <img
-              loading="lazy"
-              style="background: url(data:image/webp;base64,{{ $lqip.Content | base64Encode }}); background-size: cover"
-              alt=""
-              class="cursor-pointer object-cover lazy w-full h-full"
-              data-action="zoom"
-              data-zoom-src="{{ $src.RelPermalink }}"
-              src="{{ $small.RelPermalink }}"
-              width="{{ $src.Width }}" height="{{ $src.Height }}"/>
-          </picture>
-        {{ end }}
+        </div>
       </div>
     {{ end }}
   </div>

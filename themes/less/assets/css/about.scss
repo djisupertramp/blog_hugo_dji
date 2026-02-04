@@ -539,7 +539,8 @@ body.about-body {
 }
 
 /* ===================================
-   PAGE EQUIPEMENT - 2 COLONNES + PHOTOS
+   PAGE EQUIPEMENT - 3 COLONNES
+   Gauche (01-05) | Milieu (Pelicase) | Droite (photos)
    =================================== */
 
 .equipement-page {
@@ -560,8 +561,8 @@ body.about-body {
   }
 }
 
-/* Layout 2 colonnes */
-.equipement-split-layout {
+/* Layout 3 colonnes */
+.equipement-3col-layout {
   @media (min-width: 901px) {
     display: flex;
     min-height: 100vh;
@@ -572,30 +573,31 @@ body.about-body {
   }
 }
 
-/* Colonnes */
+/* Colonne de base */
 .equip-col {
-  padding: 4rem 3rem;
+  padding: 4rem 2.5rem;
 
   @media (max-width: 900px) {
     padding: 2rem 1.5rem;
   }
 }
 
+/* Colonne gauche - fixe */
 .equip-col-left {
-  padding-left: 5rem;
+  padding-left: 4rem;
   border-right: 1px solid rgba(0, 0, 0, 0.06);
 
   @media (min-width: 901px) {
     position: fixed;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 33.333%;
     height: 100vh;
     overflow-y: auto;
   }
 
   @media (max-width: 1200px) {
-    padding-left: 3rem;
+    padding-left: 2.5rem;
   }
 
   @media (max-width: 900px) {
@@ -605,10 +607,30 @@ body.about-body {
   }
 }
 
+/* Colonne milieu - fixe */
+.equip-col-middle {
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+
+  @media (min-width: 901px) {
+    position: fixed;
+    top: 0;
+    left: 33.333%;
+    width: 33.333%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  @media (max-width: 900px) {
+    border-right: none;
+    padding-top: 0;
+  }
+}
+
+/* Colonne droite - scrollable */
 .equip-col-right {
   @media (min-width: 901px) {
-    margin-left: 50%;
-    width: 50%;
+    margin-left: 66.666%;
+    width: 33.333%;
   }
 
   @media (max-width: 900px) {

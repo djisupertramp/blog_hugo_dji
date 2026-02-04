@@ -1,14 +1,28 @@
 {{ define "main" }}
 <div class="equipement-page equip-split-layout">
 
-  {{/* Parser les sections */}}
-  {{ $sections := split .RawContent "## " }}
+  {{/* Parser les sections par lignes pour distinguer ## de ### */}}
+  {{ $rawLines := split .RawContent "\n" }}
   {{ $allSections := slice }}
+  {{ $currentSection := "" }}
+  {{ $inSection := false }}
 
-  {{ range $i, $section := $sections }}
-    {{ if and (gt (len $section) 0) (gt $i 0) }}
-      {{ $allSections = $allSections | append $section }}
+  {{ range $rawLines }}
+    {{ $line := trim . "\r" }}
+    {{ if and (hasPrefix $line "## ") (not (hasPrefix $line "### ")) }}
+      {{/* Nouvelle section ## : sauvegarder la precedente */}}
+      {{ if $inSection }}
+        {{ $allSections = $allSections | append $currentSection }}
+      {{ end }}
+      {{ $currentSection = $line }}
+      {{ $inSection = true }}
+    {{ else if $inSection }}
+      {{ $currentSection = printf "%s\n%s" $currentSection $line }}
     {{ end }}
+  {{ end }}
+  {{/* Sauvegarder la derniere section */}}
+  {{ if $inSection }}
+    {{ $allSections = $allSections | append $currentSection }}
   {{ end }}
 
   {{/* COLONNE GAUCHE - Tout le texte (fixe) */}}
@@ -19,7 +33,8 @@
       {{ range $idx, $section := $allSections }}
         {{ $num := add $idx 1 }}
         {{ $lines := split $section "\n" }}
-        {{ $sectionTitle := index $lines 0 }}
+        {{ $rawTitle := index $lines 0 }}
+        {{ $sectionTitle := strings.TrimPrefix "## " $rawTitle }}
         {{ $isPelicase := hasPrefix $sectionTitle "Dans ma Pelicase" }}
 
         <div class="equip-section">

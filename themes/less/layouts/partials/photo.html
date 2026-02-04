@@ -16,12 +16,7 @@
     {{ $lqip = $src.Resize (printf "%s" $xs) }}
     {{ $small = $src }}
   {{ end }}
-  {{ $realRatio := div (mul $src.Height 1.0) $src.Width }}
-  {{ $normPb := 66.67 }}
-  {{ if gt $realRatio 1.0 }}
-    {{ $normPb = 150.0 }}
-  {{ end }}
-  <picture style="{{ .ExtraClasses }} padding-bottom: {{ $normPb -}}%" class="relative box-border block">
+  <picture style="{{ .ExtraClasses }} padding-bottom: {{(div (mul 100.0 $src.Height ) $src.Width) -}}%" class="relative box-border block">
     <img
       loading="lazy"
       style="background: url(data:image/webp;base64,{{ $lqip.Content | base64Encode  }}); background-size: cover"

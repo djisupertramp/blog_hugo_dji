@@ -553,7 +553,7 @@ body.about-body {
 /* Split layout */
 .equipement-split-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   min-height: 100vh;
 
   @media (max-width: 900px) {
@@ -564,20 +564,13 @@ body.about-body {
 /* Colonne texte - sticky */
 .equipement-text-column {
   position: relative;
-  padding: 4rem 3rem 4rem 8rem;
+  padding: 4rem 3rem 4rem 4rem;
 
   @media (min-width: 901px) {
     position: sticky;
     top: 0;
     height: 100vh;
     overflow-y: auto;
-    display: flex;
-    align-items: flex-start;
-    padding-top: 6rem;
-  }
-
-  @media (max-width: 1200px) {
-    padding: 4rem 3rem 4rem 5rem;
   }
 
   @media (max-width: 900px) {
@@ -586,11 +579,20 @@ body.about-body {
 }
 
 .equipement-text-content {
-  max-width: 500px;
   width: 100%;
+}
+
+/* 2 sous-colonnes pour les sections */
+.equip-columns {
+  column-count: 2;
+  column-gap: 3rem;
+
+  @media (max-width: 1200px) {
+    column-gap: 2rem;
+  }
 
   @media (max-width: 900px) {
-    max-width: 100%;
+    column-count: 1;
   }
 }
 
@@ -607,7 +609,8 @@ body.about-body {
 
 /* Section (chapitre) */
 .equip-section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
+  break-inside: avoid;
 }
 
 .equip-section-header {

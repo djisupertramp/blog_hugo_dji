@@ -4,14 +4,13 @@
   {{/* Parser les sections */}}
   {{ $sections := split .RawContent "## " }}
   {{ $regularSections := slice }}
-  {{ $pelicaseSection := "" }}
+  {{ $pelicaseRaw := "" }}
 
   {{ range $i, $section := $sections }}
     {{ if and (gt (len $section) 0) (gt $i 0) }}
-      {{ $lines := split $section "\n" }}
-      {{ $title := index $lines 0 }}
-      {{ if hasPrefix $title "Dans ma Pelicase" }}
-        {{ $pelicaseSection = $section }}
+      {{ $firstLine := index (split $section "\n") 0 }}
+      {{ if hasPrefix $firstLine "Dans ma Pelicase" }}
+        {{ $pelicaseRaw = $section }}
       {{ else }}
         {{ $regularSections = $regularSections | append $section }}
       {{ end }}
@@ -22,15 +21,14 @@
   <div class="equip-col equip-col-left">
     <h1 class="equipement-title">{{ .Title }}</h1>
 
-    {{ $sectionIndex := 0 }}
-    {{ range $section := $regularSections }}
-      {{ $sectionIndex = add $sectionIndex 1 }}
+    {{ range $idx, $section := $regularSections }}
+      {{ $num := add $idx 1 }}
       {{ $lines := split $section "\n" }}
       {{ $sectionTitle := index $lines 0 }}
 
       <div class="equip-section">
         <div class="equip-section-header">
-          <span class="equip-section-num">{{ printf "%02d" $sectionIndex }}</span>
+          <span class="equip-section-num">{{ printf "%02d" $num }}</span>
           <span class="equip-section-title">{{ $sectionTitle }}</span>
         </div>
         <div class="equip-section-items">
@@ -41,7 +39,7 @@
               {{ if gt (len $trimmed) 0 }}
                 {{ $itemIndex = add $itemIndex 1 }}
                 <div class="equip-item">
-                  <span class="equip-item-num">{{ printf "%02d" $sectionIndex }}.{{ $itemIndex }}</span>
+                  <span class="equip-item-num">{{ printf "%02d" $num }}.{{ $itemIndex }}</span>
                   <span class="equip-item-sep">/</span>
                   <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
                 </div>
@@ -55,28 +53,24 @@
 
   {{/* COLONNE MILIEU - Pelicase avec sous-categories (fixe) */}}
   <div class="equip-col equip-col-middle">
-    {{ if gt (len $pelicaseSection) 0 }}
-      {{ $lines := split $pelicaseSection "\n" }}
+    {{ if ne $pelicaseRaw "" }}
+      {{ $lines := split $pelicaseRaw "\n" }}
       {{ $pelicaseTitle := index $lines 0 }}
-      {{ $pelicaseNum := add (len $regularSections) 1 }}
 
       <div class="equip-section equip-pelicase">
         <div class="equip-section-header">
-          <span class="equip-section-num">{{ printf "%02d" $pelicaseNum }}</span>
+          <span class="equip-section-num">06</span>
           <span class="equip-section-title">{{ $pelicaseTitle }}</span>
         </div>
         <div class="equip-section-items">
-          {{ $itemInSub := 0 }}
           {{ range $li, $line := $lines }}
             {{ if gt $li 0 }}
               {{ $trimmed := trim $line " \t\r" }}
               {{ if gt (len $trimmed) 0 }}
                 {{ if hasPrefix $trimmed "### " }}
                   {{ $subTitle := strings.TrimPrefix "### " $trimmed }}
-                  {{ $itemInSub = 0 }}
                   <div class="equip-sub-header">{{ $subTitle }}</div>
                 {{ else }}
-                  {{ $itemInSub = add $itemInSub 1 }}
                   <div class="equip-item equip-item-indented">
                     <span class="equip-item-name">{{ $trimmed | markdownify }}</span>
                   </div>

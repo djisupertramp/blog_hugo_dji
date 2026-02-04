@@ -1,4 +1,4 @@
-/* ==================================
+/* ===================================
    PAGE ABOUT - FOND NOIR
    =================================== */
 
@@ -573,20 +573,13 @@ body.about-body {
   }
 }
 
-/* Colonne texte - fixe */
+/* Colonne texte - scroll normal */
 .equip-text-column {
   padding: 4rem 3rem 4rem 4rem;
 
   @media (min-width: 901px) {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 50%;
-    height: 100vh;
-    overflow-y: auto;
-    display: flex;
-    align-items: flex-start;
-    padding-top: 8rem;
+    flex-shrink: 0;
   }
 
   @media (max-width: 1200px) {
@@ -606,13 +599,13 @@ body.about-body {
   }
 }
 
-/* Colonne photos - scrollable */
+/* Colonne photos - scroll normal */
 .equip-photos-column {
   padding: 2rem;
 
   @media (min-width: 901px) {
-    margin-left: 50%;
     width: 50%;
+    flex-shrink: 0;
   }
 
   @media (max-width: 900px) {

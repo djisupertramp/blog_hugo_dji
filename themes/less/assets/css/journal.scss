@@ -1,55 +1,411 @@
-/* Notes tile */
+/* ===================================
+   BLOG PAGE
+   =================================== */
+
+/* Blog page container */
+.blog-page {
+  overflow-x: hidden;
+}
+
+/* Intro Journal - centré dans la colonne avec texte aligné à gauche */
+.blog-intro {
+  max-width: var(--max-width);
+  margin: 0 auto 1.5rem;
+  padding: 2rem 2rem 1.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h5, p {
+    max-width: 40rem;
+    width: 100%;
+    text-align: left;
+  }
+
+  h5 {
+    font-family: var(--serif-font);
+    font-size: calc(0.8rem * 1.2);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: var(--serif-font);
+    font-size: calc(1rem * 1.2);
+    font-style: normal;
+  }
+}
+
+/* Archives page - titre centré et grand comme Récent */
+.archives-intro {
+  max-width: var(--max-width);
+  margin: 0 auto 1.5rem;
+  padding: 2rem 2rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h5 {
+    font-family: var(--title-font);
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+  }
+
+  .category-count {
+    font-family: var(--sans-serif-font);
+    font-size: 0.9rem;
+    color: var(--light-gray);
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* Featured Article - full width avec border */
+.featured-article {
+  margin-bottom: 2.25rem;
+  width: 100%;
+  position: relative;
+
+  .featured-link {
+    display: block;
+    text-decoration: none;
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+  }
+
+  .featured-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border: 12px solid #fff;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .featured-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 4rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    color: #fff;
+  }
+
+  /* Featured overlay centré (pour page blog) - avec fond semi-transparent */
+  .featured-overlay-centered {
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .featured-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-family: var(--sans-serif-font);
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    opacity: 0.9;
+  }
+
+  .featured-category {
+    color: #fff;
+  }
+
+  .featured-title {
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+    color: #fff;
+  }
+}
+
+/* Section Récent */
+.recent-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Section Title - centré, plus grand */
+.section-title {
+  font-family: var(--title-font);
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin: 1rem auto 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: none;
+  text-align: center;
+  display: block;
+}
+
+/* Posts List */
+.posts-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.post-item {
+  .post-item-link {
+    display: block;
+    text-decoration: none;
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+  }
+
+  .post-item-image {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    aspect-ratio: 4 / 1;
+    overflow: hidden;
+    background-color: #f0f0f0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .post-item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    color: #fff;
+  }
+
+  .post-item-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--sans-serif-font);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    opacity: 0.9;
+  }
+
+  .post-item-category {
+    color: #fff;
+  }
+
+  .post-item-separator {
+    opacity: 0.5;
+  }
+
+  .post-item-title {
+    font-family: var(--title-font);
+    font-size: 2.07rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+    color: #fff;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .featured-article {
+    .featured-overlay {
+      padding: 1.25rem;
+    }
+
+    .featured-title {
+      font-size: 1.5rem;
+    }
+  }
+
+  .recent-section {
+    padding: 0 1rem;
+  }
+
+  .post-item {
+    .post-item-overlay {
+      padding: 1rem;
+    }
+
+    .post-item-title {
+      font-size: 1.15rem;
+    }
+  }
+}
+
+/* Section Catégories */
+.categories-section {
+  max-width: var(--max-width);
+  margin: 3rem auto 0;
+  padding: 0 2rem;
+}
+
+/* Lien vers tous les articles */
+.all-posts-link {
+  max-width: var(--max-width);
+  margin: 5rem auto 3rem;
+  padding: 0 2rem;
+  text-align: center;
+
+  a {
+    font-family: var(--sans-serif-font);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--onyx);
+    text-decoration: none;
+    border-bottom: 1px solid var(--onyx);
+    padding-bottom: 0.25rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+
+    &:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+  }
+}
+
+/* Pagination container - centré */
+.pagination-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0;
+  padding-top: 2rem;
+  border-top: none;
+  text-align: center;
+
+  .page-item {
+    list-style: none;
+
+    a, span {
+      font-family: var(--title-font);
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.5rem 1rem;
+      color: var(--onyx);
+      text-decoration: none;
+      border: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: var(--accent);
+        border: none;
+      }
+    }
+
+    &.active span {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    &.disabled span {
+      opacity: 0.3;
+      cursor: default;
+    }
+  }
+}
+
+/* Legacy support for old list.journal if needed */
 .list.journal {
   display: grid;
   row-gap: 4rem;
   column-gap: 2rem;
 
   .post-thumb picture {
-    transition: filter .4s ease-in-out, -webkit-filter .4s ease-in-out;
     filter: brightness(100%);
+  }
 
-  }
-  .post-thumb picture:hover {
-    filter: brightness(80%);
-  }
   .post-header {
     margin: 0 1rem;
-    text-align: right;
+    text-align: center;
+
     .category {
-      text-transform: none;
-      text-align: right;
+      text-transform: uppercase;
+      text-align: center;
       border-bottom: none;
     }
+
     h3.title {
-      font-weight: 900;
-      text-align: right;
-      font-size: 1.9rem;
+      font-family: var(--title-font);
+      font-weight: 400;
+      text-align: center;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
       a { color: var(--onyx); border-bottom: none; }
       a:hover { color: var(--accent); border-bottom: none; }
     }
+
     h5 {
-      text-align: right;
+      text-align: center;
       opacity: 0.7;
     }
+
     .category {
       color: var(--accent);
       a { color: var(--accent); border-bottom: none; }
       a:hover { color: var(--onyx); border-bottom: none; }
-      text-align: right;
+      text-align: center;
       font-family: var(--sans-serif-font);
       font-weight: normal;
       margin: 0;
       padding: 0;
     }
+
     p {
-      text-align: right;
-      margin: 0;
+      text-align: justify;
+      text-align-last: center;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      margin: 0.5rem 0 0 0;
       padding: 0;
+      line-height: 1.6;
     }
   }
 
-    @media only screen and (min-width: 812px) {
-   grid: auto-flow dense / repeat(2, 1fr);
+  @media only screen and (min-width: 812px) {
+    grid: auto-flow dense / repeat(2, 1fr);
 
     .post-thumb {
       margin-bottom: 3rem;
@@ -67,6 +423,7 @@
         }
       }
     }
+
     .post-header {
       display: grid;
       grid-gap: 1rem;

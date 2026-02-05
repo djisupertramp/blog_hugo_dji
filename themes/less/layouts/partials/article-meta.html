@@ -1,0 +1,44 @@
+{{/*
+  Metadonnees d'article (location, velo, film, camera)
+  Affiche uniquement les champs renseignes dans le front matter
+
+  Usage dans front matter:
+  ---
+  location: "Lille"
+  bike: "Specialized RockHopper"
+  film: "Kodak Portra 400"
+  camera: "Fuji XT3"
+  ---
+*/}}
+
+{{ if or .Params.location .Params.bike .Params.film .Params.camera }}
+<div class="article-meta">
+  {{ with .Params.location }}
+  <div class="meta-item">
+    <span class="meta-icon">&#x1F4CD;</span>
+    <span class="meta-value">{{ . }}</span>
+  </div>
+  {{ end }}
+
+  {{ with .Params.bike }}
+  <div class="meta-item">
+    <span class="meta-icon">&#x1F6B2;</span>
+    <span class="meta-value">{{ . }}</span>
+  </div>
+  {{ end }}
+
+  {{ with .Params.film }}
+  <div class="meta-item">
+    <span class="meta-icon">&#x1F3DE;</span>
+    <span class="meta-value">{{ . }}</span>
+  </div>
+  {{ end }}
+
+  {{ with .Params.camera }}
+  <div class="meta-item">
+    <span class="meta-icon">&#x1F4F7;</span>
+    <span class="meta-value">{{ . }}</span>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,15 +1,71 @@
 {{ define "main" }}
 {{ $image := .Resources.GetMatch "cover" | default (index (.Resources.ByType "image") 0) }}
-<div class="post-title text-center">
-  <span class="category">
+
+<!-- Hero Header -->
+<div class="hero-article" {{ with $image }}style="background-image: url('{{ .RelPermalink }}')"{{ end }}>
+  <div class="hero-overlay"></div>
+
+  <!-- Breadcrumb -->
+  <div class="hero-breadcrumb">
+    <a href="/posts/">HOME</a>
+    <span>/</span>
     {{ range first 1 .Params.categories }}
-    <a class="no-decoration" href="/{{ . }}">{{ . }}</a>
-    {{ end }} —
-    {{ .Date.Day }} {{ index .Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
-  </span>
-  <h1 class="font-bold uppercase">{{ .Params.emoji}} {{ .Title }}</h1>
-  <h3>{{ .Params.subtitle }}</h3>
+    <a href="/{{ . | urlize }}">{{ . | upper }}</a>
+    {{ end }}
+  </div>
+
+  <!-- Titre centré -->
+  <div class="hero-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="hero-subtitle">{{ . }}</p>{{ end }}
+  </div>
+
+  <!-- Encart métadonnées -->
+  {{ if or .Params.location .Params.bike .Params.film .Params.camera .Params.categories }}
+  <div class="hero-meta-box">
+    {{ with .Params.categories }}
+    <div class="meta-row">
+      <span class="meta-label">CATÉGORIE</span>
+      <span class="meta-value">{{ range first 1 . }}{{ . | upper }}{{ end }}</span>
+    </div>
+    {{ end }}
+
+    <div class="meta-row">
+      <span class="meta-label">DATE</span>
+      <span class="meta-value">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) | upper }} {{ .Date.Year }}</span>
+    </div>
+
+    {{ with .Params.location }}
+    <div class="meta-row">
+      <span class="meta-label">LIEU</span>
+      <span class="meta-value">{{ . | upper }}</span>
+    </div>
+    {{ end }}
+
+    {{ with .Params.camera }}
+    <div class="meta-row">
+      <span class="meta-label">APPAREIL</span>
+      <span class="meta-value">{{ . | upper }}</span>
+    </div>
+    {{ end }}
+
+    {{ with .Params.film }}
+    <div class="meta-row">
+      <span class="meta-label">PELLICULE</span>
+      <span class="meta-value">{{ . | upper }}</span>
+    </div>
+    {{ end }}
+
+    {{ with .Params.bike }}
+    <div class="meta-row">
+      <span class="meta-label">VÉLO</span>
+      <span class="meta-value">{{ . | upper }}</span>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
 </div>
+
 <div data-pswp class="main post">
   {{ if .IsTranslated }}
     {{ range .Translations }}
@@ -25,4 +81,22 @@
   {{ end }}
 </div>
 {{ partial "tinyletter.html" . }}
+
+<!-- Navigation article précédent/suivant -->
+<nav class="post-navigation">
+  <div class="nav-links">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="nav-previous">
+      <span class="nav-arrow">←</span>
+      <span class="nav-title">{{ .Title }}</span>
+    </a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" class="nav-next">
+      <span class="nav-title">{{ .Title }}</span>
+      <span class="nav-arrow">→</span>
+    </a>
+    {{ end }}
+  </div>
+</nav>
 {{ end }}

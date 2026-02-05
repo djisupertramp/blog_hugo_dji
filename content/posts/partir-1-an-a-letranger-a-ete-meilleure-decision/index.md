@@ -4,7 +4,7 @@
   date: "2017-06-14"
   slug: "partir-1-an-a-letranger-a-ete-meilleure-decision"
   categories:
-  - reflexions
+  - note
   - aventures
   tags: ["aventure", "microaventure", "voyage", "canada", "australie", "PVT", "visa vacances travail", "conseils"]
   description: "PVT Canada et Australie... Pourquoi partir 1 an à l'étranger a été ma meilleure décision ?"

@@ -4,7 +4,7 @@ seotitle: "Une HP5 et de la brume"
 date: "2025-02-04"
 slug: "hp5-et-brume"
 categories:
-- Reflexions
+- note
 tags: ["HP5", "photographie", "randonnée"]
 description: "Je suis parti faire une randonnée sur la côte avec une HP5+, sous la brume."
 resources:
@@ -12,9 +12,8 @@ resources:
   name: "cover"
 - src: "*.jpg"
 ---
-{{< photo src="images/01.jpg" alt="Une HP5 et de la brume" wide="true" >}}
 
-En fin d’année, comme chaque début d’hiver, je me sentais mal. D’un côté, je faisais un constat hyper positif de mon année de freelance, qui n’a jamais été aussi fructueuse. Mais de l’autre, l’arrière-goût amer de ne pas avoir pris assez de temps pour moi. J’en ai donné, distribué sans compter à ma femme, à mon fils, à nos proches, au travail. Mais moi, je me suis oublié en chemin. C’est la première année depuis bien longtemps que j’ai aussi peu roulé à vélo, et malgré le constat de nombreuses choses cool qui se sont passées en 2024, j’ai failli à ma tâche de m’octroyer du temps rien que pour moi. L’autre constat, c’est que l’appareil photo que j’ai le plus utilisé cette année, c’est mon Olympus Mju II, mon point and shoot. Même si c’est un chouette appareil, je ressens un manque de mes autres appareils, en qualité d’image, en ergonomie, en plaisir à shooter.
+En fin d'année, comme chaque début d’hiver, je me sentais mal. D’un côté, je faisais un constat hyper positif de mon année de freelance, qui n’a jamais été aussi fructueuse. Mais de l’autre, l’arrière-goût amer de ne pas avoir pris assez de temps pour moi. J’en ai donné, distribué sans compter à ma femme, à mon fils, à nos proches, au travail. Mais moi, je me suis oublié en chemin. C’est la première année depuis bien longtemps que j’ai aussi peu roulé à vélo, et malgré le constat de nombreuses choses cool qui se sont passées en 2024, j’ai failli à ma tâche de m’octroyer du temps rien que pour moi. L’autre constat, c’est que l’appareil photo que j’ai le plus utilisé cette année, c’est mon Olympus Mju II, mon point and shoot. Même si c’est un chouette appareil, je ressens un manque de mes autres appareils, en qualité d’image, en ergonomie, en plaisir à shooter.
 
 Je vous passe les détails de ma réflexion, de ma soirée assis devant mon carnet avec mon stylo, tentant de démêler tout ça. Mi-janvier, je devais rejoindre Greg pour une retraite créative de quelques jours, histoire de souffler, faire un reset et repartir du bon pied en 2025. Sauf qu’un virus hivernal à la maison en a décidé autrement : j’étais le seul en forme à pouvoir prendre soin de tout le monde. Exit la retraite. Après avoir couché ma famille, j’ai pris le temps d’écrire et de réfléchir à tout ça. Parmi les différents constats que j’ai tirés, celui qui ressortait de manière criante, c’était celui de prendre plus de temps pour moi.
 

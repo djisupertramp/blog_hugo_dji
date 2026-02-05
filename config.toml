@@ -29,12 +29,12 @@ paginate = 12
   sizes = [ "2048" , "1024" , "512" ]
   tags = []
 
-  sansSerifFont = "Times"
-  titleFont = "Times"
-  bodyFont = "Times"
+  sansSerifFont = "Helvetica Neue"
+  titleFont = "Oswald"
+  bodyFont = "Times New Roman"
 
   hasLogo = true
-  accentColor = "#8e9c95"
+  accentColor = "#777777"
 
 #heroHeader = false
 
@@ -65,22 +65,16 @@ paginate = 12
   identifier = "portfolio"
   url = "/"
 [[menu.main]]
-  name = "BLOG"
-  title = "BLOG"
+  name = "MOMENTS"
+  title = "Moments"
   weight = 2
-  identifier = "blog"
-  url = "/posts/"
-  [[menu.main]]
-    name = "MOMENTS"
-    title = "MOMENTS"
-    weight = 3
-    identifier = "Moments"
-    url = "/moments"
+  identifier = "moments"
+  url = "/moments/"
 [[menu.main]]
-  name = "BLOG"
-  title = "BLOG"
-  weight = 4
-  identifier = "blog"
+  name = "JOURNAL"
+  title = "JOURNAL"
+  weight = 3
+  identifier = "journal"
   url = "/posts/"
 [[menu.main]]
   name = "ABOUT"

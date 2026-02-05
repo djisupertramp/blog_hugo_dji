@@ -4,7 +4,7 @@ seotitle: "100 trucs cools en 2025"
 date: "2026-01-21"
 slug: "100-trucs-cools-2025"
 categories:
-  - "reflexions"
+  - "note"
 draft: false
 tags: ["retrospective", "2025 »", "bilan"]
 description: "100 trucs cools en 2025"
@@ -14,9 +14,7 @@ resources:
   - src: "*.jpg"
 ---
 
-{{< photo src="images/cover.jpg" alt="100 trucs cools en 2025" wide="true" >}}
-
-Après l’article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-trucs-cools-2022/), de [2023](https://jeremyjanin.com/100-trucs-cools-2023/), de [2024](https://jeremyjanin.com/100-trucs-cools-2024/)… en 2025...
+Après l'article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-trucs-cools-2022/), de [2023](https://jeremyjanin.com/100-trucs-cools-2023/), de [2024](https://jeremyjanin.com/100-trucs-cools-2024/)… en 2025...
 
 1 - Je suis devenu papa une deuxième fois. Daphné <3<br/>
 2 - J’ai commencé l’année en m’asseyant devant une feuille pour lister ce qui m’avait manqué en 2024 : du temps pour moi. <br/>
@@ -26,7 +24,7 @@ Après l’article de mes 100 trucs cools de [2022](https://jeremyjanin.com/100-
 6 - Fait une erreur de noob en chargeant mal ma pellicule et en déclenchant 36 poses dans le vide <br/>
 7 - Upgradé mon bureau avec un Mac Mini M4 Pro et un Studio Display <br/>
 8 - Acheté le livre photo « Uncommon Places » de Stephen Shore <br/>
-9 - Acquis un nouveau boitier argentique : un Canon Élan 7 <br/>
+9 - Trouvé un moyen de me faire un faux XPAN en mode DIY avec mon Canon A1. Ca marche plutôt pas mal <br/>
 10 - Retourné à St Pierre et Miquelon, et voir l’archipel sous la neige <br/>
 11 - Randonné jusqu’au Grand Colombier, seuls au monde avec Greg, dans un paysage enneigé incroyable <br/>
 12 - Mangé une crêpe beurre sucre sous le tipi de Gilles dans la forêt enneigée <br/>

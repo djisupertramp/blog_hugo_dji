@@ -1,14 +1,14 @@
 {{ define "main" }}
 <div class="main blog-page">
   <div class="archives-intro">
-    <h5>{{ .Title }}</h5>
-    <p class="category-count">{{ len .Pages }} articles</p>
+    <h5>Tous les articles</h5>
   </div>
 
   <section class="recent-section">
     <div class="posts-list">
       {{ $months := dict "January" "Janvier" "February" "Février" "March" "Mars" "April" "Avril" "May" "Mai" "June" "Juin" "July" "Juillet" "August" "Août" "September" "Septembre" "October" "Octobre" "November" "Novembre" "December" "Décembre" }}
-      {{ range $index, $post := .Pages }}
+      {{ $allPosts := where .Site.RegularPages "Type" "posts" }}
+      {{ range $index, $post := $allPosts }}
         {{ $categories := $post.Params.categories }}
         {{ $catSlug := "" }}
         {{ with index $categories 0 }}
@@ -42,9 +42,5 @@
       {{ end }}
     </div>
   </section>
-
-  <div class="all-posts-link">
-    <a href="/posts/">← Retour au journal</a>
-  </div>
 </div>
 {{ end }}

@@ -4,7 +4,7 @@ seotitle: "100 trucs cools en 2022"
 date: "2023-01-04"
 slug: "100-trucs-cools-2022"
 categories:
-- reflexions
+- note
 tags: ["retrospective", "2022", "bilan"]
 description: "100 trucs cools en 2022"
 resources:

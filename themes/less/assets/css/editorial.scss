@@ -446,6 +446,64 @@
 }
 
 /* ===================================
+   ENCART BAS D'ARTICLE - POUR ALLER PLUS LOIN
+   =================================== */
+
+.post-cta {
+  max-width: 40rem !important;
+  margin: auto;
+  margin-bottom: 60px;
+  background-color: #F3F3F3;
+  padding: 2.5rem;
+}
+
+.post-cta-header {
+  font-family: var(--sans-serif-font);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--onyx);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.post-cta-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.post-cta-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-family: var(--sans-serif-font);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--onyx);
+  text-decoration: none;
+  border-bottom: none !important;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: var(--accent);
+    border-bottom: none !important;
+  }
+}
+
+.post-cta-arrow {
+  flex-shrink: 0;
+}
+
+.post-cta-text {
+  line-height: 1.5;
+}
+
+/* ===================================
    NAVIGATION ARTICLE PREV/NEXT
    =================================== */
 

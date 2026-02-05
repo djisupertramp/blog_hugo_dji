@@ -240,6 +240,8 @@
 /* Responsive */
 @media (max-width: 768px) {
   .featured-article {
+    margin-bottom: 0;
+
     .featured-overlay {
       padding: 1.25rem;
     }
@@ -249,13 +251,27 @@
     }
   }
 
+  .section-title {
+    margin: 0.75rem auto 1rem;
+    font-size: 1.75rem;
+  }
+
   .recent-section {
-    padding: 0 1rem;
+    padding: 0;
   }
 
   .post-item {
+    .post-item-image {
+      width: 100%;
+      margin: 0;
+    }
+
     .post-item-overlay {
       padding: 1rem;
+    }
+
+    .post-item-meta {
+      display: none;
     }
 
     .post-item-title {

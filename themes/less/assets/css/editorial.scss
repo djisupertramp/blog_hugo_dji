@@ -435,13 +435,34 @@
 /* Responsive: mobile = 1 colonne empilee */
 @media (max-width: 767px) {
   .mgrid {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    display: block !important;
   }
 
   .mgrid > div {
-    flex: 1 0 100% !important;
+    display: block !important;
+    flex: none !important;
+    width: 100% !important;
+  }
+
+  .mgrid > div > div {
+    display: block !important;
+    flex: none !important;
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
+
+  .mgrid picture {
+    display: block !important;
+    padding-bottom: 0 !important;
+    position: relative !important;
+  }
+
+  .mgrid img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    top: 0 !important;
   }
 }
 

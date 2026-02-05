@@ -222,7 +222,7 @@ body.about-body {
     font-family: var(--serif-font);
     font-size: 1.25rem;
     line-height: 2;
-    color: #ccc;
+    color: #fff;
     margin-bottom: 1.25rem;
 
     &:last-child {
@@ -246,9 +246,10 @@ body.about-body {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 
   p {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: #999;
+    font-family: var(--sans-serif-font);
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #fff;
     margin-bottom: 0.5rem;
   }
 

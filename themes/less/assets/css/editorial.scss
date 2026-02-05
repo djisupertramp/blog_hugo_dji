@@ -453,21 +453,29 @@
   max-width: 40rem !important;
   margin-left: auto;
   margin-right: 0;
+  margin-top: 5rem;
   margin-bottom: 60px;
   background-color: transparent;
   border: none;
   padding: 0;
   text-align: right;
-  font-family: var(--sans-serif-font);
-  font-size: 0.8rem;
+  font-family: var(--serif-font);
+  font-size: 1.25rem;
   font-weight: 400;
-  letter-spacing: 0.02em;
-  line-height: 1.8;
+  line-height: 2;
   color: #555;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  .post-cta-header {
+    margin-bottom: 0.75rem;
+  }
 
   strong {
     font-weight: 700;
-    color: var(--onyx);
+    color: #555;
   }
 
   a {

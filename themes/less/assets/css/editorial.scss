@@ -453,8 +453,8 @@
   max-width: 40rem !important;
   margin: auto;
   margin-bottom: 60px;
-  background-color: #fff;
-  border: 1px solid var(--onyx);
+  background-color: var(--onyx);
+  border: none;
   padding: 2.5rem;
 }
 
@@ -464,10 +464,10 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--onyx);
+  color: #fff;
   margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .post-cta-items {
@@ -485,15 +485,14 @@
   font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--onyx);
+  color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
-  padding-bottom: 0.5rem;
+  border-bottom: none !important;
+  padding-bottom: 0;
   transition: color 0.3s ease;
 
   &:hover {
     color: var(--accent);
-    border-bottom-color: var(--accent) !important;
   }
 
   strong {
@@ -503,6 +502,7 @@
 
 .post-cta-arrow {
   flex-shrink: 0;
+  color: #fff;
 }
 
 .post-cta-text {

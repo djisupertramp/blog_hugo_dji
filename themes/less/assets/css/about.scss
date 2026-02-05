@@ -242,25 +242,51 @@ body.about-body {
 
 .about-links {
   margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 0;
+  border-top: none;
+}
 
-  p {
-    font-family: var(--sans-serif-font);
-    font-size: 0.85rem;
-    line-height: 1.8;
-    color: #fff;
-    margin-bottom: 0.4rem;
-  }
+.about-links-items {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.about-link-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  font-family: var(--sans-serif-font);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #fff;
 
   a {
     color: #fff;
-    border-bottom: 1px solid var(--accent);
+    text-transform: uppercase;
+    border-bottom: none;
 
     &:hover {
       color: var(--accent);
     }
   }
+}
+
+.about-link-arrow {
+  font-size: 0.7rem;
+  min-width: 1rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.about-link-sep {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 0.7rem;
+}
+
+.about-link-text {
+  flex: 1;
 }
 
 /* Colonne photos - défilante */

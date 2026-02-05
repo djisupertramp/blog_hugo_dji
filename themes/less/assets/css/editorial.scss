@@ -453,14 +453,15 @@
   max-width: 40rem !important;
   margin: auto;
   margin-bottom: 60px;
-  background-color: #F3F3F3;
+  background-color: #fff;
+  border: 1px solid var(--onyx);
   padding: 2.5rem;
 }
 
 .post-cta-header {
   font-family: var(--sans-serif-font);
-  font-size: 0.75rem;
-  font-weight: 400;
+  font-size: 0.8rem;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--onyx);
@@ -486,12 +487,17 @@
   text-transform: uppercase;
   color: var(--onyx);
   text-decoration: none;
-  border-bottom: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+  padding-bottom: 0.5rem;
   transition: color 0.3s ease;
 
   &:hover {
     color: var(--accent);
-    border-bottom: none !important;
+    border-bottom-color: var(--accent) !important;
+  }
+
+  strong {
+    font-weight: 700;
   }
 }
 

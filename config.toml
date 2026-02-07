@@ -1,9 +1,8 @@
 
 baseURL = "https://jeremyjanin.com"
 languageCode = "fr"
-DefaultContentLanguage = "fr"
+defaultContentLanguage = "fr"
 theme = "less"
-googleAnalytics = "UA-15907591-1"
 RemovePathAccents = true
 timeout = 200000
 enableRobotsTXT = true
@@ -90,5 +89,8 @@ paginate = 12
 
 [markup.goldmark.renderer]
   unsafe= true
+[services.googleAnalytics]
+  ID = "G-367643302"
+
 [security.exec]
   osEnv = ['.*']

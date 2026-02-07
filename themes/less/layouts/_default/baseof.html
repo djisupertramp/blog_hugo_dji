@@ -10,10 +10,10 @@
     </div>
     {{ partial "footer" .}}
     {{ partial "gtag.html" . }}
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-    {{ $.Scratch.Set "jslibs" slice }}
     {{ $libs := slice "js/photoswipe.js" "js/photoswipe-ui-default.js" "js/photoswipe-simplify.js" "js/lazyload.min.js" "js/main.js" }}
-    {{ range $libs }} {{ $.Scratch.Add "jslibs" (resources.Get . ) }} {{ end }} {{ $js := .Scratch.Get "jslibs" | resources.Concat "js/main.js" }}
+    {{ $jslibs := slice }}
+    {{ range $libs }}{{ $jslibs = $jslibs | append (resources.Get .) }}{{ end }}
+    {{ $js := $jslibs | resources.Concat "js/main.js" }}
     {{ if hugo.IsServer }}
       <script src="{{ $js.RelPermalink }}"></script>
     {{ else }} {{ $js := $js | minify | fingerprint "sha512"}}

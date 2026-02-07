@@ -19,11 +19,9 @@
 @import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.bodyFont " " "+" }}:400,400i,600');
 @import url('https://fonts.googleapis.com/css?display=swap&family={{ replace .Site.Params.sansSerifFont " " "+" }}');
 @import "helpers";
-@import "form";
 @import "main_header";
 @import "burger";
 @import "hero_header";
-@import "three";
 @import "photos";
 @import "journal";
 @import "editorial";

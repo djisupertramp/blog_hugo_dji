@@ -1,6 +1,6 @@
 ---
-title: "Pourquoi je ne veux pas de Lamarzocco ?"
-seotitle: "Pourquoi je ne veux pas de Lamarzocco ?"
+title: "Pourquoi je ne veux pas de La Marzocco ?"
+seotitle: "Pourquoi je ne veux pas de La Marzocco ?"
 date: "2026-02-06"
 slug: "je-ne-veux-pas-de-Lamarzocco"
 categories:
@@ -17,7 +17,7 @@ resources:
 ---
 Cette question, c’est Samantha qui me l’a posée il y a quelques jours alors que je préparais ma mouture d’éthiopien d’un torréfacteur néerlandais. Surpris de recevoir cette question de la part de quelqu’un qui n’en boit pas, elle m’a poussé à remonter le fil de mon [histoire avec le café](https://jeremyjanin.com/slow-coffee/). Une fois l’aspect pécunier enterré à l’annonce du coût d’une Linea Micra, j’ai démêlé mes arguments lors de notre conversation.
 
-Je prends une Lamarzocco comme l’un des gages de qualité lors du choix d’un café croisé au détour d’une rue. À raison ou à tort, elle m’évoque une certaine connaissance et investissement de la part de l’établissement et me laisse espérer une expérience gustative prometteuse. J’y commanderais alors certainement un flat white. Breuvage caféiné de prédilection autant à onze heures qu’à quinze. J’y apprécie l’esthétisme des lignes et le brillant des chromes, le rangement des tasses sur le plateau supérieur et la mécanique qui tourne comme de la fine horlogerie helvète. Le fleuron italien de la machine à espresso sait taper dans l’œil et dans le palais, tant dans un coffee shop que dans un intérieur. Je l’apprécie ponctuellement mais pas au point d’en faire mon indispensable à la maison. Outre l’implication financière qui n’en est même pas la raison primaire.
+Je prends une La Marzocco comme l’un des gages de qualité lors du choix d’un café croisé au détour d’une rue. À raison ou à tort, elle m’évoque une certaine connaissance et investissement de la part de l’établissement et me laisse espérer une expérience gustative prometteuse. J’y commanderais alors certainement un flat white. Breuvage caféiné de prédilection autant à onze heures qu’à quinze. J’y apprécie l’esthétisme des lignes et le brillant des chromes, le rangement des tasses sur le plateau supérieur et la mécanique qui tourne comme de la fine horlogerie helvète. Le fleuron italien de la machine à espresso sait taper dans l’œil et dans le palais, tant dans un coffee shop que dans un intérieur. Je l’apprécie ponctuellement mais pas au point d’en faire mon indispensable à la maison. Outre l’implication financière qui n’en est même pas la raison primaire.
 J’aime mon café version manuelle et analogique. Plus proche de la cérémonie du thé que de la mécanique de luxe, le café filtre m’apporte une sensation de maîtrise qui excite mon appétit à vouloir faire les choses de mes mains. Évidemment que je ne suis ni le producteur ni le torréfacteur, mais tout le reste de la chaîne répond à mes choix et suit le rythme de mes doigts. Le plaisir de retrouver jour après jour mon moulin aussi fluide qu’une pièce usinée de haute précision pour accomplir la tâche brute du broyage des grains pour en révéler toute la couleur, le parfum et le goût. Une mouture préparée selon mes réglages affinés, prête à être noyée d’une eau chauffée à la température que j’ai choisie.
 
 {{< photoset always="2" >}} {{< photo src="images/01.jpg" alt="Pourquoi je ne veux pas de Lamarzocco ?">}} {{< photo src="images/02.jpg" alt="Pourquoi je ne veux pas de Lamarzocco ?">}} {{</ photoset >}}

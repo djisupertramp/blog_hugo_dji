@@ -30,4 +30,4 @@ Certains jours, il m’est plus difficile d’être en pleine conscience de chaq
 
 Voilà ma réponse à Samantha : si je devais avoir une machine espresso, ce serait une Lamarzocco. Mais entre les pistons d'une belle chromée italienne et le rituel manuel, j’ai choisi la lenteur des gestes qui me ressemblent.
 
-P.S: pour les curieux qui veulent savoir ce que j'utilise comme matériel, [tout est là](https://jeremyjanin.com/equipement/).
+*P.S: pour les curieux qui veulent savoir ce que j'utilise comme matériel, [tout est là](https://jeremyjanin.com/equipement/).*

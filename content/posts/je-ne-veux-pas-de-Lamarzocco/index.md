@@ -29,3 +29,5 @@ Je ne ressens pas d’addiction au café. Je n’en ai pas besoin pour me révei
 Certains jours, il m’est plus difficile d’être en pleine conscience de chaque étape de ce rituel, mais je bois toujours le café que je prépare de mes propres mains et tel que j’aime le boire. Pas selon les codes stricts du café de spécialité puisque j’y mélange parfois du sirop et souvent du lait. Mais c’est mon café. Celui qui me plaît. Filtré.
 
 Voilà ma réponse à Samantha : si je devais avoir une machine espresso, ce serait une Lamarzocco. Mais entre les pistons d'une belle chromée italienne et le rituel manuel, j’ai choisi la lenteur des gestes qui me ressemblent.
+
+P.S: pour les curieux qui veulent savoir ce que j'utilise comme matériel, [tout est là](https://jeremyjanin.com/equipement/).

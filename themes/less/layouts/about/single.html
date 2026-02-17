@@ -1,5 +1,62 @@
 {{ define "main" }}
-  <div data-pswp class="main">
-    {{.Content}}
+<div class="about-page about-split-layout">
+  {{/* Colonne gauche - Texte sticky */}}
+  <div class="about-text-column">
+    <div class="about-text-content">
+      <h1 class="about-title">Hello.</h1>
+      <div class="about-bio-text">
+        <p>Moi, c'est Jérémy. De l'argentique à la couture outdoor en passant par la vidéo, le vélo ou l'aquarelle, je suis avant tout quelqu'un de passionné et un peu touche à tout.</p>
+        <p>J'aime passer du temps dans la nature, faire des images et quelques voyages. Plus que les grosses expéditions, ce qui m'anime c'est de mettre un peu d'esprit d'aventure dans mon quotidien.</p>
+        <p>J'ai co-fondé <a href="https://captainyvon.fr" target="_blank">Captain Yvon Studio</a> avec <a href="https://gregorymignard.com/" target="_blank">Grégory Mignard</a>. On anime aussi chaque mois un podcast, <a href="https://slowisbeautiful.substack.com" target="_blank">Slow Is Beautiful</a>, dans lequel on parle de tout ce qui nous fait réflechir, nous inspire et nous passionne.</p>
+        <p>En parallèle, <a href="https://fieldpacks.fr" target="_blank">FIELDPACKS</a> c'est mon laboratoire-projet de couture de matériel outdoor.</p>
+      </div>
+      <div class="about-links">
+        <div class="about-links-items">
+          <div class="about-link-item">
+            <span class="about-link-arrow">→</span>
+            <span class="about-link-sep">/</span>
+            <span class="about-link-text">Basé à Lille</span>
+          </div>
+          <div class="about-link-item">
+            <span class="about-link-arrow">→</span>
+            <span class="about-link-sep">/</span>
+            <span class="about-link-text"><a href="mailto:hello@jeremyjanin.com">hello@jeremyjanin.com</a></span>
+          </div>
+          <div class="about-link-item">
+            <span class="about-link-arrow">→</span>
+            <span class="about-link-sep">/</span>
+            <span class="about-link-text"><a href="https://www.instagram.com/jeremy.janin/" target="_blank">Instagram</a> · <a href="https://www.threads.net/@jeremy.janin" target="_blank">Threads</a></span>
+          </div>
+          <div class="about-link-item">
+            <span class="about-link-arrow">→</span>
+            <span class="about-link-sep">/</span>
+            <span class="about-link-text"><a href="/equipement/">Mon équipement</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  {{/* Colonne droite - Photos défilantes */}}
+  <div class="about-photos-column">
+    {{ $galleryImages := .Resources.Match "gallery/*" }}
+    {{ if $galleryImages }}
+      {{ range $galleryImages }}
+        {{ $img := .Resize "800x webp" }}
+        <div class="about-photo-item">
+          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+        </div>
+      {{ end }}
+    {{ else }}
+      {{/* Fallback: utiliser les images existantes */}}
+      {{ $allImages := .Resources.ByType "image" }}
+      {{ range $allImages }}
+        {{ $img := .Resize "800x webp" }}
+        <div class="about-photo-item">
+          <img src="{{ $img.RelPermalink }}" alt="" loading="lazy">
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
 {{ end }}

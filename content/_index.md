@@ -5,4 +5,5 @@ description: "Photographe et vidéaste passionné de sport d'action et outdoor, 
 tags: ["lille", "france", "voyage", "filmmaker", "photographe", "vidéaste", "outdoor", "storytelling", "photographie", "sport", "documentaire"]
 resources:
 - src: "*.jpg"
+- src: "*.mp4"
 ---

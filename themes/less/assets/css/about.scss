@@ -1,0 +1,794 @@
+/* ===================================
+   PAGE ABOUT - FOND NOIR
+   =================================== */
+
+/* Body style pour page About */
+body.about-body {
+  background-color: #0a0a0a;
+
+  /* Header en blanc sur fond noir */
+  .wrapper {
+    background-color: #0a0a0a;
+  }
+
+  .main_header {
+    background-color: #0a0a0a;
+
+    /* Logo en blanc */
+    .title a img {
+      filter: brightness(0) invert(1);
+    }
+
+    /* Menu burger en blanc */
+    .burger_label span {
+      background-color: #fff;
+    }
+  }
+
+  /* Menu principal en blanc */
+  .main_menu {
+    a {
+      color: #e0e0e0 !important;
+      border-bottom: none;
+
+      &:hover {
+        color: var(--accent) !important;
+      }
+    }
+  }
+
+  /* Icones sociales en blanc */
+  .social svg {
+    fill: #e0e0e0;
+
+    &:hover {
+      fill: var(--accent);
+    }
+  }
+
+  /* Footer même couleur que le fond about */
+  .site-footer {
+    background-color: #0a0a0a;
+    color: var(--white-text);
+
+    a, a:visited {
+      color: var(--white-text);
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+
+    .footer-tagline {
+      color: #ccc;
+    }
+
+    .footer-dot {
+      color: rgba(255, 255, 255, 0.3);
+    }
+
+    .footer-email a {
+      color: #999;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .footer-copyright {
+      color: #666;
+    }
+  }
+}
+
+.about-page {
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  /* Reset liens pour page about */
+  a {
+    color: #fff;
+    border-bottom-color: var(--accent);
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+/* ===================================
+   SECTION HERO (legacy)
+   =================================== */
+
+.about-hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  min-height: 400px;
+  overflow: hidden;
+
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.7);
+    }
+  }
+
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3rem 2rem;
+    background: linear-gradient(transparent, rgba(10, 10, 10, 0.9));
+  }
+
+  .hero-title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0;
+    max-width: 100% !important;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+/* ===================================
+   ABOUT PAGE - SPLIT LAYOUT
+   Texte sticky à gauche, photos défilantes à droite
+   =================================== */
+
+.about-split-layout {
+  @media (min-width: 901px) {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  @media (max-width: 900px) {
+    display: block;
+  }
+}
+
+/* Colonne texte - sticky */
+.about-text-column {
+  position: relative;
+  padding: 4rem 3rem 4rem 8rem;
+
+  @media (min-width: 901px) {
+    position: sticky;
+    top: 2rem;
+    width: 50%;
+    height: auto;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    align-self: flex-start;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 4rem 3rem 4rem 5rem;
+  }
+
+  @media (max-width: 900px) {
+    padding: 3rem 2rem;
+  }
+}
+
+/* Colonne photos */
+.about-photos-column {
+  @media (min-width: 901px) {
+    width: 50%;
+    flex-shrink: 0;
+  }
+}
+
+.about-text-content {
+  max-width: 600px;
+
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
+}
+
+.about-title {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+  max-width: 100% !important;
+}
+
+.about-bio-text {
+  p {
+    font-family: var(--serif-font);
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #fff;
+    margin-bottom: 1.25rem;
+
+    &:last-child {
+      margin-bottom: 2rem;
+    }
+  }
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid var(--accent);
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.about-links {
+  margin-top: 2rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.about-links-items {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.about-link-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  font-family: var(--sans-serif-font);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: none;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+.about-link-arrow {
+  font-size: 0.7rem;
+  min-width: 1rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.about-link-sep {
+  display: none;
+}
+
+.about-link-text {
+  flex: 1;
+}
+
+/* Colonne photos - défilante */
+.about-photos-column {
+  padding: 2rem;
+
+  @media (max-width: 900px) {
+    padding: 1rem 2rem 3rem;
+  }
+}
+
+.about-photo-item {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* ===================================
+   ABOUT PAGE - SINGLE COLUMN LAYOUT (legacy)
+   Photo centrée au-dessus du texte
+   =================================== */
+
+.about-page-single-column {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-photo-centered {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.about-bio-single {
+  padding: 0 0 3rem;
+
+  .bio-content {
+    h2 {
+      color: #fff;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      line-height: 1.9;
+      margin-bottom: 1.5rem;
+      color: #ccc;
+    }
+
+    a {
+      color: #fff;
+      border-bottom: 1px solid var(--accent);
+
+      &:hover {
+        color: var(--accent);
+      }
+    }
+  }
+}
+
+/* ===================================
+   SECTION BIO
+   =================================== */
+
+.about-bio {
+  padding: 2rem 2rem 5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .bio-content {
+    h2 {
+      color: #fff;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      line-height: 1.9;
+      margin-bottom: 1.5rem;
+      color: #ccc;
+    }
+
+    a {
+      color: #fff;
+      border-bottom: 1px solid var(--accent);
+
+      &:hover {
+        color: var(--accent);
+      }
+    }
+  }
+}
+
+/* ===================================
+   SECTION PASSIONS
+   =================================== */
+
+.about-passions {
+  padding: 4rem 2rem;
+  background-color: #111;
+
+  .passions-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media (max-width: 900px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .passion-item {
+    text-align: center;
+    padding: 2rem 1rem;
+
+    .passion-icon {
+      font-size: 2.5rem;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      color: #fff;
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    p {
+      color: #999;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
+
+/* ===================================
+   SECTION SUR LE TERRAIN
+   =================================== */
+
+.about-field {
+  padding: 5rem 2rem;
+  background-color: #0a0a0a;
+
+  h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+
+  .field-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 8px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .field-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1 / 1.1;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+    }
+
+    .field-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+      padding: 2rem 1rem 1rem;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    &:hover .field-overlay {
+      opacity: 1;
+    }
+
+    .field-caption {
+      color: #fff;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+  }
+}
+
+/* ===================================
+   SECTION CONTACT
+   =================================== */
+
+.about-contact {
+  padding: 5rem 2rem;
+  background-color: #111;
+  text-align: center;
+
+  .contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contact-location {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #999;
+    margin-bottom: 2rem;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+
+    a {
+      color: #fff;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 2px;
+
+      &:hover {
+        color: var(--accent);
+      }
+    }
+
+    @media (max-width: 500px) {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+}
+
+/* ===================================
+   RESPONSIVE GLOBAL
+   =================================== */
+
+@media (max-width: 768px) {
+  .about-bio {
+    padding: 3rem 1.5rem;
+  }
+
+  .about-passions {
+    padding: 3rem 1.5rem;
+  }
+
+  .about-field {
+    padding: 3rem 1rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    .field-grid {
+      gap: 4px;
+    }
+  }
+
+  .about-contact {
+    padding: 3rem 1.5rem;
+  }
+}
+
+/* ===================================
+   PAGE EQUIPEMENT - 2 COLONNES
+   Texte fixe a gauche | Photos scrollables a droite
+   =================================== */
+
+.equipement-page {
+  background-color: #fff;
+  color: var(--onyx);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: var(--onyx);
+    border-bottom: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+
+/* Layout 2 colonnes */
+.equip-split-layout {
+  @media (min-width: 901px) {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  @media (max-width: 900px) {
+    display: block;
+  }
+}
+
+/* Colonne texte - scroll normal */
+.equip-text-column {
+  padding: 4rem 3rem 4rem 4rem;
+
+  @media (min-width: 901px) {
+    width: 50%;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 4rem 2.5rem 4rem 2.5rem;
+  }
+
+  @media (max-width: 900px) {
+    padding: 3rem 2rem;
+  }
+}
+
+.equip-text-content {
+  max-width: 500px;
+
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
+}
+
+/* Colonne photos - scroll normal */
+.equip-photos-column {
+  padding: 2rem;
+
+  @media (min-width: 901px) {
+    width: 50%;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 900px) {
+    padding: 1rem 2rem 3rem;
+  }
+}
+
+.equipement-title {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--onyx);
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  max-width: 100% !important;
+}
+
+/* Section (chapitre) */
+.equip-section {
+  margin-bottom: 2rem;
+}
+
+.equip-section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.equip-section-num {
+  font-family: var(--sans-serif-font);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  min-width: 1.5rem;
+}
+
+.equip-section-title {
+  font-family: var(--sans-serif-font);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Sous-categorie (h3) dans Pelicase */
+.equip-sub-header {
+  font-family: var(--sans-serif-font);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0.75rem 0 0.2rem 1.5rem;
+  margin-top: 0.15rem;
+}
+
+/* Items (lignes) */
+.equip-section-items {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.equip-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  font-family: var(--sans-serif-font);
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.5;
+
+  a {
+    text-transform: uppercase;
+  }
+}
+
+/* Items indentés (sous Pelicase) */
+.equip-item-indented {
+  padding-left: 1.5rem;
+}
+
+.equip-item-num {
+  font-size: 0.7rem;
+  min-width: 2rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-variant-numeric: tabular-nums;
+}
+
+.equip-item-sep {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 0.7rem;
+}
+
+.equip-item-name {
+  flex: 1;
+
+  a {
+    color: var(--onyx);
+    border-bottom: none;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+
+  p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Photos dans colonne droite */
+.equipement-photos {
+  margin-top: 3rem;
+}
+
+.equipement-photo-item {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .equipement-title {
+    font-size: 1.6rem;
+  }
+}

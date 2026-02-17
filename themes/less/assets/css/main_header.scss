@@ -15,6 +15,11 @@
       justify-content: center;
     }
   }
+
+  /* Espace entre logo et menu */
+  .title {
+    margin-bottom: 1.5rem;
+  }
   .menu {
     flex: 1;
     flex-direction: row;
@@ -89,10 +94,11 @@
   .main_menu li {
     list-style-type: none;
     a {
-      font-family:  var(--sans-serif-font);
-      font-weight: normal;
-      font-size: 0.98rem;
-      text-transform: none;
+      font-family: var(--sans-serif-font);
+      font-weight: 400;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
     }
   }
 }

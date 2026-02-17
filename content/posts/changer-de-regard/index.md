@@ -4,7 +4,7 @@ seotitle: "Changer de regard sur mon quotidien pour mieux le photographier"
 date: "2022-10-30"
 slug: "changer-de-regard"
 categories:
-- reflexions
+- note
 tags: ["photographie", "lille", "new york", "street photography", "photo de rue", "daily photo","Mju ii", "Mju", "argentique", "appareil photo", "point and shoot"]
 description: "Changer de regard sur mon quotidien pour mieux le photographier"
 resources:

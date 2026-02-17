@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head" .}}
+  <body class="about-body">
+    <div class="wrapper">
+      {{ partial "header" . }}
+      {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+      {{ end }}
+    </div>
+    {{ partial "footer" .}}
+    {{ partial "gtag.html" . }}
+    {{ $libs := slice "js/photoswipe.js" "js/photoswipe-ui-default.js" "js/photoswipe-simplify.js" "js/lazyload.min.js" "js/main.js" }}
+    {{ $jslibs := slice }}
+    {{ range $libs }}{{ $jslibs = $jslibs | append (resources.Get .) }}{{ end }}
+    {{ $js := $jslibs | resources.Concat "js/main.js" }}
+    {{ if hugo.IsServer }}
+      <script src="{{ $js.RelPermalink }}"></script>
+    {{ else }} {{ $js := $js | minify | fingerprint "sha512"}}
+      <script src="{{ $js.RelPermalink }}"></script>
+    {{ end }}
+  </body>
+</html>

@@ -4,7 +4,7 @@ seotitle: "Portrait - Léa Brassy, surfeuse, apnéiste et activiste"
 date: "2019-12-06"
 slug: "portrait-lea-brassy-surfeuse-apneiste-et-activiste"
 categories:
-- Productions
+- note
 tags: ["lea brassy", "captain yvon", "a7sII", "manche", "portrait", "surf", "apnée", "documentaire", "patagonia", "normandie"]
 description: "Portrait - Léa Brassy, surfeuse, apnéiste et activiste"
 resources:

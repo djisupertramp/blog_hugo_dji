@@ -4,7 +4,7 @@ seotitle: "Slow coffee : mon histoire et matériel pour boire du café"
 date: "2023-11-08"
 slug: "slow-coffee"
 categories:
-- reflexions
+- note
 tags: ["café", "slow coffee", "routine"]
 description: "Slow coffee : mon histoire avec le café"
 resources:

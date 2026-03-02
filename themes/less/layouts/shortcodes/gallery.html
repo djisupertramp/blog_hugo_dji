@@ -1,0 +1,25 @@
+{{/*
+  Shortcode galerie flexible
+  Usage:
+  {{< gallery cols="2" >}}
+  {{< photo src="image1.jpg" >}}
+  {{< photo src="image2.jpg" >}}
+  {{< /gallery >}}
+
+  ou avec markdown:
+  {{< gallery cols="3" >}}
+  ![Alt 1](image1.jpg)
+  ![Alt 2](image2.jpg)
+  ![Alt 3](image3.jpg)
+  {{< /gallery >}}
+
+  Parametres:
+  - cols: nombre de colonnes (2 ou 3, defaut: 2)
+*/}}
+
+{{ $cols := .Get "cols" | default "2" }}
+{{ $class := printf "gallery-%s" $cols }}
+
+<div class="{{ $class }}">
+  {{ .Inner }}
+</div>

@@ -1,0 +1,38 @@
+{{/*
+  Image pleine largeur avec parallaxe optionnelle
+  Usage:
+  {{< fullwidth src="image.jpg" >}}
+  {{< fullwidth src="image.jpg" caption="Ma legende" >}}
+  {{< fullwidth src="image.jpg" parallax="true" >}}
+
+  Parametres:
+  - src: chemin de l'image (requis)
+  - caption: legende optionnelle
+  - parallax: "true" pour effet parallaxe
+  - alt: texte alternatif
+*/}}
+
+{{ $parallax := .Get "parallax" }}
+{{ $class := "full-width-image" }}
+{{ if eq $parallax "true" }}
+  {{ $class = "full-width-image parallax" }}
+{{ end }}
+
+{{ $media := $.Page.Resources }}
+{{ $original := $media.GetMatch (.Get "src") }}
+
+<figure class="{{ $class }}"{{ if eq $parallax "true" }}{{ if $original }} style="background-image: url('{{ $original.Permalink }}')"{{ end }}{{ end }}>
+  {{ if $original }}
+    {{ if ne $parallax "true" }}
+      {{ $resized := $original.Resize "x100" }}
+      <img class="lazyload"
+           src="{{ $resized.Permalink }}"
+           data-src="{{ $original.Permalink }}"
+           {{ with .Get "alt" }}alt="{{ . }}"{{ else }}{{ with .Get "caption" }}alt="{{ . }}"{{ end }}{{ end }}
+           loading="lazy">
+    {{ end }}
+  {{ end }}
+  {{ with .Get "caption" }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

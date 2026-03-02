@@ -29,8 +29,6 @@ Une fois le temps écoulé, il nous a fallu faire marche arrière pour connecter
 
 {{< photo src="images/P1215600.jpg" alt="En passant par Bratislava" wide="true" >}}
 
-{{< fullwidth src="images/P1215605.jpg" parallax="true" >}}
-
 {{< photoset max="2" >}}
 {{< photo src="images/P1215611.jpg" alt="En passant par Bratislava" >}}
 {{< photo src="images/P1215653.jpg" alt="En passant par Bratislava" >}}
@@ -58,7 +56,7 @@ Une fois le temps écoulé, il nous a fallu faire marche arrière pour connecter
 {{< photo src="images/P1215628.jpg" alt="En passant par Bratislava" >}}
 {{</ photoset >}}
 
-{{< photo src="images/P1215662.jpg" alt="En passant par Bratislava" wide="true" >}}
+{{< fullwidth src="images/P1215662.jpg" parallax="true" >}}
 
 {{< photoset max="2" >}}
 {{< photo src="images/P1215680.jpg" alt="En passant par Bratislava" >}}

@@ -4,52 +4,60 @@
   {{ range $cindex, $images := $columns }}
     {{ $subwidth := 0 }}
     {{ range $images.Images }}
-      {{ $subwidth =  add $subwidth (div (float .Image.Height) .Image.Width) }}
+      {{ if gt .Image.Width 0 }}
+        {{ $subwidth =  add $subwidth (div (float .Image.Height) .Image.Width) }}
+      {{ end }}
     {{ end }}
-    {{ $width = add $width (div 1.0 $subwidth) }}
+    {{ if gt $subwidth 0 }}
+      {{ $width = add $width (div 1.0 $subwidth) }}
+    {{ end }}
   {{ end }}
   {{ range $cindex, $images := $columns }}
       {{ $div := 0 }}
       {{ range $images.Images }}
-        {{ $div = add $div (div (float .Image.Height) .Image.Width) }}
+        {{ if gt .Image.Width 0 }}
+          {{ $div = add $div (div (float .Image.Height) .Image.Width) }}
+        {{ end }}
       {{ end }}
-      {{ $colwidth := div (div 1.0 $div) $width }}
-      {{ if (eq (len $columns) 1) }}
-        <div class="md:flex flex-col min-h-full inherit" style="flex: 1 0 {{ mul 100.0 $colwidth -}}%">
-          {{ range $images.Images }}
-            {{ if .Blank  }}
-              <div style="padding-bottom: {{ div (mul 100.0 .Image.Height) .Image.Width -}}%" class="relative md:block hidden"></div>
-            {{ else }}
-
-              {{ if isset . "Link" }}
-                <a href="{{ .Link }}">
-                  {{ partial "photo" . }}
-                </a>
+      {{ if gt $div 0 }}
+        {{ $colwidth := div (div 1.0 $div) $width }}
+        {{ if (eq (len $columns) 1) }}
+          <div class="md:flex flex-col min-h-full inherit" style="flex: 1 0 {{ mul 100.0 $colwidth -}}%">
+            {{ range $images.Images }}
+              {{ if .Blank  }}
+                <div style="padding-bottom: {{ div (mul 100.0 .Image.Height) .Image.Width -}}%" class="relative md:block hidden"></div>
               {{ else }}
-                {{ partial "photo" . }}
+
+                {{ if isset . "Link" }}
+                  <a href="{{ .Link }}">
+                    {{ partial "photo" . }}
+                  </a>
+                {{ else }}
+                  {{ partial "photo" . }}
+                {{ end }}
               {{ end }}
             {{ end }}
-          {{ end }}
-        </div>
-      {{ else }}
-        <div class="flex flex-col min-h-full inherit" style="flex: 1 0 {{ mul 100.0 $colwidth -}}%">
-          {{ range $images.Images }}
-              {{ $dimension := div (div (mul 100.0 .Image.Height ) .Image.Width) $div }}
-              <div style="flex: 1 0  {{ $dimension -}}%">
-                {{ if .Blank  }}
-                  <div style="padding-bottom: {{ div (mul 100.0 .Image.Height) .Image.Width -}}%" class="relative md:block hidden"></div>
-                {{ else }}
-                  {{ if isset . "Link" }}
-                    <a href="{{ .Link }}">
-                      {{ partial "photo" . }}
-                    </a>
+          </div>
+        {{ else }}
+          <div class="flex flex-col min-h-full inherit" style="flex: 1 0 {{ mul 100.0 $colwidth -}}%">
+            {{ range $images.Images }}
+                {{ $dimension := div (div (mul 100.0 .Image.Height ) .Image.Width) $div }}
+                <div style="flex: 1 0  {{ $dimension -}}%">
+                  {{ if .Blank  }}
+                    <div style="padding-bottom: {{ div (mul 100.0 .Image.Height) .Image.Width -}}%" class="relative md:block hidden"></div>
                   {{ else }}
-                    {{ partial "photo" . }}
+                    {{ if isset . "Link" }}
+                      <a href="{{ .Link }}">
+                        {{ partial "photo" . }}
+                      </a>
+                    {{ else }}
+                      {{ partial "photo" . }}
+                    {{ end }}
                   {{ end }}
-                {{ end }}
-              </div>
-          {{ end }}
-        </div>
+                </div>
+            {{ end }}
+          </div>
+        {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}

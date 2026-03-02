@@ -29,4 +29,9 @@ figure {
   &.max-2 {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  figure {
+    margin: 0 !important;
+    padding: 0;
+  }
 }

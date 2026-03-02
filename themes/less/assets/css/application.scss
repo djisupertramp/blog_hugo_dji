@@ -316,13 +316,13 @@ img {
       padding-top: 2rem;
     }
 
-    .fullwidth, .fullwidth img {
+    .full-width-image, .full-width-image img {
       width: 100% !important;
       margin-left: 0;
       margin-right: 0;
     }
 
-    > :not(.fullwidth) {
+    > :not(.full-width-image) {
       max-width: var(--max-width);
       margin-left: auto;
       margin-right: auto;

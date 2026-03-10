@@ -8,16 +8,56 @@ class Downloader
   def initialize(space_id, album_id)
     @space_id = space_id
     @album_id = album_id
+    @stats = { present: 0, downloaded: 0, failed: 0, deleted: 0 }
   end
 
   def run
     resp = Net::HTTP.get(URI(asset_url))
     resp = resp.sub("while (1) {}", "")
     assets = JSON.parse(resp)["resources"]
-    assets.reverse #.sort_by { |a| DateTime.parse(a["payload"]["captureDate"]) }
-      .each_with_index do |a,i|
-        `curl -s -o content/moments/#{i.to_s.rjust(3, "0")}.jpg https://photos.adobe.io/v2/spaces/#{@space_id}/#{a["asset"]["links"]["/rels/rendition_type/2048"]["href"]}`
+
+    # Collect expected filenames
+    expected_files = []
+
+    assets.reverse.each_with_index do |a, i|
+      filename = "content/moments/#{i.to_s.rjust(3, '0')}.jpg"
+      expected_files << File.basename(filename)
+
+      # Skip if file already exists and is non-empty
+      if File.exist?(filename) && File.size(filename) > 0
+        puts "⏭️ #{File.basename(filename)} déjà présente, skip"
+        @stats[:present] += 1
+        next
       end
+
+      puts "⬇️ Téléchargement de #{File.basename(filename)}"
+      url = "https://photos.adobe.io/v2/spaces/#{@space_id}/#{a['asset']['links']['/rels/rendition_type/2048']['href']}"
+      `wget -q -O #{filename} #{url}`
+
+      if File.exist?(filename) && File.size(filename) > 0
+        @stats[:downloaded] += 1
+      else
+        puts "⚠️ Échec téléchargement #{File.basename(filename)} (403/timeout), fichier local conservé si existant"
+        @stats[:failed] += 1
+        # Remove empty file left by failed download, but don't remove a pre-existing valid file
+        if File.exist?(filename) && File.size(filename) == 0
+          File.delete(filename)
+        end
+      end
+    end
+
+    # Clean up obsolete images (no longer in the Lightroom album)
+    Dir.glob("content/moments/*.jpg").each do |local_file|
+      basename = File.basename(local_file)
+      unless expected_files.include?(basename)
+        File.delete(local_file)
+        puts "🗑️ #{basename} supprimée (retirée de l'album)"
+        @stats[:deleted] += 1
+      end
+    end
+
+    # Summary
+    puts "\nBilan : #{@stats[:present]} présentes, #{@stats[:downloaded]} téléchargées, #{@stats[:failed]} échecs, #{@stats[:deleted]} supprimées"
   end
 
   def asset_url
@@ -25,5 +65,5 @@ class Downloader
   end
 end
 
-daily = YAML.load(File.read("data/moments.yml"), symbolize_names: true)
-Downloader.new(daily[:moments][:space_id], daily[:moments][:album_id]).run
+config = YAML.load(File.read("data/moments.yml"), symbolize_names: true)
+Downloader.new(config[:moments][:space_id], config[:moments][:album_id]).run

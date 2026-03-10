@@ -2,38 +2,33 @@ name: Everyday
 
 on:
   push:
+    branches:
+      - main
     paths:
-      - .github/workflows/everyday.yml # Only run a new workflow every time this file (flat.yaml) file changes
-  workflow_dispatch: # Required even though this is currently empty
+      - .github/workflows/everyday.yaml
+  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # Run this workflow every hour
+    - cron: "0 6 * * *" # Run once a day at 6:00 UTC
 
 jobs:
   daily:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0' # Not needed with a .ruby-version file
+          ruby-version: '3.0'
       - name: Fetch Moments album
-        run: |
-          rm content/moments/*.jpg
-          ruby bin/download-lr.rb 
-      - name: Commit files
-        id: commit
+        run: ruby bin/download-lr.rb
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
           git add -A content/moments/
-          git commit -m "Sync the moments album" || echo "nothing to do and it is fine"
-          git pull origin ${{ github.ref }}
-          echo "::set-output name=push::true"
-        shell: bash
-      - name: Push changes
-        if: steps.commit.outputs.push == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          if git diff --cached --quiet; then
+            echo "Aucun changement, skip"
+            exit 0
+          fi
+          git commit -m "Sync the moments album"
+          git push

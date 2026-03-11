@@ -23,8 +23,8 @@ class Downloader
       filename = "content/moments/#{i.to_s.rjust(3, '0')}.jpg"
       expected_files << File.basename(filename)
 
-      # Skip if file already exists and is non-empty
-      if File.exist?(filename) && File.size(filename) > 0
+      # Skip if file already exists and is a valid JPEG
+      if valid_jpeg?(filename)
         puts "⏭️ #{File.basename(filename)} déjà présente, skip"
         @stats[:present] += 1
         next
@@ -34,15 +34,12 @@ class Downloader
       url = "https://photos.adobe.io/v2/spaces/#{@space_id}/#{a['asset']['links']['/rels/rendition_type/2048']['href']}"
       `wget -q -O #{filename} #{url}`
 
-      if File.exist?(filename) && File.size(filename) > 0
+      if valid_jpeg?(filename)
         @stats[:downloaded] += 1
       else
-        puts "⚠️ Échec téléchargement #{File.basename(filename)} (403/timeout), fichier local conservé si existant"
+        puts "⚠️ Échec téléchargement #{File.basename(filename)} (403/timeout)"
         @stats[:failed] += 1
-        # Remove empty file left by failed download, but don't remove a pre-existing valid file
-        if File.exist?(filename) && File.size(filename) == 0
-          File.delete(filename)
-        end
+        File.delete(filename) if File.exist?(filename)
       end
     end
 
@@ -58,6 +55,11 @@ class Downloader
 
     # Summary
     puts "\nBilan : #{@stats[:present]} présentes, #{@stats[:downloaded]} téléchargées, #{@stats[:failed]} échecs, #{@stats[:deleted]} supprimées"
+  end
+
+  def valid_jpeg?(filename)
+    return false unless File.exist?(filename) && File.size(filename) > 1000
+    File.open(filename, 'rb') { |f| f.read(2) } == "\xFF\xD8"
   end
 
   def asset_url

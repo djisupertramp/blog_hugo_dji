@@ -39,14 +39,22 @@ class Downloader
 
       puts "⬇️ Téléchargement de #{File.basename(filename)}"
       url = "https://photos.adobe.io/v2/spaces/#{@space_id}/#{a['asset']['links']['/rels/rendition_type/2048']['href']}"
-      `wget -q -O #{filename} #{url}`
+      downloaded = false
+      3.times do |attempt|
+        `curl -s -L -o #{filename} #{url}`
+        if valid_jpeg?(filename)
+          downloaded = true
+          break
+        end
+        File.delete(filename) if File.exist?(filename)
+        sleep 2 if attempt < 2
+      end
 
-      if valid_jpeg?(filename)
+      if downloaded
         @stats[:downloaded] += 1
       else
-        puts "⚠️ Échec téléchargement #{File.basename(filename)} (403/timeout)"
+        puts "⚠️ Échec téléchargement #{File.basename(filename)} après 3 tentatives"
         @stats[:failed] += 1
-        File.delete(filename) if File.exist?(filename)
       end
     end
 

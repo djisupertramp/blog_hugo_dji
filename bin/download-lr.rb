@@ -16,6 +16,13 @@ class Downloader
     resp = resp.sub("while (1) {}", "")
     assets = JSON.parse(resp)["resources"]
 
+    if assets.nil? || assets.empty?
+      puts "⚠️ API a retourné 0 assets — abandon pour éviter suppression accidentelle"
+      exit 1
+    end
+
+    puts "📋 #{assets.size} assets trouvés dans l'album"
+
     # Collect expected filenames
     expected_files = []
 

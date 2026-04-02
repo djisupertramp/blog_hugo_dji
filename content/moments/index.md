@@ -8,4 +8,4 @@ resources:
 ---
 
 **MOMENTS**<br/>
-Les moments de mon quotidien, à travers mon appareil photo.
+Les moments de mon quotidien, à travers mon appareil photo. [→ Voir la galerie complète sur Lightroom](https://adobe.ly/3ePh0th)

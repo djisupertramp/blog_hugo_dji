@@ -1,7 +1,6 @@
 require "net/http"
 require "json"
 require "date"
-require "yaml"
 require "uri"
 
 class Downloader
@@ -26,12 +25,12 @@ class Downloader
     # Collect expected filenames
     expected_files = []
 
-    assets.reverse.each_with_index do |a, i|
+    assets.each_with_index do |a, i|
       filename = "content/moments/#{i.to_s.rjust(3, '0')}.jpg"
       expected_files << File.basename(filename)
 
-      # Skip if file already exists and is a valid JPEG
-      if valid_jpeg?(filename)
+      # Skip if file already exists and is non-empty
+      if File.exist?(filename) && File.size(filename) > 0
         puts "⏭️ #{File.basename(filename)} déjà présente, skip"
         @stats[:present] += 1
         next
@@ -39,22 +38,17 @@ class Downloader
 
       puts "⬇️ Téléchargement de #{File.basename(filename)}"
       url = "https://photos.adobe.io/v2/spaces/#{@space_id}/#{a['asset']['links']['/rels/rendition_type/2048']['href']}"
-      downloaded = false
-      3.times do |attempt|
-        `curl -s -L -o #{filename} #{url}`
-        if valid_jpeg?(filename)
-          downloaded = true
-          break
-        end
-        File.delete(filename) if File.exist?(filename)
-        sleep 2 if attempt < 2
-      end
+      `wget -q -O #{filename} #{url}`
 
-      if downloaded
+      if File.exist?(filename) && File.size(filename) > 0
         @stats[:downloaded] += 1
       else
-        puts "⚠️ Échec téléchargement #{File.basename(filename)} après 3 tentatives"
+        puts "⚠️ Échec téléchargement #{File.basename(filename)} (403/timeout), fichier local conservé si existant"
         @stats[:failed] += 1
+        # Remove 0-byte file left by failed download, but don't remove a pre-existing valid file
+        if File.exist?(filename) && File.size(filename) == 0
+          File.delete(filename)
+        end
       end
     end
 
@@ -72,15 +66,9 @@ class Downloader
     puts "\nBilan : #{@stats[:present]} présentes, #{@stats[:downloaded]} téléchargées, #{@stats[:failed]} échecs, #{@stats[:deleted]} supprimées"
   end
 
-  def valid_jpeg?(filename)
-    return false unless File.exist?(filename) && File.size(filename) > 1000
-    File.open(filename, 'rb') { |f| f.read(2) } == "\xFF\xD8"
-  end
-
   def asset_url
     "https://lightroom.adobe.com/v2/spaces/#{@space_id}/albums/#{@album_id}/assets?embed=asset%3Buser&order_after=-&exclude=incomplete&subtype=image%3Bvideo%3Blayout_segment&limit=1000"
   end
 end
 
-config = YAML.load(File.read("data/moments.yml"), symbolize_names: true)
-Downloader.new(config[:moments][:space_id], config[:moments][:album_id]).run
+Downloader.new(ARGV[0], ARGV[1]).run

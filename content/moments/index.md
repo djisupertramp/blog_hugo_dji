@@ -6,3 +6,6 @@ type: "grid"
 resources:
 - src: "*.jpg"
 ---
+
+**MOMENTS**<br/>
+Les moments de mon quotidien, à travers mon appareil photo.

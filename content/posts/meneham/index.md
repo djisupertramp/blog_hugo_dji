@@ -49,7 +49,7 @@ Le reste de l’après-midi se passera à photographier quelques surfeurs puis �
 
 Soirée au coin du poêle à écrire dans nos carnets, discuter et lire un peu. J’arrive ici encabané au bord du Lac Baïkal après avoir suivi les pas de Sylvain Tesson dans les forêts de Sibérie. L’envie de ralentir après quelques semaines emprisonné dans de la post-production et des virus. Meneham serait notre camp de base où l’on prônerait la lenteur et le lâcher-prise, uniquement guidés par nos envies et le rythme que l’on souhaiterait s’imposer.
 
-**18 Mars 2026**
+**18 mars 2026**
 
 On se réveille seuls dans notre [gîte typique et rustique](https://gite-meneham.bzh) au coeur de l’ancien village de pêcheur. Je jette un regard en soulevant le rideau brodé de bateaux pour apercevoir la promesse d’un jour encore meilleur par la fenêtre. Sous un soleil glorieux, nous établissons le premier petit déjeuner dehors de la saison. Sur la table de pique-nique en bois sur laquelle trône cette bouilloire émaillée rouge qui ne quitte pas mon regard depuis notre arrivée. La panse remplie et quelques pages de mon livre feuilletées, on sent l’ambiance qui ralentit mais la tentation d’en faire trop est encore présente. On profite des premiers rayons du soleil pour faire sécher nos combinaisons mouillées de la veille avant de partir sur le GR direction le phare de Ponthusval sous un soleil de plomb. 20°c au thermomètre, t-shirt et coupe vent *type of day*. Ma définition du bonheur.
 
@@ -92,7 +92,7 @@ On file sur le spot du soir tenter de nous remettre en mer mais le plan d’eau 
 
 Retour au camp de base pour me faire happer par quelques pages de mon livre fraichement entamé : *KODAK EVEREST POCKET*. Les pieds dans le sable, la tête sur le toit du monde dans les pas de Mallory et Irvine. Promenade de fin de journée avant de finir par un délicieux fish’n’chips et une crêpe beurre sucre au bistrot des légendes. Une douche et au lit.
 
-**19 MARS 2026**
+**19 mars 2026**
 
 Réveil 6h. Départ à la frontale en prenant à gauche cette fois sur le GR. On tourne le dos au phare et longeons les blocs granitiques de Kerlouan. L’heure bleue enveloppe le lieu de toute sa magie et très vite les premiers rayons du jour nous font nous passer de nos lampes. Un café à la French Press assis sur nos blocs. Le vent a tourné dans la nuit. Un nord plus frais qui nous fait supporter la doudoune et la polaire. Moins d’un kilomètre au compteur, appeler ça une balade serait un blasphème, une randonnée une hérésie. La distance et la manière n’ont pas d’importance tant que l’esprit d’aventure nous habite.
 
@@ -140,7 +140,7 @@ S'ensuit un apéro pris au gîte en se baladant aux quatre coins du lieu à nous
 {{< photo src="images/03/P1216542.jpg" alt="Retraite à Meneham" wide="true" >}}
 
 
-**20 MARS 2026**
+**20 mars 2026**
 
 Dernier réveil au gîte. Dernier matin à Meneham. On range les affaires après avoir pris un dernier petit déjeuner sur la table de pique-nique. On charge le van, passons un coup sur le sol, balayant les bons moments passés dans ce lieu pour les ranger dans la case aux souvenirs.
 Dernière balade matinale au milieu des blocs révélés par la marée descendante en attendant Nicolas, grimpeur de Brest venu s’arracher les phalanges sur le granit froid de Meneham. On commence par Grain de Café, puis Carte Postale en contrebas de la cabane de garde de Meneham avec un contre-jour sublime. Je ne tarde pas à atteindre la première moitié de la HP5 fraichement chargée en début de session.

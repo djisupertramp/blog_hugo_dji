@@ -108,7 +108,7 @@ Réveil 6h. Départ à la frontale en prenant à gauche cette fois sur le GR. On
 {{< photo src="images/03/P1216213.jpg" alt="Retraite à Meneham" >}}
 {{</ photoset >}}
 
-Retour au gite pour laisser s’égrainer le temps au gré des pages feuilletées, des rafales ventées et de nos échanges. Dernier jour plein ici, déjà. Mais premier vrai jour en immersion dans cette retraite. Le plaisir de voir les minutes s’évaporer et le soleil chercher son zénith. L’après-midi suivra le même programme, entrecoupé d’une balade à marée basse en de demandant un cours particulier de météorologie à mon acolyte en regardant la mer recouvrir les blocs un à un et remonter inlassablement.
+Retour au gite pour laisser s’égrainer le temps au gré des pages feuilletées, des rafales ventées et de nos échanges. Dernier jour plein ici, déjà. Mais premier vrai jour en immersion dans cette retraite. Le plaisir de voir les minutes s’évaporer et le soleil chercher son zénith. L’après-midi suivra le même programme. Entrecoupé d’une balade à marée basse, je prends un cours particulier de météorologie de mon acolyte, tout en regardant la mer recouvrir les blocs un à un et remonter inlassablement.
 
 {{< photo src="images/03/P1216243.jpg" alt="Retraite à Meneham" wide="true" >}}
 

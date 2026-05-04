@@ -25,7 +25,7 @@ Après une première nuit chez [Greg](https://gregorymignard.com/retraite-meneha
 
 Sous un ciel azur dénué de nuage, entre pots de rillettes et de pâté locaux, les langues se délient, les connexions se font. Quatorze heure sonne le glas de cette pause sympathique et le début de notre retraite, ici, à **[Meneham](https://www.meneham.bzh/)**. Quelques derniers mots à l’ombre du bloc en forme de pleine lune confirment la carte blanche qui nous est donnée. C’est ce que nous étions venu chercher, nous voilà ravis que la confiance nous soit accordée.
 
-Sous le toit de chaume et face à cette porte de gite colorée, je termine la pellicule qui a vu naître ma fille, quelques mois auparavant.  
+Sous le toit de chaume et face à cette porte de gîte colorée, je termine la pellicule qui a vu naître ma fille, quelques mois auparavant.  
 {{< photoset max="2" >}}
 {{< photo src="images/01/P1215769.jpg" alt="Retraite à Meneham" >}}
 {{< photo src="images/01/P1215891.jpg" alt="Retraite à Meneham" >}}
@@ -47,11 +47,11 @@ La houle rentre à Broutouilles avec un vent venu de la terre. Brise idéale pou
 
 Le reste de l’après-midi se passera à photographier quelques surfeurs puis à contempler le soleil s’endormir comme un spectacle de feu au lit d’eau.
 
-Soirée au coin du poêle à écrire dans nos carnets, discuter et lire un peu. J’arrive ici encabané au bord du Lac Baïkal après avoir suivi les pas de Sylvain Tesson dans les forêts de Sibérie. L’envie de ralentir après quelques semaines emprisonné dans de la post-production et des virus. Meneham serait notre camp de base où l’on prônerait la lenteur et le lâcher prise, uniquement guidés par nos envies et le rythme que l’on souhaiterait s’imposer.
+Soirée au coin du poêle à écrire dans nos carnets, discuter et lire un peu. J’arrive ici encabané au bord du Lac Baïkal après avoir suivi les pas de Sylvain Tesson dans les forêts de Sibérie. L’envie de ralentir après quelques semaines emprisonné dans de la post-production et des virus. Meneham serait notre camp de base où l’on prônerait la lenteur et le lâcher-prise, uniquement guidés par nos envies et le rythme que l’on souhaiterait s’imposer.
 
 **18 Mars 2026**
 
-On se réveille seuls dans notre [gite typique et rustique](https://gite-meneham.bzh) au coeur de l’ancien village de pêcheur. Je jette un regard en soulevant le rideau brodé de bateaux pour apercevoir la promesse d’un jour encore meilleur par la fenêtre. Sous un soleil glorieux, nous établissons le premier petit déjeuner dehors de la saison. Sur la table de pique nique en bois sur laquelle trône cette bouilloire émaillée rouge qui ne quitte pas mon regard depuis notre arrivée. La panse remplie et quelques pages de mon livre feuilletée, on sent l’ambiance qui ralentit mais la tentation d’en faire trop est encore présente. On profite des premiers rayons du soleil pour faire sécher nos combinaisons mouillées de la veille avant de partir sur le GR direction le phare de Ponthusval sous un soleil de plomb. 20°c au thermomètre, t-shirt et coupe vent *type of day*. Ma définition du bonheur.
+On se réveille seuls dans notre [gîte typique et rustique](https://gite-meneham.bzh) au coeur de l’ancien village de pêcheur. Je jette un regard en soulevant le rideau brodé de bateaux pour apercevoir la promesse d’un jour encore meilleur par la fenêtre. Sous un soleil glorieux, nous établissons le premier petit déjeuner dehors de la saison. Sur la table de pique-nique en bois sur laquelle trône cette bouilloire émaillée rouge qui ne quitte pas mon regard depuis notre arrivée. La panse remplie et quelques pages de mon livre feuilletées, on sent l’ambiance qui ralentit mais la tentation d’en faire trop est encore présente. On profite des premiers rayons du soleil pour faire sécher nos combinaisons mouillées de la veille avant de partir sur le GR direction le phare de Ponthusval sous un soleil de plomb. 20°c au thermomètre, t-shirt et coupe vent *type of day*. Ma définition du bonheur.
 
 {{< photo src="images/02/P1215923.jpg" alt="Retraite à Meneham" wide="true" >}}
 
@@ -69,7 +69,7 @@ On se réveille seuls dans notre [gite typique et rustique](https://gite-meneham
 {{< photo src="images/02/P1216038.jpg" alt="Retraite à Meneham" >}}
 {{</ photoset >}}
 
-On avance dans le sable en cherchant le fond le plus dur pour ne pas trop s’enfoncer, on crapahute dans le granit face à ce paysage idyllique sous un cagnard à faire tourner plus d’un Ricard. Avant de découper quelques dés de comté, beaufort et gruyère suisse pour une fondue au réchaud à surplomber la baie, on passe une bonne heure à discuter. Je lâche prise doucement mais sûrement. Mon téléphone quitte ma poche de pantalon pour celle de mon sac à dos pour m’ancrer de plus en plus dans l’instant. Aussi rassuré d’avoir aperçu les dernières nouvelles dans mes notifications, il est tout de suite plus simple de se libérer l’esprit. La fondue savourée, on cuit désormais sous la réverbération de la roche. Le retour se profile après avoir fait quelques poses au moyen format.
+On avance dans le sable en cherchant le fond le plus dur pour ne pas trop s’enfoncer, on crapahute dans le granit face à ce paysage idyllique sous un cagnard à faire tourner plus d’un Ricard. Avant de découper quelques dés de Comté, Beaufort et Gruyère suisse pour une fondue au réchaud à surplomber la baie, on passe une bonne heure à discuter. Je lâche prise doucement mais sûrement. Mon téléphone quitte ma poche de pantalon pour celle de mon sac à dos pour m’ancrer de plus en plus dans l’instant. Aussi rassuré d’avoir aperçu les dernières nouvelles dans mes notifications, il est tout de suite plus simple de se libérer l’esprit. La fondue savourée, on cuit désormais sous la réverbération de la roche. Le retour se profile après avoir fait quelques poses au moyen format.
 
 {{< photo src="images/02/0000330850008.jpg" alt="Retraite à Meneham" wide="true" >}}
 
@@ -78,9 +78,9 @@ On avance dans le sable en cherchant le fond le plus dur pour ne pas trop s’en
 {{< photo src="images/02/P1215979.jpg" alt="Retraite à Meneham" >}}
 {{</ photoset >}}
 
-On rentre aussi vite que possible pour s’abriter de ce soleil de plomb qui agresse nos peaux fraichement sorties d’hibernation. Le début d’après-midi est passé à l’ombre de notre camp de base dans nos chaises de camping. On a souffert de cette chaleur qui ferait sourire un corse en doudoune au mois de Juin.
+On rentre aussi vite que possible pour s’abriter de ce soleil de plomb qui agresse nos peaux fraichement sorties d’hibernation. Le début d’après-midi est passé à l’ombre de notre camp de base dans nos chaises de camping. On a souffert de cette chaleur qui ferait sourire un corse en doudoune au mois de juin.
 
-On file sur le spot du soir tenter de nous remettre en mer mais le plan d’eau est en chantier et la houle nous invite à l’humilité et la contemplation. On passera 1H30 assis dans les grandes herbes à regarder la marée monter, l’océan se démonter et une poignée de motivés se faire plaisir à tenter de le dompter.
+On file sur le spot du soir tenter de nous remettre en mer mais le plan d’eau est en chantier et la houle nous invite à l’humilité et la contemplation. On passera 1h30 assis dans les grandes herbes à regarder la marée monter, l’océan se démonter et une poignée de motivés se faire plaisir à tenter de le dompter.
 
 {{< photo src="images/02/P1216050.jpg" alt="Retraite à Meneham" wide="true" >}}
 
@@ -108,7 +108,7 @@ Réveil 6h. Départ à la frontale en prenant à gauche cette fois sur le GR. On
 {{< photo src="images/03/P1216213.jpg" alt="Retraite à Meneham" >}}
 {{</ photoset >}}
 
-Retour au gite pour laisser s’égrainer le temps au gré des pages feuilletées, des rafales ventées et de nos échanges. Dernier jour plein ici, déjà. Mais premier vrai jour en immersion dans cette retraite. Le plaisir de voir les minutes s’évaporer et le soleil chercher son zénith. L’après-midi suivra le même programme. Entrecoupé d’une balade à marée basse, je prends un cours particulier de météorologie de mon acolyte, tout en regardant la mer recouvrir les blocs un à un et remonter inlassablement.
+Retour au gîte pour laisser s’égrainer le temps au gré des pages feuilletées, des rafales ventées et de nos échanges. Dernier jour plein ici, déjà. Mais premier vrai jour en immersion dans cette retraite. Le plaisir de voir les minutes s’évaporer et le soleil chercher son zénith. L’après-midi suivra le même programme. Entrecoupé d’une balade à marée basse, je prends un cours particulier de météorologie de mon acolyte, tout en regardant la mer recouvrir les blocs un à un et remonter inlassablement.
 
 {{< photo src="images/03/P1216243.jpg" alt="Retraite à Meneham" wide="true" >}}
 
@@ -122,7 +122,7 @@ Retour au gite pour laisser s’égrainer le temps au gré des pages feuilletée
 {{< photo src="images/03/P1216237.jpg" alt="Retraite à Meneham" >}}
 {{</ photoset >}}
 
-Dix sept heure sonne. Nous retrouvons François venu de Brest pour grimper des blocs. J’y déclenche 5 poses sur l’Hasselblad. J’ai pris mon temps. Cru en mon cadrage plus paysager que sur l’action. J’ai douté en voyant Greg alterner entre détails et plans larges et enchainer les images avec son numérique. Mais j’ai cru en ma vision et j’avais déjà hâte de découvrir les images au développement. Arrivé au bout de ma pellicule, je me rends compte que j’ai oublié les suivantes au gîte. Je poursuis donc au numérique, essentiellement avec le grand angle. Beaucoup de plaisir de pris en cette fin de journée printanière.
+Dix-sept heures sonnent. Nous retrouvons François venu de Brest pour grimper des blocs. J’y déclenche 5 poses sur l’Hasselblad. J’ai pris mon temps. Cru en mon cadrage plus paysager que sur l’action. J’ai douté en voyant Greg alterner entre détails et plans larges et enchaîner les images avec son numérique. Mais j’ai cru en ma vision et j’avais déjà hâte de découvrir les images au développement. Arrivé au bout de ma pellicule, je me rends compte que j’ai oublié les suivantes au gîte. Je poursuis donc au numérique, essentiellement avec le grand angle. Beaucoup de plaisir de pris en cette fin de journée printanière.
 
 {{< photo src="images/03/000330830005.jpg" alt="Retraite à Meneham" wide="true" >}}
 
@@ -135,21 +135,21 @@ Dix sept heure sonne. Nous retrouvons François venu de Brest pour grimper des b
 
 {{< photo src="images/03/P1216521.jpg" alt="Retraite à Meneham" wide="true" >}}
 
-S'en suit un apéro pris au gîte en se baladant aux quatre coins du lieu à nous imaginer réaménager l’espace pour en faire notre studio. On y aura passé pas loin d’une heure. Ça nous aura bien divertit en attendant que le ciel nous ouvre sa Voie lactée. Le reste de la soirée sera passé les bottes mouillées et le nez relevé à admirer la valse de la voue céleste.
+S'ensuit un apéro pris au gîte en se baladant aux quatre coins du lieu à nous imaginer réaménager l’espace pour en faire notre studio. On y aura passé pas loin d’une heure. Ça nous aura bien divertit en attendant que le ciel nous ouvre sa Voie lactée. Le reste de la soirée sera passé les bottes mouillées et le nez relevé à admirer la valse de la voute céleste.
 
 {{< photo src="images/03/P1216542.jpg" alt="Retraite à Meneham" wide="true" >}}
 
 
 **20 MARS 2026**
 
-Dernier réveil au gîte. Dernier matin à Meneham. On range les affaires après avoir pris un dernier petit déjeuner sur la table de pique nique. On charge le van, passons un coup sur le sol, balayant les bons moments passés dans ce lieu pour les ranger dans la case aux souvenirs.
-Dernière balade matinale au milieu des blocs révélés par la marée descendante en attendant Nicolas, grimpeur de Brest venu s’arracher les phalanges sur le granit froid de Meneham. On commence par Grain de Café, puis Carte Postale en contre-bas de la cabane de garde de Meneham avec un contre-jour sublime. Je ne tarde pas à atteindre la première moitié de la HP5 fraichement chargée en début de session.
+Dernier réveil au gîte. Dernier matin à Meneham. On range les affaires après avoir pris un dernier petit déjeuner sur la table de pique-nique. On charge le van, passons un coup sur le sol, balayant les bons moments passés dans ce lieu pour les ranger dans la case aux souvenirs.
+Dernière balade matinale au milieu des blocs révélés par la marée descendante en attendant Nicolas, grimpeur de Brest venu s’arracher les phalanges sur le granit froid de Meneham. On commence par Grain de Café, puis Carte Postale en contrebas de la cabane de garde de Meneham avec un contre-jour sublime. Je ne tarde pas à atteindre la première moitié de la HP5 fraichement chargée en début de session.
 
 {{< photo src="images/04/IMG_8232.jpg" alt="Retraite à Meneham" wide="true" >}}
 
 {{< photo src="images/04/XE051971.jpg" alt="Retraite à Meneham" wide="true" >}}
 
-Quel plaisir de documenter à l’argentique avec cette brique mythique. Beaucoup de plaisir avec le numérique, mais il y-a quelque chose de grisant d’enlever la darkslide, prendre la mesure avec le posemètre, cadrer en carré à travers mon viseur et libérer l’adrénaline et la pression de l’instant en un coup de déclencheur du bout de mon index droit. Le moment est suspendu. On entre dans l’univers de Nico et le granit nous accueille et nous transperce. Le temps est suspendu. Je suis loin. Très loin de mon quotidien, de tout. Je suis dans un état extatique. Dans un état de flow hors du temps. Happé par les détails, l’enjeu de la grimpe du jour pour notre modèle, l’envie d’immortaliser le lieu, le sport avec un oeil différent. Mettre de l’Ansel Adams dans un sport à l’esthétique codifiée. Mettre du Jeremy dans les scènes qui se dévoilent sous mes yeux et devant mon objectif. On enchaine avec un dernier bloc : Salomon, avant de se remercier pour la belle rencontre et se retirer comme l’océan en ce jour de grande marée et de solstice de printemps.
+Quel plaisir de documenter à l’argentique avec cette brique mythique. Beaucoup de plaisir avec le numérique, mais il y a quelque chose de grisant d’enlever la darkslide, prendre la mesure avec le posemètre, cadrer en carré à travers mon viseur et libérer l’adrénaline et la pression de l’instant en un coup de déclencheur du bout de mon index droit. Le moment est suspendu. On entre dans l’univers de Nico et le granit nous accueille et nous transperce. Le temps est suspendu. Je suis loin. Très loin de mon quotidien, de tout. Je suis dans un état extatique. Dans un état de flow hors du temps. Happé par les détails, l’enjeu de la grimpe du jour pour notre modèle, l’envie d’immortaliser le lieu, le sport avec un oeil différent. Mettre de l’Ansel Adams dans un sport à l’esthétique codifiée. Mettre du Jeremy dans les scènes qui se dévoilent sous mes yeux et devant mon objectif. On enchaine avec un dernier bloc : Salomon, avant de se remercier pour la belle rencontre et se retirer comme l’océan en ce jour de grande marée et de solstice de printemps.
 
 {{< photoset max="2" >}}
 {{< photo src="images/04/P1216640.jpg" alt="Retraite à Meneham" >}}
@@ -176,6 +176,6 @@ Quel plaisir de documenter à l’argentique avec cette brique mythique. Beaucou
 {{< photo src="images/04/P1216698.jpg" alt="Retraite à Meneham" wide="true" >}}
 {{< photo src="images/04/fin.jpg" alt="Retraite à Meneham" wide="true" >}}
 
-Un dernier fish’n’chips au bistrot et voilà déjà l’heure de tourner le dos à [Meneham](https://www.meneham.bzh/) avec nos souvenirs plein les bagages et les appareils photos. De retour chez Greg pour la soirée, on fait quelques courses et taillons le bout de gras autour de son nouveau stylo plume. Je me sens oppressé, pas là où mon corps est. On est dans le bourg d’un village de la métropole Brestoise et pourtant les voitures, les enseignes, les panneaux, les batiments m’agressent. Quatre jour à être entouré de nature et en semi-autarcie ont déjà fait tant de dégâts ? Un heure plus tard, je me ré-acclimate à la vie quotidienne mais prend un claque en réalisant que ça y-est, la retraite que j’attendais tant appartient désormais au passé. Brutal retour à la réalité qui n’a d’égal que la puissance de l’expérience qui vient de se passer.
+Un dernier fish’n’chips au bistrot et voilà déjà l’heure de tourner le dos à [Meneham](https://www.meneham.bzh/) avec nos souvenirs plein les bagages et les appareils photos. De retour chez Greg pour la soirée, on fait quelques courses et on taille le bout de gras autour de son nouveau stylo plume. Je me sens oppressé, pas là où mon corps est. On est dans le bourg d’un village de la métropole Brestoise et pourtant les voitures, les enseignes, les panneaux, les bâtiments m’agressent. Quatre jours à être entouré de nature et en semi-autarcie ont déjà fait tant de dégâts ? Une heure plus tard, je me ré-acclimate à la vie quotidienne mais prends un claque en réalisant que ça y-est, la retraite que j’attendais tant appartient désormais au passé. Brutal retour à la réalité qui n’a d’égal que la puissance de l’expérience qui vient de se passer.
 
 *Photos additionnelles : [Gregory Mignard](https://gregorymignard.com)*

@@ -124,8 +124,6 @@ Retour au gite pour laisser s’égrainer le temps au gré des pages feuilletée
 
 Dix sept heure sonne. Nous retrouvons François venu de Brest pour grimper des blocs. J’y déclenche 5 poses sur l’Hasselblad. J’ai pris mon temps. Cru en mon cadrage plus paysager que sur l’action. J’ai douté en voyant Greg alterner entre détails et plans larges et enchainer les images avec son numérique. Mais j’ai cru en ma vision et j’avais déjà hâte de découvrir les images au développement. Arrivé au bout de ma pellicule, je me rends compte que j’ai oublié les suivantes au gîte. Je poursuis donc au numérique, essentiellement avec le grand angle. Beaucoup de plaisir de pris en cette fin de journée printanière.
 
-Un apéro pris au gîte en se baladant aux quatre coins du lieu à nous imaginer réaménager l’espace pour en faire notre studio. On y aura passé pas loin d’une heure. Ça nous aura bien divertit en attendant que le ciel nous ouvre sa Voie lactée. Le reste de la soirée sera passé les bottes mouillées et le nez relevé à admirer la valse de la voue céleste.
-
 {{< photo src="images/03/000330830005.jpg" alt="Retraite à Meneham" wide="true" >}}
 
 {{< photoset max="2" >}}
@@ -137,7 +135,10 @@ Un apéro pris au gîte en se baladant aux quatre coins du lieu à nous imaginer
 
 {{< photo src="images/03/P1216521.jpg" alt="Retraite à Meneham" wide="true" >}}
 
+S'en suit un apéro pris au gîte en se baladant aux quatre coins du lieu à nous imaginer réaménager l’espace pour en faire notre studio. On y aura passé pas loin d’une heure. Ça nous aura bien divertit en attendant que le ciel nous ouvre sa Voie lactée. Le reste de la soirée sera passé les bottes mouillées et le nez relevé à admirer la valse de la voue céleste.
+
 {{< photo src="images/03/P1216542.jpg" alt="Retraite à Meneham" wide="true" >}}
+
 
 **20 MARS 2026**
 

@@ -19,8 +19,6 @@ resources:
 - src: "*.jpg"
 ---
 
-{{< photo src="images/P1215599.jpg" alt="Retraite à Ménéham" wide="true" >}}
-
 **17 mars 2026**
 
 Après une première nuit chez [Greg](https://gregorymignard.com/retraite-meneham/), et la logistique du matin faite, on récupère les clés du gîte à l’heure où le soleil est à son zénith. Le temps de poser les affaires et grignoter un morceau de fougasse, que nos hôtes de ce séjour sont là attablés avec nous entre l’Hasselblad et le X-E5. Benjamin, Jessica et Clémentine de l’office de tourisme de Lesneven nous ont contacté à l’heure où nous cherchions à planifier une retraite CAPTAIN YVON. Destins croisés et grandes idées qui se rencontrent. L’art du timing se joue à de petits riens. On envisageait tous les lieux et aucun lieu à la fois. On voulait s’éviter trop de temps dans les transports ou une logistique trop lourde en rêvant de désert marocain ou de côte Jurassique mais à la fin, c’est en Bretagne qu’on revient. Cap sur le Finistère Nord. Sur la côte granitique déchiquetée des Légendes où la douceur du galbe des blocs de Kerlouan vient mettre un peu de tendresse et de douceur au milieu de pieux minéraux avachis sur l’océan, sculptés par le temps. Les vagues s’y évanouissent inlassablement au fil des marées.

@@ -106,7 +106,7 @@ Réveil 6h. Départ à la frontale en prenant à gauche cette fois sur le GR. On
 {{</ photoset >}}
 
 {{< photoset max="2" >}}
-{{< photo src="images/03/IMG_1551.jpg" alt="Retraite à Meneham" >}}
+{{< photo src="images/03/IMG_15511.jpg" alt="Retraite à Meneham" >}}
 {{< photo src="images/03/P1216213.jpg" alt="Retraite à Meneham" >}}
 {{</ photoset >}}
 

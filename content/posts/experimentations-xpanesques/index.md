@@ -41,7 +41,7 @@ Après quelques mois d’utilisation : je suis conquis. Mais, j’ai quand même
 
 **RESSENTI**
 
-J’ai adoré voir différemment, composer différemment. J’ai pris un plaisir fou à voir la vie en panoramique lors de ce week-end. Tellement que j'ai réitéré l'expérience à Saint Pierre et Miquelon et en tournage CAPTAIN YVON. Il me tarde déjà de recommencer dans d’autres situations. Mon bonheur en prime c’est que mon Canon FD 24mm f/2.8 est une optique que j’adore pour son flare et son caractère, mais que j’utilise quasiment jamais car je la trouve trop large et lui préfère le 35mm ou le 55mm en temps normal. Cette découverte XPAN-esque change la donne et me donnera plus d’une occasion de le ressortir, et rien que pour ça, ça m’enchante !
+J’ai adoré voir différemment, composer différemment. J’ai pris un plaisir fou à voir la vie en panoramique lors de ce week-end. Tellement que j'ai réitéré l'expérience à Saint Pierre et Miquelon, en Autriche et Slovaquie, ou en tournage CAPTAIN YVON. Il me tarde déjà de recommencer dans d’autres situations. Mon bonheur en prime c’est que mon Canon FD 24mm f/2.8 est une optique que j’adore pour son flare et son caractère, mais que j’utilise quasiment jamais car je la trouve trop large et lui préfère le 35mm ou le 55mm en temps normal. Cette découverte XPAN-esque change la donne et me donnera plus d’une occasion de le ressortir, et rien que pour ça, ça m’enchante !
 
 {{< photo src="images/P1215210.jpg" alt="expérimentations xpanesques" wide="true" >}}
 {{< photo src="images/P1215933.jpg" alt="expérimentations xpanesques" wide="true" >}}

@@ -29,7 +29,7 @@ D’abord, et non des moindres, mon intuition se confirme et la focale 45mm (la 
 
 En une recherche YouTube, je trouve alors que je suis loin d’avoir inventé l’eau chaude puisque le « Digital XPAN » est déjà le sujet de pas mal de vidéos, mais ça qu’importe. Ce qui compte c’est que je vais pouvoir expérimenter avec la prise de vue panoramique et ça ne va rien me coûter. Mon regret c’est de ne pas pouvoir le faire à l’argentique. Enfin, je pourrais en croppant ma photo prise, mais je n’ai rien pour cadrer en panoramrique ça serait vraiment à l’aveugle. Je pense que je testerai un jour, pour voir. Toutefois, j’utilise quand même mon Canon FD 24mm f/2.8 argentique sur mon S1, je conserve donc le caractère de cette optique ancienne sur mon numérique.
 
-J’ai fait cette découverte quelques jours avant de m’éclipser pour un week-end sur la côte. Un temps pourri était annoncé et nous avions déjà séjourné dans cette chambre d’hote l’an dernier où j’avais photographié avec mon 55mm f/1.2. Je partais initialement dans l’idée de repartir avec le même setup, mais cette découverte XPANesque m’a donné envie de partir qu’avec le 24mm, sachant que je ne risquais pas grand chose. 
+J’ai fait cette découverte quelques jours avant de m’éclipser pour un week-end sur la côte. Un temps pourri était annoncé et nous avions déjà séjourné dans cette chambre d’hote l’an dernier où j’avais photographié avec mon 55mm f/1.2. Je partais initialement dans l’idée de repartir avec le même setup, mais cette découverte XPANesque m’a donné envie de partir qu’avec le 24mm, sachant que je ne risquais pas grand chose.
 
 {{< photo src="images/P1145316.jpg" alt="expérimentations xpanesques" wide="true" >}}
 {{< photo src="images/P1145343.jpg" alt="expérimentations xpanesques" wide="true" >}}
@@ -41,7 +41,7 @@ Après quelques mois d’utilisation : je suis conquis. Mais, j’ai quand même
 
 **RESSENTI**
 
-J’ai adoré voir différemment, composer différemment. J’ai pris un plaisir fou à voir la vie en panoramique lors de ce week-end, il me tarde déjà de récommencer dans d’autres situations. Mon bonheur en prime c’est que mon Canon FD 24mm f/2.8 est une optique que j’adore pour son flare et son caractère, mais que j’utilise quasiment jamais car je la trouve trop large et lui préfère le 35mm ou le 55mm en temps normal. Cette découverte XPAN-esque change la donne et me donnera plus d’une occasion de le ressortir, et rien que pour ça, ça m’enchante !
+J’ai adoré voir différemment, composer différemment. J’ai pris un plaisir fou à voir la vie en panoramique lors de ce week-end. Tellement que j'ai réitéré l'expérience à Saint Pierre et Miquelon et en tournage CAPTAIN YVON. Il me tarde déjà de recommencer dans d’autres situations. Mon bonheur en prime c’est que mon Canon FD 24mm f/2.8 est une optique que j’adore pour son flare et son caractère, mais que j’utilise quasiment jamais car je la trouve trop large et lui préfère le 35mm ou le 55mm en temps normal. Cette découverte XPAN-esque change la donne et me donnera plus d’une occasion de le ressortir, et rien que pour ça, ça m’enchante !
 
 {{< photo src="images/P1215210.jpg" alt="expérimentations xpanesques" wide="true" >}}
 {{< photo src="images/P1215933.jpg" alt="expérimentations xpanesques" wide="true" >}}

@@ -1,0 +1,59 @@
+name: Moments
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/moments.yaml
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *" # Run once a day at 6:00 UTC
+
+# Deux syncs en parallele se marcheraient dessus (renommages + push concurrents).
+concurrency:
+  group: moments-sync
+  cancel-in-progress: false
+
+# Necessaire pour que le push du job soit accepte.
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - name: Fetch Moments album
+        run: ruby bin/download-lr.rb ${{ secrets.LIGHTROOM_SPACE_ID }} ${{ secrets.LIGHTROOM_ALBUM_ID }}
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
+          git add -A content/moments/
+
+          # Retrait des donnees GPS, uniquement sur les photos nouvelles ou
+          # modifiees par ce run : les fichiers deja commites ne sont jamais
+          # reecrits, donc aucun diff parasite et aucun build Netlify inutile.
+          NEW_PHOTOS=$(git diff --cached --name-only --diff-filter=ACM -- 'content/moments/*.jpg')
+          if [ -n "$NEW_PHOTOS" ]; then
+            if ! command -v exiftool >/dev/null 2>&1; then
+              sudo apt-get update -qq && sudo apt-get install -y -qq libimage-exiftool-perl
+            fi
+            echo "$NEW_PHOTOS" | xargs exiftool -q -overwrite_original -gps:all=
+            git add -A content/moments/
+          fi
+
+          if git diff --cached --quiet; then
+            echo "Aucun changement, skip"
+            exit 0
+          fi
+
+          ADDED=$(git diff --cached --name-only --diff-filter=A -- content/moments/ | grep -c '\.jpg$' || true)
+          DELETED=$(git diff --cached --name-only --diff-filter=D -- content/moments/ | grep -c '\.jpg$' || true)
+          git commit -m "moments: sync (+${ADDED} / −${DELETED})"
+          git push

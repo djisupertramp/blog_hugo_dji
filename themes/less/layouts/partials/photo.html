@@ -1,7 +1,7 @@
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := .Image }}
 
-{{ if $src }}
+{{ if and $src (gt $src.Width 0) (gt $src.Height 0) }}
   {{ $xs := "20x" }}
   {{ $md := "800x" }}
   {{ if .Ratio }}
@@ -10,8 +10,8 @@
     {{ $xs := printf "%s0x%s0" $width $height }}
     {{ $md := printf "%s00x%s00" (mul $width 2) (mul $height 2) }}
   {{ end }}
-  {{ $lqip := $src.Resize (printf "%s webp" $xs) }}
-  {{ $small := $src.Resize (printf "%s webp" $md) }}
+  {{ $lqip := $src.Resize (printf "%s webp q90" $xs) }}
+  {{ $small := $src.Resize (printf "%s webp q90" $md) }}
   {{ if eq $src.MediaType.SubType "gif" }}
     {{ $lqip = $src.Resize (printf "%s" $xs) }}
     {{ $small = $src }}

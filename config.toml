@@ -10,6 +10,10 @@ canonifyURLs = true
 paginate = 12
 
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [author]
   name = "Jeremy Janin"
 

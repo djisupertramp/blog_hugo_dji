@@ -11,6 +11,17 @@ PROTECTED_FILES = [".manifest.json", "index.md"].freeze
 # Une photo d'album et rien d'autre : 000.jpg, 001.jpg, ...
 ALBUM_FILE = /\A\d{3}\.jpg\z/
 
+# Chemins JSON ou Adobe peut exposer la date de prise de vue, par ordre de
+# preference. On detecte celui qui repond et on s'y tient pour tout l'album ;
+# si aucun ne repond, on garde l'ordre de la liste renvoyee par l'API.
+CAPTURE_DATE_PATHS = [
+  %w[asset payload captureDate],
+  %w[asset payload xmp exif DateTimeOriginal],
+  %w[asset payload importSource importTimestamp],
+  %w[asset payload develop croppedCaptureDate],
+  %w[asset created],
+].freeze
+
 # Garde-fou anti-page vide : en dessous de ce ratio du manifest existant,
 # on considere que l'API ment et on ne touche a rien.
 MIN_RATIO = 0.7
@@ -27,6 +38,7 @@ class Downloader
 
     assets = fetch_assets
     guard_album_size!(assets, old_manifest) if manifest_exists
+    assets = sort_by_capture_date(assets)
 
     new_manifest = {}
     assets.each_with_index do |a, i|
@@ -100,6 +112,47 @@ class Downloader
     warn "❌ Abandon : #{reason}"
     warn "   Aucun fichier n'a été modifié dans #{CONTENT_DIR}/."
     exit 1
+  end
+
+  # L'ordre renvoye par l'API est celui d'ajout a l'album, pas celui des prises
+  # de vue : l'import initial ayant ete fait de la plus recente a la plus
+  # ancienne, il est a l'envers. On renumerote donc par date reelle, du plus
+  # ancien au plus recent, pour que le tri "desc" du layout affiche bien les
+  # photos recentes en haut.
+  def sort_by_capture_date(assets)
+    path = CAPTURE_DATE_PATHS.find { |p| assets.any? { |a| date_string(a.dig(*p)) } }
+
+    if path.nil?
+      puts "\u26A0\uFE0F Aucune date de prise de vue dans la reponse API : ordre de la liste conserve"
+      log_payload_shape(assets.first)
+      return assets
+    end
+
+    dated = assets.each_with_index.map { |a, i| [date_string(a.dig(*path)), i, a] }
+    found = dated.count { |d, _, _| d }
+    puts "\u{1F5D3}\uFE0F Tri par « #{path.join('.')} » — #{found}/#{assets.size} assets dates"
+    puts "\u26A0\uFE0F #{assets.size - found} sans date : laisses en fin, dans l'ordre de l'API" if found < assets.size
+
+    # Les non dates partent a la fin ; l'index d'origine sert de cle de repli
+    # pour que le tri soit stable, donc la numerotation reproductible.
+    dated.sort_by { |d, i, _| [d ? 0 : 1, d.to_s, i] }.map(&:last)
+  end
+
+  # Les formats rencontres (ISO 8601 et "2024:05:12 10:30:00" d'EXIF) se
+  # trient correctement en comparaison lexicographique, sans parsing.
+  def date_string(value)
+    return nil unless value.is_a?(String)
+    stripped = value.strip
+    stripped.empty? ? nil : stripped
+  end
+
+  # Diagnostic : l'API Adobe n'est pas joignable depuis l'environnement de
+  # developpement, ce log permet d'identifier le bon champ depuis un run reel.
+  def log_payload_shape(asset)
+    return unless asset.is_a?(Hash)
+    puts "\u{1F50D} Cles de l'asset : #{asset.keys.inspect}"
+    payload = asset.dig("asset", "payload")
+    puts "\u{1F50D} Cles de asset.payload : #{payload.keys.inspect}" if payload.is_a?(Hash)
   end
 
   def run_sync(assets, new_manifest, current_by_id)

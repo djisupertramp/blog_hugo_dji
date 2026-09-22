@@ -1,0 +1,17 @@
+{{/*
+  Lecteur audio avec legende optionnelle
+  Usage:
+  {{< audio src="son/ambiance.mp3" >}}
+  {{< audio src="son/ambiance.mp3" caption="Ambiance de foret, au petit matin." >}}
+
+  Parametres:
+  - src: nom du fichier audio dans le bundle de l'article (requis)
+  - caption: legende optionnelle, markdown accepte
+*/}}
+
+{{ $src := .Get "src" }}
+{{ with .Page.Resources.GetMatch $src }}{{ $src = .RelPermalink }}{{ end }}
+<figure class="audio">
+  <audio controls preload="none" src="{{ $src }}"></audio>
+  {{ with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

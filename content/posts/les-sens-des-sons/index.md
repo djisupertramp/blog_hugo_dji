@@ -18,7 +18,7 @@ J'ai mille photos du sourire de mes enfants. Je n'avais pas un seul enregistreme
 Un moment qu'on veut garder, aujourd'hui, on l'ancre en images. On le retrouve des mois plus tard en faisant défiler nos galeries du bout du doigt. En voyage, des dizaines de photos d'un lieu, et rien du son de ce temple, du cri de cet oiseau, de la mélodie de ce cours d'eau.
 Une photo fige la couleur d'une scène, sa lumière, ce qui nous a fait déclencher. La vidéo y ajoute le mouvement. Le son, lui, est visuellement vide, et c'est ce vide qui le rend précieux : il ne montre rien, alors c'est nous qui fabriquons l'image. Une image nostalgique, un peu plus altérée à chaque écoute. On ne scrolle pas un son. On l'écoute à sa vitesse, les yeux fermés si possible, et le souvenir remonte autrement, avec ses sensations, parfois même ses odeurs.
 
-{{< audio src="son/cambodge-2019.mp3" caption="Bord de Canche, 2025. SONY PCM-M10." >}}
+{{< audio src="son/canche.mp3" caption="Bord de Canche, 2025. SONY PCM-M10." >}}
 
 Je reste photographe et vidéaste avant tout. Je déclenche bien plus souvent que je n'enregistre, et je n'ai aucune envie d'opposer les deux. Une photo peut être immersive, un beau cliché de montagne suffit parfois à donner envie de partir. Mais quand on n'y était pas, il reste une vitre. Quelqu'un a cadré, a choisi, et nous regardons depuis l'autre côté. L'image nous donne beaucoup, tout de suite, et c'est sa force. Le son procède autrement. Un casque, un enregistrement soigné, et c'est l'imagination qui se met au travail. Elle assemble des indices, un écho, une distance, un vent qui tourne, pour dessiner un lieu qu'elle n'a jamais vu.
 

@@ -4,7 +4,7 @@ seotitle: "Field recording : enregistrer le son pour se souvenir"
 date: "2026-09-24"
 slug: "les-sens-des-sons"
 categories:
-- Materiel
+- Note
 tags: ["field recording", "prise de son", "Zoom H1n", "PCM-M10", "ZOOM F3"]
 description: "Photographe avant tout, j'enregistre aussi des sons. Pourquoi le field recording fait voyager l'imagination autrement qu'une image."
 resources:

@@ -359,6 +359,11 @@
 .audio {
   margin: 1.5rem 0;
 
+  /* aligne le lecteur sur la colonne de texte, au meme palier que p et blockquote */
+  @media only screen and (min-width: 812px) {
+    max-width: 40rem !important;
+  }
+
   audio {
     width: 100%;
   }

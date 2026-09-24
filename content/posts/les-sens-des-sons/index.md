@@ -1,7 +1,7 @@
 ---
 title: "Les sens des sons"
 seotitle: "Field recording : enregistrer le son pour se souvenir"
-date: "2026-09-22"
+date: "2026-09-24"
 slug: "les-sens-des-sons"
 categories:
 - Materiel

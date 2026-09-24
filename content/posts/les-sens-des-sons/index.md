@@ -44,7 +44,7 @@ Se laisser guider par l'oreille et oublier tout le reste. Une pratique qui attis
 
 {{< photoset max="2" >}}
 {{< photo src="images/Langlade.jpg" alt="Field recording à Saint Pierre et Miquelon. ZOOM F3 et Earsight V2" >}}
-{{< photo src="images/IMG_5730.jpg" alt="Field recording dans le Nord - SONY PCM-M10" >}}
+{{< photo src="images/Canche.jpg" alt="Field recording dans le Nord - SONY PCM-M10" >}}
 {{</ photoset >}}
 {{< audio src="son/canche.mp3" caption="Bord de Canche, 2025. SONY PCM-M10." >}}
 

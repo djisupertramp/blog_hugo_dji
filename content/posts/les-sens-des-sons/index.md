@@ -18,14 +18,12 @@ J'ai mille photos du sourire de mes enfants. Je n'avais pas un seul enregistreme
 Un moment qu'on veut garder, aujourd'hui, on l'ancre en images. On le retrouve des mois plus tard en faisant défiler nos galeries du bout du doigt. En voyage, des dizaines de photos d'un lieu, et rien du son de ce temple, du cri de cet oiseau, de la mélodie de ce cours d'eau.
 Une photo fige la couleur d'une scène, sa lumière, ce qui nous a fait déclencher. La vidéo y ajoute le mouvement. Le son, lui, est visuellement vide, et c'est ce vide qui le rend précieux : il ne montre rien, alors c'est nous qui fabriquons l'image. Une image nostalgique, un peu plus altérée à chaque écoute. On ne scrolle pas un son. On l'écoute à sa vitesse, les yeux fermés si possible, et le souvenir remonte autrement, avec ses sensations, parfois même ses odeurs.
 
-{{< audio src="son/DawnChorusChambord.mp3" caption="Dawn chorus en forêt de Chambord, 2024. Zoom F3 + Earsight V2 omni. Stereo : AB" >}}
-{{< audio src="son/canche.mp3" caption="Bord de Canche, 2025. SONY PCM-M10." >}}
-
 Je reste photographe et vidéaste avant tout. Je déclenche bien plus souvent que je n'enregistre, et je n'ai aucune envie d'opposer les deux. Une photo peut être immersive, un beau cliché de montagne suffit parfois à donner envie de partir. Mais quand on n'y était pas, il reste une vitre. Quelqu'un a cadré, a choisi, et nous regardons depuis l'autre côté. L'image nous donne beaucoup, tout de suite, et c'est sa force. Le son procède autrement. Un casque, un enregistrement soigné, et c'est l'imagination qui se met au travail. Elle assemble des indices, un écho, une distance, un vent qui tourne, pour dessiner un lieu qu'elle n'a jamais vu.
 
 {{< photo src="images/GMGD0035.jpg" alt="field recording à Saint-Pierre et Miquelon" caption="Ambiance au centre de voile de Saint Pierre et Miquelon, au petit matin. ZOOM F3 + Earsight V2." wide="true" >}}
 {{< photo src="images/IMG_5369.jpg" alt="field recording à Saint-Pierre et Miquelon" caption="Ambiance sur le GR face aux côtes anglaises entre Calais et Boulogne sur Mer. ZOOM F3 + Earsight V2." wide="true" >}}
-{{< photo src="images/IMG_6613.jpg" alt="field recording à Chambord" caption="Ambiance à Chambord. ZOOM F3 + Earsight V2." wide="true" >}}
+{{< photo src="images/IMG_6619.jpg" alt="field recording à Chambord" caption="Ambiance matinale en forêt de Chambord. ZOOM F3 + Earsight V2." wide="true" >}}
+{{< audio src="son/DawnChorusChambord.mp3" caption="Dawn chorus en forêt de Chambord, 2024. Zoom F3 + Earsight V2 omni. Stereo : AB" >}}
 
 [Tom Kelly](https://www.bloomlinecollective.com/stories/tomkelly) a parcouru la *Pacific Crest Trail* en enregistrant plus de deux cents ambiances, dont il a fait une [carte sonore](https://www.thomasmkelly.com/pct-soundmap/). Des pas sur la caillasse, un versant bourdonnant d'abeilles, le vent au sommet de Walker Pass. C'est ce que je trouve profondément poétique dans le son : il peut transporter quelqu'un dans un lieu qu'il n'a jamais vu, sans même lui demander d'ouvrir les yeux.
 
@@ -48,5 +46,6 @@ Se laisser guider par l'oreille et oublier tout le reste. Une pratique qui attis
 {{< photo src="images/GMGD1305.jpg" alt="Field recording à Saint Pierre et Miquelon. ZOOM F3 et Earsight V2" >}}
 {{< photo src="images/IMG_5730.jpg" alt="Field recording dans le Nord - SONY PCM-M10" >}}
 {{</ photoset >}}
+{{< audio src="son/canche.mp3" caption="Bord de Canche, 2025. SONY PCM-M10." >}}
 
 L'autre jour, j'ai sorti l'enregistreur à la maison. Pas pour un train ni un paysage. Je l'ai posé sur la table, j'ai laissé tourner. On y entend les balbutiements de ma fille, les rires de mon fils, ses jouets qui tombent, le silence. Je n'ai rien cadré, rien choisi, rien attendu. C'est ce que je cherche, au fond, dans tous ces sons. Le vent dans un pré, une vallée qui s'éveille, la pluie sur le toit, une plage de galets à marée montante. Dans vingt ans, ces quelques minutes ne montreront rien du tout. Il faudra fermer les yeux. Et tout sera là.

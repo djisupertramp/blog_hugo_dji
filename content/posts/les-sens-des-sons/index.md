@@ -21,7 +21,7 @@ Une photo fige la couleur d'une scène, sa lumière, ce qui nous a fait déclenc
 Je reste photographe et vidéaste avant tout. Je déclenche bien plus souvent que je n'enregistre, et je n'ai aucune envie d'opposer les deux. Une photo peut être immersive, un beau cliché de montagne suffit parfois à donner envie de partir. Mais quand on n'y était pas, il reste une vitre. Quelqu'un a cadré, a choisi, et nous regardons depuis l'autre côté. L'image nous donne beaucoup, tout de suite, et c'est sa force. Le son procède autrement. Un casque, un enregistrement soigné, et c'est l'imagination qui se met au travail. Elle assemble des indices, un écho, une distance, un vent qui tourne, pour dessiner un lieu qu'elle n'a jamais vu.
 
 {{< photo src="images/GMGD0035.jpg" alt="field recording à Saint-Pierre et Miquelon" caption="Ambiance au centre de voile de Saint Pierre et Miquelon, au petit matin. ZOOM F3 + Earsight V2." wide="true" >}}
-{{< photo src="images/Langlade.jpg" alt="field recording à Langlade, Saint-Pierre-et-Miquelon. 2024. ZOOM F3 + Earsight V2." caption="Ambiance sur le GR face aux côtes anglaises entre Calais et Boulogne sur Mer. ZOOM F3 + Earsight V2." wide="true" >}}
+{{< photo src="images/IMG_5369.jpg" alt="field recording sur la côte d'Opale" caption="Ambiance sur le GR face aux côtes anglaises entre Calais et Boulogne sur Mer. ZOOM F3 + Earsight V2." wide="true" >}}
 {{< photo src="images/IMG_6619.jpg" alt="field recording à Chambord" caption="Ambiance matinale en forêt de Chambord. ZOOM F3 + Earsight V2." wide="true" >}}
 {{< audio src="son/DawnChorusChambord.mp3" caption="Dawn chorus en forêt de Chambord, 2024. Zoom F3 + Earsight V2 omni. Stereo : AB" >}}
 
@@ -43,7 +43,7 @@ Au quotidien, on est si entourés de sons qu'on les étouffe tous à coups de r�
 Se laisser guider par l'oreille et oublier tout le reste. Une pratique qui attise ma curiosité, aiguise mon regard autant que mon ouïe. Méditative, thérapeutique parfois.
 
 {{< photoset max="2" >}}
-{{< photo src="images/GMGD1305.jpg" alt="Field recording à Saint Pierre et Miquelon. ZOOM F3 et Earsight V2" >}}
+{{< photo src="images/Langlade.jpg" alt="Field recording à Saint Pierre et Miquelon. ZOOM F3 et Earsight V2" >}}
 {{< photo src="images/IMG_5730.jpg" alt="Field recording dans le Nord - SONY PCM-M10" >}}
 {{</ photoset >}}
 {{< audio src="son/canche.mp3" caption="Bord de Canche, 2025. SONY PCM-M10." >}}

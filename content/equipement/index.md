@@ -15,10 +15,11 @@ iPhone 16 Pro
 Airpods Pro 2
 [Victorinox Hunstman](https://amzn.to/4kee6LQ)
 Carnet FIELD NOTES
+Carnet Midori MD A5
+[Stylo Plume Kaweco Steel Sport](https://link.amazon/B0b0NYoA9)
 [Stylo HMM ballpoint](https://amzn.to/4qRM0Zm)
 [Pilot G-2](https://amzn.to/49YWrVa)
 [Pentel P209](https://amzn.to/4qRM0Zm)
-Kindle Basic
 Finisterre Stormbird
 Patagonia Totepack
 Sac à dos FIELDPACKS 40
@@ -50,6 +51,7 @@ Anchored Coffee
 *Les Others n°20*
 *La liberté ne meurt jamais* - Damien Castera
 *J'aurais pu être miliardaire, j'ai choisi d'être vagabond* - Alexis Jenni
+*Kodak Everest Pocket* — Nicolas Le Nen
 
 ## Dans mon atelier couture
 JUKI DDL-8700
@@ -61,6 +63,7 @@ Fil Gutermann Mara et Terra
 ## Dans ma Pelicase
 ### Boitiers
 [Panasonic S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21)
+[DJI Osmo Pocket 3](https://link.amazon/B01jqh8Zm)
 [DJI Air 3](https://dp.gt/a/oz5sd53o)
 Canon A-1
 Olympus Mju II
@@ -71,10 +74,8 @@ Canon FD 24mm f/2.8
 Canon FD 35mm f/2 SSC
 Canon FD 50mm f/3.5 macro SSC
 Canon FD 55mm f/1.2 SSC
-Canon FD 135mm f/2.8 SSC
 Canon EF 40mm f/2.8
 [Sigma 28-70mm f/2.8 DG DN](https://dp.gt/a/xxtv4cnw)
-[Sigma 100-400mm f/5-6.3 DG DN](https://dp.gt/a/umzjcra2)
 ### Accessoires
 [Sac photo F-Stop Lotus](https://www.digit-photo.com/F-STOP-Sac-a-Dos-Lotus-32L-Anthracite-rFSTOPFSTM13570.html?dpa_id=21)
 [Moniteur Atomos Shinobi](https://www.digit-photo.com/ATOMOS-Shinobi-Moniteur-5-4k-HDMI-HDR-rATOMOSATOMSHBH01.html?dpa_id=21)
@@ -88,7 +89,6 @@ Canon EF 40mm f/2.8
 [ZOOM F3](https://dp.gt/a/4e1wzzk4o)
 [Immersive Soundscapes Earsight Standard V2](https://immersivesoundscapes.com/earsight-standard-v2/)
 SONY PCM-M10
-SONY PCM-A10
 [Hollyland Lark M2](https://dp.gt/a/lr0mbg3xc)
 [Rode Videomic NTG](https://amzn.to/48TQl6e)
 [Marantz MPM-1000](https://amzn.to/3MgDVOK)

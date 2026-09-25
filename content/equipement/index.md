@@ -64,6 +64,7 @@ Fil Gutermann Mara et Terra
 ### Boitiers
 [Panasonic S1](https://www.digit-photo.com/PANASONIC-Lumix-S1-Boitier-Nu-rPANASONICDCS1EK.html?dpa_id=21)
 [DJI Osmo Pocket 3](https://link.amazon/B01jqh8Zm)
+[DJI Osmo Nano](https://link.amazon/B0br1EdEc)
 [DJI Air 3](https://dp.gt/a/oz5sd53o)
 Canon A-1
 Olympus Mju II

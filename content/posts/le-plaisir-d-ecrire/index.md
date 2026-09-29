@@ -8,7 +8,7 @@ categories:
   - note
 tags: ["écriture", "carnet", "stylo plume", "papeterie", "journaling", "slow living"]
 description: "Des doubles pages d’étudiant aux notes synchronisées, puis au Midori et au stylo plume : réapprendre à écrire à la main, sans chercher la performance."
-draft: true
+draft: false
 
 # location: "Lille"
 # camera: ""

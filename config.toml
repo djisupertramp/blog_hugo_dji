@@ -94,7 +94,7 @@ paginate = 12
 [markup.goldmark.renderer]
   unsafe= true
 [services.googleAnalytics]
-  ID = "G-367643302"
+  ID = "G-HJ7YQWXQXX"
 
 [security.exec]
   osEnv = ['.*']
